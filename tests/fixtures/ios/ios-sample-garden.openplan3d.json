@@ -2516,7 +2516,613 @@
     },
     {
       "attributes" : {
-        "lineId" : "0e5c1000-0000-4000-8000-000000000045",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "amelanchier-arborea"
+      },
+      "category" : {
+        "tree_default" : {
+
+        }
+      },
+      "dimensions" : [
+        4.1820779344431251,
+        5.2107284141291448,
+        4.1820779344431251
+      ],
+      "identifier" : "0e5c1000-0000-4000-8000-000000000045",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        7.5999999999999996,
+        2.6053642070645724,
+        22.600000000000001,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "0e5c1000-0000-4000-8000-000000000046",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "eutrochium-dubium-little-joe"
+      },
+      "category" : {
+        "flower_purple" : {
+
+        }
+      },
+      "dimensions" : [
+        0.62107284141291452,
+        0.83512140235485743,
+        0.62107284141291452
+      ],
+      "identifier" : "0e5c1000-0000-4000-8000-000000000047",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        16.949999999999999,
+        0.41756070117742872,
+        10.978,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "0e5c1000-0000-4000-8000-000000000046",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "liatris-spicata"
+      },
+      "category" : {
+        "flower_purple" : {
+
+        }
+      },
+      "dimensions" : [
+        0.34491699632968004,
+        0.72809712188388587,
+        0.34491699632968004
+      ],
+      "identifier" : "0e5c1000-0000-4000-8000-000000000048",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        18.407,
+        0.36404856094194293,
+        11.593999999999999,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "0e5c1000-0000-4000-8000-000000000046",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "liatris-spicata"
+      },
+      "category" : {
+        "flower_purple" : {
+
+        }
+      },
+      "dimensions" : [
+        0.34491699632968004,
+        0.72809712188388587,
+        0.34491699632968004
+      ],
+      "identifier" : "0e5c1000-0000-4000-8000-000000000049",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        17.574999999999999,
+        0.36404856094194293,
+        11.356999999999999,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "0e5c1000-0000-4000-8000-000000000046",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "eutrochium-dubium-little-joe"
+      },
+      "category" : {
+        "flower_purple" : {
+
+        }
+      },
+      "dimensions" : [
+        0.62107284141291452,
+        0.83512140235485743,
+        0.62107284141291452
+      ],
+      "identifier" : "0e5c1000-0000-4000-8000-00000000004a",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        18.082999999999998,
+        0.41756070117742872,
+        13.279,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "0e5c1000-0000-4000-8000-000000000046",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "liatris-spicata"
+      },
+      "category" : {
+        "flower_purple" : {
+
+        }
+      },
+      "dimensions" : [
+        0.34491699632968004,
+        0.72809712188388587,
+        0.34491699632968004
+      ],
+      "identifier" : "0e5c1000-0000-4000-8000-00000000004b",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        18.93,
+        0.36404856094194293,
+        10.823,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "0e5c1000-0000-4000-8000-000000000046",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "eutrochium-dubium-little-joe"
+      },
+      "category" : {
+        "flower_purple" : {
+
+        }
+      },
+      "dimensions" : [
+        0.62107284141291452,
+        0.83512140235485743,
+        0.62107284141291452
+      ],
+      "identifier" : "0e5c1000-0000-4000-8000-00000000004c",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        16.933,
+        0.41756070117742872,
+        13.362,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "0e5c1000-0000-4000-8000-000000000046",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "eutrochium-dubium-little-joe"
+      },
+      "category" : {
+        "flower_purple" : {
+
+        }
+      },
+      "dimensions" : [
+        0.62107284141291452,
+        0.83512140235485743,
+        0.62107284141291452
+      ],
+      "identifier" : "0e5c1000-0000-4000-8000-00000000004d",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        18.966999999999999,
+        0.41756070117742872,
+        12.028,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "0e5c1000-0000-4000-8000-000000000046",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "eutrochium-dubium-little-joe"
+      },
+      "category" : {
+        "flower_purple" : {
+
+        }
+      },
+      "dimensions" : [
+        0.62107284141291452,
+        0.83512140235485743,
+        0.62107284141291452
+      ],
+      "identifier" : "0e5c1000-0000-4000-8000-00000000004e",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        17.920999999999999,
+        0.41756070117742872,
+        12.504,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "0e5c1000-0000-4000-8000-000000000046",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "liatris-spicata"
+      },
+      "category" : {
+        "flower_purple" : {
+
+        }
+      },
+      "dimensions" : [
+        0.34491699632968004,
+        0.72809712188388587,
+        0.34491699632968004
+      ],
+      "identifier" : "0e5c1000-0000-4000-8000-00000000004f",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        19.361000000000001,
+        0.36404856094194293,
+        11.353999999999999,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "0e5c1000-0000-4000-8000-000000000046",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "liatris-spicata"
+      },
+      "category" : {
+        "flower_purple" : {
+
+        }
+      },
+      "dimensions" : [
+        0.34491699632968004,
+        0.72809712188388587,
+        0.34491699632968004
+      ],
+      "identifier" : "0e5c1000-0000-4000-8000-000000000050",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        17.123999999999999,
+        0.36404856094194293,
+        12.66,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "0e5c1000-0000-4000-8000-000000000046",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "eutrochium-dubium-little-joe"
+      },
+      "category" : {
+        "flower_purple" : {
+
+        }
+      },
+      "dimensions" : [
+        0.62107284141291452,
+        0.83512140235485743,
+        0.62107284141291452
+      ],
+      "identifier" : "0e5c1000-0000-4000-8000-000000000051",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        19.254000000000001,
+        0.41756070117742872,
+        12.789,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "0e5c1000-0000-4000-8000-000000000046",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "liatris-spicata"
+      },
+      "category" : {
+        "flower_purple" : {
+
+        }
+      },
+      "dimensions" : [
+        0.34491699632968004,
+        0.72809712188388587,
+        0.34491699632968004
+      ],
+      "identifier" : "0e5c1000-0000-4000-8000-000000000052",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        18.596,
+        0.36404856094194293,
+        12.635,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "0e5c1000-0000-4000-8000-000000000046",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "eutrochium-dubium-little-joe"
+      },
+      "category" : {
+        "flower_purple" : {
+
+        }
+      },
+      "dimensions" : [
+        0.62107284141291452,
+        0.83512140235485743,
+        0.62107284141291452
+      ],
+      "identifier" : "0e5c1000-0000-4000-8000-000000000053",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        17.126000000000001,
+        0.41756070117742872,
+        11.946,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "0e5c1000-0000-4000-8000-000000000046",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "liatris-spicata"
+      },
+      "category" : {
+        "flower_purple" : {
+
+        }
+      },
+      "dimensions" : [
+        0.34491699632968004,
+        0.72809712188388587,
+        0.34491699632968004
+      ],
+      "identifier" : "0e5c1000-0000-4000-8000-000000000054",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        18.141999999999999,
+        0.36404856094194293,
+        11.013,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "asclepias-tuberosa"
+      },
+      "category" : {
+        "flower_red" : {
+
+        }
+      },
+      "dimensions" : [
+        0.40151738187884406,
+        0.43535650917179203,
+        0.40151738187884406
+      ],
+      "identifier" : "0e5c1000-0000-4000-8000-000000000055",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        18.899999999999999,
+        0.21767825458589601,
+        14,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "lineId" : "0e5c1000-0000-4000-8000-000000000056",
         "openlandscape3dKind" : "fence",
         "openlandscape3dRole" : "proposed",
         "segment" : 0
@@ -2531,7 +3137,7 @@
         1.8,
         0.10000000000000001
       ],
-      "identifier" : "ee7e6a84-da71-43f3-87d2-19ee42e2c6bd",
+      "identifier" : "73986ea8-ebb1-4683-8157-efdebc468229",
       "story" : 0,
       "transform" : [
         1,
@@ -2554,7 +3160,7 @@
     },
     {
       "attributes" : {
-        "lineId" : "0e5c1000-0000-4000-8000-000000000045",
+        "lineId" : "0e5c1000-0000-4000-8000-000000000056",
         "openlandscape3dKind" : "gate",
         "openlandscape3dRole" : "proposed"
       },
@@ -2568,7 +3174,7 @@
         1.8,
         0.10000000000000001
       ],
-      "identifier" : "0e5c1000-0000-4000-8000-000000000047",
+      "identifier" : "0e5c1000-0000-4000-8000-000000000058",
       "story" : 0,
       "transform" : [
         1,
@@ -2605,7 +3211,7 @@
         0.14999999999999999,
         2.5
       ],
-      "identifier" : "0e5c1000-0000-4000-8000-000000000048",
+      "identifier" : "0e5c1000-0000-4000-8000-000000000059",
       "story" : 0,
       "transform" : [
         1,
@@ -2641,7 +3247,7 @@
         0.80000000000000004,
         0.5
       ],
-      "identifier" : "0e5c1000-0000-4000-8000-000000000049",
+      "identifier" : "0e5c1000-0000-4000-8000-00000000005a",
       "story" : 0,
       "transform" : [
         1,
@@ -2673,7 +3279,7 @@
     "areas" : [
       {
         "elevation" : 0,
-        "id" : "0e5c1000-0000-4000-8000-00000000004a",
+        "id" : "0e5c1000-0000-4000-8000-00000000005b",
         "kind" : "lawn",
         "name" : "Back lawn",
         "polygon" : [
@@ -2697,7 +3303,7 @@
       },
       {
         "elevation" : 0,
-        "id" : "0e5c1000-0000-4000-8000-00000000004b",
+        "id" : "0e5c1000-0000-4000-8000-00000000005c",
         "kind" : "bed",
         "materialId" : "mulch-shredded-hardwood",
         "name" : "Back border",
@@ -2723,7 +3329,7 @@
       },
       {
         "elevation" : 0,
-        "id" : "0e5c1000-0000-4000-8000-00000000004c",
+        "id" : "0e5c1000-0000-4000-8000-00000000005d",
         "kind" : "bed",
         "materialId" : "mulch-shredded-hardwood",
         "name" : "Front bed",
@@ -2748,7 +3354,7 @@
       },
       {
         "elevation" : 0,
-        "id" : "0e5c1000-0000-4000-8000-000000000048",
+        "id" : "0e5c1000-0000-4000-8000-000000000059",
         "kind" : "patio",
         "materialId" : "decomposed-granite",
         "name" : "Patio",
@@ -2773,7 +3379,7 @@
       },
       {
         "elevation" : 0,
-        "id" : "0e5c1000-0000-4000-8000-00000000004d",
+        "id" : "0e5c1000-0000-4000-8000-00000000005e",
         "kind" : "path",
         "materialId" : "mulch-wood-chips-arborist",
         "name" : "Side path",
@@ -2793,6 +3399,32 @@
           [
             15,
             15
+          ]
+        ]
+      },
+      {
+        "elevation" : 0,
+        "id" : "0e5c1000-0000-4000-8000-00000000005f",
+        "kind" : "bed",
+        "materialId" : "mulch-shredded-hardwood",
+        "moisture" : "wet",
+        "name" : "Rain garden",
+        "polygon" : [
+          [
+            16.5,
+            10.6
+          ],
+          [
+            19.600000000000001,
+            10.6
+          ],
+          [
+            19.600000000000001,
+            14.4
+          ],
+          [
+            16.5,
+            14.4
           ]
         ]
       }
@@ -2926,9 +3558,63 @@
         ],
         "seed" : 11,
         "spacing" : 0.59999999999999998
+      },
+      {
+        "id" : "0e5c1000-0000-4000-8000-000000000046",
+        "instanceIds" : [
+          "0e5c1000-0000-4000-8000-000000000047",
+          "0e5c1000-0000-4000-8000-000000000048",
+          "0e5c1000-0000-4000-8000-000000000049",
+          "0e5c1000-0000-4000-8000-00000000004a",
+          "0e5c1000-0000-4000-8000-00000000004b",
+          "0e5c1000-0000-4000-8000-00000000004c",
+          "0e5c1000-0000-4000-8000-00000000004d",
+          "0e5c1000-0000-4000-8000-00000000004e",
+          "0e5c1000-0000-4000-8000-00000000004f",
+          "0e5c1000-0000-4000-8000-000000000050",
+          "0e5c1000-0000-4000-8000-000000000051",
+          "0e5c1000-0000-4000-8000-000000000052",
+          "0e5c1000-0000-4000-8000-000000000053",
+          "0e5c1000-0000-4000-8000-000000000054"
+        ],
+        "kind" : "mass",
+        "mix" : [
+          {
+            "plantId" : "eutrochium-dubium-little-joe",
+            "ratio" : 1
+          },
+          {
+            "plantId" : "liatris-spicata",
+            "ratio" : 1
+          }
+        ],
+        "polygon" : [
+          [
+            16.699999999999999,
+            10.800000000000001
+          ],
+          [
+            19.399999999999999,
+            10.800000000000001
+          ],
+          [
+            19.399999999999999,
+            13.4
+          ],
+          [
+            16.699999999999999,
+            13.4
+          ]
+        ],
+        "seed" : 23,
+        "spacing" : 0.75
       }
     ],
     "ios" : {
+      "geoOrigin" : {
+        "lat" : 41.310119999999998,
+        "lon" : -72.920469999999995
+      },
       "palette" : [
         "acer-rubrum",
         "acer-saccharum",
@@ -2937,7 +3623,10 @@
         "aquilegia-canadensis",
         "aronia-melanocarpa",
         "asclepias-incarnata",
+        "asclepias-tuberosa",
         "chasmanthium-latifolium",
+        "eutrochium-dubium-little-joe",
+        "liatris-spicata",
         "muhlenbergia-capillaris"
       ]
     },
@@ -2945,14 +3634,14 @@
       {
         "gates" : [
           {
-            "id" : "0e5c1000-0000-4000-8000-000000000047",
+            "id" : "0e5c1000-0000-4000-8000-000000000058",
             "offset" : 9.5,
             "segment" : 0,
             "width" : 1
           }
         ],
         "height" : 1.8,
-        "id" : "0e5c1000-0000-4000-8000-000000000045",
+        "id" : "0e5c1000-0000-4000-8000-000000000056",
         "kind" : "fence",
         "points" : [
           [
@@ -2975,7 +3664,7 @@
         "depth" : 0.5,
         "elevation" : 0,
         "height" : 0.80000000000000004,
-        "id" : "0e5c1000-0000-4000-8000-000000000049",
+        "id" : "0e5c1000-0000-4000-8000-00000000005a",
         "rotation" : 0,
         "status" : "proposed",
         "width" : 1.5,
@@ -2987,23 +3676,92 @@
       {
         "author" : "ios",
         "createdAt" : "2027-02-01T09:00:00Z",
-        "id" : "0e5c1000-0000-4000-8000-00000000004e",
+        "headingDeg" : 200,
+        "id" : "0e5c1000-0000-4000-8000-000000000060",
         "kind" : "issue",
+        "lat" : 41.310010149376787,
+        "lon" : -72.920252659569613,
         "resolved" : false,
-        "text" : "Standing water after rain — consider a rain garden here",
-        "x" : 12,
-        "y" : 24
+        "text" : "Water pools here after rain — rain garden planned",
+        "x" : 18.199999999999999,
+        "y" : 12.199999999999999
       },
       {
         "author" : "ios",
         "createdAt" : "2027-02-01T10:00:00Z",
-        "id" : "0e5c1000-0000-4000-8000-00000000004f",
+        "headingDeg" : 335,
+        "id" : "0e5c1000-0000-4000-8000-000000000061",
+        "kind" : "note",
+        "lat" : 41.3098660829857,
+        "lon" : -72.920356553072054,
+        "resolved" : false,
+        "text" : "Back border is shaded by the neighbour's oak after 3 pm",
+        "x" : 9.5,
+        "y" : 28.199999999999999
+      },
+      {
+        "author" : "ios",
+        "createdAt" : "2027-02-01T11:00:00Z",
+        "id" : "0e5c1000-0000-4000-8000-000000000062",
         "kind" : "measurement",
+        "resolved" : false,
         "text" : "Fence height",
         "unit" : "m",
         "value" : 1.8,
         "x" : 10,
-        "y" : 29.5
+        "y" : 29.600000000000001
+      },
+      {
+        "author" : "ios",
+        "createdAt" : "2027-02-01T12:00:00Z",
+        "headingDeg" : 90,
+        "id" : "0e5c1000-0000-4000-8000-000000000063",
+        "kind" : "inventory",
+        "lat" : 41.310100190871225,
+        "lon" : -72.920443728079846,
+        "plantInstanceId" : "0e5c1000-0000-4000-8000-000000000003",
+        "resolved" : false,
+        "text" : "Existing street tree · good · retain — protect the root zone during work",
+        "x" : 2.2000000000000002,
+        "y" : 2.2000000000000002
+      },
+      {
+        "author" : "ios",
+        "createdAt" : "2027-02-01T13:00:00Z",
+        "headingDeg" : 180,
+        "id" : "0e5c1000-0000-4000-8000-000000000064",
+        "kind" : "note",
+        "lat" : 41.310008348546901,
+        "lon" : -72.920283708202533,
+        "resolved" : false,
+        "text" : "Downspout empties onto the side path — redirect it to the rain garden",
+        "x" : 15.6,
+        "y" : 12.4
+      },
+      {
+        "author" : "ios",
+        "createdAt" : "2027-02-01T14:00:00Z",
+        "id" : "0e5c1000-0000-4000-8000-000000000065",
+        "kind" : "measurement",
+        "resolved" : false,
+        "text" : "Soil pH under the lawn",
+        "unit" : "pH",
+        "value" : 6.4000000000000004,
+        "x" : 6,
+        "y" : 18
+      },
+      {
+        "author" : "ios",
+        "createdAt" : "2027-02-01T15:00:00Z",
+        "headingDeg" : 90,
+        "id" : "0e5c1000-0000-4000-8000-000000000066",
+        "kind" : "issue",
+        "lat" : 41.310079481327506,
+        "lon" : -72.920274154777019,
+        "resolved" : true,
+        "text" : "Gravel path edging is heaved by frost",
+        "x" : 16.399999999999999,
+        "y" : 4.5
       }
     ],
     "overrides" : [
@@ -3864,10 +4622,216 @@
         "status" : "proposed",
         "x" : 16.800000000000001,
         "y" : 10
+      },
+      {
+        "id" : "0e5c1000-0000-4000-8000-000000000045",
+        "installHeight" : 2,
+        "installSize" : "#15",
+        "installSpread" : 0.90000000000000002,
+        "plantedYear" : 0,
+        "plantId" : "amelanchier-arborea",
+        "seed" : 30573,
+        "status" : "proposed",
+        "x" : 7.5999999999999996,
+        "y" : 22.600000000000001
+      },
+      {
+        "groupId" : "0e5c1000-0000-4000-8000-000000000046",
+        "id" : "0e5c1000-0000-4000-8000-000000000047",
+        "installHeight" : 0.29999999999999999,
+        "installSize" : "#1",
+        "installSpread" : 0.29999999999999999,
+        "plantedYear" : 0,
+        "plantId" : "eutrochium-dubium-little-joe",
+        "seed" : 332020156,
+        "status" : "proposed",
+        "x" : 16.949999999999999,
+        "y" : 10.978
+      },
+      {
+        "groupId" : "0e5c1000-0000-4000-8000-000000000046",
+        "id" : "0e5c1000-0000-4000-8000-000000000048",
+        "installHeight" : 0.29999999999999999,
+        "installSize" : "#1",
+        "installSpread" : 0.27000000000000002,
+        "plantedYear" : 0,
+        "plantId" : "liatris-spicata",
+        "seed" : 963848345,
+        "status" : "proposed",
+        "x" : 18.407,
+        "y" : 11.593999999999999
+      },
+      {
+        "groupId" : "0e5c1000-0000-4000-8000-000000000046",
+        "id" : "0e5c1000-0000-4000-8000-000000000049",
+        "installHeight" : 0.29999999999999999,
+        "installSize" : "#1",
+        "installSpread" : 0.27000000000000002,
+        "plantedYear" : 0,
+        "plantId" : "liatris-spicata",
+        "seed" : 293910589,
+        "status" : "proposed",
+        "x" : 17.574999999999999,
+        "y" : 11.356999999999999
+      },
+      {
+        "groupId" : "0e5c1000-0000-4000-8000-000000000046",
+        "id" : "0e5c1000-0000-4000-8000-00000000004a",
+        "installHeight" : 0.29999999999999999,
+        "installSize" : "#1",
+        "installSpread" : 0.29999999999999999,
+        "plantedYear" : 0,
+        "plantId" : "eutrochium-dubium-little-joe",
+        "seed" : 87727114,
+        "status" : "proposed",
+        "x" : 18.082999999999998,
+        "y" : 13.279
+      },
+      {
+        "groupId" : "0e5c1000-0000-4000-8000-000000000046",
+        "id" : "0e5c1000-0000-4000-8000-00000000004b",
+        "installHeight" : 0.29999999999999999,
+        "installSize" : "#1",
+        "installSpread" : 0.27000000000000002,
+        "plantedYear" : 0,
+        "plantId" : "liatris-spicata",
+        "seed" : 525155488,
+        "status" : "proposed",
+        "x" : 18.93,
+        "y" : 10.823
+      },
+      {
+        "groupId" : "0e5c1000-0000-4000-8000-000000000046",
+        "id" : "0e5c1000-0000-4000-8000-00000000004c",
+        "installHeight" : 0.29999999999999999,
+        "installSize" : "#1",
+        "installSpread" : 0.29999999999999999,
+        "plantedYear" : 0,
+        "plantId" : "eutrochium-dubium-little-joe",
+        "seed" : 116937118,
+        "status" : "proposed",
+        "x" : 16.933,
+        "y" : 13.362
+      },
+      {
+        "groupId" : "0e5c1000-0000-4000-8000-000000000046",
+        "id" : "0e5c1000-0000-4000-8000-00000000004d",
+        "installHeight" : 0.29999999999999999,
+        "installSize" : "#1",
+        "installSpread" : 0.29999999999999999,
+        "plantedYear" : 0,
+        "plantId" : "eutrochium-dubium-little-joe",
+        "seed" : 270735998,
+        "status" : "proposed",
+        "x" : 18.966999999999999,
+        "y" : 12.028
+      },
+      {
+        "groupId" : "0e5c1000-0000-4000-8000-000000000046",
+        "id" : "0e5c1000-0000-4000-8000-00000000004e",
+        "installHeight" : 0.29999999999999999,
+        "installSize" : "#1",
+        "installSpread" : 0.29999999999999999,
+        "plantedYear" : 0,
+        "plantId" : "eutrochium-dubium-little-joe",
+        "seed" : 459448905,
+        "status" : "proposed",
+        "x" : 17.920999999999999,
+        "y" : 12.504
+      },
+      {
+        "groupId" : "0e5c1000-0000-4000-8000-000000000046",
+        "id" : "0e5c1000-0000-4000-8000-00000000004f",
+        "installHeight" : 0.29999999999999999,
+        "installSize" : "#1",
+        "installSpread" : 0.27000000000000002,
+        "plantedYear" : 0,
+        "plantId" : "liatris-spicata",
+        "seed" : 877477580,
+        "status" : "proposed",
+        "x" : 19.361000000000001,
+        "y" : 11.353999999999999
+      },
+      {
+        "groupId" : "0e5c1000-0000-4000-8000-000000000046",
+        "id" : "0e5c1000-0000-4000-8000-000000000050",
+        "installHeight" : 0.29999999999999999,
+        "installSize" : "#1",
+        "installSpread" : 0.27000000000000002,
+        "plantedYear" : 0,
+        "plantId" : "liatris-spicata",
+        "seed" : 783152760,
+        "status" : "proposed",
+        "x" : 17.123999999999999,
+        "y" : 12.66
+      },
+      {
+        "groupId" : "0e5c1000-0000-4000-8000-000000000046",
+        "id" : "0e5c1000-0000-4000-8000-000000000051",
+        "installHeight" : 0.29999999999999999,
+        "installSize" : "#1",
+        "installSpread" : 0.29999999999999999,
+        "plantedYear" : 0,
+        "plantId" : "eutrochium-dubium-little-joe",
+        "seed" : 643890561,
+        "status" : "proposed",
+        "x" : 19.254000000000001,
+        "y" : 12.789
+      },
+      {
+        "groupId" : "0e5c1000-0000-4000-8000-000000000046",
+        "id" : "0e5c1000-0000-4000-8000-000000000052",
+        "installHeight" : 0.29999999999999999,
+        "installSize" : "#1",
+        "installSpread" : 0.27000000000000002,
+        "plantedYear" : 0,
+        "plantId" : "liatris-spicata",
+        "seed" : 329685336,
+        "status" : "proposed",
+        "x" : 18.596,
+        "y" : 12.635
+      },
+      {
+        "groupId" : "0e5c1000-0000-4000-8000-000000000046",
+        "id" : "0e5c1000-0000-4000-8000-000000000053",
+        "installHeight" : 0.29999999999999999,
+        "installSize" : "#1",
+        "installSpread" : 0.29999999999999999,
+        "plantedYear" : 0,
+        "plantId" : "eutrochium-dubium-little-joe",
+        "seed" : 90252227,
+        "status" : "proposed",
+        "x" : 17.126000000000001,
+        "y" : 11.946
+      },
+      {
+        "groupId" : "0e5c1000-0000-4000-8000-000000000046",
+        "id" : "0e5c1000-0000-4000-8000-000000000054",
+        "installHeight" : 0.29999999999999999,
+        "installSize" : "#1",
+        "installSpread" : 0.27000000000000002,
+        "plantedYear" : 0,
+        "plantId" : "liatris-spicata",
+        "seed" : 438155627,
+        "status" : "proposed",
+        "x" : 18.141999999999999,
+        "y" : 11.013
+      },
+      {
+        "id" : "0e5c1000-0000-4000-8000-000000000055",
+        "installHeight" : 0.29999999999999999,
+        "installSize" : "#1",
+        "installSpread" : 0.29999999999999999,
+        "plantedYear" : 0,
+        "plantId" : "asclepias-tuberosa",
+        "seed" : 49358,
+        "status" : "proposed",
+        "x" : 18.899999999999999,
+        "y" : 14
       }
     ],
     "producer" : "ios",
-    "projectId" : "0e5c1000-0000-4000-8000-000000000050",
+    "projectId" : "0e5c1000-0000-4000-8000-000000000067",
     "scenario" : {
       "hour" : 14,
       "month" : 6,
@@ -3958,7 +4922,7 @@
         2.7000000000000002,
         0.20000000000000001
       ],
-      "identifier" : "0e5c1000-0000-4000-8000-000000000051",
+      "identifier" : "0e5c1000-0000-4000-8000-000000000068",
       "story" : 0,
       "transform" : [
         1,
@@ -3990,7 +4954,7 @@
         2.7000000000000002,
         0.20000000000000001
       ],
-      "identifier" : "0e5c1000-0000-4000-8000-000000000052",
+      "identifier" : "0e5c1000-0000-4000-8000-000000000069",
       "story" : 0,
       "transform" : [
         6.123233995736766e-17,
@@ -4022,7 +4986,7 @@
         2.7000000000000002,
         0.20000000000000001
       ],
-      "identifier" : "0e5c1000-0000-4000-8000-000000000053",
+      "identifier" : "0e5c1000-0000-4000-8000-00000000006a",
       "story" : 0,
       "transform" : [
         -1,
@@ -4054,7 +5018,7 @@
         2.7000000000000002,
         0.20000000000000001
       ],
-      "identifier" : "0e5c1000-0000-4000-8000-000000000054",
+      "identifier" : "0e5c1000-0000-4000-8000-00000000006b",
       "story" : 0,
       "transform" : [
         6.123233995736766e-17,
