@@ -14,6 +14,11 @@ Hosted on Firebase Hosting (project `openlandscape3d`, site `openlandscape3d-clo
   - metric or imperial units;
   - state or region picker with USDA zone for the three pilot regions (`regions.json`);
   - import an OpenPlan3D JSON (its walls become a building footprint you plant around) or an OpenLandscape3D file or link from iOS.
+- **Sample gardens:**
+  - Northeast back yard, Southeast front yard and Southwest dry courtyard (`src/lib/site/samples.ts`);
+  - each is a complete design built from catalog ids, with no check findings;
+  - one click (or the deep link `/#/sample/<id>`) opens your own copy; the sample never changes;
+  - ids: `northeast-back-yard`, `southeast-front-yard`, `southwest-courtyard`.
 - **Editor:**
   - synchronized 2D plan (SVG) and 3D view (three.js), with a split view;
   - pan, zoom and pinch; grid and snapping to grid and corners (Alt disables, Shift locks to 45°);

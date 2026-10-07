@@ -9,6 +9,8 @@
   import { decodePayload } from './lib/io/transfer';
   import { fromOpenPlan, isOpenPlanJson, isWebProject } from './lib/io/openplan';
   import { catalog } from './lib/catalog/catalog';
+  import { sampleCopy } from './lib/site/samples';
+  import { saveProject } from './lib/io/storage';
 
   type Route =
     | { name: 'home' }
@@ -20,6 +22,7 @@
 
   let route = $state<Route>({ name: 'loading' });
   let key = $state(0);
+  let homeNotice = $state('');
 
   async function resolve() {
     const h = location.hash.replace(/^#\/?/, '');
@@ -29,6 +32,17 @@
       if (head === 'p' || head === 'print') {
         const project = await loadProject(arg);
         route = project ? { name: head === 'p' ? 'editor' : 'print', project } : { name: 'missing', message: 'This site is not in this browser. Projects are stored locally — open it on the device where you made it, or import its JSON file.' };
+      } else if (head === 'sample') {
+        // Deep link (e.g. from the marketing site): open a fresh copy of a sample garden.
+        const p = sampleCopy(decodeURIComponent(arg), catalog);
+        if (p) {
+          await saveProject(p);
+          location.replace(`#/p/${p.id}`);
+          return;
+        }
+        homeNotice = `There's no sample garden called “${decodeURIComponent(arg)}”. Pick one of the samples below.`;
+        history.replaceState(null, '', '#/');
+        route = { name: 'home' };
       } else if (head === 'import' && rest.length >= 2) {
         route = { name: 'import', version: rest[0], payload: rest.slice(1).join('/') };
       } else if (head === 'view' && rest.length >= 2) {
@@ -37,6 +51,7 @@
         if (!isWebProject(j) && !isOpenPlanJson(j)) throw new Error('not a site');
         route = { name: 'view', project: fromOpenPlan(j as Record<string, unknown>, catalog) };
       } else {
+        if (route.name !== 'home') homeNotice = '';
         route = { name: 'home' };
       }
     } catch {
@@ -55,7 +70,7 @@
 
 {#key key}
   {#if route.name === 'home'}
-    <Home />
+    <Home notice={homeNotice} />
   {:else if route.name === 'editor'}
     <EditorView project={route.project} />
   {:else if route.name === 'view'}

@@ -10,6 +10,23 @@
   import { fmtLen, parseLen, type Units } from '../model/units';
   import { deleteProject, listProjects, loadProject, saveProject, type ProjectSummary } from '../io/storage';
   import { fromOpenPlan, isOpenPlanJson, isWebProject } from '../io/openplan';
+  import { SAMPLES, buildSample, sampleCopy } from '../site/samples';
+
+  let { notice = '' }: { notice?: string } = $props();
+
+  // ---- sample gardens ----
+  const samples = SAMPLES.map((s) => {
+    const p = buildSample(s.id, catalog)!;
+    return { ...s, project: p, plants: p.plants.length, species: new Set(p.plants.map((x) => x.plantId)).size };
+  });
+  let opening = $state('');
+  async function openSample(id: string) {
+    const p = sampleCopy(id, catalog);
+    if (!p) return;
+    opening = id;
+    await saveProject(p);
+    location.hash = `#/p/${p.id}`;
+  }
 
   // ---- new site ----
   let name = $state('My garden');
@@ -122,6 +139,29 @@
     <p class="notice" role="note">Using the built-in sample catalog ({catalog.plants.length} plants) — run <code>npm run catalog</code> when the full catalog is published.</p>
   {/if}
 
+  {#if notice}<p class="notice" role="status">{notice}</p>{/if}
+
+  <section class="samples" aria-labelledby="samples-h">
+    <div class="shead">
+      <h2 id="samples-h">Sample gardens</h2>
+      <p class="muted small">Complete designs to explore and make your own. Opening one makes your own copy in this browser; the sample stays as it is.</p>
+    </div>
+    <ul class="scards">
+      {#each samples as s (s.id)}
+        <li>
+          <button class="sample" onclick={() => openSample(s.id)} disabled={!!opening} aria-label="Open the {s.name} sample">
+            <div class="sthumb"><MiniPlan project={s.project} height={170} /></div>
+            <span class="sregion">{regionName(s.regionId)} · zone {s.project.site.hardiness.zone}</span>
+            <strong>{s.name}</strong>
+            <span class="muted small">{s.blurb}</span>
+            <span class="smeta">{s.plants} plants · {s.species} species{s.project.alternatives.length ? ` · ${s.project.alternatives.length + 1} options` : ''}</span>
+            <span class="btn primary small go">{opening === s.id ? 'Opening…' : 'Open sample'}</span>
+          </button>
+        </li>
+      {/each}
+    </ul>
+  </section>
+
   <div class="grid">
     <section class="card" aria-labelledby="new-h">
       <h2 id="new-h">New site</h2>
@@ -200,7 +240,7 @@
     {#if sites === null}
       <p class="muted">Loading…</p>
     {:else if !sites.length}
-      <p class="muted empty">No sites yet. Create one above — it's saved in this browser as you work.</p>
+      <p class="muted empty">No sites yet. <a href="#samples-h" onclick={(e) => { e.preventDefault(); document.getElementById('samples-h')?.scrollIntoView({ behavior: 'smooth' }); }}>Open a sample garden</a> to start from a finished design, or create a new site above — everything is saved in this browser as you work.</p>
     {:else}
       <ul class="cards">
         {#each sites as s (s.id)}
@@ -234,6 +274,17 @@
   .sub { margin: 0; max-width: 720px; }
   .powered { font-weight: 600; color: var(--ink); white-space: nowrap; }
   .notice { margin: 0; background: var(--info-bg); color: var(--info-ink); border-radius: 10px; padding: 8px 12px; font-size: 13px; }
+  .samples { display: flex; flex-direction: column; gap: 10px; }
+  .shead { display: flex; flex-direction: column; gap: 2px; }
+  .scards { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 14px; }
+  .sample { width: 100%; height: 100%; text-align: left; font: inherit; color: inherit; cursor: pointer; background: var(--panel); border: 1px solid var(--border); border-radius: 16px; padding: 12px; display: flex; flex-direction: column; gap: 4px; box-shadow: 0 1px 2px rgba(0,0,0,.04); }
+  .sample:hover { border-color: var(--accent); box-shadow: var(--shadow); }
+  .sample:disabled { cursor: progress; }
+  .sample strong { font-family: var(--serif); font-size: 18px; }
+  .sthumb { background: var(--bg-plan); border-radius: 10px; height: 170px; overflow: hidden; margin-bottom: 6px; }
+  .sregion { font-size: 11px; font-weight: 700; color: var(--accent-ink); text-transform: uppercase; letter-spacing: .05em; }
+  .smeta { font-size: 12px; color: var(--ink-soft); margin-top: auto; padding-top: 4px; }
+  .go { align-self: flex-start; margin-top: 6px; }
   .grid { display: grid; grid-template-columns: 3fr 2fr; gap: 16px; align-items: start; }
   .card { background: var(--panel); border: 1px solid var(--border); border-radius: 16px; padding: 20px; display: flex; flex-direction: column; gap: 12px; box-shadow: 0 1px 2px rgba(0,0,0,.04); }
   h2 { margin: 0; font-size: 20px; }
@@ -256,6 +307,7 @@
   .open { text-decoration: none; color: inherit; display: flex; flex-direction: column; gap: 4px; }
   .thumb { background: var(--bg-plan); border-radius: 10px; height: 130px; overflow: hidden; }
   .acts { display: flex; gap: 6px; }
+  .empty a { color: var(--accent-ink); font-weight: 600; }
   .empty { background: var(--panel); border: 1px dashed var(--border); border-radius: 12px; padding: 20px; text-align: center; }
   footer { border-top: 1px solid var(--border); padding-top: 12px; }
   footer p { margin: 2px 0; }

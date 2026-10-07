@@ -85,3 +85,29 @@ describe('OpenLandscape3D exports import into OpenPlan3D', () => {
     expect(after.furniture.map((f: any) => f.catalogId)).toEqual(['tree_default']);
   });
 });
+
+import { SAMPLES, buildSample } from '../src/lib/site/samples';
+import { catalog as shipped } from '../src/lib/catalog/catalog';
+
+describe('sample gardens import into OpenPlan3D', () => {
+  for (const s of SAMPLES) {
+    it(s.id, () => {
+      const p = buildSample(s.id, shipped)!;
+      const data = JSON.parse(JSON.stringify(toOpenPlan(p, shipped, { embedWebProject: false })));
+      const floor = importIntoOpenPlan(data);
+      expect(floor.walls).toHaveLength(data.walls.length);
+      expect(floor.doors).toHaveLength(data.doors.length);
+      expect(floor.windows).toHaveLength(data.windows.length);
+      expect(floor.furniture).toHaveLength(data.objects.length);
+      const byId = new Map(floor.furniture.map((f: any) => [f.id, f]));
+      for (const o of data.objects) {
+        const f: any = byId.get(o.identifier);
+        const cat = Object.keys(o.category)[0];
+        expect([f.catalogId, f.sourceCategory], o.identifier).toContain(cat);
+        expect(f.width).toBeCloseTo(o.dimensions[0] * 100, 1);
+        expect(f.depth).toBeCloseTo(o.dimensions[2] * 100, 1);
+      }
+      for (const i of p.plants) expect((byId.get(i.id) as any).catalogId).toBe(shipped.plant(i.plantId)!.representation!.openplanProxy);
+    });
+  }
+});

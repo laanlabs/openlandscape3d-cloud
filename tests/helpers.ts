@@ -38,3 +38,6 @@ export function area(kind: Area['kind'], polygon: Vec2[], over: Partial<Area> = 
 }
 
 export const square = (x0: number, y0: number, x1: number, y1: number): Vec2[] => [[x0, y0], [x1, y0], [x1, y1], [x0, y1]];
+
+/** Shape check matching OpenPlan3D's isRoomPlanJson (the real importer runs in tests/openplan.test.ts). */
+export const isRoomPlanJsonLike = (j: any) => j?.openplanPrepared === true && j.openplanHandoffVersion === 1 && Array.isArray(j.walls) && Array.isArray(j.objects);
