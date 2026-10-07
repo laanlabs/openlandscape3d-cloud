@@ -13,6 +13,7 @@
       "kind" : "lawn"
     }
   ],
+  "catalog" : "shipped",
   "catalogVersion" : "ol-plants@0.1",
   "checks" : [
     {
@@ -22,15 +23,15 @@
       ]
     },
     {
-      "ruleId" : "OL-CLEARANCE",
+      "ruleId" : "OL-HARDY",
       "subjectIds" : [
-        "0e5c0000-0000-4000-8000-000000000068"
+        "0e5c0000-0000-4000-8000-00000000006d"
       ]
     },
     {
       "ruleId" : "OL-INVASIVE",
       "subjectIds" : [
-        "0e5c0000-0000-4000-8000-00000000006d"
+        "0e5c0000-0000-4000-8000-00000000006e"
       ]
     },
     {
@@ -48,7 +49,7 @@
     {
       "ruleId" : "OL-OUTSIDE",
       "subjectIds" : [
-        "0e5c0000-0000-4000-8000-000000000071"
+        "0e5c0000-0000-4000-8000-000000000072"
       ]
     },
     {
@@ -59,99 +60,15 @@
       ]
     },
     {
-      "ruleId" : "OL-OVERLAP",
+      "ruleId" : "OL-SUN",
       "subjectIds" : [
-        "0e5c0000-0000-4000-8000-00000000006e",
         "0e5c0000-0000-4000-8000-00000000006f"
-      ]
-    },
-    {
-      "ruleId" : "OL-OVERLAP",
-      "subjectIds" : [
-        "0e5c0000-0000-4000-8000-00000000006e",
-        "f7cbfc60-d5e6-456b-bcf1-d8122dba34bd"
-      ]
-    },
-    {
-      "ruleId" : "OL-OVERLAP",
-      "subjectIds" : [
-        "0e5c0000-0000-4000-8000-00000000006e",
-        "f8cbfdf3-d4e6-43d8-bdf1-d9a52cba332a"
-      ]
-    },
-    {
-      "ruleId" : "OL-OVERLAP",
-      "subjectIds" : [
-        "0e5c0000-0000-4000-8000-00000000006e",
-        "f9cbff86-d7e6-4891-baf1-d4ec2bba3197"
-      ]
-    },
-    {
-      "ruleId" : "OL-OVERLAP",
-      "subjectIds" : [
-        "0e5c0000-0000-4000-8000-00000000006e",
-        "facc0119-d6e6-46fe-bbf1-d67f2aba3004"
-      ]
-    },
-    {
-      "ruleId" : "OL-OVERLAP",
-      "subjectIds" : [
-        "0e5c0000-0000-4000-8000-00000000006e",
-        "fbcc02ac-d9e6-4bb7-b8f1-d1c629ba2e71"
-      ]
-    },
-    {
-      "ruleId" : "OL-OVERLAP",
-      "subjectIds" : [
-        "0e5c0000-0000-4000-8000-00000000006f",
-        "f9cbff86-d7e6-4891-baf1-d4ec2bba3197"
-      ]
-    },
-    {
-      "ruleId" : "OL-OVERLAP",
-      "subjectIds" : [
-        "0e5c0000-0000-4000-8000-00000000006f",
-        "facc0119-d6e6-46fe-bbf1-d67f2aba3004"
-      ]
-    },
-    {
-      "ruleId" : "OL-OVERLAP",
-      "subjectIds" : [
-        "0e5c0000-0000-4000-8000-00000000006f",
-        "fbcc02ac-d9e6-4bb7-b8f1-d1c629ba2e71"
-      ]
-    },
-    {
-      "ruleId" : "OL-OVERLAP",
-      "subjectIds" : [
-        "0e5c0000-0000-4000-8000-00000000006f",
-        "fccc043f-d8e6-4a24-b9f1-d35928ba2cde"
-      ]
-    },
-    {
-      "ruleId" : "OL-OVERLAP",
-      "subjectIds" : [
-        "0e5c0000-0000-4000-8000-00000000006f",
-        "fdcc05d2-dbe6-4edd-b6f1-cea027ba2b4b"
-      ]
-    },
-    {
-      "ruleId" : "OL-OVERLAP",
-      "subjectIds" : [
-        "0e5c0000-0000-4000-8000-00000000006f",
-        "fecc0765-dae6-4d4a-b7f1-d03326ba29b8"
       ]
     },
     {
       "ruleId" : "OL-SUN",
       "subjectIds" : [
-        "0e5c0000-0000-4000-8000-00000000006e"
-      ]
-    },
-    {
-      "ruleId" : "OL-SUN",
-      "subjectIds" : [
-        "0e5c0000-0000-4000-8000-00000000006f"
+        "0e5c0000-0000-4000-8000-000000000070"
       ]
     },
     {
@@ -163,32 +80,50 @@
     {
       "ruleId" : "OL-WATER",
       "subjectIds" : [
+        "0e5c0000-0000-4000-8000-00000000006d"
+      ]
+    },
+    {
+      "ruleId" : "OL-WATER",
+      "subjectIds" : [
         "0e5c0000-0000-4000-8000-00000000006f"
+      ]
+    },
+    {
+      "ruleId" : "OL-WATER",
+      "subjectIds" : [
+        "0e5c0000-0000-4000-8000-000000000070"
+      ]
+    },
+    {
+      "ruleId" : "OL-WATER",
+      "subjectIds" : [
+        "0e5c0000-0000-4000-8000-000000000071"
       ]
     }
   ],
   "groups" : [
     {
-      "id" : "0e5c0000-0000-4000-8000-000000000072",
+      "id" : "0e5c0000-0000-4000-8000-000000000073",
       "instanceIds" : [
-        "00cc0a8b-cce6-4740-85f1-e63d24ba2692",
-        "69207540-114a-4af1-99b9-8722821e705b",
-        "6a2076d3-104a-495e-9ab9-88b5811e6ec8",
-        "6b207866-0f4a-47cb-97b9-83fc841e7381",
-        "6c2079f9-0e4a-4638-98b9-858f831e71ee",
-        "6d207b8c-154a-413d-95b9-80d6861e76a7",
-        "6e207d1f-144a-4faa-96b9-8269851e7514",
-        "6f207eb2-134a-4e17-93b9-7db0881e79cd",
-        "70208045-124a-4c84-94b9-7f43871e783a",
-        "f7cbfc60-d5e6-456b-bcf1-d8122dba34bd",
-        "f8cbfdf3-d4e6-43d8-bdf1-d9a52cba332a",
-        "f9cbff86-d7e6-4891-baf1-d4ec2bba3197",
-        "facc0119-d6e6-46fe-bbf1-d67f2aba3004",
-        "fbcc02ac-d9e6-4bb7-b8f1-d1c629ba2e71",
-        "fccc043f-d8e6-4a24-b9f1-d35928ba2cde",
-        "fdcc05d2-dbe6-4edd-b6f1-cea027ba2b4b",
-        "fecc0765-dae6-4d4a-b7f1-d03326ba29b8",
-        "ffcc08f8-cde6-48d3-84f1-e4aa25ba2825"
+        "cabcd498-1668-4c11-806f-f7b69b191767",
+        "cbbcd62b-1568-4a7e-816f-f9499a1915d4",
+        "ccbcd7be-1468-48eb-be6f-f4909d191a8d",
+        "cdbcd951-1368-4758-bf6f-f6239c1918fa",
+        "cebcdae4-1a68-425d-846f-fe029719111b",
+        "cfbcdc77-1968-40ca-856f-ff9596190f88",
+        "d0bcde0a-1868-4f37-826f-fadc99191441",
+        "d1bcdf9d-1768-4da4-836f-fc6f981912ae",
+        "e96d11f0-5c6c-4c33-a67f-59522c2c8db5",
+        "ea6d1383-5b6c-4aa0-a77f-5ae52b2c8c22",
+        "eb6d1516-5e6c-4f59-a47f-562c2a2c8a8f",
+        "ec6d16a9-5d6c-4dc6-a57f-57bf292c88fc",
+        "ed6d183c-606c-427f-a27f-5306282c8769",
+        "ee6d19cf-5f6c-40ec-a37f-5499272c85d6",
+        "ef6d1b62-626c-45a5-a07f-4fe0262c8443",
+        "f06d1cf5-616c-4412-a17f-5173252c82b0",
+        "f56d24d4-686c-4f17-aa7f-5f9e302c9401",
+        "f66d2667-676c-4d84-ab7f-61312f2c926e"
       ],
       "kind" : "row"
     }
@@ -196,208 +131,215 @@
   "name" : "iOS checks",
   "plants" : [
     {
-      "groupId" : "0e5c0000-0000-4000-8000-000000000072",
-      "id" : "00cc0a8b-cce6-4740-85f1-e63d24ba2692",
-      "plantId" : "ilex-glabra",
-      "status" : "proposed",
-      "x" : 12.611,
-      "y" : 29
-    },
-    {
       "id" : "0e5c0000-0000-4000-8000-000000000068",
-      "plantId" : "acer-rubrum",
+      "plantId" : "abies-concolor",
       "status" : "proposed",
       "x" : 3,
       "y" : 8
     },
     {
       "id" : "0e5c0000-0000-4000-8000-000000000069",
-      "plantId" : "acer-rubrum",
+      "plantId" : "abies-concolor",
       "status" : "proposed",
       "x" : 19,
       "y" : 22
     },
     {
       "id" : "0e5c0000-0000-4000-8000-00000000006a",
-      "plantId" : "pinus-strobus",
+      "plantId" : "acer-palmatum",
       "status" : "proposed",
       "x" : 21,
       "y" : 24
     },
     {
       "id" : "0e5c0000-0000-4000-8000-00000000006b",
-      "plantId" : "echinacea-purpurea",
+      "plantId" : "achillea-millefolium",
       "status" : "proposed",
       "x" : 11,
       "y" : 16
     },
     {
       "id" : "0e5c0000-0000-4000-8000-00000000006c",
-      "plantId" : "ilex-glabra",
+      "plantId" : "abelia-grandiflora",
       "status" : "proposed",
       "x" : 30,
       "y" : 5
     },
     {
       "id" : "0e5c0000-0000-4000-8000-00000000006d",
-      "plantId" : "berberis-thunbergii",
+      "plantId" : "agave-americana",
+      "status" : "proposed",
+      "x" : 22,
+      "y" : 3
+    },
+    {
+      "id" : "0e5c0000-0000-4000-8000-00000000006e",
+      "plantId" : "acer-platanoides",
       "status" : "proposed",
       "x" : 22,
       "y" : 10
     },
     {
-      "id" : "0e5c0000-0000-4000-8000-00000000006e",
-      "plantId" : "acer-rubrum",
+      "id" : "0e5c0000-0000-4000-8000-00000000006f",
+      "plantId" : "abelia-grandiflora",
       "status" : "proposed",
       "x" : 4,
       "y" : 24
     },
     {
-      "id" : "0e5c0000-0000-4000-8000-00000000006f",
-      "plantId" : "pinus-strobus",
+      "id" : "0e5c0000-0000-4000-8000-000000000070",
+      "plantId" : "abelia-grandiflora",
       "status" : "proposed",
       "x" : 7,
       "y" : 26
     },
     {
-      "id" : "0e5c0000-0000-4000-8000-000000000070",
-      "plantId" : "schizachyrium-scoparium",
+      "id" : "0e5c0000-0000-4000-8000-000000000071",
+      "plantId" : "bouteloua-gracilis",
       "status" : "retain",
       "x" : 2,
       "y" : 14
     },
     {
-      "groupId" : "0e5c0000-0000-4000-8000-000000000072",
-      "id" : "69207540-114a-4af1-99b9-8722821e705b",
-      "plantId" : "ilex-glabra",
-      "status" : "proposed",
-      "x" : 17.5,
-      "y" : 29
-    },
-    {
-      "groupId" : "0e5c0000-0000-4000-8000-000000000072",
-      "id" : "6a2076d3-104a-495e-9ab9-88b5811e6ec8",
-      "plantId" : "ilex-glabra",
-      "status" : "proposed",
-      "x" : 16.278,
-      "y" : 29
-    },
-    {
-      "groupId" : "0e5c0000-0000-4000-8000-000000000072",
-      "id" : "6b207866-0f4a-47cb-97b9-83fc841e7381",
-      "plantId" : "ilex-glabra",
-      "status" : "proposed",
-      "x" : 15.056,
-      "y" : 29
-    },
-    {
-      "groupId" : "0e5c0000-0000-4000-8000-000000000072",
-      "id" : "6c2079f9-0e4a-4638-98b9-858f831e71ee",
-      "plantId" : "ilex-glabra",
-      "status" : "proposed",
-      "x" : 13.833,
-      "y" : 29
-    },
-    {
-      "groupId" : "0e5c0000-0000-4000-8000-000000000072",
-      "id" : "6d207b8c-154a-413d-95b9-80d6861e76a7",
-      "plantId" : "ilex-glabra",
-      "status" : "proposed",
-      "x" : 22.389,
-      "y" : 29
-    },
-    {
-      "groupId" : "0e5c0000-0000-4000-8000-000000000072",
-      "id" : "6e207d1f-144a-4faa-96b9-8269851e7514",
-      "plantId" : "ilex-glabra",
-      "status" : "proposed",
-      "x" : 21.167,
-      "y" : 29
-    },
-    {
-      "groupId" : "0e5c0000-0000-4000-8000-000000000072",
-      "id" : "6f207eb2-134a-4e17-93b9-7db0881e79cd",
-      "plantId" : "ilex-glabra",
-      "status" : "proposed",
-      "x" : 19.944,
-      "y" : 29
-    },
-    {
-      "groupId" : "0e5c0000-0000-4000-8000-000000000072",
-      "id" : "70208045-124a-4c84-94b9-7f43871e783a",
-      "plantId" : "ilex-glabra",
+      "groupId" : "0e5c0000-0000-4000-8000-000000000073",
+      "id" : "cabcd498-1668-4c11-806f-f7b69b191767",
+      "plantId" : "abelia-grandiflora",
       "status" : "proposed",
       "x" : 18.722,
       "y" : 29
     },
     {
-      "groupId" : "0e5c0000-0000-4000-8000-000000000072",
-      "id" : "f7cbfc60-d5e6-456b-bcf1-d8122dba34bd",
-      "plantId" : "ilex-glabra",
+      "groupId" : "0e5c0000-0000-4000-8000-000000000073",
+      "id" : "cbbcd62b-1568-4a7e-816f-f9499a1915d4",
+      "plantId" : "abelia-grandiflora",
       "status" : "proposed",
-      "x" : 1.611,
+      "x" : 19.944,
       "y" : 29
     },
     {
-      "groupId" : "0e5c0000-0000-4000-8000-000000000072",
-      "id" : "f8cbfdf3-d4e6-43d8-bdf1-d9a52cba332a",
-      "plantId" : "ilex-glabra",
+      "groupId" : "0e5c0000-0000-4000-8000-000000000073",
+      "id" : "ccbcd7be-1468-48eb-be6f-f4909d191a8d",
+      "plantId" : "abelia-grandiflora",
       "status" : "proposed",
-      "x" : 2.833,
+      "x" : 21.167,
       "y" : 29
     },
     {
-      "groupId" : "0e5c0000-0000-4000-8000-000000000072",
-      "id" : "f9cbff86-d7e6-4891-baf1-d4ec2bba3197",
-      "plantId" : "ilex-glabra",
+      "groupId" : "0e5c0000-0000-4000-8000-000000000073",
+      "id" : "cdbcd951-1368-4758-bf6f-f6239c1918fa",
+      "plantId" : "abelia-grandiflora",
       "status" : "proposed",
-      "x" : 4.056,
+      "x" : 22.389,
       "y" : 29
     },
     {
-      "groupId" : "0e5c0000-0000-4000-8000-000000000072",
-      "id" : "facc0119-d6e6-46fe-bbf1-d67f2aba3004",
-      "plantId" : "ilex-glabra",
+      "groupId" : "0e5c0000-0000-4000-8000-000000000073",
+      "id" : "cebcdae4-1a68-425d-846f-fe029719111b",
+      "plantId" : "abelia-grandiflora",
       "status" : "proposed",
-      "x" : 5.278,
+      "x" : 13.833,
       "y" : 29
     },
     {
-      "groupId" : "0e5c0000-0000-4000-8000-000000000072",
-      "id" : "fbcc02ac-d9e6-4bb7-b8f1-d1c629ba2e71",
-      "plantId" : "ilex-glabra",
+      "groupId" : "0e5c0000-0000-4000-8000-000000000073",
+      "id" : "cfbcdc77-1968-40ca-856f-ff9596190f88",
+      "plantId" : "abelia-grandiflora",
       "status" : "proposed",
-      "x" : 6.5,
+      "x" : 15.056,
       "y" : 29
     },
     {
-      "groupId" : "0e5c0000-0000-4000-8000-000000000072",
-      "id" : "fccc043f-d8e6-4a24-b9f1-d35928ba2cde",
-      "plantId" : "ilex-glabra",
+      "groupId" : "0e5c0000-0000-4000-8000-000000000073",
+      "id" : "d0bcde0a-1868-4f37-826f-fadc99191441",
+      "plantId" : "abelia-grandiflora",
+      "status" : "proposed",
+      "x" : 16.278,
+      "y" : 29
+    },
+    {
+      "groupId" : "0e5c0000-0000-4000-8000-000000000073",
+      "id" : "d1bcdf9d-1768-4da4-836f-fc6f981912ae",
+      "plantId" : "abelia-grandiflora",
+      "status" : "proposed",
+      "x" : 17.5,
+      "y" : 29
+    },
+    {
+      "groupId" : "0e5c0000-0000-4000-8000-000000000073",
+      "id" : "e96d11f0-5c6c-4c33-a67f-59522c2c8db5",
+      "plantId" : "abelia-grandiflora",
       "status" : "proposed",
       "x" : 7.722,
       "y" : 29
     },
     {
-      "groupId" : "0e5c0000-0000-4000-8000-000000000072",
-      "id" : "fdcc05d2-dbe6-4edd-b6f1-cea027ba2b4b",
-      "plantId" : "ilex-glabra",
+      "groupId" : "0e5c0000-0000-4000-8000-000000000073",
+      "id" : "ea6d1383-5b6c-4aa0-a77f-5ae52b2c8c22",
+      "plantId" : "abelia-grandiflora",
       "status" : "proposed",
-      "x" : 8.944,
+      "x" : 6.5,
       "y" : 29
     },
     {
-      "groupId" : "0e5c0000-0000-4000-8000-000000000072",
-      "id" : "fecc0765-dae6-4d4a-b7f1-d03326ba29b8",
-      "plantId" : "ilex-glabra",
+      "groupId" : "0e5c0000-0000-4000-8000-000000000073",
+      "id" : "eb6d1516-5e6c-4f59-a47f-562c2a2c8a8f",
+      "plantId" : "abelia-grandiflora",
       "status" : "proposed",
       "x" : 10.167,
       "y" : 29
     },
     {
-      "groupId" : "0e5c0000-0000-4000-8000-000000000072",
-      "id" : "ffcc08f8-cde6-48d3-84f1-e4aa25ba2825",
-      "plantId" : "ilex-glabra",
+      "groupId" : "0e5c0000-0000-4000-8000-000000000073",
+      "id" : "ec6d16a9-5d6c-4dc6-a57f-57bf292c88fc",
+      "plantId" : "abelia-grandiflora",
+      "status" : "proposed",
+      "x" : 8.944,
+      "y" : 29
+    },
+    {
+      "groupId" : "0e5c0000-0000-4000-8000-000000000073",
+      "id" : "ed6d183c-606c-427f-a27f-5306282c8769",
+      "plantId" : "abelia-grandiflora",
+      "status" : "proposed",
+      "x" : 2.833,
+      "y" : 29
+    },
+    {
+      "groupId" : "0e5c0000-0000-4000-8000-000000000073",
+      "id" : "ee6d19cf-5f6c-40ec-a37f-5499272c85d6",
+      "plantId" : "abelia-grandiflora",
+      "status" : "proposed",
+      "x" : 1.611,
+      "y" : 29
+    },
+    {
+      "groupId" : "0e5c0000-0000-4000-8000-000000000073",
+      "id" : "ef6d1b62-626c-45a5-a07f-4fe0262c8443",
+      "plantId" : "abelia-grandiflora",
+      "status" : "proposed",
+      "x" : 5.278,
+      "y" : 29
+    },
+    {
+      "groupId" : "0e5c0000-0000-4000-8000-000000000073",
+      "id" : "f06d1cf5-616c-4412-a17f-5173252c82b0",
+      "plantId" : "abelia-grandiflora",
+      "status" : "proposed",
+      "x" : 4.056,
+      "y" : 29
+    },
+    {
+      "groupId" : "0e5c0000-0000-4000-8000-000000000073",
+      "id" : "f56d24d4-686c-4f17-aa7f-5f9e302c9401",
+      "plantId" : "abelia-grandiflora",
+      "status" : "proposed",
+      "x" : 12.611,
+      "y" : 29
+    },
+    {
+      "groupId" : "0e5c0000-0000-4000-8000-000000000073",
+      "id" : "f66d2667-676c-4d84-ab7f-61312f2c926e",
+      "plantId" : "abelia-grandiflora",
       "status" : "proposed",
       "x" : 11.389,
       "y" : 29

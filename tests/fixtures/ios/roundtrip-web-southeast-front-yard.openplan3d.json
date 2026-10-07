@@ -1,0 +1,6687 @@
+{
+  "defaults" : {
+    "ceilingHeight" : 2.3999999999999999,
+    "exteriorWallThickness" : 0.20000000000000001,
+    "interiorWallThickness" : 0.12
+  },
+  "doors" : [
+    {
+      "category" : {
+        "door" : {
+
+        }
+      },
+      "dimensions" : [
+        0.94999999999999996,
+        2.1000000000000001,
+        0.20000000000000001
+      ],
+      "hingeLeft" : true,
+      "identifier" : "cb252228-a8f2-4beb-8e11-b86a89ebc24d",
+      "opensInward" : true,
+      "parentIdentifier" : "cf252874-acf3-4237-8a11-b21e85ebbc01",
+      "story" : 0,
+      "style" : "single",
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        10,
+        1.05,
+        10,
+        1
+      ]
+    }
+  ],
+  "floors" : [
+
+  ],
+  "objects" : [
+    {
+      "attributes" : {
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "cercis-canadensis"
+      },
+      "category" : {
+        "tree_default" : {
+
+        }
+      },
+      "dimensions" : [
+        6.3225635438625556,
+        5.9242236172689546,
+        6.3225635438625556
+      ],
+      "identifier" : "eb860181-d18f-45b4-83d9-39879711db5a",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        3.5,
+        2.9621118086344773,
+        3.5,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "sabal-palmetto"
+      },
+      "category" : {
+        "tree_palm" : {
+
+        }
+      },
+      "dimensions" : [
+        2.789579636835454,
+        7.0606952751537628,
+        2.789579636835454
+      ],
+      "identifier" : "ea85ffee-d28f-4747-82d9-37f49811dced",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        14,
+        3.5303476375768814,
+        3,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "e585f80f-c78f-45f6-b9d9-29c98911c550",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "callicarpa-americana"
+      },
+      "category" : {
+        "bush_large" : {
+
+        }
+      },
+      "dimensions" : [
+        1.3893308142100425,
+        1.3946007754381358,
+        1.3893308142100425
+      ],
+      "identifier" : "41739427-c564-4f1c-8b50-0f317fa85fb6",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        11.75,
+        0.69730038771906788,
+        9.1999999999999993,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "e585f80f-c78f-45f6-b9d9-29c98911c550",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "callicarpa-americana"
+      },
+      "category" : {
+        "bush_large" : {
+
+        }
+      },
+      "dimensions" : [
+        1.3893308142100425,
+        1.3946007754381358,
+        1.3893308142100425
+      ],
+      "identifier" : "40739294-c664-40af-8a50-0d9e80a86149",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        12.85,
+        0.69730038771906788,
+        9.1999999999999993,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "e585f80f-c78f-45f6-b9d9-29c98911c550",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "callicarpa-americana"
+      },
+      "category" : {
+        "bush_large" : {
+
+        }
+      },
+      "dimensions" : [
+        1.3893308142100425,
+        1.3946007754381358,
+        1.3893308142100425
+      ],
+      "identifier" : "4373974d-c764-4242-8950-0c0b7da85c90",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        13.949999999999999,
+        0.69730038771906788,
+        9.1999999999999993,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "e585f80f-c78f-45f6-b9d9-29c98911c550",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "callicarpa-americana"
+      },
+      "category" : {
+        "bush_large" : {
+
+        }
+      },
+      "dimensions" : [
+        1.3893308142100425,
+        1.3946007754381358,
+        1.3893308142100425
+      ],
+      "identifier" : "427395ba-c864-43d5-8850-0a787ea85e23",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        15.050000000000001,
+        0.69730038771906788,
+        9.1999999999999993,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "coreopsis-lanceolata"
+      },
+      "category" : {
+        "flower_yellow" : {
+
+        }
+      },
+      "dimensions" : [
+        0.36393308142100422,
+        0.43102813957886438,
+        0.36393308142100422
+      ],
+      "identifier" : "547fc7d3-3943-4b48-a55d-3e998c7f991e",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        4.8129999999999997,
+        0.21551406978943219,
+        9.0999999999999996,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "coreopsis-lanceolata"
+      },
+      "category" : {
+        "flower_yellow" : {
+
+        }
+      },
+      "dimensions" : [
+        0.36393308142100422,
+        0.43102813957886438,
+        0.36393308142100422
+      ],
+      "identifier" : "537fc640-3a43-4cdb-a45d-3d068d7f9ab1",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        5.5629999999999997,
+        0.21551406978943219,
+        9.2699999999999996,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "coreopsis-lanceolata"
+      },
+      "category" : {
+        "flower_yellow" : {
+
+        }
+      },
+      "dimensions" : [
+        0.36393308142100422,
+        0.43102813957886438,
+        0.36393308142100422
+      ],
+      "identifier" : "567fcaf9-3b43-4e6e-a35d-3b738a7f95f8",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        7.0419999999999998,
+        0.21551406978943219,
+        8.6790000000000003,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "coreopsis-lanceolata"
+      },
+      "category" : {
+        "flower_yellow" : {
+
+        }
+      },
+      "dimensions" : [
+        0.36393308142100422,
+        0.43102813957886438,
+        0.36393308142100422
+      ],
+      "identifier" : "557fc966-3c43-4001-a25d-39e08b7f978b",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        8.2579999999999991,
+        0.21551406978943219,
+        8.173,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "coreopsis-lanceolata"
+      },
+      "category" : {
+        "flower_yellow" : {
+
+        }
+      },
+      "dimensions" : [
+        0.36393308142100422,
+        0.43102813957886438,
+        0.36393308142100422
+      ],
+      "identifier" : "587fce1f-3d43-4194-a95d-44e5907f9f6a",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        6.6340000000000003,
+        0.21551406978943219,
+        7.7439999999999998,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "muhlenbergia-capillaris"
+      },
+      "category" : {
+        "grass_large" : {
+
+        }
+      },
+      "dimensions" : [
+        0.62107284141291452,
+        0.6353980812559239,
+        0.62107284141291452
+      ],
+      "identifier" : "577fcc8c-3e43-4327-a85d-4352917fa0fd",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        6.9610000000000003,
+        0.31769904062796195,
+        8.1289999999999996,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "coreopsis-lanceolata"
+      },
+      "category" : {
+        "flower_yellow" : {
+
+        }
+      },
+      "dimensions" : [
+        0.36393308142100422,
+        0.43102813957886438,
+        0.36393308142100422
+      ],
+      "identifier" : "5a7fd145-3f43-44ba-a75d-41bf8e7f9c44",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        4.835,
+        0.21551406978943219,
+        9.891,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "muhlenbergia-capillaris"
+      },
+      "category" : {
+        "grass_large" : {
+
+        }
+      },
+      "dimensions" : [
+        0.62107284141291452,
+        0.6353980812559239,
+        0.62107284141291452
+      ],
+      "identifier" : "597fcfb2-4043-464d-a65d-402c8f7f9dd7",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        7.6059999999999999,
+        0.31769904062796195,
+        7.8179999999999996,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "coreopsis-lanceolata"
+      },
+      "category" : {
+        "flower_yellow" : {
+
+        }
+      },
+      "dimensions" : [
+        0.36393308142100422,
+        0.43102813957886438,
+        0.36393308142100422
+      ],
+      "identifier" : "5c7fd46b-3143-4eb0-ad5d-4b31847f8c86",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        4.665,
+        0.21551406978943219,
+        7.6950000000000003,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "coreopsis-lanceolata"
+      },
+      "category" : {
+        "flower_yellow" : {
+
+        }
+      },
+      "dimensions" : [
+        0.36393308142100422,
+        0.43102813957886438,
+        0.36393308142100422
+      ],
+      "identifier" : "5b7fd2d8-3243-4043-ac5d-499e857f8e19",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        7.9139999999999997,
+        0.21551406978943219,
+        9.4580000000000002,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "coreopsis-lanceolata"
+      },
+      "category" : {
+        "flower_yellow" : {
+
+        }
+      },
+      "dimensions" : [
+        0.36393308142100422,
+        0.43102813957886438,
+        0.36393308142100422
+      ],
+      "identifier" : "e2256250-a30b-45f1-b4c7-5c0240e03913",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        4.2060000000000004,
+        0.21551406978943219,
+        8.6890000000000001,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "coreopsis-lanceolata"
+      },
+      "category" : {
+        "flower_yellow" : {
+
+        }
+      },
+      "dimensions" : [
+        0.36393308142100422,
+        0.43102813957886438,
+        0.36393308142100422
+      ],
+      "identifier" : "e32563e3-a20b-445e-b5c7-5d953fe03780",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        5.8650000000000002,
+        0.21551406978943219,
+        8.8010000000000002,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "muhlenbergia-capillaris"
+      },
+      "category" : {
+        "grass_large" : {
+
+        }
+      },
+      "dimensions" : [
+        0.62107284141291452,
+        0.6353980812559239,
+        0.62107284141291452
+      ],
+      "identifier" : "e4256576-a10b-42cb-b2c7-58dc42e03c39",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        8.6780000000000008,
+        0.31769904062796195,
+        8.827,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "muhlenbergia-capillaris"
+      },
+      "category" : {
+        "grass_large" : {
+
+        }
+      },
+      "dimensions" : [
+        0.62107284141291452,
+        0.6353980812559239,
+        0.62107284141291452
+      ],
+      "identifier" : "e5256709-a00b-4138-b3c7-5a6f41e03aa6",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        7.3760000000000003,
+        0.31769904062796195,
+        8.3390000000000004,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "muhlenbergia-capillaris"
+      },
+      "category" : {
+        "grass_large" : {
+
+        }
+      },
+      "dimensions" : [
+        0.62107284141291452,
+        0.6353980812559239,
+        0.62107284141291452
+      ],
+      "identifier" : "e625689c-a70b-4c3d-b0c7-55b644e03f5f",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        5.4390000000000001,
+        0.31769904062796195,
+        7.8499999999999996,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "muhlenbergia-capillaris"
+      },
+      "category" : {
+        "grass_large" : {
+
+        }
+      },
+      "dimensions" : [
+        0.62107284141291452,
+        0.6353980812559239,
+        0.62107284141291452
+      ],
+      "identifier" : "e7256a2f-a60b-4aaa-b1c7-574943e03dcc",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        5.6130000000000004,
+        0.31769904062796195,
+        10,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "coreopsis-lanceolata"
+      },
+      "category" : {
+        "flower_yellow" : {
+
+        }
+      },
+      "dimensions" : [
+        0.36393308142100422,
+        0.43102813957886438,
+        0.36393308142100422
+      ],
+      "identifier" : "e8256bc2-a50b-4917-aec7-529046e04285",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        8.1039999999999992,
+        0.21551406978943219,
+        9.9949999999999992,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "muhlenbergia-capillaris"
+      },
+      "category" : {
+        "grass_large" : {
+
+        }
+      },
+      "dimensions" : [
+        0.62107284141291452,
+        0.6353980812559239,
+        0.62107284141291452
+      ],
+      "identifier" : "e9256d55-a40b-4784-afc7-542345e040f2",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        5.2999999999999998,
+        0.31769904062796195,
+        9.6649999999999991,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "coreopsis-lanceolata"
+      },
+      "category" : {
+        "flower_yellow" : {
+
+        }
+      },
+      "dimensions" : [
+        0.36393308142100422,
+        0.43102813957886438,
+        0.36393308142100422
+      ],
+      "identifier" : "ea256ee8-9b0b-4959-bcc7-689a48e045ab",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        6.1079999999999997,
+        0.21551406978943219,
+        7.8760000000000003,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "muhlenbergia-capillaris"
+      },
+      "category" : {
+        "grass_large" : {
+
+        }
+      },
+      "dimensions" : [
+        0.62107284141291452,
+        0.6353980812559239,
+        0.62107284141291452
+      ],
+      "identifier" : "eb25707b-9a0b-47c6-bdc7-6a2d47e04418",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        4.1180000000000003,
+        0.31769904062796195,
+        9.9019999999999992,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "coreopsis-lanceolata"
+      },
+      "category" : {
+        "flower_yellow" : {
+
+        }
+      },
+      "dimensions" : [
+        0.36393308142100422,
+        0.43102813957886438,
+        0.36393308142100422
+      ],
+      "identifier" : "f42c3a6b-a90d-4dfa-aec4-4a79ced8c9d8",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        7.1539999999999999,
+        0.21551406978943219,
+        9.5060000000000002,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "coreopsis-lanceolata"
+      },
+      "category" : {
+        "flower_yellow" : {
+
+        }
+      },
+      "dimensions" : [
+        0.36393308142100422,
+        0.43102813957886438,
+        0.36393308142100422
+      ],
+      "identifier" : "f32c38d8-aa0d-4f8d-adc4-48e6cfd8cb6b",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        4.0060000000000002,
+        0.21551406978943219,
+        9.4049999999999994,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "coreopsis-lanceolata"
+      },
+      "category" : {
+        "flower_yellow" : {
+
+        }
+      },
+      "dimensions" : [
+        0.36393308142100422,
+        0.43102813957886438,
+        0.36393308142100422
+      ],
+      "identifier" : "f62c3d91-a70d-4ad4-acc4-4753d0d8ccfe",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        9.1120000000000001,
+        0.21551406978943219,
+        9.7289999999999992,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "coreopsis-lanceolata"
+      },
+      "category" : {
+        "flower_yellow" : {
+
+        }
+      },
+      "dimensions" : [
+        0.36393308142100422,
+        0.43102813957886438,
+        0.36393308142100422
+      ],
+      "identifier" : "f52c3bfe-a80d-4c67-abc4-45c0d1d8ce91",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        7.484,
+        0.21551406978943219,
+        9.891,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "muhlenbergia-capillaris"
+      },
+      "category" : {
+        "grass_large" : {
+
+        }
+      },
+      "dimensions" : [
+        0.62107284141291452,
+        0.6353980812559239,
+        0.62107284141291452
+      ],
+      "identifier" : "f82c40b7-a50d-47ae-b2c4-50c5d2d8d024",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        7.8470000000000004,
+        0.31769904062796195,
+        8.8450000000000006,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "muhlenbergia-capillaris"
+      },
+      "category" : {
+        "grass_large" : {
+
+        }
+      },
+      "dimensions" : [
+        0.62107284141291452,
+        0.6353980812559239,
+        0.62107284141291452
+      ],
+      "identifier" : "f72c3f24-a60d-4941-b1c4-4f32d3d8d1b7",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        5.8899999999999997,
+        0.31769904062796195,
+        8.2379999999999995,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "muhlenbergia-capillaris"
+      },
+      "category" : {
+        "grass_large" : {
+
+        }
+      },
+      "dimensions" : [
+        0.62107284141291452,
+        0.6353980812559239,
+        0.62107284141291452
+      ],
+      "identifier" : "fa2c43dd-a30d-4488-b0c4-4d9fd4d8d34a",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        9.0850000000000009,
+        0.31769904062796195,
+        7.742,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "coreopsis-lanceolata"
+      },
+      "category" : {
+        "flower_yellow" : {
+
+        }
+      },
+      "dimensions" : [
+        0.36393308142100422,
+        0.43102813957886438,
+        0.36393308142100422
+      ],
+      "identifier" : "f92c424a-a40d-461b-afc4-4c0cd5d8d4dd",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        5.3739999999999997,
+        0.21551406978943219,
+        8.8840000000000003,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "muhlenbergia-capillaris"
+      },
+      "category" : {
+        "grass_large" : {
+
+        }
+      },
+      "dimensions" : [
+        0.62107284141291452,
+        0.6353980812559239,
+        0.62107284141291452
+      ],
+      "identifier" : "ec2c2dd3-a10d-4162-b6c4-5711c6d8bd40",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        6.4550000000000001,
+        0.31769904062796195,
+        8.1069999999999993,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "coreopsis-lanceolata"
+      },
+      "category" : {
+        "flower_yellow" : {
+
+        }
+      },
+      "dimensions" : [
+        0.36393308142100422,
+        0.43102813957886438,
+        0.36393308142100422
+      ],
+      "identifier" : "eb2c2c40-a20d-42f5-b5c4-557ec7d8bed3",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        6.218,
+        0.21551406978943219,
+        9.1110000000000007,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "coreopsis-lanceolata"
+      },
+      "category" : {
+        "flower_yellow" : {
+
+        }
+      },
+      "dimensions" : [
+        0.36393308142100422,
+        0.43102813957886438,
+        0.36393308142100422
+      ],
+      "identifier" : "ee29f262-0f10-4d23-a8c2-027054dbdb61",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        8.7669999999999995,
+        0.21551406978943219,
+        8.0139999999999993,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "coreopsis-lanceolata"
+      },
+      "category" : {
+        "flower_yellow" : {
+
+        }
+      },
+      "dimensions" : [
+        0.36393308142100422,
+        0.43102813957886438,
+        0.36393308142100422
+      ],
+      "identifier" : "ef29f3f5-0e10-4b90-a9c2-040353dbd9ce",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        6.6500000000000004,
+        0.21551406978943219,
+        9.4849999999999994,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "coreopsis-lanceolata"
+      },
+      "category" : {
+        "flower_yellow" : {
+
+        }
+      },
+      "dimensions" : [
+        0.36393308142100422,
+        0.43102813957886438,
+        0.36393308142100422
+      ],
+      "identifier" : "ec29ef3c-1110-4049-aac2-059652dbd83b",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        5.1589999999999998,
+        0.21551406978943219,
+        8.343,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "coreopsis-lanceolata"
+      },
+      "category" : {
+        "flower_yellow" : {
+
+        }
+      },
+      "dimensions" : [
+        0.36393308142100422,
+        0.43102813957886438,
+        0.36393308142100422
+      ],
+      "identifier" : "ed29f0cf-1010-4eb6-abc2-072951dbd6a8",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        4.0220000000000002,
+        0.21551406978943219,
+        7.6310000000000002,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "coreopsis-lanceolata"
+      },
+      "category" : {
+        "flower_yellow" : {
+
+        }
+      },
+      "dimensions" : [
+        0.36393308142100422,
+        0.43102813957886438,
+        0.36393308142100422
+      ],
+      "identifier" : "ea29ec16-1310-436f-acc2-08bc58dbe1ad",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        4.0620000000000003,
+        0.21551406978943219,
+        8.1630000000000003,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "coreopsis-lanceolata"
+      },
+      "category" : {
+        "flower_yellow" : {
+
+        }
+      },
+      "dimensions" : [
+        0.36393308142100422,
+        0.43102813957886438,
+        0.36393308142100422
+      ],
+      "identifier" : "eb29eda9-1210-41dc-adc2-0a4f57dbe01a",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        8.7010000000000005,
+        0.21551406978943219,
+        9.4809999999999999,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "muhlenbergia-capillaris"
+      },
+      "category" : {
+        "grass_large" : {
+
+        }
+      },
+      "dimensions" : [
+        0.62107284141291452,
+        0.6353980812559239,
+        0.62107284141291452
+      ],
+      "identifier" : "e829e8f0-1510-4695-aec2-0be256dbde87",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        7.3890000000000002,
+        0.31769904062796195,
+        9.1370000000000005,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "coreopsis-lanceolata"
+      },
+      "category" : {
+        "flower_yellow" : {
+
+        }
+      },
+      "dimensions" : [
+        0.36393308142100422,
+        0.43102813957886438,
+        0.36393308142100422
+      ],
+      "identifier" : "e929ea83-1410-4502-afc2-0d7555dbdcf4",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        4.7030000000000003,
+        0.21551406978943219,
+        8.2780000000000005,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "coreopsis-lanceolata"
+      },
+      "category" : {
+        "flower_yellow" : {
+
+        }
+      },
+      "dimensions" : [
+        0.36393308142100422,
+        0.43102813957886438,
+        0.36393308142100422
+      ],
+      "identifier" : "f629fefa-1710-49bb-b0c2-0f084cdbcec9",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        5.8680000000000003,
+        0.21551406978943219,
+        9.6799999999999997,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "coreopsis-lanceolata"
+      },
+      "category" : {
+        "flower_yellow" : {
+
+        }
+      },
+      "dimensions" : [
+        0.36393308142100422,
+        0.43102813957886438,
+        0.36393308142100422
+      ],
+      "identifier" : "f72a008d-1610-4828-b1c2-109b4bdbcd36",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        8.1959999999999997,
+        0.21551406978943219,
+        8.6679999999999993,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "coreopsis-lanceolata"
+      },
+      "category" : {
+        "flower_yellow" : {
+
+        }
+      },
+      "dimensions" : [
+        0.36393308142100422,
+        0.43102813957886438,
+        0.36393308142100422
+      ],
+      "identifier" : "803193fd-1512-452c-b2d3-5b4fd2e7daae",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        4.4160000000000004,
+        0.21551406978943219,
+        9.1769999999999996,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "muhlenbergia-capillaris"
+      },
+      "category" : {
+        "grass_large" : {
+
+        }
+      },
+      "dimensions" : [
+        0.62107284141291452,
+        0.6353980812559239,
+        0.62107284141291452
+      ],
+      "identifier" : "7f31926a-1612-46bf-b1d3-59bcd3e7dc41",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        9.1310000000000002,
+        0.31769904062796195,
+        8.9730000000000008,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "muhlenbergia-capillaris"
+      },
+      "category" : {
+        "grass_large" : {
+
+        }
+      },
+      "dimensions" : [
+        0.62107284141291452,
+        0.6353980812559239,
+        0.62107284141291452
+      ],
+      "identifier" : "7e3190d7-1712-4852-b4d3-5e75d0e7d788",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        6.2549999999999999,
+        0.31769904062796195,
+        9.8450000000000006,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "coreopsis-lanceolata"
+      },
+      "category" : {
+        "flower_yellow" : {
+
+        }
+      },
+      "dimensions" : [
+        0.36393308142100422,
+        0.43102813957886438,
+        0.36393308142100422
+      ],
+      "identifier" : "7d318f44-1812-49e5-b3d3-5ce2d1e7d91b",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        6.5460000000000003,
+        0.21551406978943219,
+        8.6080000000000005,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "coreopsis-lanceolata"
+      },
+      "category" : {
+        "flower_yellow" : {
+
+        }
+      },
+      "dimensions" : [
+        0.36393308142100422,
+        0.43102813957886438,
+        0.36393308142100422
+      ],
+      "identifier" : "7c318db1-1112-4ee0-aed3-5503d6e7e0fa",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        8.2279999999999998,
+        0.21551406978943219,
+        7.742,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "muhlenbergia-capillaris"
+      },
+      "category" : {
+        "grass_large" : {
+
+        }
+      },
+      "dimensions" : [
+        0.62107284141291452,
+        0.6353980812559239,
+        0.62107284141291452
+      ],
+      "identifier" : "7b318c1e-1212-4073-add3-5370d7e7e28d",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        8.8810000000000002,
+        0.31769904062796195,
+        8.4710000000000001,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "muhlenbergia-capillaris"
+      },
+      "category" : {
+        "grass_large" : {
+
+        }
+      },
+      "dimensions" : [
+        0.62107284141291452,
+        0.6353980812559239,
+        0.62107284141291452
+      ],
+      "identifier" : "7a318a8b-1312-4206-b0d3-5829d4e7ddd4",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        6.9029999999999996,
+        0.31769904062796195,
+        9.8879999999999999,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "muhlenbergia-capillaris"
+      },
+      "category" : {
+        "grass_large" : {
+
+        }
+      },
+      "dimensions" : [
+        0.62107284141291452,
+        0.6353980812559239,
+        0.62107284141291452
+      ],
+      "identifier" : "793188f8-1412-4399-afd3-5696d5e7df67",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        7.7779999999999996,
+        0.31769904062796195,
+        8.218,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "coreopsis-lanceolata"
+      },
+      "category" : {
+        "flower_yellow" : {
+
+        }
+      },
+      "dimensions" : [
+        0.36393308142100422,
+        0.43102813957886438,
+        0.36393308142100422
+      ],
+      "identifier" : "78318765-1d12-41c4-bad3-67e7cae7ce16",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        4.782,
+        0.21551406978943219,
+        9.4849999999999994,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "coreopsis-lanceolata"
+      },
+      "category" : {
+        "flower_yellow" : {
+
+        }
+      },
+      "dimensions" : [
+        0.36393308142100422,
+        0.43102813957886438,
+        0.36393308142100422
+      ],
+      "identifier" : "773185d2-1e12-4357-b9d3-6654cbe7cfa9",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        4.9100000000000001,
+        0.21551406978943219,
+        8.7289999999999992,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "muhlenbergia-capillaris"
+      },
+      "category" : {
+        "grass_large" : {
+
+        }
+      },
+      "dimensions" : [
+        0.62107284141291452,
+        0.6353980812559239,
+        0.62107284141291452
+      ],
+      "identifier" : "7a2f4bf4-1b14-4d35-acd1-1346d8ea22b7",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        8.3010000000000002,
+        0.31769904062796195,
+        9.0909999999999993,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "coreopsis-lanceolata"
+      },
+      "category" : {
+        "flower_yellow" : {
+
+        }
+      },
+      "dimensions" : [
+        0.36393308142100422,
+        0.43102813957886438,
+        0.36393308142100422
+      ],
+      "identifier" : "7b2f4d87-1a14-4ba2-add1-14d9d7ea2124",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        8.6240000000000006,
+        0.21551406978943219,
+        9.8819999999999997,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "coreopsis-lanceolata"
+      },
+      "category" : {
+        "flower_yellow" : {
+
+        }
+      },
+      "dimensions" : [
+        0.36393308142100422,
+        0.43102813957886438,
+        0.36393308142100422
+      ],
+      "identifier" : "7c2f4f1a-1914-4a0f-aad1-1020daea25dd",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        6.7619999999999996,
+        0.21551406978943219,
+        9.0180000000000007,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "coreopsis-lanceolata"
+      },
+      "category" : {
+        "flower_yellow" : {
+
+        }
+      },
+      "dimensions" : [
+        0.36393308142100422,
+        0.43102813957886438,
+        0.36393308142100422
+      ],
+      "identifier" : "7d2f50ad-1814-487c-abd1-11b3d9ea244a",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        9.1579999999999995,
+        0.21551406978943219,
+        8.1790000000000003,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "coreopsis-lanceolata"
+      },
+      "category" : {
+        "flower_yellow" : {
+
+        }
+      },
+      "dimensions" : [
+        0.36393308142100422,
+        0.43102813957886438,
+        0.36393308142100422
+      ],
+      "identifier" : "762f45a8-1714-46e9-b0d1-1992d4ea1c6b",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        5.5629999999999997,
+        0.21551406978943219,
+        8.5459999999999994,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "muhlenbergia-capillaris"
+      },
+      "category" : {
+        "grass_large" : {
+
+        }
+      },
+      "dimensions" : [
+        0.62107284141291452,
+        0.6353980812559239,
+        0.62107284141291452
+      ],
+      "identifier" : "772f473b-1614-4556-b1d1-1b25d3ea1ad8",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        5.0609999999999999,
+        0.31769904062796195,
+        7.7450000000000001,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "coreopsis-lanceolata"
+      },
+      "category" : {
+        "flower_yellow" : {
+
+        }
+      },
+      "dimensions" : [
+        0.36393308142100422,
+        0.43102813957886438,
+        0.36393308142100422
+      ],
+      "identifier" : "782f48ce-1514-43c3-aed1-166cd6ea1f91",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        7.2039999999999997,
+        0.21551406978943219,
+        7.6980000000000004,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "coreopsis-lanceolata"
+      },
+      "category" : {
+        "flower_yellow" : {
+
+        }
+      },
+      "dimensions" : [
+        0.36393308142100422,
+        0.43102813957886438,
+        0.36393308142100422
+      ],
+      "identifier" : "792f4a61-1414-4230-afd1-17ffd5ea1dfe",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        8.6229999999999993,
+        0.21551406978943219,
+        7.6479999999999997,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "coreopsis-lanceolata"
+      },
+      "category" : {
+        "flower_yellow" : {
+
+        }
+      },
+      "dimensions" : [
+        0.36393308142100422,
+        0.43102813957886438,
+        0.36393308142100422
+      ],
+      "identifier" : "722f3f5c-2315-49cd-b4d1-1fded0ea161f",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        8.2910000000000004,
+        0.21551406978943219,
+        9.6440000000000001,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "coreopsis-lanceolata"
+      },
+      "category" : {
+        "flower_yellow" : {
+
+        }
+      },
+      "dimensions" : [
+        0.36393308142100422,
+        0.43102813957886438,
+        0.36393308142100422
+      ],
+      "identifier" : "732f40ef-2215-483a-b5d1-2171cfea148c",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        7.4850000000000003,
+        0.21551406978943219,
+        8.7219999999999995,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "phlox-subulata"
+      },
+      "category" : {
+        "grass_tuft" : {
+
+        }
+      },
+      "dimensions" : [
+        0.40323546133441923,
+        0.10351214023548574,
+        0.40323546133441923
+      ],
+      "identifier" : "10adf252-96d5-4105-814f-c88cb9b5d00f",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0.625,
+        0.051756070117742872,
+        7.5250000000000004,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "phlox-subulata"
+      },
+      "category" : {
+        "grass_tuft" : {
+
+        }
+      },
+      "dimensions" : [
+        0.40323546133441923,
+        0.10351214023548574,
+        0.40323546133441923
+      ],
+      "identifier" : "11adf3e5-95d5-4f72-824f-ca1fb8b5ce7c",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1.075,
+        0.051756070117742872,
+        7.5250000000000004,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "phlox-subulata"
+      },
+      "category" : {
+        "grass_tuft" : {
+
+        }
+      },
+      "dimensions" : [
+        0.40323546133441923,
+        0.10351214023548574,
+        0.40323546133441923
+      ],
+      "identifier" : "0eadef2c-94d5-4ddf-834f-cbb2bbb5d335",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1.5249999999999999,
+        0.051756070117742872,
+        7.5250000000000004,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "phlox-subulata"
+      },
+      "category" : {
+        "grass_tuft" : {
+
+        }
+      },
+      "dimensions" : [
+        0.40323546133441923,
+        0.10351214023548574,
+        0.40323546133441923
+      ],
+      "identifier" : "0fadf0bf-93d5-4c4c-844f-cd45bab5d1a2",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1.9750000000000001,
+        0.051756070117742872,
+        7.5250000000000004,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "phlox-subulata"
+      },
+      "category" : {
+        "grass_tuft" : {
+
+        }
+      },
+      "dimensions" : [
+        0.40323546133441923,
+        0.10351214023548574,
+        0.40323546133441923
+      ],
+      "identifier" : "0cadec06-92d5-4ab9-bd4f-c240b5b5c9c3",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        2.4249999999999998,
+        0.051756070117742872,
+        7.5250000000000004,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "phlox-subulata"
+      },
+      "category" : {
+        "grass_tuft" : {
+
+        }
+      },
+      "dimensions" : [
+        0.40323546133441923,
+        0.10351214023548574,
+        0.40323546133441923
+      ],
+      "identifier" : "0daded99-91d5-4926-be4f-c3d3b4b5c830",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        2.875,
+        0.051756070117742872,
+        7.5250000000000004,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "phlox-subulata"
+      },
+      "category" : {
+        "grass_tuft" : {
+
+        }
+      },
+      "dimensions" : [
+        0.40323546133441923,
+        0.10351214023548574,
+        0.40323546133441923
+      ],
+      "identifier" : "0aade8e0-90d5-4793-bf4f-c566b7b5cce9",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        3.3250000000000002,
+        0.051756070117742872,
+        7.5250000000000004,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "phlox-subulata"
+      },
+      "category" : {
+        "grass_tuft" : {
+
+        }
+      },
+      "dimensions" : [
+        0.40323546133441923,
+        0.10351214023548574,
+        0.40323546133441923
+      ],
+      "identifier" : "0badea73-8fd5-4600-804f-c6f9b6b5cb56",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        3.7749999999999999,
+        0.051756070117742872,
+        7.5250000000000004,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "phlox-subulata"
+      },
+      "category" : {
+        "grass_tuft" : {
+
+        }
+      },
+      "dimensions" : [
+        0.40323546133441923,
+        0.10351214023548574,
+        0.40323546133441923
+      ],
+      "identifier" : "18adfeea-9ed5-4d9d-894f-d524c1b5dca7",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0.625,
+        0.051756070117742872,
+        7.9749999999999996,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "phlox-subulata"
+      },
+      "category" : {
+        "grass_tuft" : {
+
+        }
+      },
+      "dimensions" : [
+        0.40323546133441923,
+        0.10351214023548574,
+        0.40323546133441923
+      ],
+      "identifier" : "19ae007d-9dd5-4c0a-8a4f-d6b7c0b5db14",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1.075,
+        0.051756070117742872,
+        7.9749999999999996,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "phlox-subulata"
+      },
+      "category" : {
+        "grass_tuft" : {
+
+        }
+      },
+      "dimensions" : [
+        0.40323546133441923,
+        0.10351214023548574,
+        0.40323546133441923
+      ],
+      "identifier" : "a9d6d84f-21ae-44e6-929b-47fd1233c1a4",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1.5249999999999999,
+        0.051756070117742872,
+        7.9749999999999996,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "phlox-subulata"
+      },
+      "category" : {
+        "grass_tuft" : {
+
+        }
+      },
+      "dimensions" : [
+        0.40323546133441923,
+        0.10351214023548574,
+        0.40323546133441923
+      ],
+      "identifier" : "a8d6d6bc-22ae-4679-919b-466a1333c337",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1.9750000000000001,
+        0.051756070117742872,
+        7.9749999999999996,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "phlox-subulata"
+      },
+      "category" : {
+        "grass_tuft" : {
+
+        }
+      },
+      "dimensions" : [
+        0.40323546133441923,
+        0.10351214023548574,
+        0.40323546133441923
+      ],
+      "identifier" : "abd6db75-1fae-41c0-909b-44d71433c4ca",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        2.4249999999999998,
+        0.051756070117742872,
+        7.9749999999999996,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "phlox-subulata"
+      },
+      "category" : {
+        "grass_tuft" : {
+
+        }
+      },
+      "dimensions" : [
+        0.40323546133441923,
+        0.10351214023548574,
+        0.40323546133441923
+      ],
+      "identifier" : "aad6d9e2-20ae-4353-8f9b-43441533c65d",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        2.875,
+        0.051756070117742872,
+        7.9749999999999996,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "phlox-subulata"
+      },
+      "category" : {
+        "grass_tuft" : {
+
+        }
+      },
+      "dimensions" : [
+        0.40323546133441923,
+        0.10351214023548574,
+        0.40323546133441923
+      ],
+      "identifier" : "a5d6d203-25ae-4b32-8e9b-41b10e33bb58",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        3.3250000000000002,
+        0.051756070117742872,
+        7.9749999999999996,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "phlox-subulata"
+      },
+      "category" : {
+        "grass_tuft" : {
+
+        }
+      },
+      "dimensions" : [
+        0.40323546133441923,
+        0.10351214023548574,
+        0.40323546133441923
+      ],
+      "identifier" : "a4d6d070-26ae-4cc5-8d9b-401e0f33bceb",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        3.7749999999999999,
+        0.051756070117742872,
+        7.9749999999999996,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "phlox-subulata"
+      },
+      "category" : {
+        "grass_tuft" : {
+
+        }
+      },
+      "dimensions" : [
+        0.40323546133441923,
+        0.10351214023548574,
+        0.40323546133441923
+      ],
+      "identifier" : "a7d6d529-23ae-480c-8c9b-3e8b1033be7e",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0.625,
+        0.051756070117742872,
+        8.4250000000000007,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "phlox-subulata"
+      },
+      "category" : {
+        "grass_tuft" : {
+
+        }
+      },
+      "dimensions" : [
+        0.40323546133441923,
+        0.10351214023548574,
+        0.40323546133441923
+      ],
+      "identifier" : "a6d6d396-24ae-499f-8b9b-3cf81133c011",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1.075,
+        0.051756070117742872,
+        8.4250000000000007,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "phlox-subulata"
+      },
+      "category" : {
+        "grass_tuft" : {
+
+        }
+      },
+      "dimensions" : [
+        0.40323546133441923,
+        0.10351214023548574,
+        0.40323546133441923
+      ],
+      "identifier" : "b1d6e4e7-29ae-417e-8a9b-3b650a33b50c",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1.5249999999999999,
+        0.051756070117742872,
+        8.4250000000000007,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "phlox-subulata"
+      },
+      "category" : {
+        "grass_tuft" : {
+
+        }
+      },
+      "dimensions" : [
+        0.40323546133441923,
+        0.10351214023548574,
+        0.40323546133441923
+      ],
+      "identifier" : "b0d6e354-2aae-4311-899b-39d20b33b69f",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1.9750000000000001,
+        0.051756070117742872,
+        8.4250000000000007,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "phlox-subulata"
+      },
+      "category" : {
+        "grass_tuft" : {
+
+        }
+      },
+      "dimensions" : [
+        0.40323546133441923,
+        0.10351214023548574,
+        0.40323546133441923
+      ],
+      "identifier" : "37cf6914-3bac-4f3d-b89d-5da6843b30df",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        2.4249999999999998,
+        0.051756070117742872,
+        8.4250000000000007,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "phlox-subulata"
+      },
+      "category" : {
+        "grass_tuft" : {
+
+        }
+      },
+      "dimensions" : [
+        0.40323546133441923,
+        0.10351214023548574,
+        0.40323546133441923
+      ],
+      "identifier" : "38cf6aa7-3aac-4daa-b99d-5f39833b2f4c",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        2.875,
+        0.051756070117742872,
+        8.4250000000000007,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "phlox-subulata"
+      },
+      "category" : {
+        "grass_tuft" : {
+
+        }
+      },
+      "dimensions" : [
+        0.40323546133441923,
+        0.10351214023548574,
+        0.40323546133441923
+      ],
+      "identifier" : "39cf6c3a-39ac-4c17-b69d-5a80863b3405",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        3.3250000000000002,
+        0.051756070117742872,
+        8.4250000000000007,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "phlox-subulata"
+      },
+      "category" : {
+        "grass_tuft" : {
+
+        }
+      },
+      "dimensions" : [
+        0.40323546133441923,
+        0.10351214023548574,
+        0.40323546133441923
+      ],
+      "identifier" : "3acf6dcd-38ac-4a84-b79d-5c13853b3272",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        3.7749999999999999,
+        0.051756070117742872,
+        8.4250000000000007,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "phlox-subulata"
+      },
+      "category" : {
+        "grass_tuft" : {
+
+        }
+      },
+      "dimensions" : [
+        0.40323546133441923,
+        0.10351214023548574,
+        0.40323546133441923
+      ],
+      "identifier" : "33cf62c8-37ac-48f1-bc9d-63f2803b2a93",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0.625,
+        0.051756070117742872,
+        8.875,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "phlox-subulata"
+      },
+      "category" : {
+        "grass_tuft" : {
+
+        }
+      },
+      "dimensions" : [
+        0.40323546133441923,
+        0.10351214023548574,
+        0.40323546133441923
+      ],
+      "identifier" : "34cf645b-36ac-475e-bd9d-65857f3b2900",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1.075,
+        0.051756070117742872,
+        8.875,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "phlox-subulata"
+      },
+      "category" : {
+        "grass_tuft" : {
+
+        }
+      },
+      "dimensions" : [
+        0.40323546133441923,
+        0.10351214023548574,
+        0.40323546133441923
+      ],
+      "identifier" : "35cf65ee-35ac-45cb-ba9d-60cc823b2db9",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1.5249999999999999,
+        0.051756070117742872,
+        8.875,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "phlox-subulata"
+      },
+      "category" : {
+        "grass_tuft" : {
+
+        }
+      },
+      "dimensions" : [
+        0.40323546133441923,
+        0.10351214023548574,
+        0.40323546133441923
+      ],
+      "identifier" : "36cf6781-34ac-4438-bb9d-625f813b2c26",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1.9750000000000001,
+        0.051756070117742872,
+        8.875,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "phlox-subulata"
+      },
+      "category" : {
+        "grass_tuft" : {
+
+        }
+      },
+      "dimensions" : [
+        0.40323546133441923,
+        0.10351214023548574,
+        0.40323546133441923
+      ],
+      "identifier" : "2fcf5c7c-33ac-42a5-809d-6a3e8c3b3d77",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        2.4249999999999998,
+        0.051756070117742872,
+        8.875,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "phlox-subulata"
+      },
+      "category" : {
+        "grass_tuft" : {
+
+        }
+      },
+      "dimensions" : [
+        0.40323546133441923,
+        0.10351214023548574,
+        0.40323546133441923
+      ],
+      "identifier" : "30cf5e0f-32ac-4112-819d-6bd18b3b3be4",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        2.875,
+        0.051756070117742872,
+        8.875,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "phlox-subulata"
+      },
+      "category" : {
+        "grass_tuft" : {
+
+        }
+      },
+      "dimensions" : [
+        0.40323546133441923,
+        0.10351214023548574,
+        0.40323546133441923
+      ],
+      "identifier" : "3dd1b11d-35aa-4734-bea0-6f2f7e38e8d6",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        3.3250000000000002,
+        0.051756070117742872,
+        8.875,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "phlox-subulata"
+      },
+      "category" : {
+        "grass_tuft" : {
+
+        }
+      },
+      "dimensions" : [
+        0.40323546133441923,
+        0.10351214023548574,
+        0.40323546133441923
+      ],
+      "identifier" : "3cd1af8a-36aa-48c7-bda0-6d9c7f38ea69",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        3.7749999999999999,
+        0.051756070117742872,
+        8.875,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "phlox-subulata"
+      },
+      "category" : {
+        "grass_tuft" : {
+
+        }
+      },
+      "dimensions" : [
+        0.40323546133441923,
+        0.10351214023548574,
+        0.40323546133441923
+      ],
+      "identifier" : "3bd1adf7-37aa-4a5a-80a0-72557c38e5b0",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0.625,
+        0.051756070117742872,
+        9.3249999999999993,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "phlox-subulata"
+      },
+      "category" : {
+        "grass_tuft" : {
+
+        }
+      },
+      "dimensions" : [
+        0.40323546133441923,
+        0.10351214023548574,
+        0.40323546133441923
+      ],
+      "identifier" : "3ad1ac64-38aa-4bed-bfa0-70c27d38e743",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1.075,
+        0.051756070117742872,
+        9.3249999999999993,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "phlox-subulata"
+      },
+      "category" : {
+        "grass_tuft" : {
+
+        }
+      },
+      "dimensions" : [
+        0.40323546133441923,
+        0.10351214023548574,
+        0.40323546133441923
+      ],
+      "identifier" : "39d1aad1-31aa-40e8-baa0-68e38238ef22",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1.5249999999999999,
+        0.051756070117742872,
+        9.3249999999999993,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "phlox-subulata"
+      },
+      "category" : {
+        "grass_tuft" : {
+
+        }
+      },
+      "dimensions" : [
+        0.40323546133441923,
+        0.10351214023548574,
+        0.40323546133441923
+      ],
+      "identifier" : "38d1a93e-32aa-427b-b9a0-67508338f0b5",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1.9750000000000001,
+        0.051756070117742872,
+        9.3249999999999993,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "phlox-subulata"
+      },
+      "category" : {
+        "grass_tuft" : {
+
+        }
+      },
+      "dimensions" : [
+        0.40323546133441923,
+        0.10351214023548574,
+        0.40323546133441923
+      ],
+      "identifier" : "37d1a7ab-33aa-440e-bca0-6c098038ebfc",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        2.4249999999999998,
+        0.051756070117742872,
+        9.3249999999999993,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "phlox-subulata"
+      },
+      "category" : {
+        "grass_tuft" : {
+
+        }
+      },
+      "dimensions" : [
+        0.40323546133441923,
+        0.10351214023548574,
+        0.40323546133441923
+      ],
+      "identifier" : "36d1a618-34aa-45a1-bba0-6a768138ed8f",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        2.875,
+        0.051756070117742872,
+        9.3249999999999993,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "phlox-subulata"
+      },
+      "category" : {
+        "grass_tuft" : {
+
+        }
+      },
+      "dimensions" : [
+        0.40323546133441923,
+        0.10351214023548574,
+        0.40323546133441923
+      ],
+      "identifier" : "35d1a485-2daa-4a9c-86a0-7bc78638f56e",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        3.3250000000000002,
+        0.051756070117742872,
+        9.3249999999999993,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "phlox-subulata"
+      },
+      "category" : {
+        "grass_tuft" : {
+
+        }
+      },
+      "dimensions" : [
+        0.40323546133441923,
+        0.10351214023548574,
+        0.40323546133441923
+      ],
+      "identifier" : "34d1a2f2-2eaa-4c2f-85a0-7a348738f701",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        3.7749999999999999,
+        0.051756070117742872,
+        9.3249999999999993,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "phlox-subulata"
+      },
+      "category" : {
+        "grass_tuft" : {
+
+        }
+      },
+      "dimensions" : [
+        0.40323546133441923,
+        0.10351214023548574,
+        0.40323546133441923
+      ],
+      "identifier" : "2bcad902-afa7-45ab-b48f-1650002ce989",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0.625,
+        0.051756070117742872,
+        9.7750000000000004,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "phlox-subulata"
+      },
+      "category" : {
+        "grass_tuft" : {
+
+        }
+      },
+      "dimensions" : [
+        0.40323546133441923,
+        0.10351214023548574,
+        0.40323546133441923
+      ],
+      "identifier" : "2ccada95-aea7-4418-b58f-17e3ff2ce7f6",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1.075,
+        0.051756070117742872,
+        9.7750000000000004,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "phlox-subulata"
+      },
+      "category" : {
+        "grass_tuft" : {
+
+        }
+      },
+      "dimensions" : [
+        0.40323546133441923,
+        0.10351214023548574,
+        0.40323546133441923
+      ],
+      "identifier" : "29cad5dc-b1a7-48d1-b68f-1976fe2ce663",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1.5249999999999999,
+        0.051756070117742872,
+        9.7750000000000004,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "phlox-subulata"
+      },
+      "category" : {
+        "grass_tuft" : {
+
+        }
+      },
+      "dimensions" : [
+        0.40323546133441923,
+        0.10351214023548574,
+        0.40323546133441923
+      ],
+      "identifier" : "2acad76f-b0a7-473e-b78f-1b09fd2ce4d0",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1.9750000000000001,
+        0.051756070117742872,
+        9.7750000000000004,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "phlox-subulata"
+      },
+      "category" : {
+        "grass_tuft" : {
+
+        }
+      },
+      "dimensions" : [
+        0.40323546133441923,
+        0.10351214023548574,
+        0.40323546133441923
+      ],
+      "identifier" : "27cad2b6-b3a7-4bf7-b88f-1c9c042cefd5",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        2.4249999999999998,
+        0.051756070117742872,
+        9.7750000000000004,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "phlox-subulata"
+      },
+      "category" : {
+        "grass_tuft" : {
+
+        }
+      },
+      "dimensions" : [
+        0.40323546133441923,
+        0.10351214023548574,
+        0.40323546133441923
+      ],
+      "identifier" : "28cad449-b2a7-4a64-b98f-1e2f032cee42",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        2.875,
+        0.051756070117742872,
+        9.7750000000000004,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "phlox-subulata"
+      },
+      "category" : {
+        "grass_tuft" : {
+
+        }
+      },
+      "dimensions" : [
+        0.40323546133441923,
+        0.10351214023548574,
+        0.40323546133441923
+      ],
+      "identifier" : "25cacf90-b5a7-4f1d-ba8f-1fc2022cecaf",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        3.3250000000000002,
+        0.051756070117742872,
+        9.7750000000000004,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "phlox-subulata"
+      },
+      "category" : {
+        "grass_tuft" : {
+
+        }
+      },
+      "dimensions" : [
+        0.40323546133441923,
+        0.10351214023548574,
+        0.40323546133441923
+      ],
+      "identifier" : "26cad123-b4a7-4d8a-bb8f-2155012ceb1c",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        3.7749999999999999,
+        0.051756070117742872,
+        9.7750000000000004,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "lineId" : "5c7e649f-488c-4f72-88db-7ffd02193f90",
+        "openlandscape3dKind" : "fence",
+        "openlandscape3dRole" : "proposed",
+        "segment" : 0
+      },
+      "category" : {
+        "picket_fence" : {
+
+        }
+      },
+      "dimensions" : [
+        9.1999999999999993,
+        1.8,
+        0.10000000000000001
+      ],
+      "identifier" : "cdb64af5-4c9e-42aa-8988-51476aeba37c",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        4.5999999999999996,
+        0.90000000000000002,
+        0,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "openlandscape3dKind" : "object",
+        "openlandscape3dRole" : "proposed"
+      },
+      "category" : {
+        "outdoor_pot_large" : {
+
+        }
+      },
+      "dimensions" : [
+        0.40000000000000002,
+        0.34999999999999998,
+        0.40000000000000002
+      ],
+      "identifier" : "5d7e6632-478c-4ddf-85db-7b4405194449",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        8.8000000000000007,
+        0.17499999999999999,
+        10.4,
+        1
+      ]
+    }
+  ],
+  "openings" : [
+
+  ],
+  "openlandscape3d" : {
+    "alternatives" : [
+
+    ],
+    "areas" : [
+      {
+        "elevation" : 0,
+        "id" : "ec860314-d08f-4421-80d9-34ce9211d37b",
+        "kind" : "driveway",
+        "materialId" : "gravel-crushed-stone",
+        "name" : "driveway 1",
+        "polygon" : [
+          [
+            16.600000000000001,
+            0
+          ],
+          [
+            19.600000000000001,
+            0
+          ],
+          [
+            19.600000000000001,
+            18
+          ],
+          [
+            16.600000000000001,
+            18
+          ]
+        ]
+      },
+      {
+        "elevation" : 0,
+        "id" : "ef8607cd-cd8f-4f68-bfd9-333b9311d50e",
+        "kind" : "path",
+        "materialId" : "mulch-wood-chips-arborist",
+        "name" : "path 2",
+        "polygon" : [
+          [
+            9.4000000000000004,
+            0
+          ],
+          [
+            10.6,
+            0
+          ],
+          [
+            10.6,
+            10
+          ],
+          [
+            9.4000000000000004,
+            10
+          ]
+        ]
+      },
+      {
+        "elevation" : 0,
+        "id" : "ee86063a-ce8f-40fb-bed9-31a89411d6a1",
+        "kind" : "bed",
+        "materialId" : "mulch-shredded-hardwood",
+        "name" : "bed 3",
+        "polygon" : [
+          [
+            4,
+            7.5999999999999996
+          ],
+          [
+            9.1999999999999993,
+            7.5999999999999996
+          ],
+          [
+            9.1999999999999993,
+            10
+          ],
+          [
+            4,
+            10
+          ]
+        ]
+      },
+      {
+        "elevation" : 0,
+        "id" : "e985fe5b-d38f-48da-85d9-3cad9511d834",
+        "kind" : "bed",
+        "materialId" : "mulch-shredded-hardwood",
+        "name" : "bed 4",
+        "polygon" : [
+          [
+            10.800000000000001,
+            7.5999999999999996
+          ],
+          [
+            16,
+            7.5999999999999996
+          ],
+          [
+            16,
+            10
+          ],
+          [
+            10.800000000000001,
+            10
+          ]
+        ]
+      },
+      {
+        "elevation" : 0,
+        "id" : "e885fcc8-d48f-4a6d-84d9-3b1a9611d9c7",
+        "kind" : "lawn",
+        "materialId" : "lawn-tall-fescue",
+        "name" : "lawn 5",
+        "polygon" : [
+          [
+            0.40000000000000002,
+            0.40000000000000002
+          ],
+          [
+            16.199999999999999,
+            0.40000000000000002
+          ],
+          [
+            16.199999999999999,
+            7.4000000000000004
+          ],
+          [
+            0.40000000000000002,
+            7.4000000000000004
+          ]
+        ]
+      }
+    ],
+    "building" : null,
+    "captureSource" : "manual",
+    "catalogVersion" : "ol-plants@0.1",
+    "createdAt" : "2027-01-15T00:00:00Z",
+    "groups" : [
+      {
+        "id" : "e585f80f-c78f-45f6-b9d9-29c98911c550",
+        "instanceIds" : [
+          "41739427-c564-4f1c-8b50-0f317fa85fb6",
+          "40739294-c664-40af-8a50-0d9e80a86149",
+          "4373974d-c764-4242-8950-0c0b7da85c90",
+          "427395ba-c864-43d5-8850-0a787ea85e23"
+        ],
+        "kind" : "row",
+        "mix" : [
+          {
+            "plantId" : "callicarpa-americana",
+            "ratio" : 2
+          }
+        ],
+        "path" : [
+          [
+            11.199999999999999,
+            9.1999999999999993
+          ],
+          [
+            15.6,
+            9.1999999999999993
+          ]
+        ],
+        "seed" : 6,
+        "spacing" : 1.2
+      },
+      {
+        "id" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "instanceIds" : [
+          "547fc7d3-3943-4b48-a55d-3e998c7f991e",
+          "537fc640-3a43-4cdb-a45d-3d068d7f9ab1",
+          "567fcaf9-3b43-4e6e-a35d-3b738a7f95f8",
+          "557fc966-3c43-4001-a25d-39e08b7f978b",
+          "587fce1f-3d43-4194-a95d-44e5907f9f6a",
+          "577fcc8c-3e43-4327-a85d-4352917fa0fd",
+          "5a7fd145-3f43-44ba-a75d-41bf8e7f9c44",
+          "597fcfb2-4043-464d-a65d-402c8f7f9dd7",
+          "5c7fd46b-3143-4eb0-ad5d-4b31847f8c86",
+          "5b7fd2d8-3243-4043-ac5d-499e857f8e19",
+          "e2256250-a30b-45f1-b4c7-5c0240e03913",
+          "e32563e3-a20b-445e-b5c7-5d953fe03780",
+          "e4256576-a10b-42cb-b2c7-58dc42e03c39",
+          "e5256709-a00b-4138-b3c7-5a6f41e03aa6",
+          "e625689c-a70b-4c3d-b0c7-55b644e03f5f",
+          "e7256a2f-a60b-4aaa-b1c7-574943e03dcc",
+          "e8256bc2-a50b-4917-aec7-529046e04285",
+          "e9256d55-a40b-4784-afc7-542345e040f2",
+          "ea256ee8-9b0b-4959-bcc7-689a48e045ab",
+          "eb25707b-9a0b-47c6-bdc7-6a2d47e04418",
+          "f42c3a6b-a90d-4dfa-aec4-4a79ced8c9d8",
+          "f32c38d8-aa0d-4f8d-adc4-48e6cfd8cb6b",
+          "f62c3d91-a70d-4ad4-acc4-4753d0d8ccfe",
+          "f52c3bfe-a80d-4c67-abc4-45c0d1d8ce91",
+          "f82c40b7-a50d-47ae-b2c4-50c5d2d8d024",
+          "f72c3f24-a60d-4941-b1c4-4f32d3d8d1b7",
+          "fa2c43dd-a30d-4488-b0c4-4d9fd4d8d34a",
+          "f92c424a-a40d-461b-afc4-4c0cd5d8d4dd",
+          "ec2c2dd3-a10d-4162-b6c4-5711c6d8bd40",
+          "eb2c2c40-a20d-42f5-b5c4-557ec7d8bed3",
+          "ee29f262-0f10-4d23-a8c2-027054dbdb61",
+          "ef29f3f5-0e10-4b90-a9c2-040353dbd9ce",
+          "ec29ef3c-1110-4049-aac2-059652dbd83b",
+          "ed29f0cf-1010-4eb6-abc2-072951dbd6a8",
+          "ea29ec16-1310-436f-acc2-08bc58dbe1ad",
+          "eb29eda9-1210-41dc-adc2-0a4f57dbe01a",
+          "e829e8f0-1510-4695-aec2-0be256dbde87",
+          "e929ea83-1410-4502-afc2-0d7555dbdcf4",
+          "f629fefa-1710-49bb-b0c2-0f084cdbcec9",
+          "f72a008d-1610-4828-b1c2-109b4bdbcd36",
+          "803193fd-1512-452c-b2d3-5b4fd2e7daae",
+          "7f31926a-1612-46bf-b1d3-59bcd3e7dc41",
+          "7e3190d7-1712-4852-b4d3-5e75d0e7d788",
+          "7d318f44-1812-49e5-b3d3-5ce2d1e7d91b",
+          "7c318db1-1112-4ee0-aed3-5503d6e7e0fa",
+          "7b318c1e-1212-4073-add3-5370d7e7e28d",
+          "7a318a8b-1312-4206-b0d3-5829d4e7ddd4",
+          "793188f8-1412-4399-afd3-5696d5e7df67",
+          "78318765-1d12-41c4-bad3-67e7cae7ce16",
+          "773185d2-1e12-4357-b9d3-6654cbe7cfa9",
+          "7a2f4bf4-1b14-4d35-acd1-1346d8ea22b7",
+          "7b2f4d87-1a14-4ba2-add1-14d9d7ea2124",
+          "7c2f4f1a-1914-4a0f-aad1-1020daea25dd",
+          "7d2f50ad-1814-487c-abd1-11b3d9ea244a",
+          "762f45a8-1714-46e9-b0d1-1992d4ea1c6b",
+          "772f473b-1614-4556-b1d1-1b25d3ea1ad8",
+          "782f48ce-1514-43c3-aed1-166cd6ea1f91",
+          "792f4a61-1414-4230-afd1-17ffd5ea1dfe",
+          "722f3f5c-2315-49cd-b4d1-1fded0ea161f",
+          "732f40ef-2215-483a-b5d1-2171cfea148c"
+        ],
+        "kind" : "mass",
+        "mix" : [
+          {
+            "plantId" : "coreopsis-lanceolata",
+            "ratio" : 2
+          },
+          {
+            "plantId" : "muhlenbergia-capillaris",
+            "ratio" : 1
+          }
+        ],
+        "polygon" : [
+          [
+            4,
+            7.5999999999999996
+          ],
+          [
+            9.1999999999999993,
+            7.5999999999999996
+          ],
+          [
+            9.1999999999999993,
+            10
+          ],
+          [
+            4,
+            10
+          ]
+        ],
+        "seed" : 8,
+        "spacing" : 0.45000000000000001
+      },
+      {
+        "id" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "instanceIds" : [
+          "10adf252-96d5-4105-814f-c88cb9b5d00f",
+          "11adf3e5-95d5-4f72-824f-ca1fb8b5ce7c",
+          "0eadef2c-94d5-4ddf-834f-cbb2bbb5d335",
+          "0fadf0bf-93d5-4c4c-844f-cd45bab5d1a2",
+          "0cadec06-92d5-4ab9-bd4f-c240b5b5c9c3",
+          "0daded99-91d5-4926-be4f-c3d3b4b5c830",
+          "0aade8e0-90d5-4793-bf4f-c566b7b5cce9",
+          "0badea73-8fd5-4600-804f-c6f9b6b5cb56",
+          "18adfeea-9ed5-4d9d-894f-d524c1b5dca7",
+          "19ae007d-9dd5-4c0a-8a4f-d6b7c0b5db14",
+          "a9d6d84f-21ae-44e6-929b-47fd1233c1a4",
+          "a8d6d6bc-22ae-4679-919b-466a1333c337",
+          "abd6db75-1fae-41c0-909b-44d71433c4ca",
+          "aad6d9e2-20ae-4353-8f9b-43441533c65d",
+          "a5d6d203-25ae-4b32-8e9b-41b10e33bb58",
+          "a4d6d070-26ae-4cc5-8d9b-401e0f33bceb",
+          "a7d6d529-23ae-480c-8c9b-3e8b1033be7e",
+          "a6d6d396-24ae-499f-8b9b-3cf81133c011",
+          "b1d6e4e7-29ae-417e-8a9b-3b650a33b50c",
+          "b0d6e354-2aae-4311-899b-39d20b33b69f",
+          "37cf6914-3bac-4f3d-b89d-5da6843b30df",
+          "38cf6aa7-3aac-4daa-b99d-5f39833b2f4c",
+          "39cf6c3a-39ac-4c17-b69d-5a80863b3405",
+          "3acf6dcd-38ac-4a84-b79d-5c13853b3272",
+          "33cf62c8-37ac-48f1-bc9d-63f2803b2a93",
+          "34cf645b-36ac-475e-bd9d-65857f3b2900",
+          "35cf65ee-35ac-45cb-ba9d-60cc823b2db9",
+          "36cf6781-34ac-4438-bb9d-625f813b2c26",
+          "2fcf5c7c-33ac-42a5-809d-6a3e8c3b3d77",
+          "30cf5e0f-32ac-4112-819d-6bd18b3b3be4",
+          "3dd1b11d-35aa-4734-bea0-6f2f7e38e8d6",
+          "3cd1af8a-36aa-48c7-bda0-6d9c7f38ea69",
+          "3bd1adf7-37aa-4a5a-80a0-72557c38e5b0",
+          "3ad1ac64-38aa-4bed-bfa0-70c27d38e743",
+          "39d1aad1-31aa-40e8-baa0-68e38238ef22",
+          "38d1a93e-32aa-427b-b9a0-67508338f0b5",
+          "37d1a7ab-33aa-440e-bca0-6c098038ebfc",
+          "36d1a618-34aa-45a1-bba0-6a768138ed8f",
+          "35d1a485-2daa-4a9c-86a0-7bc78638f56e",
+          "34d1a2f2-2eaa-4c2f-85a0-7a348738f701",
+          "2bcad902-afa7-45ab-b48f-1650002ce989",
+          "2ccada95-aea7-4418-b58f-17e3ff2ce7f6",
+          "29cad5dc-b1a7-48d1-b68f-1976fe2ce663",
+          "2acad76f-b0a7-473e-b78f-1b09fd2ce4d0",
+          "27cad2b6-b3a7-4bf7-b88f-1c9c042cefd5",
+          "28cad449-b2a7-4a64-b98f-1e2f032cee42",
+          "25cacf90-b5a7-4f1d-ba8f-1fc2022cecaf",
+          "26cad123-b4a7-4d8a-bb8f-2155012ceb1c"
+        ],
+        "kind" : "grid",
+        "mix" : [
+          {
+            "plantId" : "phlox-subulata",
+            "ratio" : 2
+          }
+        ],
+        "polygon" : [
+          [
+            0.59999999999999998,
+            7.5
+          ],
+          [
+            3.7999999999999998,
+            7.5
+          ],
+          [
+            3.7999999999999998,
+            9.8000000000000007
+          ],
+          [
+            0.59999999999999998,
+            9.8000000000000007
+          ]
+        ],
+        "seed" : 9,
+        "spacing" : 0.45000000000000001
+      }
+    ],
+    "lines" : [
+      {
+        "gates" : [
+
+        ],
+        "height" : 1.8,
+        "id" : "5c7e649f-488c-4f72-88db-7ffd02193f90",
+        "kind" : "fence",
+        "materialId" : "fence-board-wood",
+        "points" : [
+          [
+            0,
+            0
+          ],
+          [
+            9.1999999999999993,
+            0
+          ]
+        ],
+        "style" : "picket",
+        "thickness" : 0.10000000000000001
+      }
+    ],
+    "name" : "Web southeast front yard",
+    "objects" : [
+      {
+        "catalogId" : "outdoor_pot_large",
+        "depth" : 0.40000000000000002,
+        "elevation" : 0,
+        "height" : 0.34999999999999998,
+        "id" : "5d7e6632-478c-4ddf-85db-7b4405194449",
+        "rotation" : 0,
+        "status" : "proposed",
+        "width" : 0.40000000000000002,
+        "x" : 8.8000000000000007,
+        "y" : 10.4
+      }
+    ],
+    "observations" : [
+
+    ],
+    "overrides" : [
+
+    ],
+    "plants" : [
+      {
+        "id" : "eb860181-d18f-45b4-83d9-39879711db5a",
+        "installHeight" : 2,
+        "installSize" : "#15",
+        "installSpread" : 0.90000000000000002,
+        "plantedYear" : 0,
+        "plantId" : "cercis-canadensis",
+        "seed" : 1616,
+        "status" : "proposed",
+        "x" : 3.5,
+        "y" : 3.5
+      },
+      {
+        "id" : "ea85ffee-d28f-4747-82d9-37f49811dced",
+        "installHeight" : 3,
+        "installSize" : "BB-3in",
+        "installSpread" : 2,
+        "plantedYear" : 0,
+        "plantId" : "sabal-palmetto",
+        "seed" : 1717,
+        "status" : "proposed",
+        "x" : 14,
+        "y" : 3
+      },
+      {
+        "groupId" : "e585f80f-c78f-45f6-b9d9-29c98911c550",
+        "id" : "41739427-c564-4f1c-8b50-0f317fa85fb6",
+        "installHeight" : 0.5,
+        "installSize" : "#3",
+        "installSpread" : 0.45000000000000001,
+        "plantedYear" : 0,
+        "plantId" : "callicarpa-americana",
+        "seed" : 11704753,
+        "status" : "proposed",
+        "x" : 11.75,
+        "y" : 9.1999999999999993
+      },
+      {
+        "groupId" : "e585f80f-c78f-45f6-b9d9-29c98911c550",
+        "id" : "40739294-c664-40af-8a50-0d9e80a86149",
+        "installHeight" : 0.5,
+        "installSize" : "#3",
+        "installSpread" : 0.45000000000000001,
+        "plantedYear" : 0,
+        "plantId" : "callicarpa-americana",
+        "seed" : 61958257,
+        "status" : "proposed",
+        "x" : 12.85,
+        "y" : 9.1999999999999993
+      },
+      {
+        "groupId" : "e585f80f-c78f-45f6-b9d9-29c98911c550",
+        "id" : "4373974d-c764-4242-8950-0c0b7da85c90",
+        "installHeight" : 0.5,
+        "installSize" : "#3",
+        "installSpread" : 0.45000000000000001,
+        "plantedYear" : 0,
+        "plantId" : "callicarpa-americana",
+        "seed" : 976907632,
+        "status" : "proposed",
+        "x" : 13.949999999999999,
+        "y" : 9.1999999999999993
+      },
+      {
+        "groupId" : "e585f80f-c78f-45f6-b9d9-29c98911c550",
+        "id" : "427395ba-c864-43d5-8850-0a787ea85e23",
+        "installHeight" : 0.5,
+        "installSize" : "#3",
+        "installSpread" : 0.45000000000000001,
+        "plantedYear" : 0,
+        "plantId" : "callicarpa-americana",
+        "seed" : 699028705,
+        "status" : "proposed",
+        "x" : 15.050000000000001,
+        "y" : 9.1999999999999993
+      },
+      {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "id" : "547fc7d3-3943-4b48-a55d-3e998c7f991e",
+        "installHeight" : 0.27000000000000002,
+        "installSize" : "#1",
+        "installSpread" : 0.27000000000000002,
+        "plantedYear" : 0,
+        "plantId" : "coreopsis-lanceolata",
+        "seed" : 198728918,
+        "status" : "proposed",
+        "x" : 4.8129999999999997,
+        "y" : 9.0999999999999996
+      },
+      {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "id" : "537fc640-3a43-4cdb-a45d-3d068d7f9ab1",
+        "installHeight" : 0.27000000000000002,
+        "installSize" : "#1",
+        "installSpread" : 0.27000000000000002,
+        "plantedYear" : 0,
+        "plantId" : "coreopsis-lanceolata",
+        "seed" : 851210796,
+        "status" : "proposed",
+        "x" : 5.5629999999999997,
+        "y" : 9.2699999999999996
+      },
+      {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "id" : "567fcaf9-3b43-4e6e-a35d-3b738a7f95f8",
+        "installHeight" : 0.27000000000000002,
+        "installSize" : "#1",
+        "installSpread" : 0.27000000000000002,
+        "plantedYear" : 0,
+        "plantId" : "coreopsis-lanceolata",
+        "seed" : 141766106,
+        "status" : "proposed",
+        "x" : 7.0419999999999998,
+        "y" : 8.6790000000000003
+      },
+      {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "id" : "557fc966-3c43-4001-a25d-39e08b7f978b",
+        "installHeight" : 0.27000000000000002,
+        "installSize" : "#1",
+        "installSpread" : 0.27000000000000002,
+        "plantedYear" : 0,
+        "plantId" : "coreopsis-lanceolata",
+        "seed" : 821671717,
+        "status" : "proposed",
+        "x" : 8.2579999999999991,
+        "y" : 8.173
+      },
+      {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "id" : "587fce1f-3d43-4194-a95d-44e5907f9f6a",
+        "installHeight" : 0.27000000000000002,
+        "installSize" : "#1",
+        "installSpread" : 0.27000000000000002,
+        "plantedYear" : 0,
+        "plantId" : "coreopsis-lanceolata",
+        "seed" : 723804400,
+        "status" : "proposed",
+        "x" : 6.6340000000000003,
+        "y" : 7.7439999999999998
+      },
+      {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "id" : "577fcc8c-3e43-4327-a85d-4352917fa0fd",
+        "installHeight" : 0.34999999999999998,
+        "installSize" : "#1",
+        "installSpread" : 0.29999999999999999,
+        "plantedYear" : 0,
+        "plantId" : "muhlenbergia-capillaris",
+        "seed" : 688861610,
+        "status" : "proposed",
+        "x" : 6.9610000000000003,
+        "y" : 8.1289999999999996
+      },
+      {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "id" : "5a7fd145-3f43-44ba-a75d-41bf8e7f9c44",
+        "installHeight" : 0.27000000000000002,
+        "installSize" : "#1",
+        "installSpread" : 0.27000000000000002,
+        "plantedYear" : 0,
+        "plantId" : "coreopsis-lanceolata",
+        "seed" : 262718433,
+        "status" : "proposed",
+        "x" : 4.835,
+        "y" : 9.891
+      },
+      {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "id" : "597fcfb2-4043-464d-a65d-402c8f7f9dd7",
+        "installHeight" : 0.34999999999999998,
+        "installSize" : "#1",
+        "installSpread" : 0.29999999999999999,
+        "plantedYear" : 0,
+        "plantId" : "muhlenbergia-capillaris",
+        "seed" : 919454253,
+        "status" : "proposed",
+        "x" : 7.6059999999999999,
+        "y" : 7.8179999999999996
+      },
+      {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "id" : "5c7fd46b-3143-4eb0-ad5d-4b31847f8c86",
+        "installHeight" : 0.27000000000000002,
+        "installSize" : "#1",
+        "installSpread" : 0.27000000000000002,
+        "plantedYear" : 0,
+        "plantId" : "coreopsis-lanceolata",
+        "seed" : 130861654,
+        "status" : "proposed",
+        "x" : 4.665,
+        "y" : 7.6950000000000003
+      },
+      {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "id" : "5b7fd2d8-3243-4043-ac5d-499e857f8e19",
+        "installHeight" : 0.27000000000000002,
+        "installSize" : "#1",
+        "installSpread" : 0.27000000000000002,
+        "plantedYear" : 0,
+        "plantId" : "coreopsis-lanceolata",
+        "seed" : 632290520,
+        "status" : "proposed",
+        "x" : 7.9139999999999997,
+        "y" : 9.4580000000000002
+      },
+      {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "id" : "e2256250-a30b-45f1-b4c7-5c0240e03913",
+        "installHeight" : 0.27000000000000002,
+        "installSize" : "#1",
+        "installSpread" : 0.27000000000000002,
+        "plantedYear" : 0,
+        "plantId" : "coreopsis-lanceolata",
+        "seed" : 698015773,
+        "status" : "proposed",
+        "x" : 4.2060000000000004,
+        "y" : 8.6890000000000001
+      },
+      {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "id" : "e32563e3-a20b-445e-b5c7-5d953fe03780",
+        "installHeight" : 0.27000000000000002,
+        "installSize" : "#1",
+        "installSpread" : 0.27000000000000002,
+        "plantedYear" : 0,
+        "plantId" : "coreopsis-lanceolata",
+        "seed" : 587285391,
+        "status" : "proposed",
+        "x" : 5.8650000000000002,
+        "y" : 8.8010000000000002
+      },
+      {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "id" : "e4256576-a10b-42cb-b2c7-58dc42e03c39",
+        "installHeight" : 0.34999999999999998,
+        "installSize" : "#1",
+        "installSpread" : 0.29999999999999999,
+        "plantedYear" : 0,
+        "plantId" : "muhlenbergia-capillaris",
+        "seed" : 283429781,
+        "status" : "proposed",
+        "x" : 8.6780000000000008,
+        "y" : 8.827
+      },
+      {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "id" : "e5256709-a00b-4138-b3c7-5a6f41e03aa6",
+        "installHeight" : 0.34999999999999998,
+        "installSize" : "#1",
+        "installSpread" : 0.29999999999999999,
+        "plantedYear" : 0,
+        "plantId" : "muhlenbergia-capillaris",
+        "seed" : 937816724,
+        "status" : "proposed",
+        "x" : 7.3760000000000003,
+        "y" : 8.3390000000000004
+      },
+      {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "id" : "e625689c-a70b-4c3d-b0c7-55b644e03f5f",
+        "installHeight" : 0.34999999999999998,
+        "installSize" : "#1",
+        "installSpread" : 0.29999999999999999,
+        "plantedYear" : 0,
+        "plantId" : "muhlenbergia-capillaris",
+        "seed" : 287022482,
+        "status" : "proposed",
+        "x" : 5.4390000000000001,
+        "y" : 7.8499999999999996
+      },
+      {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "id" : "e7256a2f-a60b-4aaa-b1c7-574943e03dcc",
+        "installHeight" : 0.34999999999999998,
+        "installSize" : "#1",
+        "installSpread" : 0.29999999999999999,
+        "plantedYear" : 0,
+        "plantId" : "muhlenbergia-capillaris",
+        "seed" : 730271308,
+        "status" : "proposed",
+        "x" : 5.6130000000000004,
+        "y" : 10
+      },
+      {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "id" : "e8256bc2-a50b-4917-aec7-529046e04285",
+        "installHeight" : 0.27000000000000002,
+        "installSize" : "#1",
+        "installSpread" : 0.27000000000000002,
+        "plantedYear" : 0,
+        "plantId" : "coreopsis-lanceolata",
+        "seed" : 641974089,
+        "status" : "proposed",
+        "x" : 8.1039999999999992,
+        "y" : 9.9949999999999992
+      },
+      {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "id" : "e9256d55-a40b-4784-afc7-542345e040f2",
+        "installHeight" : 0.34999999999999998,
+        "installSize" : "#1",
+        "installSpread" : 0.29999999999999999,
+        "plantedYear" : 0,
+        "plantId" : "muhlenbergia-capillaris",
+        "seed" : 366936726,
+        "status" : "proposed",
+        "x" : 5.2999999999999998,
+        "y" : 9.6649999999999991
+      },
+      {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "id" : "ea256ee8-9b0b-4959-bcc7-689a48e045ab",
+        "installHeight" : 0.27000000000000002,
+        "installSize" : "#1",
+        "installSpread" : 0.27000000000000002,
+        "plantedYear" : 0,
+        "plantId" : "coreopsis-lanceolata",
+        "seed" : 535546236,
+        "status" : "proposed",
+        "x" : 6.1079999999999997,
+        "y" : 7.8760000000000003
+      },
+      {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "id" : "eb25707b-9a0b-47c6-bdc7-6a2d47e04418",
+        "installHeight" : 0.34999999999999998,
+        "installSize" : "#1",
+        "installSpread" : 0.29999999999999999,
+        "plantedYear" : 0,
+        "plantId" : "muhlenbergia-capillaris",
+        "seed" : 897438322,
+        "status" : "proposed",
+        "x" : 4.1180000000000003,
+        "y" : 9.9019999999999992
+      },
+      {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "id" : "f42c3a6b-a90d-4dfa-aec4-4a79ced8c9d8",
+        "installHeight" : 0.27000000000000002,
+        "installSize" : "#1",
+        "installSpread" : 0.27000000000000002,
+        "plantedYear" : 0,
+        "plantId" : "coreopsis-lanceolata",
+        "seed" : 865558857,
+        "status" : "proposed",
+        "x" : 7.1539999999999999,
+        "y" : 9.5060000000000002
+      },
+      {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "id" : "f32c38d8-aa0d-4f8d-adc4-48e6cfd8cb6b",
+        "installHeight" : 0.27000000000000002,
+        "installSize" : "#1",
+        "installSpread" : 0.27000000000000002,
+        "plantedYear" : 0,
+        "plantId" : "coreopsis-lanceolata",
+        "seed" : 455327980,
+        "status" : "proposed",
+        "x" : 4.0060000000000002,
+        "y" : 9.4049999999999994
+      },
+      {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "id" : "f62c3d91-a70d-4ad4-acc4-4753d0d8ccfe",
+        "installHeight" : 0.27000000000000002,
+        "installSize" : "#1",
+        "installSpread" : 0.27000000000000002,
+        "plantedYear" : 0,
+        "plantId" : "coreopsis-lanceolata",
+        "seed" : 873687724,
+        "status" : "proposed",
+        "x" : 9.1120000000000001,
+        "y" : 9.7289999999999992
+      },
+      {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "id" : "f52c3bfe-a80d-4c67-abc4-45c0d1d8ce91",
+        "installHeight" : 0.27000000000000002,
+        "installSize" : "#1",
+        "installSpread" : 0.27000000000000002,
+        "plantedYear" : 0,
+        "plantId" : "coreopsis-lanceolata",
+        "seed" : 189815982,
+        "status" : "proposed",
+        "x" : 7.484,
+        "y" : 9.891
+      },
+      {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "id" : "f82c40b7-a50d-47ae-b2c4-50c5d2d8d024",
+        "installHeight" : 0.34999999999999998,
+        "installSize" : "#1",
+        "installSpread" : 0.29999999999999999,
+        "plantedYear" : 0,
+        "plantId" : "muhlenbergia-capillaris",
+        "seed" : 677282027,
+        "status" : "proposed",
+        "x" : 7.8470000000000004,
+        "y" : 8.8450000000000006
+      },
+      {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "id" : "f72c3f24-a60d-4941-b1c4-4f32d3d8d1b7",
+        "installHeight" : 0.34999999999999998,
+        "installSize" : "#1",
+        "installSpread" : 0.29999999999999999,
+        "plantedYear" : 0,
+        "plantId" : "muhlenbergia-capillaris",
+        "seed" : 333560433,
+        "status" : "proposed",
+        "x" : 5.8899999999999997,
+        "y" : 8.2379999999999995
+      },
+      {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "id" : "fa2c43dd-a30d-4488-b0c4-4d9fd4d8d34a",
+        "installHeight" : 0.34999999999999998,
+        "installSize" : "#1",
+        "installSpread" : 0.29999999999999999,
+        "plantedYear" : 0,
+        "plantId" : "muhlenbergia-capillaris",
+        "seed" : 48094903,
+        "status" : "proposed",
+        "x" : 9.0850000000000009,
+        "y" : 7.742
+      },
+      {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "id" : "f92c424a-a40d-461b-afc4-4c0cd5d8d4dd",
+        "installHeight" : 0.27000000000000002,
+        "installSize" : "#1",
+        "installSpread" : 0.27000000000000002,
+        "plantedYear" : 0,
+        "plantId" : "coreopsis-lanceolata",
+        "seed" : 876311883,
+        "status" : "proposed",
+        "x" : 5.3739999999999997,
+        "y" : 8.8840000000000003
+      },
+      {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "id" : "ec2c2dd3-a10d-4162-b6c4-5711c6d8bd40",
+        "installHeight" : 0.34999999999999998,
+        "installSize" : "#1",
+        "installSpread" : 0.29999999999999999,
+        "plantedYear" : 0,
+        "plantId" : "muhlenbergia-capillaris",
+        "seed" : 204536381,
+        "status" : "proposed",
+        "x" : 6.4550000000000001,
+        "y" : 8.1069999999999993
+      },
+      {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "id" : "eb2c2c40-a20d-42f5-b5c4-557ec7d8bed3",
+        "installHeight" : 0.27000000000000002,
+        "installSize" : "#1",
+        "installSpread" : 0.27000000000000002,
+        "plantedYear" : 0,
+        "plantId" : "coreopsis-lanceolata",
+        "seed" : 526356223,
+        "status" : "proposed",
+        "x" : 6.218,
+        "y" : 9.1110000000000007
+      },
+      {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "id" : "ee29f262-0f10-4d23-a8c2-027054dbdb61",
+        "installHeight" : 0.27000000000000002,
+        "installSize" : "#1",
+        "installSpread" : 0.27000000000000002,
+        "plantedYear" : 0,
+        "plantId" : "coreopsis-lanceolata",
+        "seed" : 494090859,
+        "status" : "proposed",
+        "x" : 8.7669999999999995,
+        "y" : 8.0139999999999993
+      },
+      {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "id" : "ef29f3f5-0e10-4b90-a9c2-040353dbd9ce",
+        "installHeight" : 0.27000000000000002,
+        "installSize" : "#1",
+        "installSpread" : 0.27000000000000002,
+        "plantedYear" : 0,
+        "plantId" : "coreopsis-lanceolata",
+        "seed" : 74736304,
+        "status" : "proposed",
+        "x" : 6.6500000000000004,
+        "y" : 9.4849999999999994
+      },
+      {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "id" : "ec29ef3c-1110-4049-aac2-059652dbd83b",
+        "installHeight" : 0.27000000000000002,
+        "installSize" : "#1",
+        "installSpread" : 0.27000000000000002,
+        "plantedYear" : 0,
+        "plantId" : "coreopsis-lanceolata",
+        "seed" : 834226198,
+        "status" : "proposed",
+        "x" : 5.1589999999999998,
+        "y" : 8.343
+      },
+      {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "id" : "ed29f0cf-1010-4eb6-abc2-072951dbd6a8",
+        "installHeight" : 0.27000000000000002,
+        "installSize" : "#1",
+        "installSpread" : 0.27000000000000002,
+        "plantedYear" : 0,
+        "plantId" : "coreopsis-lanceolata",
+        "seed" : 703724918,
+        "status" : "proposed",
+        "x" : 4.0220000000000002,
+        "y" : 7.6310000000000002
+      },
+      {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "id" : "ea29ec16-1310-436f-acc2-08bc58dbe1ad",
+        "installHeight" : 0.27000000000000002,
+        "installSize" : "#1",
+        "installSpread" : 0.27000000000000002,
+        "plantedYear" : 0,
+        "plantId" : "coreopsis-lanceolata",
+        "seed" : 196797924,
+        "status" : "proposed",
+        "x" : 4.0620000000000003,
+        "y" : 8.1630000000000003
+      },
+      {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "id" : "eb29eda9-1210-41dc-adc2-0a4f57dbe01a",
+        "installHeight" : 0.27000000000000002,
+        "installSize" : "#1",
+        "installSpread" : 0.27000000000000002,
+        "plantedYear" : 0,
+        "plantId" : "coreopsis-lanceolata",
+        "seed" : 68331403,
+        "status" : "proposed",
+        "x" : 8.7010000000000005,
+        "y" : 9.4809999999999999
+      },
+      {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "id" : "e829e8f0-1510-4695-aec2-0be256dbde87",
+        "installHeight" : 0.34999999999999998,
+        "installSize" : "#1",
+        "installSpread" : 0.29999999999999999,
+        "plantedYear" : 0,
+        "plantId" : "muhlenbergia-capillaris",
+        "seed" : 488799631,
+        "status" : "proposed",
+        "x" : 7.3890000000000002,
+        "y" : 9.1370000000000005
+      },
+      {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "id" : "e929ea83-1410-4502-afc2-0d7555dbdcf4",
+        "installHeight" : 0.27000000000000002,
+        "installSize" : "#1",
+        "installSpread" : 0.27000000000000002,
+        "plantedYear" : 0,
+        "plantId" : "coreopsis-lanceolata",
+        "seed" : 309700391,
+        "status" : "proposed",
+        "x" : 4.7030000000000003,
+        "y" : 8.2780000000000005
+      },
+      {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "id" : "f629fefa-1710-49bb-b0c2-0f084cdbcec9",
+        "installHeight" : 0.27000000000000002,
+        "installSize" : "#1",
+        "installSpread" : 0.27000000000000002,
+        "plantedYear" : 0,
+        "plantId" : "coreopsis-lanceolata",
+        "seed" : 658729702,
+        "status" : "proposed",
+        "x" : 5.8680000000000003,
+        "y" : 9.6799999999999997
+      },
+      {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "id" : "f72a008d-1610-4828-b1c2-109b4bdbcd36",
+        "installHeight" : 0.27000000000000002,
+        "installSize" : "#1",
+        "installSpread" : 0.27000000000000002,
+        "plantedYear" : 0,
+        "plantId" : "coreopsis-lanceolata",
+        "seed" : 292151845,
+        "status" : "proposed",
+        "x" : 8.1959999999999997,
+        "y" : 8.6679999999999993
+      },
+      {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "id" : "803193fd-1512-452c-b2d3-5b4fd2e7daae",
+        "installHeight" : 0.27000000000000002,
+        "installSize" : "#1",
+        "installSpread" : 0.27000000000000002,
+        "plantedYear" : 0,
+        "plantId" : "coreopsis-lanceolata",
+        "seed" : 553350382,
+        "status" : "proposed",
+        "x" : 4.4160000000000004,
+        "y" : 9.1769999999999996
+      },
+      {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "id" : "7f31926a-1612-46bf-b1d3-59bcd3e7dc41",
+        "installHeight" : 0.34999999999999998,
+        "installSize" : "#1",
+        "installSpread" : 0.29999999999999999,
+        "plantedYear" : 0,
+        "plantId" : "muhlenbergia-capillaris",
+        "seed" : 957069191,
+        "status" : "proposed",
+        "x" : 9.1310000000000002,
+        "y" : 8.9730000000000008
+      },
+      {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "id" : "7e3190d7-1712-4852-b4d3-5e75d0e7d788",
+        "installHeight" : 0.34999999999999998,
+        "installSize" : "#1",
+        "installSpread" : 0.29999999999999999,
+        "plantedYear" : 0,
+        "plantId" : "muhlenbergia-capillaris",
+        "seed" : 567885856,
+        "status" : "proposed",
+        "x" : 6.2549999999999999,
+        "y" : 9.8450000000000006
+      },
+      {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "id" : "7d318f44-1812-49e5-b3d3-5ce2d1e7d91b",
+        "installHeight" : 0.27000000000000002,
+        "installSize" : "#1",
+        "installSpread" : 0.27000000000000002,
+        "plantedYear" : 0,
+        "plantId" : "coreopsis-lanceolata",
+        "seed" : 160125268,
+        "status" : "proposed",
+        "x" : 6.5460000000000003,
+        "y" : 8.6080000000000005
+      },
+      {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "id" : "7c318db1-1112-4ee0-aed3-5503d6e7e0fa",
+        "installHeight" : 0.27000000000000002,
+        "installSize" : "#1",
+        "installSpread" : 0.27000000000000002,
+        "plantedYear" : 0,
+        "plantId" : "coreopsis-lanceolata",
+        "seed" : 517539321,
+        "status" : "proposed",
+        "x" : 8.2279999999999998,
+        "y" : 7.742
+      },
+      {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "id" : "7b318c1e-1212-4073-add3-5370d7e7e28d",
+        "installHeight" : 0.34999999999999998,
+        "installSize" : "#1",
+        "installSpread" : 0.29999999999999999,
+        "plantedYear" : 0,
+        "plantId" : "muhlenbergia-capillaris",
+        "seed" : 325331471,
+        "status" : "proposed",
+        "x" : 8.8810000000000002,
+        "y" : 8.4710000000000001
+      },
+      {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "id" : "7a318a8b-1312-4206-b0d3-5829d4e7ddd4",
+        "installHeight" : 0.34999999999999998,
+        "installSize" : "#1",
+        "installSpread" : 0.29999999999999999,
+        "plantedYear" : 0,
+        "plantId" : "muhlenbergia-capillaris",
+        "seed" : 536760767,
+        "status" : "proposed",
+        "x" : 6.9029999999999996,
+        "y" : 9.8879999999999999
+      },
+      {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "id" : "793188f8-1412-4399-afd3-5696d5e7df67",
+        "installHeight" : 0.34999999999999998,
+        "installSize" : "#1",
+        "installSpread" : 0.29999999999999999,
+        "plantedYear" : 0,
+        "plantId" : "muhlenbergia-capillaris",
+        "seed" : 799747154,
+        "status" : "proposed",
+        "x" : 7.7779999999999996,
+        "y" : 8.218
+      },
+      {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "id" : "78318765-1d12-41c4-bad3-67e7cae7ce16",
+        "installHeight" : 0.27000000000000002,
+        "installSize" : "#1",
+        "installSpread" : 0.27000000000000002,
+        "plantedYear" : 0,
+        "plantId" : "coreopsis-lanceolata",
+        "seed" : 577066561,
+        "status" : "proposed",
+        "x" : 4.782,
+        "y" : 9.4849999999999994
+      },
+      {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "id" : "773185d2-1e12-4357-b9d3-6654cbe7cfa9",
+        "installHeight" : 0.27000000000000002,
+        "installSize" : "#1",
+        "installSpread" : 0.27000000000000002,
+        "plantedYear" : 0,
+        "plantId" : "coreopsis-lanceolata",
+        "seed" : 613693517,
+        "status" : "proposed",
+        "x" : 4.9100000000000001,
+        "y" : 8.7289999999999992
+      },
+      {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "id" : "7a2f4bf4-1b14-4d35-acd1-1346d8ea22b7",
+        "installHeight" : 0.34999999999999998,
+        "installSize" : "#1",
+        "installSpread" : 0.29999999999999999,
+        "plantedYear" : 0,
+        "plantId" : "muhlenbergia-capillaris",
+        "seed" : 533531205,
+        "status" : "proposed",
+        "x" : 8.3010000000000002,
+        "y" : 9.0909999999999993
+      },
+      {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "id" : "7b2f4d87-1a14-4ba2-add1-14d9d7ea2124",
+        "installHeight" : 0.27000000000000002,
+        "installSize" : "#1",
+        "installSpread" : 0.27000000000000002,
+        "plantedYear" : 0,
+        "plantId" : "coreopsis-lanceolata",
+        "seed" : 656598090,
+        "status" : "proposed",
+        "x" : 8.6240000000000006,
+        "y" : 9.8819999999999997
+      },
+      {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "id" : "7c2f4f1a-1914-4a0f-aad1-1020daea25dd",
+        "installHeight" : 0.27000000000000002,
+        "installSize" : "#1",
+        "installSpread" : 0.27000000000000002,
+        "plantedYear" : 0,
+        "plantId" : "coreopsis-lanceolata",
+        "seed" : 496835120,
+        "status" : "proposed",
+        "x" : 6.7619999999999996,
+        "y" : 9.0180000000000007
+      },
+      {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "id" : "7d2f50ad-1814-487c-abd1-11b3d9ea244a",
+        "installHeight" : 0.27000000000000002,
+        "installSize" : "#1",
+        "installSpread" : 0.27000000000000002,
+        "plantedYear" : 0,
+        "plantId" : "coreopsis-lanceolata",
+        "seed" : 179751405,
+        "status" : "proposed",
+        "x" : 9.1579999999999995,
+        "y" : 8.1790000000000003
+      },
+      {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "id" : "762f45a8-1714-46e9-b0d1-1992d4ea1c6b",
+        "installHeight" : 0.27000000000000002,
+        "installSize" : "#1",
+        "installSpread" : 0.27000000000000002,
+        "plantedYear" : 0,
+        "plantId" : "coreopsis-lanceolata",
+        "seed" : 929686274,
+        "status" : "proposed",
+        "x" : 5.5629999999999997,
+        "y" : 8.5459999999999994
+      },
+      {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "id" : "772f473b-1614-4556-b1d1-1b25d3ea1ad8",
+        "installHeight" : 0.34999999999999998,
+        "installSize" : "#1",
+        "installSpread" : 0.29999999999999999,
+        "plantedYear" : 0,
+        "plantId" : "muhlenbergia-capillaris",
+        "seed" : 596913028,
+        "status" : "proposed",
+        "x" : 5.0609999999999999,
+        "y" : 7.7450000000000001
+      },
+      {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "id" : "782f48ce-1514-43c3-aed1-166cd6ea1f91",
+        "installHeight" : 0.27000000000000002,
+        "installSize" : "#1",
+        "installSpread" : 0.27000000000000002,
+        "plantedYear" : 0,
+        "plantId" : "coreopsis-lanceolata",
+        "seed" : 641158327,
+        "status" : "proposed",
+        "x" : 7.2039999999999997,
+        "y" : 7.6980000000000004
+      },
+      {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "id" : "792f4a61-1414-4230-afd1-17ffd5ea1dfe",
+        "installHeight" : 0.27000000000000002,
+        "installSize" : "#1",
+        "installSpread" : 0.27000000000000002,
+        "plantedYear" : 0,
+        "plantId" : "coreopsis-lanceolata",
+        "seed" : 553004512,
+        "status" : "proposed",
+        "x" : 8.6229999999999993,
+        "y" : 7.6479999999999997
+      },
+      {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "id" : "722f3f5c-2315-49cd-b4d1-1fded0ea161f",
+        "installHeight" : 0.27000000000000002,
+        "installSize" : "#1",
+        "installSpread" : 0.27000000000000002,
+        "plantedYear" : 0,
+        "plantId" : "coreopsis-lanceolata",
+        "seed" : 656783289,
+        "status" : "proposed",
+        "x" : 8.2910000000000004,
+        "y" : 9.6440000000000001
+      },
+      {
+        "groupId" : "e485f67c-c88f-4789-b8d9-28368a11c6e3",
+        "id" : "732f40ef-2215-483a-b5d1-2171cfea148c",
+        "installHeight" : 0.27000000000000002,
+        "installSize" : "#1",
+        "installSpread" : 0.27000000000000002,
+        "plantedYear" : 0,
+        "plantId" : "coreopsis-lanceolata",
+        "seed" : 982529104,
+        "status" : "proposed",
+        "x" : 7.4850000000000003,
+        "y" : 8.7219999999999995
+      },
+      {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "id" : "10adf252-96d5-4105-814f-c88cb9b5d00f",
+        "installHeight" : 0.050000000000000003,
+        "installSize" : "plug",
+        "installSpread" : 0.10000000000000001,
+        "plantedYear" : 0,
+        "plantId" : "phlox-subulata",
+        "seed" : 501992011,
+        "status" : "proposed",
+        "x" : 0.625,
+        "y" : 7.5250000000000004
+      },
+      {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "id" : "11adf3e5-95d5-4f72-824f-ca1fb8b5ce7c",
+        "installHeight" : 0.050000000000000003,
+        "installSize" : "plug",
+        "installSpread" : 0.10000000000000001,
+        "plantedYear" : 0,
+        "plantId" : "phlox-subulata",
+        "seed" : 917486805,
+        "status" : "proposed",
+        "x" : 1.075,
+        "y" : 7.5250000000000004
+      },
+      {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "id" : "0eadef2c-94d5-4ddf-834f-cbb2bbb5d335",
+        "installHeight" : 0.050000000000000003,
+        "installSize" : "plug",
+        "installSpread" : 0.10000000000000001,
+        "plantedYear" : 0,
+        "plantId" : "phlox-subulata",
+        "seed" : 691318307,
+        "status" : "proposed",
+        "x" : 1.5249999999999999,
+        "y" : 7.5250000000000004
+      },
+      {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "id" : "0fadf0bf-93d5-4c4c-844f-cd45bab5d1a2",
+        "installHeight" : 0.050000000000000003,
+        "installSize" : "plug",
+        "installSpread" : 0.10000000000000001,
+        "plantedYear" : 0,
+        "plantId" : "phlox-subulata",
+        "seed" : 802102676,
+        "status" : "proposed",
+        "x" : 1.9750000000000001,
+        "y" : 7.5250000000000004
+      },
+      {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "id" : "0cadec06-92d5-4ab9-bd4f-c240b5b5c9c3",
+        "installHeight" : 0.050000000000000003,
+        "installSize" : "plug",
+        "installSpread" : 0.10000000000000001,
+        "plantedYear" : 0,
+        "plantId" : "phlox-subulata",
+        "seed" : 457417638,
+        "status" : "proposed",
+        "x" : 2.4249999999999998,
+        "y" : 7.5250000000000004
+      },
+      {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "id" : "0daded99-91d5-4926-be4f-c3d3b4b5c830",
+        "installHeight" : 0.050000000000000003,
+        "installSize" : "plug",
+        "installSpread" : 0.10000000000000001,
+        "plantedYear" : 0,
+        "plantId" : "phlox-subulata",
+        "seed" : 448346194,
+        "status" : "proposed",
+        "x" : 2.875,
+        "y" : 7.5250000000000004
+      },
+      {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "id" : "0aade8e0-90d5-4793-bf4f-c566b7b5cce9",
+        "installHeight" : 0.050000000000000003,
+        "installSize" : "plug",
+        "installSpread" : 0.10000000000000001,
+        "plantedYear" : 0,
+        "plantId" : "phlox-subulata",
+        "seed" : 202286958,
+        "status" : "proposed",
+        "x" : 3.3250000000000002,
+        "y" : 7.5250000000000004
+      },
+      {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "id" : "0badea73-8fd5-4600-804f-c6f9b6b5cb56",
+        "installHeight" : 0.050000000000000003,
+        "installSize" : "plug",
+        "installSpread" : 0.10000000000000001,
+        "plantedYear" : 0,
+        "plantId" : "phlox-subulata",
+        "seed" : 83561287,
+        "status" : "proposed",
+        "x" : 3.7749999999999999,
+        "y" : 7.5250000000000004
+      },
+      {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "id" : "18adfeea-9ed5-4d9d-894f-d524c1b5dca7",
+        "installHeight" : 0.050000000000000003,
+        "installSize" : "plug",
+        "installSpread" : 0.10000000000000001,
+        "plantedYear" : 0,
+        "plantId" : "phlox-subulata",
+        "seed" : 34126831,
+        "status" : "proposed",
+        "x" : 0.625,
+        "y" : 7.9749999999999996
+      },
+      {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "id" : "19ae007d-9dd5-4c0a-8a4f-d6b7c0b5db14",
+        "installHeight" : 0.050000000000000003,
+        "installSize" : "plug",
+        "installSpread" : 0.10000000000000001,
+        "plantedYear" : 0,
+        "plantId" : "phlox-subulata",
+        "seed" : 996718599,
+        "status" : "proposed",
+        "x" : 1.075,
+        "y" : 7.9749999999999996
+      },
+      {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "id" : "a9d6d84f-21ae-44e6-929b-47fd1233c1a4",
+        "installHeight" : 0.050000000000000003,
+        "installSize" : "plug",
+        "installSpread" : 0.10000000000000001,
+        "plantedYear" : 0,
+        "plantId" : "phlox-subulata",
+        "seed" : 922094721,
+        "status" : "proposed",
+        "x" : 1.5249999999999999,
+        "y" : 7.9749999999999996
+      },
+      {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "id" : "a8d6d6bc-22ae-4679-919b-466a1333c337",
+        "installHeight" : 0.050000000000000003,
+        "installSize" : "plug",
+        "installSpread" : 0.10000000000000001,
+        "plantedYear" : 0,
+        "plantId" : "phlox-subulata",
+        "seed" : 129327452,
+        "status" : "proposed",
+        "x" : 1.9750000000000001,
+        "y" : 7.9749999999999996
+      },
+      {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "id" : "abd6db75-1fae-41c0-909b-44d71433c4ca",
+        "installHeight" : 0.050000000000000003,
+        "installSize" : "plug",
+        "installSpread" : 0.10000000000000001,
+        "plantedYear" : 0,
+        "plantId" : "phlox-subulata",
+        "seed" : 392773380,
+        "status" : "proposed",
+        "x" : 2.4249999999999998,
+        "y" : 7.9749999999999996
+      },
+      {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "id" : "aad6d9e2-20ae-4353-8f9b-43441533c65d",
+        "installHeight" : 0.050000000000000003,
+        "installSize" : "plug",
+        "installSpread" : 0.10000000000000001,
+        "plantedYear" : 0,
+        "plantId" : "phlox-subulata",
+        "seed" : 388060807,
+        "status" : "proposed",
+        "x" : 2.875,
+        "y" : 7.9749999999999996
+      },
+      {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "id" : "a5d6d203-25ae-4b32-8e9b-41b10e33bb58",
+        "installHeight" : 0.050000000000000003,
+        "installSize" : "plug",
+        "installSpread" : 0.10000000000000001,
+        "plantedYear" : 0,
+        "plantId" : "phlox-subulata",
+        "seed" : 444314621,
+        "status" : "proposed",
+        "x" : 3.3250000000000002,
+        "y" : 7.9749999999999996
+      },
+      {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "id" : "a4d6d070-26ae-4cc5-8d9b-401e0f33bceb",
+        "installHeight" : 0.050000000000000003,
+        "installSize" : "plug",
+        "installSpread" : 0.10000000000000001,
+        "plantedYear" : 0,
+        "plantId" : "phlox-subulata",
+        "seed" : 925671148,
+        "status" : "proposed",
+        "x" : 3.7749999999999999,
+        "y" : 7.9749999999999996
+      },
+      {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "id" : "a7d6d529-23ae-480c-8c9b-3e8b1033be7e",
+        "installHeight" : 0.050000000000000003,
+        "installSize" : "plug",
+        "installSpread" : 0.10000000000000001,
+        "plantedYear" : 0,
+        "plantId" : "phlox-subulata",
+        "seed" : 291137108,
+        "status" : "proposed",
+        "x" : 0.625,
+        "y" : 8.4250000000000007
+      },
+      {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "id" : "a6d6d396-24ae-499f-8b9b-3cf81133c011",
+        "installHeight" : 0.050000000000000003,
+        "installSize" : "plug",
+        "installSpread" : 0.10000000000000001,
+        "plantedYear" : 0,
+        "plantId" : "phlox-subulata",
+        "seed" : 808163898,
+        "status" : "proposed",
+        "x" : 1.075,
+        "y" : 8.4250000000000007
+      },
+      {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "id" : "b1d6e4e7-29ae-417e-8a9b-3b650a33b50c",
+        "installHeight" : 0.050000000000000003,
+        "installSize" : "plug",
+        "installSpread" : 0.10000000000000001,
+        "plantedYear" : 0,
+        "plantId" : "phlox-subulata",
+        "seed" : 936041483,
+        "status" : "proposed",
+        "x" : 1.5249999999999999,
+        "y" : 8.4250000000000007
+      },
+      {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "id" : "b0d6e354-2aae-4311-899b-39d20b33b69f",
+        "installHeight" : 0.050000000000000003,
+        "installSize" : "plug",
+        "installSpread" : 0.10000000000000001,
+        "plantedYear" : 0,
+        "plantId" : "phlox-subulata",
+        "seed" : 157889666,
+        "status" : "proposed",
+        "x" : 1.9750000000000001,
+        "y" : 8.4250000000000007
+      },
+      {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "id" : "37cf6914-3bac-4f3d-b89d-5da6843b30df",
+        "installHeight" : 0.050000000000000003,
+        "installSize" : "plug",
+        "installSpread" : 0.10000000000000001,
+        "plantedYear" : 0,
+        "plantId" : "phlox-subulata",
+        "seed" : 388703897,
+        "status" : "proposed",
+        "x" : 2.4249999999999998,
+        "y" : 8.4250000000000007
+      },
+      {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "id" : "38cf6aa7-3aac-4daa-b99d-5f39833b2f4c",
+        "installHeight" : 0.050000000000000003,
+        "installSize" : "plug",
+        "installSpread" : 0.10000000000000001,
+        "plantedYear" : 0,
+        "plantId" : "phlox-subulata",
+        "seed" : 695380300,
+        "status" : "proposed",
+        "x" : 2.875,
+        "y" : 8.4250000000000007
+      },
+      {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "id" : "39cf6c3a-39ac-4c17-b69d-5a80863b3405",
+        "installHeight" : 0.050000000000000003,
+        "installSize" : "plug",
+        "installSpread" : 0.10000000000000001,
+        "plantedYear" : 0,
+        "plantId" : "phlox-subulata",
+        "seed" : 520578827,
+        "status" : "proposed",
+        "x" : 3.3250000000000002,
+        "y" : 8.4250000000000007
+      },
+      {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "id" : "3acf6dcd-38ac-4a84-b79d-5c13853b3272",
+        "installHeight" : 0.050000000000000003,
+        "installSize" : "plug",
+        "installSpread" : 0.10000000000000001,
+        "plantedYear" : 0,
+        "plantId" : "phlox-subulata",
+        "seed" : 481803555,
+        "status" : "proposed",
+        "x" : 3.7749999999999999,
+        "y" : 8.4250000000000007
+      },
+      {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "id" : "33cf62c8-37ac-48f1-bc9d-63f2803b2a93",
+        "installHeight" : 0.050000000000000003,
+        "installSize" : "plug",
+        "installSpread" : 0.10000000000000001,
+        "plantedYear" : 0,
+        "plantId" : "phlox-subulata",
+        "seed" : 294583883,
+        "status" : "proposed",
+        "x" : 0.625,
+        "y" : 8.875
+      },
+      {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "id" : "34cf645b-36ac-475e-bd9d-65857f3b2900",
+        "installHeight" : 0.050000000000000003,
+        "installSize" : "plug",
+        "installSpread" : 0.10000000000000001,
+        "plantedYear" : 0,
+        "plantId" : "phlox-subulata",
+        "seed" : 342331634,
+        "status" : "proposed",
+        "x" : 1.075,
+        "y" : 8.875
+      },
+      {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "id" : "35cf65ee-35ac-45cb-ba9d-60cc823b2db9",
+        "installHeight" : 0.050000000000000003,
+        "installSize" : "plug",
+        "installSpread" : 0.10000000000000001,
+        "plantedYear" : 0,
+        "plantId" : "phlox-subulata",
+        "seed" : 383990317,
+        "status" : "proposed",
+        "x" : 1.5249999999999999,
+        "y" : 8.875
+      },
+      {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "id" : "36cf6781-34ac-4438-bb9d-625f813b2c26",
+        "installHeight" : 0.050000000000000003,
+        "installSize" : "plug",
+        "installSpread" : 0.10000000000000001,
+        "plantedYear" : 0,
+        "plantId" : "phlox-subulata",
+        "seed" : 517226067,
+        "status" : "proposed",
+        "x" : 1.9750000000000001,
+        "y" : 8.875
+      },
+      {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "id" : "2fcf5c7c-33ac-42a5-809d-6a3e8c3b3d77",
+        "installHeight" : 0.050000000000000003,
+        "installSize" : "plug",
+        "installSpread" : 0.10000000000000001,
+        "plantedYear" : 0,
+        "plantId" : "phlox-subulata",
+        "seed" : 45862394,
+        "status" : "proposed",
+        "x" : 2.4249999999999998,
+        "y" : 8.875
+      },
+      {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "id" : "30cf5e0f-32ac-4112-819d-6bd18b3b3be4",
+        "installHeight" : 0.050000000000000003,
+        "installSize" : "plug",
+        "installSpread" : 0.10000000000000001,
+        "plantedYear" : 0,
+        "plantId" : "phlox-subulata",
+        "seed" : 512709335,
+        "status" : "proposed",
+        "x" : 2.875,
+        "y" : 8.875
+      },
+      {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "id" : "3dd1b11d-35aa-4734-bea0-6f2f7e38e8d6",
+        "installHeight" : 0.050000000000000003,
+        "installSize" : "plug",
+        "installSpread" : 0.10000000000000001,
+        "plantedYear" : 0,
+        "plantId" : "phlox-subulata",
+        "seed" : 38490020,
+        "status" : "proposed",
+        "x" : 3.3250000000000002,
+        "y" : 8.875
+      },
+      {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "id" : "3cd1af8a-36aa-48c7-bda0-6d9c7f38ea69",
+        "installHeight" : 0.050000000000000003,
+        "installSize" : "plug",
+        "installSpread" : 0.10000000000000001,
+        "plantedYear" : 0,
+        "plantId" : "phlox-subulata",
+        "seed" : 74315974,
+        "status" : "proposed",
+        "x" : 3.7749999999999999,
+        "y" : 8.875
+      },
+      {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "id" : "3bd1adf7-37aa-4a5a-80a0-72557c38e5b0",
+        "installHeight" : 0.050000000000000003,
+        "installSize" : "plug",
+        "installSpread" : 0.10000000000000001,
+        "plantedYear" : 0,
+        "plantId" : "phlox-subulata",
+        "seed" : 204047159,
+        "status" : "proposed",
+        "x" : 0.625,
+        "y" : 9.3249999999999993
+      },
+      {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "id" : "3ad1ac64-38aa-4bed-bfa0-70c27d38e743",
+        "installHeight" : 0.050000000000000003,
+        "installSize" : "plug",
+        "installSpread" : 0.10000000000000001,
+        "plantedYear" : 0,
+        "plantId" : "phlox-subulata",
+        "seed" : 146531924,
+        "status" : "proposed",
+        "x" : 1.075,
+        "y" : 9.3249999999999993
+      },
+      {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "id" : "39d1aad1-31aa-40e8-baa0-68e38238ef22",
+        "installHeight" : 0.050000000000000003,
+        "installSize" : "plug",
+        "installSpread" : 0.10000000000000001,
+        "plantedYear" : 0,
+        "plantId" : "phlox-subulata",
+        "seed" : 85096791,
+        "status" : "proposed",
+        "x" : 1.5249999999999999,
+        "y" : 9.3249999999999993
+      },
+      {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "id" : "38d1a93e-32aa-427b-b9a0-67508338f0b5",
+        "installHeight" : 0.050000000000000003,
+        "installSize" : "plug",
+        "installSpread" : 0.10000000000000001,
+        "plantedYear" : 0,
+        "plantId" : "phlox-subulata",
+        "seed" : 142960189,
+        "status" : "proposed",
+        "x" : 1.9750000000000001,
+        "y" : 9.3249999999999993
+      },
+      {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "id" : "37d1a7ab-33aa-440e-bca0-6c098038ebfc",
+        "installHeight" : 0.050000000000000003,
+        "installSize" : "plug",
+        "installSpread" : 0.10000000000000001,
+        "plantedYear" : 0,
+        "plantId" : "phlox-subulata",
+        "seed" : 767562530,
+        "status" : "proposed",
+        "x" : 2.4249999999999998,
+        "y" : 9.3249999999999993
+      },
+      {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "id" : "36d1a618-34aa-45a1-bba0-6a768138ed8f",
+        "installHeight" : 0.050000000000000003,
+        "installSize" : "plug",
+        "installSpread" : 0.10000000000000001,
+        "plantedYear" : 0,
+        "plantId" : "phlox-subulata",
+        "seed" : 483782297,
+        "status" : "proposed",
+        "x" : 2.875,
+        "y" : 9.3249999999999993
+      },
+      {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "id" : "35d1a485-2daa-4a9c-86a0-7bc78638f56e",
+        "installHeight" : 0.050000000000000003,
+        "installSize" : "plug",
+        "installSpread" : 0.10000000000000001,
+        "plantedYear" : 0,
+        "plantId" : "phlox-subulata",
+        "seed" : 417961828,
+        "status" : "proposed",
+        "x" : 3.3250000000000002,
+        "y" : 9.3249999999999993
+      },
+      {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "id" : "34d1a2f2-2eaa-4c2f-85a0-7a348738f701",
+        "installHeight" : 0.050000000000000003,
+        "installSize" : "plug",
+        "installSpread" : 0.10000000000000001,
+        "plantedYear" : 0,
+        "plantId" : "phlox-subulata",
+        "seed" : 629638888,
+        "status" : "proposed",
+        "x" : 3.7749999999999999,
+        "y" : 9.3249999999999993
+      },
+      {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "id" : "2bcad902-afa7-45ab-b48f-1650002ce989",
+        "installHeight" : 0.050000000000000003,
+        "installSize" : "plug",
+        "installSpread" : 0.10000000000000001,
+        "plantedYear" : 0,
+        "plantId" : "phlox-subulata",
+        "seed" : 795108335,
+        "status" : "proposed",
+        "x" : 0.625,
+        "y" : 9.7750000000000004
+      },
+      {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "id" : "2ccada95-aea7-4418-b58f-17e3ff2ce7f6",
+        "installHeight" : 0.050000000000000003,
+        "installSize" : "plug",
+        "installSpread" : 0.10000000000000001,
+        "plantedYear" : 0,
+        "plantId" : "phlox-subulata",
+        "seed" : 157842594,
+        "status" : "proposed",
+        "x" : 1.075,
+        "y" : 9.7750000000000004
+      },
+      {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "id" : "29cad5dc-b1a7-48d1-b68f-1976fe2ce663",
+        "installHeight" : 0.050000000000000003,
+        "installSize" : "plug",
+        "installSpread" : 0.10000000000000001,
+        "plantedYear" : 0,
+        "plantId" : "phlox-subulata",
+        "seed" : 444655114,
+        "status" : "proposed",
+        "x" : 1.5249999999999999,
+        "y" : 9.7750000000000004
+      },
+      {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "id" : "2acad76f-b0a7-473e-b78f-1b09fd2ce4d0",
+        "installHeight" : 0.050000000000000003,
+        "installSize" : "plug",
+        "installSpread" : 0.10000000000000001,
+        "plantedYear" : 0,
+        "plantId" : "phlox-subulata",
+        "seed" : 917908786,
+        "status" : "proposed",
+        "x" : 1.9750000000000001,
+        "y" : 9.7750000000000004
+      },
+      {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "id" : "27cad2b6-b3a7-4bf7-b88f-1c9c042cefd5",
+        "installHeight" : 0.050000000000000003,
+        "installSize" : "plug",
+        "installSpread" : 0.10000000000000001,
+        "plantedYear" : 0,
+        "plantId" : "phlox-subulata",
+        "seed" : 237746096,
+        "status" : "proposed",
+        "x" : 2.4249999999999998,
+        "y" : 9.7750000000000004
+      },
+      {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "id" : "28cad449-b2a7-4a64-b98f-1e2f032cee42",
+        "installHeight" : 0.050000000000000003,
+        "installSize" : "plug",
+        "installSpread" : 0.10000000000000001,
+        "plantedYear" : 0,
+        "plantId" : "phlox-subulata",
+        "seed" : 789697890,
+        "status" : "proposed",
+        "x" : 2.875,
+        "y" : 9.7750000000000004
+      },
+      {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "id" : "25cacf90-b5a7-4f1d-ba8f-1fc2022cecaf",
+        "installHeight" : 0.050000000000000003,
+        "installSize" : "plug",
+        "installSpread" : 0.10000000000000001,
+        "plantedYear" : 0,
+        "plantId" : "phlox-subulata",
+        "seed" : 684104560,
+        "status" : "proposed",
+        "x" : 3.3250000000000002,
+        "y" : 9.7750000000000004
+      },
+      {
+        "groupId" : "5b7e630c-498c-4105-87db-7e6a03194123",
+        "id" : "26cad123-b4a7-4d8a-bb8f-2155012ceb1c",
+        "installHeight" : 0.050000000000000003,
+        "installSize" : "plug",
+        "installSpread" : 0.10000000000000001,
+        "plantedYear" : 0,
+        "plantId" : "phlox-subulata",
+        "seed" : 134366985,
+        "status" : "proposed",
+        "x" : 3.7749999999999999,
+        "y" : 9.7750000000000004
+      }
+    ],
+    "producer" : "ios",
+    "projectId" : "d2252d2d-adf3-43ca-8911-b08b82ebb748",
+    "scenario" : {
+      "hour" : 14,
+      "month" : 6,
+      "year" : 5
+    },
+    "schema" : "openlandscape3d\/project@0.1",
+    "site" : {
+      "boundary" : [
+        [
+          0,
+          0
+        ],
+        [
+          20,
+          0
+        ],
+        [
+          20,
+          20
+        ],
+        [
+          0,
+          20
+        ]
+      ],
+      "frost" : {
+        "firstFall" : "11-10",
+        "lastSpring" : "03-25"
+      },
+      "hardiness" : {
+        "system" : "USDA",
+        "zone" : "8a"
+      },
+      "location" : {
+        "lat" : 33.229999999999997,
+        "lon" : -83.219999999999999,
+        "precision" : "coarse"
+      },
+      "moisture" : "medium",
+      "north" : [
+        0,
+        -1
+      ],
+      "regionId" : "us-southeast",
+      "soil" : "loam",
+      "sun" : "full",
+      "terrain" : {
+        "kind" : "flat"
+      }
+    },
+    "units" : "m",
+    "updatedAt" : "2027-01-15T00:00:00Z",
+    "verification" : {
+      "boundary" : false,
+      "measurements" : {
+
+      }
+    },
+    "web" : {
+      "ghostRings" : false,
+      "layers" : {
+
+      },
+      "plantingYear" : 2027,
+      "units" : "metric"
+    }
+  },
+  "openplanHandoffVersion" : 1,
+  "openplanPrepared" : true,
+  "planNotes" : "Created with OpenLandscape3D for iOS. Boundaries and measurements from GPS or AR are approximate — verify on site before construction.",
+  "sections" : [
+    {
+      "center" : [
+        10,
+        0,
+        14
+      ],
+      "displayName" : "House",
+      "label" : "livingRoom",
+      "story" : 0
+    }
+  ],
+  "stories" : [
+    {
+      "index" : 0,
+      "name" : "Ground Floor"
+    }
+  ],
+  "version" : 2,
+  "walls" : [
+    {
+      "category" : {
+        "wall" : {
+
+        }
+      },
+      "dimensions" : [
+        12,
+        2.7000000000000002,
+        0.20000000000000001
+      ],
+      "identifier" : "cf252874-acf3-4237-8a11-b21e85ebbc01",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        10,
+        1.3500000000000001,
+        10,
+        1
+      ]
+    },
+    {
+      "category" : {
+        "wall" : {
+
+        }
+      },
+      "dimensions" : [
+        8,
+        2.7000000000000002,
+        0.20000000000000001
+      ],
+      "identifier" : "d0252a07-abf3-40a4-8b11-b3b184ebba6e",
+      "story" : 0,
+      "transform" : [
+        6.123233995736766e-17,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        6.123233995736766e-17,
+        0,
+        16,
+        1.3500000000000001,
+        14,
+        1
+      ]
+    },
+    {
+      "category" : {
+        "wall" : {
+
+        }
+      },
+      "dimensions" : [
+        12,
+        2.7000000000000002,
+        0.20000000000000001
+      ],
+      "identifier" : "cd25254e-aaf2-4f11-8c11-b54487ebbf27",
+      "story" : 0,
+      "transform" : [
+        -1,
+        0,
+        1.2246467991473532e-16,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1.2246467991473532e-16,
+        0,
+        -1,
+        0,
+        10,
+        1.3500000000000001,
+        18,
+        1
+      ]
+    },
+    {
+      "category" : {
+        "wall" : {
+
+        }
+      },
+      "dimensions" : [
+        8,
+        2.7000000000000002,
+        0.20000000000000001
+      ],
+      "identifier" : "ce2526e1-a9f2-4d7e-8d11-b6d786ebbd94",
+      "story" : 0,
+      "transform" : [
+        6.123233995736766e-17,
+        0,
+        -1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        6.123233995736766e-17,
+        0,
+        4,
+        1.3500000000000001,
+        14,
+        1
+      ]
+    }
+  ],
+  "windows" : [
+    {
+      "category" : {
+        "window" : {
+
+        }
+      },
+      "dimensions" : [
+        1.3999999999999999,
+        1.3,
+        0.20000000000000001
+      ],
+      "identifier" : "cc2523bb-a7f2-4a58-8f11-b9fd88ebc0ba",
+      "parentIdentifier" : "cf252874-acf3-4237-8a11-b21e85ebbc01",
+      "sillHeight" : 0.90000000000000002,
+      "story" : 0,
+      "style" : "fixed",
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        7,
+        1.55,
+        10,
+        1
+      ]
+    },
+    {
+      "category" : {
+        "window" : {
+
+        }
+      },
+      "dimensions" : [
+        1.3999999999999999,
+        1.3,
+        0.20000000000000001
+      ],
+      "identifier" : "c9251f02-a6f2-48c5-8011-a2607bebac43",
+      "parentIdentifier" : "cd25254e-aaf2-4f11-8c11-b54487ebbf27",
+      "sillHeight" : 0.90000000000000002,
+      "story" : 0,
+      "style" : "fixed",
+      "transform" : [
+        -1,
+        0,
+        1.2246467991473532e-16,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1.2246467991473532e-16,
+        0,
+        -1,
+        0,
+        13,
+        1.55,
+        18,
+        1
+      ]
+    },
+    {
+      "category" : {
+        "window" : {
+
+        }
+      },
+      "dimensions" : [
+        1.3999999999999999,
+        1.3,
+        0.20000000000000001
+      ],
+      "identifier" : "ca252095-a5f2-4732-8111-a3f37aebaab0",
+      "parentIdentifier" : "cf252874-acf3-4237-8a11-b21e85ebbc01",
+      "sillHeight" : 0.90000000000000002,
+      "story" : 0,
+      "style" : "fixed",
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        13,
+        1.55,
+        10,
+        1
+      ]
+    },
+    {
+      "category" : {
+        "window" : {
+
+        }
+      },
+      "dimensions" : [
+        1.3999999999999999,
+        1.3,
+        0.20000000000000001
+      ],
+      "identifier" : "ed8604a7-cf8f-428e-81d9-36619111d1e8",
+      "parentIdentifier" : "cd25254e-aaf2-4f11-8c11-b54487ebbf27",
+      "sillHeight" : 0.90000000000000002,
+      "story" : 0,
+      "style" : "fixed",
+      "transform" : [
+        -1,
+        0,
+        1.2246467991473532e-16,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1.2246467991473532e-16,
+        0,
+        -1,
+        0,
+        7,
+        1.55,
+        18,
+        1
+      ]
+    }
+  ]
+}

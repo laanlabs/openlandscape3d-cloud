@@ -1,6 +1,7 @@
 {
  "name": "Web all rules",
  "catalogVersion": "ol-plants@0.1",
+ "catalog": "shipped",
  "plants": [
   {
    "id": "732aced0-abee-46af-a25a-d376feca92cd",

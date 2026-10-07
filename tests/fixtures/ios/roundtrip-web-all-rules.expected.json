@@ -1,0 +1,155 @@
+{
+  "areas" : [
+    {
+      "id" : "772ad51c-a7ee-4063-a65a-d9c2faca8c81",
+      "kind" : "bed"
+    },
+    {
+      "id" : "782ad6af-a6ee-4ed0-a75a-db55f9ca8aee",
+      "kind" : "bed"
+    },
+    {
+      "id" : "7a2ad9d5-a8ee-41f6-a55a-d82ff7ca87c8",
+      "kind" : "patio"
+    }
+  ],
+  "catalog" : "shipped",
+  "catalogVersion" : "ol-plants@0.1",
+  "checks" : [
+    {
+      "ruleId" : "OL-BLOOMGAP",
+      "subjectIds" : [
+
+      ]
+    },
+    {
+      "ruleId" : "OL-CLEARANCE",
+      "subjectIds" : [
+        "822ae66d-b0ee-4e8e-ad5a-e4c7efca7b30"
+      ]
+    },
+    {
+      "ruleId" : "OL-CLEARANCE",
+      "subjectIds" : [
+        "f327c6b9-aff1-4b92-b661-aeb766c2e7c0"
+      ]
+    },
+    {
+      "ruleId" : "OL-HARDY",
+      "subjectIds" : [
+        "762ad389-acee-4842-a15a-d1e3fbca8e14"
+      ]
+    },
+    {
+      "ruleId" : "OL-INVASIVE",
+      "subjectIds" : [
+        "752ad1f6-adee-49d5-a05a-d050fcca8fa7"
+      ]
+    },
+    {
+      "ruleId" : "OL-ONHARD",
+      "subjectIds" : [
+        "732aced0-abee-46af-a25a-d376feca92cd"
+      ]
+    },
+    {
+      "ruleId" : "OL-OUTSIDE",
+      "subjectIds" : [
+        "f127c393-adf1-486c-b861-b1dd68c2eae6"
+      ]
+    },
+    {
+      "ruleId" : "OL-OUTSIDE",
+      "subjectIds" : [
+        "f227c526-b0f1-4d25-b561-ad2467c2e953"
+      ]
+    },
+    {
+      "ruleId" : "OL-OVERLAP",
+      "subjectIds" : [
+        "822ae66d-b0ee-4e8e-ad5a-e4c7efca7b30",
+        "f327c6b9-aff1-4b92-b661-aeb766c2e7c0"
+      ]
+    },
+    {
+      "ruleId" : "OL-SUN",
+      "subjectIds" : [
+        "742ad063-aaee-451c-a35a-d509fdca913a"
+      ]
+    },
+    {
+      "ruleId" : "OL-UNVERIFIED",
+      "subjectIds" : [
+
+      ]
+    },
+    {
+      "ruleId" : "OL-WATER",
+      "subjectIds" : [
+        "812ae4da-b1ee-4021-ac5a-e334f0ca7cc3"
+      ]
+    }
+  ],
+  "groups" : [
+
+  ],
+  "name" : "Web all rules",
+  "plants" : [
+    {
+      "id" : "732aced0-abee-46af-a25a-d376feca92cd",
+      "plantId" : "ilex-glabra",
+      "status" : "proposed",
+      "x" : 15,
+      "y" : 4
+    },
+    {
+      "id" : "742ad063-aaee-451c-a35a-d509fdca913a",
+      "plantId" : "schizachyrium-scoparium",
+      "status" : "proposed",
+      "x" : 3,
+      "y" : 15
+    },
+    {
+      "id" : "752ad1f6-adee-49d5-a05a-d050fcca8fa7",
+      "plantId" : "berberis-thunbergii",
+      "status" : "proposed",
+      "x" : 15,
+      "y" : 9
+    },
+    {
+      "id" : "762ad389-acee-4842-a15a-d1e3fbca8e14",
+      "plantId" : "abelia-grandiflora",
+      "status" : "proposed",
+      "x" : 8,
+      "y" : 16
+    },
+    {
+      "id" : "812ae4da-b1ee-4021-ac5a-e334f0ca7cc3",
+      "plantId" : "agastache-rupestris",
+      "status" : "proposed",
+      "x" : 15,
+      "y" : 15
+    },
+    {
+      "id" : "822ae66d-b0ee-4e8e-ad5a-e4c7efca7b30",
+      "plantId" : "acer-rubrum",
+      "status" : "proposed",
+      "x" : 6,
+      "y" : 9.5
+    },
+    {
+      "id" : "f227c526-b0f1-4d25-b561-ad2467c2e953",
+      "plantId" : "ilex-glabra",
+      "status" : "proposed",
+      "x" : 23,
+      "y" : 10
+    },
+    {
+      "id" : "f327c6b9-aff1-4b92-b661-aeb766c2e7c0",
+      "plantId" : "acer-rubrum",
+      "status" : "proposed",
+      "x" : 7.5,
+      "y" : 10.5
+    }
+  ]
+}

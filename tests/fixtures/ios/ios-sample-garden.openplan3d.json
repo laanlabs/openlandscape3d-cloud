@@ -23,11 +23,11 @@
         }
       },
       "dimensions" : [
-        9.5197872115746609,
-        13.735209305257628,
-        9.5197872115746609
+        9.1041065912241539,
+        13.777368995082373,
+        9.1041065912241539
       ],
-      "identifier" : "6e6ab3df-5616-4805-9bf2-a72422e1d97e",
+      "identifier" : "3767f893-4d51-4f92-8d74-d9ffef48f8a7",
       "story" : 0,
       "transform" : [
         1,
@@ -43,7 +43,7 @@
         1,
         0,
         4,
-        6.8676046526288141,
+        6.8886844975411865,
         20,
         1
       ]
@@ -51,8 +51,8 @@
     {
       "attributes" : {
         "openlandscape3dKind" : "plant",
-        "openlandscape3dRole" : "retain",
-        "plantId" : "acer-rubrum"
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "acer-saccharum"
       },
       "category" : {
         "tree_default" : {
@@ -60,11 +60,48 @@
         }
       },
       "dimensions" : [
-        10.057323256840171,
-        14.367604652628813,
-        10.057323256840171
+        9.3484472345379093,
+        14.173777567411129,
+        9.3484472345379093
       ],
-      "identifier" : "c1b75c96-ddb8-48b2-9c4d-e7dfb0143247",
+      "identifier" : "b834a17a-fb57-4c15-9609-bc17179c592a",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        17,
+        7.0868887837055645,
+        21,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "retain",
+        "plantId" : "amelanchier-arborea"
+      },
+      "category" : {
+        "tree_default" : {
+
+        }
+      },
+      "dimensions" : [
+        4.8696894469075822,
+        5.7550875281635054,
+        4.8696894469075822
+      ],
+      "identifier" : "eb6fe5a7-ccd6-47af-9ff7-7fd3267814b4",
       "story" : 0,
       "transform" : [
         1,
@@ -80,29 +117,29 @@
         1,
         0,
         2.2000000000000002,
-        7.1838023263144066,
+        2.8775437640817527,
         2.2000000000000002,
         1
       ]
     },
     {
       "attributes" : {
-        "groupId" : "12324a30-0e9c-4989-87df-ac213ae473e7",
+        "groupId" : "c4a571e3-9939-4e97-b436-98f76b53d820",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "ilex-glabra"
+        "plantId" : "aronia-melanocarpa"
       },
       "category" : {
-        "bush_large" : {
+        "bush" : {
 
         }
       },
       "dimensions" : [
-        1.4132185242387432,
-        1.4275437640817528,
-        1.4132185242387432
+        1.0921456828258289,
+        1.1064709226688385,
+        1.0921456828258289
       ],
-      "identifier" : "2fe1fc32-450d-4c35-8163-dd1c5ca7b99f",
+      "identifier" : "a05ff59b-1c8f-4c80-acc1-5c69e7323f36",
       "story" : 0,
       "transform" : [
         1,
@@ -117,30 +154,30 @@
         0,
         1,
         0,
-        2.1070000000000002,
-        0.71377188204087638,
+        2,
+        0.55323546133441925,
         28.600000000000001,
         1
       ]
     },
     {
       "attributes" : {
-        "groupId" : "12324a30-0e9c-4989-87df-ac213ae473e7",
+        "groupId" : "c4a571e3-9939-4e97-b436-98f76b53d820",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "ilex-glabra"
+        "plantId" : "aronia-melanocarpa"
       },
       "category" : {
-        "bush_large" : {
+        "bush" : {
 
         }
       },
       "dimensions" : [
-        1.4132185242387432,
-        1.4275437640817528,
-        1.4132185242387432
+        1.0921456828258289,
+        1.1064709226688385,
+        1.0921456828258289
       ],
-      "identifier" : "30e1fdc5-440d-4aa2-8263-deaf5ba7b80c",
+      "identifier" : "9f5ff408-1d8f-4e13-abc1-5ad6e83240c9",
       "story" : 0,
       "transform" : [
         1,
@@ -155,30 +192,30 @@
         0,
         1,
         0,
-        3.3210000000000002,
-        0.71377188204087638,
+        3,
+        0.55323546133441925,
         28.600000000000001,
         1
       ]
     },
     {
       "attributes" : {
-        "groupId" : "12324a30-0e9c-4989-87df-ac213ae473e7",
+        "groupId" : "c4a571e3-9939-4e97-b436-98f76b53d820",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "ilex-glabra"
+        "plantId" : "aronia-melanocarpa"
       },
       "category" : {
-        "bush_large" : {
+        "bush" : {
 
         }
       },
       "dimensions" : [
-        1.4132185242387432,
-        1.4275437640817528,
-        1.4132185242387432
+        1.0921456828258289,
+        1.1064709226688385,
+        1.0921456828258289
       ],
-      "identifier" : "2de1f90c-430d-490f-8363-e0425ea7bcc5",
+      "identifier" : "a25ff8c1-1e8f-4fa6-aac1-5943e5323c10",
       "story" : 0,
       "transform" : [
         1,
@@ -193,30 +230,30 @@
         0,
         1,
         0,
-        4.5359999999999996,
-        0.71377188204087638,
+        4,
+        0.55323546133441925,
         28.600000000000001,
         1
       ]
     },
     {
       "attributes" : {
-        "groupId" : "12324a30-0e9c-4989-87df-ac213ae473e7",
+        "groupId" : "c4a571e3-9939-4e97-b436-98f76b53d820",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "ilex-glabra"
+        "plantId" : "aronia-melanocarpa"
       },
       "category" : {
-        "bush_large" : {
+        "bush" : {
 
         }
       },
       "dimensions" : [
-        1.4132185242387432,
-        1.4275437640817528,
-        1.4132185242387432
+        1.0921456828258289,
+        1.1064709226688385,
+        1.0921456828258289
       ],
-      "identifier" : "2ee1fa9f-420d-477c-8463-e1d55da7bb32",
+      "identifier" : "a15ff72e-1f8f-4139-a9c1-57b0e6323da3",
       "story" : 0,
       "transform" : [
         1,
@@ -231,30 +268,30 @@
         0,
         1,
         0,
-        5.75,
-        0.71377188204087638,
+        5,
+        0.55323546133441925,
         28.600000000000001,
         1
       ]
     },
     {
       "attributes" : {
-        "groupId" : "12324a30-0e9c-4989-87df-ac213ae473e7",
+        "groupId" : "c4a571e3-9939-4e97-b436-98f76b53d820",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "ilex-glabra"
+        "plantId" : "aronia-melanocarpa"
       },
       "category" : {
-        "bush_large" : {
+        "bush" : {
 
         }
       },
       "dimensions" : [
-        1.4132185242387432,
-        1.4275437640817528,
-        1.4132185242387432
+        1.0921456828258289,
+        1.1064709226688385,
+        1.0921456828258289
       ],
-      "identifier" : "2be1f5e6-410d-45e9-bd63-d6d058a7b353",
+      "identifier" : "a45ffbe7-208f-42cc-b0c1-62b5eb324582",
       "story" : 0,
       "transform" : [
         1,
@@ -269,30 +306,30 @@
         0,
         1,
         0,
-        6.9640000000000004,
-        0.71377188204087638,
+        6,
+        0.55323546133441925,
         28.600000000000001,
         1
       ]
     },
     {
       "attributes" : {
-        "groupId" : "12324a30-0e9c-4989-87df-ac213ae473e7",
+        "groupId" : "c4a571e3-9939-4e97-b436-98f76b53d820",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "ilex-glabra"
+        "plantId" : "aronia-melanocarpa"
       },
       "category" : {
-        "bush_large" : {
+        "bush" : {
 
         }
       },
       "dimensions" : [
-        1.4132185242387432,
-        1.4275437640817528,
-        1.4132185242387432
+        1.0921456828258289,
+        1.1064709226688385,
+        1.0921456828258289
       ],
-      "identifier" : "2ce1f779-400d-4456-be63-d86357a7b1c0",
+      "identifier" : "a35ffa54-218f-445f-afc1-6122ec324715",
       "story" : 0,
       "transform" : [
         1,
@@ -307,30 +344,30 @@
         0,
         1,
         0,
-        8.1790000000000003,
-        0.71377188204087638,
+        7,
+        0.55323546133441925,
         28.600000000000001,
         1
       ]
     },
     {
       "attributes" : {
-        "groupId" : "12324a30-0e9c-4989-87df-ac213ae473e7",
+        "groupId" : "c4a571e3-9939-4e97-b436-98f76b53d820",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "ilex-glabra"
+        "plantId" : "aronia-melanocarpa"
       },
       "category" : {
-        "bush_large" : {
+        "bush" : {
 
         }
       },
       "dimensions" : [
-        1.4132185242387432,
-        1.4275437640817528,
-        1.4132185242387432
+        1.0921456828258289,
+        1.1064709226688385,
+        1.0921456828258289
       ],
-      "identifier" : "29e1f2c0-3f0d-42c3-bf63-d9f65aa7b679",
+      "identifier" : "a65fff0d-228f-45f2-aec1-5f8fe932425c",
       "story" : 0,
       "transform" : [
         1,
@@ -345,30 +382,30 @@
         0,
         1,
         0,
-        9.3930000000000007,
-        0.71377188204087638,
+        8,
+        0.55323546133441925,
         28.600000000000001,
         1
       ]
     },
     {
       "attributes" : {
-        "groupId" : "12324a30-0e9c-4989-87df-ac213ae473e7",
+        "groupId" : "c4a571e3-9939-4e97-b436-98f76b53d820",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "ilex-glabra"
+        "plantId" : "aronia-melanocarpa"
       },
       "category" : {
-        "bush_large" : {
+        "bush" : {
 
         }
       },
       "dimensions" : [
-        1.4132185242387432,
-        1.4275437640817528,
-        1.4132185242387432
+        1.0921456828258289,
+        1.1064709226688385,
+        1.0921456828258289
       ],
-      "identifier" : "2ae1f453-3e0d-4130-8063-db8959a7b4e6",
+      "identifier" : "a55ffd7a-238f-4785-adc1-5dfcea3243ef",
       "story" : 0,
       "transform" : [
         1,
@@ -383,30 +420,30 @@
         0,
         1,
         0,
-        10.606999999999999,
-        0.71377188204087638,
+        9,
+        0.55323546133441925,
         28.600000000000001,
         1
       ]
     },
     {
       "attributes" : {
-        "groupId" : "12324a30-0e9c-4989-87df-ac213ae473e7",
+        "groupId" : "c4a571e3-9939-4e97-b436-98f76b53d820",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "ilex-glabra"
+        "plantId" : "aronia-melanocarpa"
       },
       "category" : {
-        "bush_large" : {
+        "bush" : {
 
         }
       },
       "dimensions" : [
-        1.4132185242387432,
-        1.4275437640817528,
-        1.4132185242387432
+        1.0921456828258289,
+        1.1064709226688385,
+        1.0921456828258289
       ],
-      "identifier" : "37e208ca-4d0d-48cd-8963-e9b464a7c637",
+      "identifier" : "985fe903-248f-4918-b4c1-6901ef324bce",
       "story" : 0,
       "transform" : [
         1,
@@ -421,30 +458,30 @@
         0,
         1,
         0,
-        11.821,
-        0.71377188204087638,
+        10,
+        0.55323546133441925,
         28.600000000000001,
         1
       ]
     },
     {
       "attributes" : {
-        "groupId" : "12324a30-0e9c-4989-87df-ac213ae473e7",
+        "groupId" : "c4a571e3-9939-4e97-b436-98f76b53d820",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "ilex-glabra"
+        "plantId" : "aronia-melanocarpa"
       },
       "category" : {
-        "bush_large" : {
+        "bush" : {
 
         }
       },
       "dimensions" : [
-        1.4132185242387432,
-        1.4275437640817528,
-        1.4132185242387432
+        1.0921456828258289,
+        1.1064709226688385,
+        1.0921456828258289
       ],
-      "identifier" : "38e20a5d-4c0d-473a-8a63-eb4763a7c4a4",
+      "identifier" : "975fe770-258f-4aab-b3c1-676ef0324d61",
       "story" : 0,
       "transform" : [
         1,
@@ -459,30 +496,30 @@
         0,
         1,
         0,
-        13.036,
-        0.71377188204087638,
+        11,
+        0.55323546133441925,
         28.600000000000001,
         1
       ]
     },
     {
       "attributes" : {
-        "groupId" : "12324a30-0e9c-4989-87df-ac213ae473e7",
+        "groupId" : "c4a571e3-9939-4e97-b436-98f76b53d820",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "ilex-glabra"
+        "plantId" : "aronia-melanocarpa"
       },
       "category" : {
-        "bush_large" : {
+        "bush" : {
 
         }
       },
       "dimensions" : [
-        1.4132185242387432,
-        1.4275437640817528,
-        1.4132185242387432
+        1.0921456828258289,
+        1.1064709226688385,
+        1.0921456828258289
       ],
-      "identifier" : "e8c2c8af-b3cf-43d6-a237-744d85070674",
+      "identifier" : "1c0d7428-ac2f-4119-8762-1812801c47fb",
       "story" : 0,
       "transform" : [
         1,
@@ -497,30 +534,30 @@
         0,
         1,
         0,
-        14.25,
-        0.71377188204087638,
+        12,
+        0.55323546133441925,
         28.600000000000001,
         1
       ]
     },
     {
       "attributes" : {
-        "groupId" : "12324a30-0e9c-4989-87df-ac213ae473e7",
+        "groupId" : "c4a571e3-9939-4e97-b436-98f76b53d820",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "ilex-glabra"
+        "plantId" : "aronia-melanocarpa"
       },
       "category" : {
-        "bush_large" : {
+        "bush" : {
 
         }
       },
       "dimensions" : [
-        1.4132185242387432,
-        1.4275437640817528,
-        1.4132185242387432
+        1.0921456828258289,
+        1.1064709226688385,
+        1.0921456828258289
       ],
-      "identifier" : "e7c2c71c-b4cf-4569-a137-72ba86070807",
+      "identifier" : "1d0d75bb-ab2f-4f86-8862-19a57f1c4668",
       "story" : 0,
       "transform" : [
         1,
@@ -535,1436 +572,30 @@
         0,
         1,
         0,
-        15.464,
-        0.71377188204087638,
+        13,
+        0.55323546133441925,
         28.600000000000001,
         1
       ]
     },
     {
       "attributes" : {
-        "groupId" : "12324a30-0e9c-4989-87df-ac213ae473e7",
+        "groupId" : "c4a571e3-9939-4e97-b436-98f76b53d820",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "ilex-glabra"
+        "plantId" : "aronia-melanocarpa"
       },
       "category" : {
-        "bush_large" : {
+        "bush" : {
 
         }
       },
       "dimensions" : [
-        1.4132185242387432,
-        1.4275437640817528,
-        1.4132185242387432
+        1.0921456828258289,
+        1.1064709226688385,
+        1.0921456828258289
       ],
-      "identifier" : "eac2cbd5-b1cf-40b0-a037-71278707099a",
-      "story" : 0,
-      "transform" : [
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        16.678999999999998,
-        0.71377188204087638,
-        28.600000000000001,
-        1
-      ]
-    },
-    {
-      "attributes" : {
-        "groupId" : "12324a30-0e9c-4989-87df-ac213ae473e7",
-        "openlandscape3dKind" : "plant",
-        "openlandscape3dRole" : "proposed",
-        "plantId" : "ilex-glabra"
-      },
-      "category" : {
-        "bush_large" : {
-
-        }
-      },
-      "dimensions" : [
-        1.4132185242387432,
-        1.4275437640817528,
-        1.4132185242387432
-      ],
-      "identifier" : "e9c2ca42-b2cf-4243-9f37-6f9488070b2d",
-      "story" : 0,
-      "transform" : [
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        17.893000000000001,
-        0.71377188204087638,
-        28.600000000000001,
-        1
-      ]
-    },
-    {
-      "attributes" : {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "openlandscape3dKind" : "plant",
-        "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
-      },
-      "category" : {
-        "flower_red" : {
-
-        }
-      },
-      "dimensions" : [
-        0.43188594102043826,
-        0.71377188204087638,
-        0.43188594102043826
-      ],
-      "identifier" : "acd075d5-3901-46c6-a4f9-2ecb8afc06bc",
-      "story" : 0,
-      "transform" : [
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        10.109,
-        0.35688594102043819,
-        2.048,
-        1
-      ]
-    },
-    {
-      "attributes" : {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "openlandscape3dKind" : "plant",
-        "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
-      },
-      "category" : {
-        "flower_red" : {
-
-        }
-      },
-      "dimensions" : [
-        0.43188594102043826,
-        0.71377188204087638,
-        0.43188594102043826
-      ],
-      "identifier" : "abd07442-3a01-4859-a3f9-2d388bfc084f",
-      "story" : 0,
-      "transform" : [
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        11.016,
-        0.35688594102043819,
-        2.1440000000000001,
-        1
-      ]
-    },
-    {
-      "attributes" : {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "openlandscape3dKind" : "plant",
-        "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
-      },
-      "category" : {
-        "flower_red" : {
-
-        }
-      },
-      "dimensions" : [
-        0.43188594102043826,
-        0.71377188204087638,
-        0.43188594102043826
-      ],
-      "identifier" : "aad072af-3701-43a0-a6f9-31f18cfc09e2",
-      "story" : 0,
-      "transform" : [
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        13.297000000000001,
-        0.35688594102043819,
-        2.0609999999999999,
-        1
-      ]
-    },
-    {
-      "attributes" : {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "openlandscape3dKind" : "plant",
-        "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
-      },
-      "category" : {
-        "flower_red" : {
-
-        }
-      },
-      "dimensions" : [
-        0.43188594102043826,
-        0.71377188204087638,
-        0.43188594102043826
-      ],
-      "identifier" : "a9d0711c-3801-4533-a5f9-305e8dfc0b75",
-      "story" : 0,
-      "transform" : [
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        6.0519999999999996,
-        0.35688594102043819,
-        2.0489999999999999,
-        1
-      ]
-    },
-    {
-      "attributes" : {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "openlandscape3dKind" : "plant",
-        "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
-      },
-      "category" : {
-        "flower_red" : {
-
-        }
-      },
-      "dimensions" : [
-        0.43188594102043826,
-        0.71377188204087638,
-        0.43188594102043826
-      ],
-      "identifier" : "a8d06f89-3d01-4d12-a8f9-351786fc0070",
-      "story" : 0,
-      "transform" : [
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        9.8119999999999994,
-        0.35688594102043819,
-        2.5499999999999998,
-        1
-      ]
-    },
-    {
-      "attributes" : {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "openlandscape3dKind" : "plant",
-        "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
-      },
-      "category" : {
-        "flower_red" : {
-
-        }
-      },
-      "dimensions" : [
-        0.43188594102043826,
-        0.71377188204087638,
-        0.43188594102043826
-      ],
-      "identifier" : "a7d06df6-3e01-4ea5-a7f9-338487fc0203",
-      "story" : 0,
-      "transform" : [
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        9.2479999999999993,
-        0.35688594102043819,
-        2.2719999999999998,
-        1
-      ]
-    },
-    {
-      "attributes" : {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "openlandscape3dKind" : "plant",
-        "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
-      },
-      "category" : {
-        "flower_red" : {
-
-        }
-      },
-      "dimensions" : [
-        0.43188594102043826,
-        0.71377188204087638,
-        0.43188594102043826
-      ],
-      "identifier" : "a6d06c63-3b01-49ec-aaf9-383d88fc0396",
-      "story" : 0,
-      "transform" : [
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        11.706,
-        0.35688594102043819,
-        1.4570000000000001,
-        1
-      ]
-    },
-    {
-      "attributes" : {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "openlandscape3dKind" : "plant",
-        "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
-      },
-      "category" : {
-        "flower_red" : {
-
-        }
-      },
-      "dimensions" : [
-        0.43188594102043826,
-        0.71377188204087638,
-        0.43188594102043826
-      ],
-      "identifier" : "a5d06ad0-3c01-4b7f-a9f9-36aa89fc0529",
-      "story" : 0,
-      "transform" : [
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        6.9779999999999998,
-        0.35688594102043819,
-        1.6419999999999999,
-        1
-      ]
-    },
-    {
-      "attributes" : {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "openlandscape3dKind" : "plant",
-        "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
-      },
-      "category" : {
-        "flower_red" : {
-
-        }
-      },
-      "dimensions" : [
-        0.43188594102043826,
-        0.71377188204087638,
-        0.43188594102043826
-      ],
-      "identifier" : "b4d0826d-4101-435e-9cf9-223392fc1354",
-      "story" : 0,
-      "transform" : [
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        9.0220000000000002,
-        0.35688594102043819,
-        1.8029999999999999,
-        1
-      ]
-    },
-    {
-      "attributes" : {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "openlandscape3dKind" : "plant",
-        "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
-      },
-      "category" : {
-        "flower_red" : {
-
-        }
-      },
-      "dimensions" : [
-        0.43188594102043826,
-        0.71377188204087638,
-        0.43188594102043826
-      ],
-      "identifier" : "b3d080da-4201-44f1-9bf9-20a093fc14e7",
-      "story" : 0,
-      "transform" : [
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        10.776,
-        0.35688594102043819,
-        1.4039999999999999,
-        1
-      ]
-    },
-    {
-      "attributes" : {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "openlandscape3dKind" : "plant",
-        "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
-      },
-      "category" : {
-        "flower_red" : {
-
-        }
-      },
-      "dimensions" : [
-        0.43188594102043826,
-        0.71377188204087638,
-        0.43188594102043826
-      ],
-      "identifier" : "eb274f76-b91e-4d4b-a941-e398dcc15fed",
-      "story" : 0,
-      "transform" : [
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        12.871,
-        0.35688594102043819,
-        2.4300000000000002,
-        1
-      ]
-    },
-    {
-      "attributes" : {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "openlandscape3dKind" : "plant",
-        "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
-      },
-      "category" : {
-        "flower_red" : {
-
-        }
-      },
-      "dimensions" : [
-        0.43188594102043826,
-        0.71377188204087638,
-        0.43188594102043826
-      ],
-      "identifier" : "ec275109-b81e-4bb8-aa41-e52bdbc15e5a",
-      "story" : 0,
-      "transform" : [
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        8.2859999999999996,
-        0.35688594102043819,
-        2.1970000000000001,
-        1
-      ]
-    },
-    {
-      "attributes" : {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "openlandscape3dKind" : "plant",
-        "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
-      },
-      "category" : {
-        "flower_red" : {
-
-        }
-      },
-      "dimensions" : [
-        0.43188594102043826,
-        0.71377188204087638,
-        0.43188594102043826
-      ],
-      "identifier" : "e9274c50-bb1e-4071-ab41-e6bedac15cc7",
-      "story" : 0,
-      "transform" : [
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        7.6660000000000004,
-        0.35688594102043819,
-        1.29,
-        1
-      ]
-    },
-    {
-      "attributes" : {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "openlandscape3dKind" : "plant",
-        "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
-      },
-      "category" : {
-        "flower_red" : {
-
-        }
-      },
-      "dimensions" : [
-        0.43188594102043826,
-        0.71377188204087638,
-        0.43188594102043826
-      ],
-      "identifier" : "ea274de3-ba1e-4ede-ac41-e851d9c15b34",
-      "story" : 0,
-      "transform" : [
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        12.265000000000001,
-        0.35688594102043819,
-        2.7639999999999998,
-        1
-      ]
-    },
-    {
-      "attributes" : {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "openlandscape3dKind" : "plant",
-        "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
-      },
-      "category" : {
-        "flower_red" : {
-
-        }
-      },
-      "dimensions" : [
-        0.43188594102043826,
-        0.71377188204087638,
-        0.43188594102043826
-      ],
-      "identifier" : "ef2755c2-bd1e-4397-ad41-e9e4d8c159a1",
-      "story" : 0,
-      "transform" : [
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        8.0899999999999999,
-        0.35688594102043819,
-        1.4339999999999999,
-        1
-      ]
-    },
-    {
-      "attributes" : {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "openlandscape3dKind" : "plant",
-        "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
-      },
-      "category" : {
-        "flower_red" : {
-
-        }
-      },
-      "dimensions" : [
-        0.43188594102043826,
-        0.71377188204087638,
-        0.43188594102043826
-      ],
-      "identifier" : "f0275755-bc1e-4204-ae41-eb77d7c1580e",
-      "story" : 0,
-      "transform" : [
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        12.289,
-        0.35688594102043819,
-        1.756,
-        1
-      ]
-    },
-    {
-      "attributes" : {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "openlandscape3dKind" : "plant",
-        "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
-      },
-      "category" : {
-        "flower_red" : {
-
-        }
-      },
-      "dimensions" : [
-        0.43188594102043826,
-        0.71377188204087638,
-        0.43188594102043826
-      ],
-      "identifier" : "ed27529c-bf1e-46bd-af41-ed0ad6c1567b",
-      "story" : 0,
-      "transform" : [
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        10.502000000000001,
-        0.35688594102043819,
-        2.1230000000000002,
-        1
-      ]
-    },
-    {
-      "attributes" : {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "openlandscape3dKind" : "plant",
-        "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
-      },
-      "category" : {
-        "flower_red" : {
-
-        }
-      },
-      "dimensions" : [
-        0.43188594102043826,
-        0.71377188204087638,
-        0.43188594102043826
-      ],
-      "identifier" : "ee27542f-be1e-452a-b041-ee9dd5c154e8",
-      "story" : 0,
-      "transform" : [
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        13.247999999999999,
-        0.35688594102043819,
-        1.429,
-        1
-      ]
-    },
-    {
-      "attributes" : {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "openlandscape3dKind" : "plant",
-        "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
-      },
-      "category" : {
-        "flower_red" : {
-
-        }
-      },
-      "dimensions" : [
-        0.43188594102043826,
-        0.71377188204087638,
-        0.43188594102043826
-      ],
-      "identifier" : "f3275c0e-b11e-40b3-a141-d700d4c15355",
-      "story" : 0,
-      "transform" : [
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        13.287000000000001,
-        0.35688594102043819,
-        2.512,
-        1
-      ]
-    },
-    {
-      "attributes" : {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "openlandscape3dKind" : "plant",
-        "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
-      },
-      "category" : {
-        "flower_red" : {
-
-        }
-      },
-      "dimensions" : [
-        0.43188594102043826,
-        0.71377188204087638,
-        0.43188594102043826
-      ],
-      "identifier" : "f4275da1-b01e-4f20-a241-d893d3c151c2",
-      "story" : 0,
-      "transform" : [
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        8.9160000000000004,
-        0.35688594102043819,
-        1.2410000000000001,
-        1
-      ]
-    },
-    {
-      "attributes" : {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "openlandscape3dKind" : "plant",
-        "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
-      },
-      "category" : {
-        "flower_red" : {
-
-        }
-      },
-      "dimensions" : [
-        0.43188594102043826,
-        0.71377188204087638,
-        0.43188594102043826
-      ],
-      "identifier" : "8524704d-2716-4bb0-9b49-52d3c2c37596",
-      "story" : 0,
-      "transform" : [
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        6.0209999999999999,
-        0.35688594102043819,
-        2.5459999999999998,
-        1
-      ]
-    },
-    {
-      "attributes" : {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "openlandscape3dKind" : "plant",
-        "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
-      },
-      "category" : {
-        "flower_red" : {
-
-        }
-      },
-      "dimensions" : [
-        0.43188594102043826,
-        0.71377188204087638,
-        0.43188594102043826
-      ],
-      "identifier" : "84246eba-2816-4d43-9a49-5140c3c37729",
-      "story" : 0,
-      "transform" : [
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        7.8419999999999996,
-        0.35688594102043819,
-        2.0030000000000001,
-        1
-      ]
-    },
-    {
-      "attributes" : {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "openlandscape3dKind" : "plant",
-        "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
-      },
-      "category" : {
-        "flower_red" : {
-
-        }
-      },
-      "dimensions" : [
-        0.43188594102043826,
-        0.71377188204087638,
-        0.43188594102043826
-      ],
-      "identifier" : "83246d27-2916-4ed6-9d49-55f9c0c37270",
-      "story" : 0,
-      "transform" : [
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        12.202,
-        0.35688594102043819,
-        1.3420000000000001,
-        1
-      ]
-    },
-    {
-      "attributes" : {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "openlandscape3dKind" : "plant",
-        "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
-      },
-      "category" : {
-        "flower_red" : {
-
-        }
-      },
-      "dimensions" : [
-        0.43188594102043826,
-        0.71377188204087638,
-        0.43188594102043826
-      ],
-      "identifier" : "82246b94-2a16-4069-9c49-5466c1c37403",
-      "story" : 0,
-      "transform" : [
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        11.355,
-        0.35688594102043819,
-        1.272,
-        1
-      ]
-    },
-    {
-      "attributes" : {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "openlandscape3dKind" : "plant",
-        "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
-      },
-      "category" : {
-        "flower_red" : {
-
-        }
-      },
-      "dimensions" : [
-        0.43188594102043826,
-        0.71377188204087638,
-        0.43188594102043826
-      ],
-      "identifier" : "81246a01-2b16-41fc-9f49-591fc6c37be2",
-      "story" : 0,
-      "transform" : [
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        14.553000000000001,
-        0.35688594102043819,
-        1.885,
-        1
-      ]
-    },
-    {
-      "attributes" : {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "openlandscape3dKind" : "plant",
-        "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
-      },
-      "category" : {
-        "flower_red" : {
-
-        }
-      },
-      "dimensions" : [
-        0.43188594102043826,
-        0.71377188204087638,
-        0.43188594102043826
-      ],
-      "identifier" : "8024686e-2c16-438f-9e49-578cc7c37d75",
-      "story" : 0,
-      "transform" : [
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        9.6820000000000004,
-        0.35688594102043819,
-        1.7649999999999999,
-        1
-      ]
-    },
-    {
-      "attributes" : {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "openlandscape3dKind" : "plant",
-        "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
-      },
-      "category" : {
-        "flower_red" : {
-
-        }
-      },
-      "dimensions" : [
-        0.43188594102043826,
-        0.71377188204087638,
-        0.43188594102043826
-      ],
-      "identifier" : "7f2466db-2d16-4522-a149-5c45c4c378bc",
-      "story" : 0,
-      "transform" : [
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        8.5700000000000003,
-        0.35688594102043819,
-        2.548,
-        1
-      ]
-    },
-    {
-      "attributes" : {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "openlandscape3dKind" : "plant",
-        "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
-      },
-      "category" : {
-        "flower_red" : {
-
-        }
-      },
-      "dimensions" : [
-        0.43188594102043826,
-        0.71377188204087638,
-        0.43188594102043826
-      ],
-      "identifier" : "7e246548-2e16-46b5-a049-5ab2c5c37a4f",
-      "story" : 0,
-      "transform" : [
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        6.4800000000000004,
-        0.35688594102043819,
-        1.7909999999999999,
-        1
-      ]
-    },
-    {
-      "attributes" : {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "openlandscape3dKind" : "plant",
-        "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
-      },
-      "category" : {
-        "flower_red" : {
-
-        }
-      },
-      "dimensions" : [
-        0.43188594102043826,
-        0.71377188204087638,
-        0.43188594102043826
-      ],
-      "identifier" : "7d2463b5-2f16-4848-a349-5f6bcac3822e",
-      "story" : 0,
-      "transform" : [
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        9.1620000000000008,
-        0.35688594102043819,
-        2.6699999999999999,
-        1
-      ]
-    },
-    {
-      "attributes" : {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "openlandscape3dKind" : "plant",
-        "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
-      },
-      "category" : {
-        "flower_red" : {
-
-        }
-      },
-      "dimensions" : [
-        0.43188594102043826,
-        0.71377188204087638,
-        0.43188594102043826
-      ],
-      "identifier" : "7c246222-3016-49db-a249-5dd8cbc383c1",
-      "story" : 0,
-      "transform" : [
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        5.3810000000000002,
-        0.35688594102043819,
-        2.609,
-        1
-      ]
-    },
-    {
-      "attributes" : {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "openlandscape3dKind" : "plant",
-        "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
-      },
-      "category" : {
-        "flower_red" : {
-
-        }
-      },
-      "dimensions" : [
-        0.43188594102043826,
-        0.71377188204087638,
-        0.43188594102043826
-      ],
-      "identifier" : "7f222844-2d18-43b9-b547-3d2ac8c5bd9f",
-      "story" : 0,
-      "transform" : [
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        6.4610000000000003,
-        0.35688594102043819,
-        1.3280000000000001,
-        1
-      ]
-    },
-    {
-      "attributes" : {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "openlandscape3dKind" : "plant",
-        "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
-      },
-      "category" : {
-        "flower_red" : {
-
-        }
-      },
-      "dimensions" : [
-        0.43188594102043826,
-        0.71377188204087638,
-        0.43188594102043826
-      ],
-      "identifier" : "802229d7-2c18-4226-b647-3ebdc7c5bc0c",
-      "story" : 0,
-      "transform" : [
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        10.132,
-        0.35688594102043819,
-        1.365,
-        1
-      ]
-    },
-    {
-      "attributes" : {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "openlandscape3dKind" : "plant",
-        "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
-      },
-      "category" : {
-        "flower_red" : {
-
-        }
-      },
-      "dimensions" : [
-        0.43188594102043826,
-        0.71377188204087638,
-        0.43188594102043826
-      ],
-      "identifier" : "81222b6a-2b18-4093-b347-3a04cac5c0c5",
-      "story" : 0,
-      "transform" : [
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        13.613,
-        0.35688594102043819,
-        2.738,
-        1
-      ]
-    },
-    {
-      "attributes" : {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "openlandscape3dKind" : "plant",
-        "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
-      },
-      "category" : {
-        "flower_red" : {
-
-        }
-      },
-      "dimensions" : [
-        0.43188594102043826,
-        0.71377188204087638,
-        0.43188594102043826
-      ],
-      "identifier" : "82222cfd-2a18-4f00-b447-3b97c9c5bf32",
-      "story" : 0,
-      "transform" : [
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        11.417999999999999,
-        0.35688594102043819,
-        2.7930000000000001,
-        1
-      ]
-    },
-    {
-      "attributes" : {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "openlandscape3dKind" : "plant",
-        "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
-      },
-      "category" : {
-        "flower_red" : {
-
-        }
-      },
-      "dimensions" : [
-        0.43188594102043826,
-        0.71377188204087638,
-        0.43188594102043826
-      ],
-      "identifier" : "7b2221f8-3118-4a05-b147-36dec4c5b753",
-      "story" : 0,
-      "transform" : [
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        6.593,
-        0.35688594102043819,
-        2.2349999999999999,
-        1
-      ]
-    },
-    {
-      "attributes" : {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "openlandscape3dKind" : "plant",
-        "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
-      },
-      "category" : {
-        "flower_red" : {
-
-        }
-      },
-      "dimensions" : [
-        0.43188594102043826,
-        0.71377188204087638,
-        0.43188594102043826
-      ],
-      "identifier" : "7c22238b-3018-4872-b247-3871c3c5b5c0",
+      "identifier" : "1e0d774e-aa2f-4df3-8562-14ec821c4b21",
       "story" : 0,
       "transform" : [
         1,
@@ -1980,17 +611,1195 @@
         1,
         0,
         14,
-        0.35688594102043819,
+        0.55323546133441925,
+        28.600000000000001,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "c4a571e3-9939-4e97-b436-98f76b53d820",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "aronia-melanocarpa"
+      },
+      "category" : {
+        "bush" : {
+
+        }
+      },
+      "dimensions" : [
+        1.0921456828258289,
+        1.1064709226688385,
+        1.0921456828258289
+      ],
+      "identifier" : "1f0d78e1-a92f-4c60-8662-167f811c498e",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        15,
+        0.55323546133441925,
+        28.600000000000001,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "c4a571e3-9939-4e97-b436-98f76b53d820",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "aronia-melanocarpa"
+      },
+      "category" : {
+        "bush" : {
+
+        }
+      },
+      "dimensions" : [
+        1.0921456828258289,
+        1.1064709226688385,
+        1.0921456828258289
+      ],
+      "identifier" : "200d7a74-b02f-4765-8362-11c6841c4e47",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        16,
+        0.55323546133441925,
+        28.600000000000001,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "c4a571e3-9939-4e97-b436-98f76b53d820",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "aronia-melanocarpa"
+      },
+      "category" : {
+        "bush" : {
+
+        }
+      },
+      "dimensions" : [
+        1.0921456828258289,
+        1.1064709226688385,
+        1.0921456828258289
+      ],
+      "identifier" : "210d7c07-af2f-45d2-8462-1359831c4cb4",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        17,
+        0.55323546133441925,
+        28.600000000000001,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "c4a571e3-9939-4e97-b436-98f76b53d820",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "aronia-melanocarpa"
+      },
+      "category" : {
+        "bush" : {
+
+        }
+      },
+      "dimensions" : [
+        1.0921456828258289,
+        1.1064709226688385,
+        1.0921456828258289
+      ],
+      "identifier" : "220d7d9a-ae2f-443f-8162-0ea0861c516d",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        18,
+        0.55323546133441925,
+        28.600000000000001,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "f4acdd3d-f9ce-4089-981f-e9cd24ccbe82",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "asclepias-incarnata"
+      },
+      "category" : {
+        "flower_red" : {
+
+        }
+      },
+      "dimensions" : [
+        0.62107284141291452,
+        0.94214568282582889,
+        0.62107284141291452
+      ],
+      "identifier" : "6e2c8547-f03c-40e0-8b11-4f85b5eb4c56",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        10.109,
+        0.47107284141291444,
+        2.048,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "f4acdd3d-f9ce-4089-981f-e9cd24ccbe82",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "achillea-millefolium"
+      },
+      "category" : {
+        "flower_yellow" : {
+
+        }
+      },
+      "dimensions" : [
+        0.50128517447358056,
+        0.63547529078930087,
+        0.50128517447358056
+      ],
+      "identifier" : "6d2c83b4-f13c-4273-8a11-4df2b6eb4de9",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        11.016,
+        0.31773764539465044,
+        2.1440000000000001,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "f4acdd3d-f9ce-4089-981f-e9cd24ccbe82",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "aquilegia-canadensis"
+      },
+      "category" : {
+        "flower_red" : {
+
+        }
+      },
+      "dimensions" : [
+        0.34491699632968004,
+        0.39842913656516576,
+        0.34491699632968004
+      ],
+      "identifier" : "702c886d-f23c-4406-8911-4c5fb3eb4930",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        13.297000000000001,
+        0.19921456828258288,
+        2.0609999999999999,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "f4acdd3d-f9ce-4089-981f-e9cd24ccbe82",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "achillea-millefolium"
+      },
+      "category" : {
+        "flower_yellow" : {
+
+        }
+      },
+      "dimensions" : [
+        0.50128517447358056,
+        0.63547529078930087,
+        0.50128517447358056
+      ],
+      "identifier" : "6f2c86da-f33c-4599-8811-4accb4eb4ac3",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        6.0519999999999996,
+        0.31773764539465044,
+        2.0489999999999999,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "f4acdd3d-f9ce-4089-981f-e9cd24ccbe82",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "asclepias-incarnata"
+      },
+      "category" : {
+        "flower_red" : {
+
+        }
+      },
+      "dimensions" : [
+        0.62107284141291452,
+        0.94214568282582889,
+        0.62107284141291452
+      ],
+      "identifier" : "6a2c7efb-f43c-472c-8711-4939b9eb52a2",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        9.8119999999999994,
+        0.47107284141291444,
+        2.5499999999999998,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "f4acdd3d-f9ce-4089-981f-e9cd24ccbe82",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "achillea-millefolium"
+      },
+      "category" : {
+        "flower_yellow" : {
+
+        }
+      },
+      "dimensions" : [
+        0.50128517447358056,
+        0.63547529078930087,
+        0.50128517447358056
+      ],
+      "identifier" : "692c7d68-f53c-48bf-8611-47a6baeb5435",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        9.2479999999999993,
+        0.31773764539465044,
+        2.2719999999999998,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "f4acdd3d-f9ce-4089-981f-e9cd24ccbe82",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "aquilegia-canadensis"
+      },
+      "category" : {
+        "flower_red" : {
+
+        }
+      },
+      "dimensions" : [
+        0.34491699632968004,
+        0.39842913656516576,
+        0.34491699632968004
+      ],
+      "identifier" : "6c2c8221-f63c-4a52-8511-4613b7eb4f7c",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        11.706,
+        0.19921456828258288,
+        1.4570000000000001,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "f4acdd3d-f9ce-4089-981f-e9cd24ccbe82",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "asclepias-incarnata"
+      },
+      "category" : {
+        "flower_red" : {
+
+        }
+      },
+      "dimensions" : [
+        0.62107284141291452,
+        0.94214568282582889,
+        0.62107284141291452
+      ],
+      "identifier" : "6b2c808e-f73c-4be5-8411-4480b8eb510f",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        6.9779999999999998,
+        0.47107284141291444,
+        1.6419999999999999,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "f4acdd3d-f9ce-4089-981f-e9cd24ccbe82",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "achillea-millefolium"
+      },
+      "category" : {
+        "flower_yellow" : {
+
+        }
+      },
+      "dimensions" : [
+        0.50128517447358056,
+        0.63547529078930087,
+        0.50128517447358056
+      ],
+      "identifier" : "662c78af-f83c-4d78-9311-5c1dbdeb58ee",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        9.0220000000000002,
+        0.31773764539465044,
+        1.8029999999999999,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "f4acdd3d-f9ce-4089-981f-e9cd24ccbe82",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "asclepias-incarnata"
+      },
+      "category" : {
+        "flower_red" : {
+
+        }
+      },
+      "dimensions" : [
+        0.62107284141291452,
+        0.94214568282582889,
+        0.62107284141291452
+      ],
+      "identifier" : "652c771c-f93c-4f0b-9211-5a8abeeb5a81",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        10.776,
+        0.47107284141291444,
+        1.4039999999999999,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "f4acdd3d-f9ce-4089-981f-e9cd24ccbe82",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "aquilegia-canadensis"
+      },
+      "category" : {
+        "flower_red" : {
+
+        }
+      },
+      "dimensions" : [
+        0.34491699632968004,
+        0.39842913656516576,
+        0.34491699632968004
+      ],
+      "identifier" : "611308cc-04f5-4f79-9b3d-6866cd6b8c9b",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        12.871,
+        0.19921456828258288,
+        2.4300000000000002,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "f4acdd3d-f9ce-4089-981f-e9cd24ccbe82",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "achillea-millefolium"
+      },
+      "category" : {
+        "flower_yellow" : {
+
+        }
+      },
+      "dimensions" : [
+        0.50128517447358056,
+        0.63547529078930087,
+        0.50128517447358056
+      ],
+      "identifier" : "62130a5f-03f5-4de6-9c3d-69f9cc6b8b08",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        8.2859999999999996,
+        0.31773764539465044,
+        2.1970000000000001,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "f4acdd3d-f9ce-4089-981f-e9cd24ccbe82",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "achillea-millefolium"
+      },
+      "category" : {
+        "flower_yellow" : {
+
+        }
+      },
+      "dimensions" : [
+        0.50128517447358056,
+        0.63547529078930087,
+        0.50128517447358056
+      ],
+      "identifier" : "63130bf2-02f5-4c53-993d-6540cf6b8fc1",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        7.6660000000000004,
+        0.31773764539465044,
+        1.29,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "f4acdd3d-f9ce-4089-981f-e9cd24ccbe82",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "aquilegia-canadensis"
+      },
+      "category" : {
+        "flower_red" : {
+
+        }
+      },
+      "dimensions" : [
+        0.34491699632968004,
+        0.39842913656516576,
+        0.34491699632968004
+      ],
+      "identifier" : "64130d85-01f5-4ac0-9a3d-66d3ce6b8e2e",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        12.265000000000001,
+        0.19921456828258288,
+        2.7639999999999998,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "f4acdd3d-f9ce-4089-981f-e9cd24ccbe82",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "aquilegia-canadensis"
+      },
+      "category" : {
+        "flower_red" : {
+
+        }
+      },
+      "dimensions" : [
+        0.34491699632968004,
+        0.39842913656516576,
+        0.34491699632968004
+      ],
+      "identifier" : "5d130280-08f5-45c5-9f3d-6eb2d16b92e7",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        12.289,
+        0.19921456828258288,
+        1.756,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "f4acdd3d-f9ce-4089-981f-e9cd24ccbe82",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "asclepias-incarnata"
+      },
+      "category" : {
+        "flower_red" : {
+
+        }
+      },
+      "dimensions" : [
+        0.62107284141291452,
+        0.94214568282582889,
+        0.62107284141291452
+      ],
+      "identifier" : "5e130413-07f5-4432-a03d-7045d06b9154",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        13.247999999999999,
+        0.47107284141291444,
+        1.429,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "f4acdd3d-f9ce-4089-981f-e9cd24ccbe82",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "asclepias-incarnata"
+      },
+      "category" : {
+        "flower_red" : {
+
+        }
+      },
+      "dimensions" : [
+        0.62107284141291452,
+        0.94214568282582889,
+        0.62107284141291452
+      ],
+      "identifier" : "5f1305a6-06f5-429f-9d3d-6b8cd36b960d",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        8.9160000000000004,
+        0.47107284141291444,
+        1.2410000000000001,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "f4acdd3d-f9ce-4089-981f-e9cd24ccbe82",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "achillea-millefolium"
+      },
+      "category" : {
+        "flower_yellow" : {
+
+        }
+      },
+      "dimensions" : [
+        0.50128517447358056,
+        0.63547529078930087,
+        0.50128517447358056
+      ],
+      "identifier" : "60130739-05f5-410c-9e3d-6d1fd26b947a",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        14.553000000000001,
+        0.31773764539465044,
+        1.885,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "f4acdd3d-f9ce-4089-981f-e9cd24ccbe82",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "asclepias-incarnata"
+      },
+      "category" : {
+        "flower_red" : {
+
+        }
+      },
+      "dimensions" : [
+        0.62107284141291452,
+        0.94214568282582889,
+        0.62107284141291452
+      ],
+      "identifier" : "69131564-0cf5-4c11-a33d-74fec56b8003",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        9.6820000000000004,
+        0.47107284141291444,
+        1.7649999999999999,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "f4acdd3d-f9ce-4089-981f-e9cd24ccbe82",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "aquilegia-canadensis"
+      },
+      "category" : {
+        "flower_red" : {
+
+        }
+      },
+      "dimensions" : [
+        0.34491699632968004,
+        0.39842913656516576,
+        0.34491699632968004
+      ],
+      "identifier" : "6a1316f7-0bf5-4a7e-a43d-7691c46b7e70",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        8.8499999999999996,
+        0.19921456828258288,
+        2.7000000000000002,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "f4acdd3d-f9ce-4089-981f-e9cd24ccbe82",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "aquilegia-canadensis"
+      },
+      "category" : {
+        "flower_red" : {
+
+        }
+      },
+      "dimensions" : [
+        0.34491699632968004,
+        0.39842913656516576,
+        0.34491699632968004
+      ],
+      "identifier" : "f31aaa67-8af8-4102-b53b-52bd3b63eb00",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        5.3810000000000002,
+        0.19921456828258288,
+        2.609,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "f4acdd3d-f9ce-4089-981f-e9cd24ccbe82",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "aquilegia-canadensis"
+      },
+      "category" : {
+        "flower_red" : {
+
+        }
+      },
+      "dimensions" : [
+        0.34491699632968004,
+        0.39842913656516576,
+        0.34491699632968004
+      ],
+      "identifier" : "f21aa8d4-8bf8-4295-b43b-512a3c63ec93",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        6.4610000000000003,
+        0.19921456828258288,
+        1.3280000000000001,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "f4acdd3d-f9ce-4089-981f-e9cd24ccbe82",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "aquilegia-canadensis"
+      },
+      "category" : {
+        "flower_red" : {
+
+        }
+      },
+      "dimensions" : [
+        0.34491699632968004,
+        0.39842913656516576,
+        0.34491699632968004
+      ],
+      "identifier" : "f51aad8d-88f8-4ddc-b33b-4f973d63ee26",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        10.132,
+        0.19921456828258288,
+        1.365,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "f4acdd3d-f9ce-4089-981f-e9cd24ccbe82",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "aquilegia-canadensis"
+      },
+      "category" : {
+        "flower_red" : {
+
+        }
+      },
+      "dimensions" : [
+        0.34491699632968004,
+        0.39842913656516576,
+        0.34491699632968004
+      ],
+      "identifier" : "f41aabfa-89f8-4f6f-b23b-4e043e63efb9",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        13.613,
+        0.19921456828258288,
+        2.738,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "f4acdd3d-f9ce-4089-981f-e9cd24ccbe82",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "achillea-millefolium"
+      },
+      "category" : {
+        "flower_yellow" : {
+
+        }
+      },
+      "dimensions" : [
+        0.50128517447358056,
+        0.63547529078930087,
+        0.50128517447358056
+      ],
+      "identifier" : "ef1aa41b-86f8-4ab6-b13b-4c713f63f14c",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        11.417999999999999,
+        0.31773764539465044,
+        2.7930000000000001,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "f4acdd3d-f9ce-4089-981f-e9cd24ccbe82",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "asclepias-incarnata"
+      },
+      "category" : {
+        "flower_red" : {
+
+        }
+      },
+      "dimensions" : [
+        0.62107284141291452,
+        0.94214568282582889,
+        0.62107284141291452
+      ],
+      "identifier" : "ee1aa288-87f8-4c49-b03b-4ade4063f2df",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        6.593,
+        0.47107284141291444,
+        2.2349999999999999,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "f4acdd3d-f9ce-4089-981f-e9cd24ccbe82",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "asclepias-incarnata"
+      },
+      "category" : {
+        "flower_red" : {
+
+        }
+      },
+      "dimensions" : [
+        0.62107284141291452,
+        0.94214568282582889,
+        0.62107284141291452
+      ],
+      "identifier" : "f11aa741-84f8-4790-af3b-494b4163f472",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        14,
+        0.47107284141291444,
         1.802,
         1
       ]
     },
     {
       "attributes" : {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
+        "groupId" : "f4acdd3d-f9ce-4089-981f-e9cd24ccbe82",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
+        "plantId" : "aquilegia-canadensis"
       },
       "category" : {
         "flower_red" : {
@@ -1998,87 +1807,11 @@
         }
       },
       "dimensions" : [
-        0.43188594102043826,
-        0.71377188204087638,
-        0.43188594102043826
+        0.34491699632968004,
+        0.39842913656516576,
+        0.34491699632968004
       ],
-      "identifier" : "7d22251e-2f18-46df-af47-33b8c6c5ba79",
-      "story" : 0,
-      "transform" : [
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        12.449999999999999,
-        0.35688594102043819,
-        2.246,
-        1
-      ]
-    },
-    {
-      "attributes" : {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "openlandscape3dKind" : "plant",
-        "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
-      },
-      "category" : {
-        "flower_red" : {
-
-        }
-      },
-      "dimensions" : [
-        0.43188594102043826,
-        0.71377188204087638,
-        0.43188594102043826
-      ],
-      "identifier" : "7e2226b1-2e18-454c-b047-354bc5c5b8e6",
-      "story" : 0,
-      "transform" : [
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        5.9710000000000001,
-        0.35688594102043819,
-        1.659,
-        1
-      ]
-    },
-    {
-      "attributes" : {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "openlandscape3dKind" : "plant",
-        "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
-      },
-      "category" : {
-        "flower_red" : {
-
-        }
-      },
-      "dimensions" : [
-        0.43188594102043826,
-        0.71377188204087638,
-        0.43188594102043826
-      ],
-      "identifier" : "77221bac-3518-4051-ad47-3092d0c5ca37",
+      "identifier" : "f01aa5ae-85f8-4923-ae3b-47b84263f605",
       "story" : 0,
       "transform" : [
         1,
@@ -2094,29 +1827,29 @@
         1,
         0,
         11.542,
-        0.35688594102043819,
+        0.19921456828258288,
         1.988,
         1
       ]
     },
     {
       "attributes" : {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
+        "groupId" : "f4acdd3d-f9ce-4089-981f-e9cd24ccbe82",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
+        "plantId" : "achillea-millefolium"
       },
       "category" : {
-        "flower_red" : {
+        "flower_yellow" : {
 
         }
       },
       "dimensions" : [
-        0.43188594102043826,
-        0.71377188204087638,
-        0.43188594102043826
+        0.50128517447358056,
+        0.63547529078930087,
+        0.50128517447358056
       ],
-      "identifier" : "78221d3f-3418-4ebe-ae47-3225cfc5c8a4",
+      "identifier" : "eb1a9dcf-92f8-4d9a-ad3b-46254363f798",
       "story" : 0,
       "transform" : [
         1,
@@ -2131,18 +1864,18 @@
         0,
         1,
         0,
-        11.917,
-        0.35688594102043819,
-        2.536,
+        12.356,
+        0.31773764539465044,
+        1.208,
         1
       ]
     },
     {
       "attributes" : {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
+        "groupId" : "f4acdd3d-f9ce-4089-981f-e9cd24ccbe82",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
+        "plantId" : "aquilegia-canadensis"
       },
       "category" : {
         "flower_red" : {
@@ -2150,11 +1883,11 @@
         }
       },
       "dimensions" : [
-        0.43188594102043826,
-        0.71377188204087638,
-        0.43188594102043826
+        0.34491699632968004,
+        0.39842913656516576,
+        0.34491699632968004
       ],
-      "identifier" : "791fe03b-2b25-4c86-a74e-ac65beb464c0",
+      "identifier" : "ea1a9c3c-93f8-4f2d-ac3b-44924463f92b",
       "story" : 0,
       "transform" : [
         1,
@@ -2169,68 +1902,30 @@
         0,
         1,
         0,
-        5.7750000000000004,
-        0.35688594102043819,
-        1.2969999999999999,
+        5.899,
+        0.19921456828258288,
+        1.3360000000000001,
         1
       ]
     },
     {
       "attributes" : {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
+        "groupId" : "f4acdd3d-f9ce-4089-981f-e9cd24ccbe82",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
+        "plantId" : "achillea-millefolium"
       },
       "category" : {
-        "flower_red" : {
+        "flower_yellow" : {
 
         }
       },
       "dimensions" : [
-        0.43188594102043826,
-        0.71377188204087638,
-        0.43188594102043826
+        0.50128517447358056,
+        0.63547529078930087,
+        0.50128517447358056
       ],
-      "identifier" : "781fdea8-2c25-4e19-a64e-aad2bfb46653",
-      "story" : 0,
-      "transform" : [
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        10.834,
-        0.35688594102043819,
-        1.796,
-        1
-      ]
-    },
-    {
-      "attributes" : {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "openlandscape3dKind" : "plant",
-        "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
-      },
-      "category" : {
-        "flower_red" : {
-
-        }
-      },
-      "dimensions" : [
-        0.43188594102043826,
-        0.71377188204087638,
-        0.43188594102043826
-      ],
-      "identifier" : "7b1fe361-2925-4960-a54e-a93fc0b467e6",
+      "identifier" : "ed18625e-90fa-490b-af39-0ab4c166fc89",
       "story" : 0,
       "transform" : [
         1,
@@ -2246,17 +1941,17 @@
         1,
         0,
         5.3259999999999996,
-        0.35688594102043819,
+        0.31773764539465044,
         1.409,
         1
       ]
     },
     {
       "attributes" : {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
+        "groupId" : "f4acdd3d-f9ce-4089-981f-e9cd24ccbe82",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
+        "plantId" : "asclepias-incarnata"
       },
       "category" : {
         "flower_red" : {
@@ -2264,11 +1959,11 @@
         }
       },
       "dimensions" : [
-        0.43188594102043826,
-        0.71377188204087638,
-        0.43188594102043826
+        0.62107284141291452,
+        0.94214568282582889,
+        0.62107284141291452
       ],
-      "identifier" : "7a1fe1ce-2a25-4af3-a44e-a7acc1b46979",
+      "identifier" : "ee1863f1-8ffa-4778-b039-0c47c066faf6",
       "story" : 0,
       "transform" : [
         1,
@@ -2284,17 +1979,17 @@
         1,
         0,
         7.1180000000000003,
-        0.35688594102043819,
+        0.47107284141291444,
         2.2109999999999999,
         1
       ]
     },
     {
       "attributes" : {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
+        "groupId" : "f4acdd3d-f9ce-4089-981f-e9cd24ccbe82",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
+        "plantId" : "aquilegia-canadensis"
       },
       "category" : {
         "flower_red" : {
@@ -2302,125 +1997,11 @@
         }
       },
       "dimensions" : [
-        0.43188594102043826,
-        0.71377188204087638,
-        0.43188594102043826
+        0.34491699632968004,
+        0.39842913656516576,
+        0.34491699632968004
       ],
-      "identifier" : "7d1fe687-2f25-42d2-a34e-a619c2b46b0c",
-      "story" : 0,
-      "transform" : [
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        8.5220000000000002,
-        0.35688594102043819,
-        1.355,
-        1
-      ]
-    },
-    {
-      "attributes" : {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "openlandscape3dKind" : "plant",
-        "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
-      },
-      "category" : {
-        "flower_red" : {
-
-        }
-      },
-      "dimensions" : [
-        0.43188594102043826,
-        0.71377188204087638,
-        0.43188594102043826
-      ],
-      "identifier" : "7c1fe4f4-3025-4465-a24e-a486c3b46c9f",
-      "story" : 0,
-      "transform" : [
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        12.074,
-        0.35688594102043819,
-        2.125,
-        1
-      ]
-    },
-    {
-      "attributes" : {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "openlandscape3dKind" : "plant",
-        "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
-      },
-      "category" : {
-        "flower_red" : {
-
-        }
-      },
-      "dimensions" : [
-        0.43188594102043826,
-        0.71377188204087638,
-        0.43188594102043826
-      ],
-      "identifier" : "7f1fe9ad-2d25-4fac-a14e-a2f3c4b46e32",
-      "story" : 0,
-      "transform" : [
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        5.3789999999999996,
-        0.35688594102043819,
-        2.1019999999999999,
-        1
-      ]
-    },
-    {
-      "attributes" : {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "openlandscape3dKind" : "plant",
-        "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
-      },
-      "category" : {
-        "flower_red" : {
-
-        }
-      },
-      "dimensions" : [
-        0.43188594102043826,
-        0.71377188204087638,
-        0.43188594102043826
-      ],
-      "identifier" : "7e1fe81a-2e25-413f-a04e-a160c5b46fc5",
+      "identifier" : "eb185f38-92fa-4c31-b139-0ddabf66f963",
       "story" : 0,
       "transform" : [
         1,
@@ -2436,17 +2017,17 @@
         1,
         0,
         14.380000000000001,
-        0.35688594102043819,
+        0.19921456828258288,
         2.585,
         1
       ]
     },
     {
       "attributes" : {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
+        "groupId" : "f4acdd3d-f9ce-4089-981f-e9cd24ccbe82",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
+        "plantId" : "asclepias-incarnata"
       },
       "category" : {
         "flower_red" : {
@@ -2454,11 +2035,11 @@
         }
       },
       "dimensions" : [
-        0.43188594102043826,
-        0.71377188204087638,
-        0.43188594102043826
+        0.62107284141291452,
+        0.94214568282582889,
+        0.62107284141291452
       ],
-      "identifier" : "711fd3a3-3325-491e-af4e-b8fdc6b47158",
+      "identifier" : "ec1860cb-91fa-4a9e-b239-0f6dbe66f7d0",
       "story" : 0,
       "transform" : [
         1,
@@ -2473,106 +2054,30 @@
         0,
         1,
         0,
-        14.538,
-        0.35688594102043819,
-        1.4219999999999999,
+        6.1310000000000002,
+        0.47107284141291444,
+        2.6989999999999998,
         1
       ]
     },
     {
       "attributes" : {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
+        "groupId" : "f4acdd3d-f9ce-4089-981f-e9cd24ccbe82",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
+        "plantId" : "achillea-millefolium"
       },
       "category" : {
-        "flower_red" : {
+        "flower_yellow" : {
 
         }
       },
       "dimensions" : [
-        0.43188594102043826,
-        0.71377188204087638,
-        0.43188594102043826
+        0.50128517447358056,
+        0.63547529078930087,
+        0.50128517447358056
       ],
-      "identifier" : "701fd210-3425-4ab1-ae4e-b76ac7b472eb",
-      "story" : 0,
-      "transform" : [
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        14.013999999999999,
-        0.35688594102043819,
-        2.7850000000000001,
-        1
-      ]
-    },
-    {
-      "attributes" : {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "openlandscape3dKind" : "plant",
-        "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
-      },
-      "category" : {
-        "flower_red" : {
-
-        }
-      },
-      "dimensions" : [
-        0.43188594102043826,
-        0.71377188204087638,
-        0.43188594102043826
-      ],
-      "identifier" : "f31cceb2-3127-448f-a14c-645c44b77649",
-      "story" : 0,
-      "transform" : [
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        9.3949999999999996,
-        0.35688594102043819,
-        1.3580000000000001,
-        1
-      ]
-    },
-    {
-      "attributes" : {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "openlandscape3dKind" : "plant",
-        "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
-      },
-      "category" : {
-        "flower_red" : {
-
-        }
-      },
-      "dimensions" : [
-        0.43188594102043826,
-        0.71377188204087638,
-        0.43188594102043826
-      ],
-      "identifier" : "f41cd045-3027-42fc-a24c-65ef43b774b6",
+      "identifier" : "f11868aa-94fa-4f57-ab39-0468c56702d5",
       "story" : 0,
       "transform" : [
         1,
@@ -2588,29 +2093,29 @@
         1,
         0,
         7.4770000000000003,
-        0.35688594102043819,
+        0.31773764539465044,
         2.6949999999999998,
         1
       ]
     },
     {
       "attributes" : {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
+        "groupId" : "f4acdd3d-f9ce-4089-981f-e9cd24ccbe82",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
+        "plantId" : "achillea-millefolium"
       },
       "category" : {
-        "flower_red" : {
+        "flower_yellow" : {
 
         }
       },
       "dimensions" : [
-        0.43188594102043826,
-        0.71377188204087638,
-        0.43188594102043826
+        0.50128517447358056,
+        0.63547529078930087,
+        0.50128517447358056
       ],
-      "identifier" : "f11ccb8c-3327-47b5-a34c-678242b77323",
+      "identifier" : "f2186a3d-93fa-4dc4-ac39-05fbc4670142",
       "story" : 0,
       "transform" : [
         1,
@@ -2625,30 +2130,30 @@
         0,
         1,
         0,
-        6.5369999999999999,
-        0.35688594102043819,
-        2.6349999999999998,
+        7.7320000000000002,
+        0.31773764539465044,
+        2.0059999999999998,
         1
       ]
     },
     {
       "attributes" : {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
+        "groupId" : "f4acdd3d-f9ce-4089-981f-e9cd24ccbe82",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
+        "plantId" : "achillea-millefolium"
       },
       "category" : {
-        "flower_red" : {
+        "flower_yellow" : {
 
         }
       },
       "dimensions" : [
-        0.43188594102043826,
-        0.71377188204087638,
-        0.43188594102043826
+        0.50128517447358056,
+        0.63547529078930087,
+        0.50128517447358056
       ],
-      "identifier" : "f21ccd1f-3227-4622-a44c-691541b77190",
+      "identifier" : "ef186584-96fa-427d-ad39-078ec366ffaf",
       "story" : 0,
       "transform" : [
         1,
@@ -2663,18 +2168,18 @@
         0,
         1,
         0,
-        13.872,
-        0.35688594102043819,
-        1.4139999999999999,
+        10.491,
+        0.31773764539465044,
+        2.4929999999999999,
         1
       ]
     },
     {
       "attributes" : {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
+        "groupId" : "f4acdd3d-f9ce-4089-981f-e9cd24ccbe82",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
+        "plantId" : "asclepias-incarnata"
       },
       "category" : {
         "flower_red" : {
@@ -2682,49 +2187,11 @@
         }
       },
       "dimensions" : [
-        0.43188594102043826,
-        0.71377188204087638,
-        0.43188594102043826
+        0.62107284141291452,
+        0.94214568282582889,
+        0.62107284141291452
       ],
-      "identifier" : "ef1cc866-2d27-4e43-9d4c-5e1048b77c95",
-      "story" : 0,
-      "transform" : [
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        11.037000000000001,
-        0.35688594102043819,
-        2.7589999999999999,
-        1
-      ]
-    },
-    {
-      "attributes" : {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "openlandscape3dKind" : "plant",
-        "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
-      },
-      "category" : {
-        "flower_red" : {
-
-        }
-      },
-      "dimensions" : [
-        0.43188594102043826,
-        0.71377188204087638,
-        0.43188594102043826
-      ],
-      "identifier" : "f01cc9f9-2c27-4cb0-9e4c-5fa347b77b02",
+      "identifier" : "f0186717-95fa-40ea-ae39-0921c266fe1c",
       "story" : 0,
       "transform" : [
         1,
@@ -2740,17 +2207,17 @@
         1,
         0,
         8.0009999999999994,
-        0.35688594102043819,
+        0.47107284141291444,
         2.6400000000000001,
         1
       ]
     },
     {
       "attributes" : {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
+        "groupId" : "f4acdd3d-f9ce-4089-981f-e9cd24ccbe82",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
+        "plantId" : "asclepias-incarnata"
       },
       "category" : {
         "flower_red" : {
@@ -2758,11 +2225,11 @@
         }
       },
       "dimensions" : [
-        0.43188594102043826,
-        0.71377188204087638,
-        0.43188594102043826
+        0.62107284141291452,
+        0.94214568282582889,
+        0.62107284141291452
       ],
-      "identifier" : "ed1cc540-2f27-4169-9f4c-613646b7796f",
+      "identifier" : "e51855c6-88fa-4c73-a738-fe1cc9670921",
       "story" : 0,
       "transform" : [
         1,
@@ -2777,18 +2244,18 @@
         0,
         1,
         0,
-        8.5310000000000006,
-        0.35688594102043819,
-        1.754,
+        8.25,
+        0.47107284141291444,
+        1.452,
         1
       ]
     },
     {
       "attributes" : {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
+        "groupId" : "f4acdd3d-f9ce-4089-981f-e9cd24ccbe82",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
+        "plantId" : "aquilegia-canadensis"
       },
       "category" : {
         "flower_red" : {
@@ -2796,11 +2263,11 @@
         }
       },
       "dimensions" : [
-        0.43188594102043826,
-        0.71377188204087638,
-        0.43188594102043826
+        0.34491699632968004,
+        0.39842913656516576,
+        0.34491699632968004
       ],
-      "identifier" : "ee1cc6d3-2e27-4fd6-a04c-62c945b777dc",
+      "identifier" : "e6185759-87fa-4ae0-a838-ffafc867078e",
       "story" : 0,
       "transform" : [
         1,
@@ -2815,30 +2282,30 @@
         0,
         1,
         0,
-        12.768000000000001,
-        0.35688594102043819,
-        1.712,
+        5.5049999999999999,
+        0.19921456828258288,
+        2.1019999999999999,
         1
       ]
     },
     {
       "attributes" : {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
+        "groupId" : "f4acdd3d-f9ce-4089-981f-e9cd24ccbe82",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
+        "plantId" : "achillea-millefolium"
       },
       "category" : {
-        "flower_red" : {
+        "flower_yellow" : {
 
         }
       },
       "dimensions" : [
-        0.43188594102043826,
-        0.71377188204087638,
-        0.43188594102043826
+        0.50128517447358056,
+        0.63547529078930087,
+        0.50128517447358056
       ],
-      "identifier" : "fb1cdb4a-3927-4127-a94c-70f44cb782e1",
+      "identifier" : "ef0b9991-96fd-4114-a935-f92b3f72fbd6",
       "story" : 0,
       "transform" : [
         1,
@@ -2853,18 +2320,18 @@
         0,
         1,
         0,
-        8.8469999999999995,
-        0.35688594102043819,
-        2.214,
+        6.6550000000000002,
+        0.31773764539465044,
+        2.7989999999999999,
         1
       ]
     },
     {
       "attributes" : {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
+        "groupId" : "f4acdd3d-f9ce-4089-981f-e9cd24ccbe82",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
+        "plantId" : "asclepias-incarnata"
       },
       "category" : {
         "flower_red" : {
@@ -2872,11 +2339,11 @@
         }
       },
       "dimensions" : [
-        0.43188594102043826,
-        0.71377188204087638,
-        0.43188594102043826
+        0.62107284141291452,
+        0.94214568282582889,
+        0.62107284141291452
       ],
-      "identifier" : "fc1cdcdd-3827-4f94-aa4c-72874bb7814e",
+      "identifier" : "ee0b97fe-97fd-42a7-a835-f7984072fd69",
       "story" : 0,
       "transform" : [
         1,
@@ -2891,18 +2358,18 @@
         0,
         1,
         0,
-        7.2160000000000002,
-        0.35688594102043819,
-        1.3220000000000001,
+        14.504,
+        0.47107284141291444,
+        1.218,
         1
       ]
     },
     {
       "attributes" : {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
+        "groupId" : "f4acdd3d-f9ce-4089-981f-e9cd24ccbe82",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
+        "plantId" : "aquilegia-canadensis"
       },
       "category" : {
         "flower_red" : {
@@ -2910,11 +2377,11 @@
         }
       },
       "dimensions" : [
-        0.43188594102043826,
-        0.71377188204087638,
-        0.43188594102043826
+        0.34491699632968004,
+        0.39842913656516576,
+        0.34491699632968004
       ],
-      "identifier" : "ed1a86a9-bf20-4554-b353-3c774ab9be52",
+      "identifier" : "ed0b966b-98fd-443a-ab35-fc513d72f8b0",
       "story" : 0,
       "transform" : [
         1,
@@ -2929,30 +2396,30 @@
         0,
         1,
         0,
-        10.366,
-        0.35688594102043819,
-        2.488,
+        13.824,
+        0.19921456828258288,
+        1.244,
         1
       ]
     },
     {
       "attributes" : {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
+        "groupId" : "f4acdd3d-f9ce-4089-981f-e9cd24ccbe82",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
+        "plantId" : "achillea-millefolium"
       },
       "category" : {
-        "flower_red" : {
+        "flower_yellow" : {
 
         }
       },
       "dimensions" : [
-        0.43188594102043826,
-        0.71377188204087638,
-        0.43188594102043826
+        0.50128517447358056,
+        0.63547529078930087,
+        0.50128517447358056
       ],
-      "identifier" : "ec1a8516-c020-46e7-b253-3ae44bb9bfe5",
+      "identifier" : "ec0b94d8-99fd-45cd-aa35-fabe3e72fa43",
       "story" : 0,
       "transform" : [
         1,
@@ -2967,313 +2434,9 @@
         0,
         1,
         0,
-        13.917999999999999,
-        0.35688594102043819,
-        2.331,
-        1
-      ]
-    },
-    {
-      "attributes" : {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "openlandscape3dKind" : "plant",
-        "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
-      },
-      "category" : {
-        "flower_red" : {
-
-        }
-      },
-      "dimensions" : [
-        0.43188594102043826,
-        0.71377188204087638,
-        0.43188594102043826
-      ],
-      "identifier" : "eb1a8383-c120-487a-b553-3f9d48b9bb2c",
-      "story" : 0,
-      "transform" : [
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        7.5259999999999998,
-        0.35688594102043819,
-        2.226,
-        1
-      ]
-    },
-    {
-      "attributes" : {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "openlandscape3dKind" : "plant",
-        "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
-      },
-      "category" : {
-        "flower_red" : {
-
-        }
-      },
-      "dimensions" : [
-        0.43188594102043826,
-        0.71377188204087638,
-        0.43188594102043826
-      ],
-      "identifier" : "ea1a81f0-c220-4a0d-b453-3e0a49b9bcbf",
-      "story" : 0,
-      "transform" : [
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        6.9249999999999998,
-        0.35688594102043819,
-        2.7770000000000001,
-        1
-      ]
-    },
-    {
-      "attributes" : {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "openlandscape3dKind" : "plant",
-        "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
-      },
-      "category" : {
-        "flower_red" : {
-
-        }
-      },
-      "dimensions" : [
-        0.43188594102043826,
-        0.71377188204087638,
-        0.43188594102043826
-      ],
-      "identifier" : "f11a8cf5-bb20-4f08-af53-362b46b9b806",
-      "story" : 0,
-      "transform" : [
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        13.504,
-        0.35688594102043819,
-        1.72,
-        1
-      ]
-    },
-    {
-      "attributes" : {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "openlandscape3dKind" : "plant",
-        "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
-      },
-      "category" : {
-        "flower_red" : {
-
-        }
-      },
-      "dimensions" : [
-        0.43188594102043826,
-        0.71377188204087638,
-        0.43188594102043826
-      ],
-      "identifier" : "f01a8b62-bc20-409b-ae53-349847b9b999",
-      "story" : 0,
-      "transform" : [
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        12.711,
-        0.35688594102043819,
-        1.306,
-        1
-      ]
-    },
-    {
-      "attributes" : {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "openlandscape3dKind" : "plant",
-        "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
-      },
-      "category" : {
-        "flower_red" : {
-
-        }
-      },
-      "dimensions" : [
-        0.43188594102043826,
-        0.71377188204087638,
-        0.43188594102043826
-      ],
-      "identifier" : "ef1a89cf-bd20-422e-b153-395144b9b4e0",
-      "story" : 0,
-      "transform" : [
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        11.302,
-        0.35688594102043819,
-        1.6719999999999999,
-        1
-      ]
-    },
-    {
-      "attributes" : {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "openlandscape3dKind" : "plant",
-        "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
-      },
-      "category" : {
-        "flower_red" : {
-
-        }
-      },
-      "dimensions" : [
-        0.43188594102043826,
-        0.71377188204087638,
-        0.43188594102043826
-      ],
-      "identifier" : "ee1a883c-be20-43c1-b053-37be45b9b673",
-      "story" : 0,
-      "transform" : [
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        7.5389999999999997,
-        0.35688594102043819,
-        1.6950000000000001,
-        1
-      ]
-    },
-    {
-      "attributes" : {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "openlandscape3dKind" : "plant",
-        "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
-      },
-      "category" : {
-        "flower_red" : {
-
-        }
-      },
-      "dimensions" : [
-        0.43188594102043826,
-        0.71377188204087638,
-        0.43188594102043826
-      ],
-      "identifier" : "f51a9341-b720-48bc-ab53-2fdf52b9caea",
-      "story" : 0,
-      "transform" : [
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        5.5640000000000001,
-        0.35688594102043819,
-        1.7330000000000001,
-        1
-      ]
-    },
-    {
-      "attributes" : {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "openlandscape3dKind" : "plant",
-        "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
-      },
-      "category" : {
-        "flower_red" : {
-
-        }
-      },
-      "dimensions" : [
-        0.43188594102043826,
-        0.71377188204087638,
-        0.43188594102043826
-      ],
-      "identifier" : "f41a91ae-b820-4a4f-aa53-2e4c53b9cc7d",
-      "story" : 0,
-      "transform" : [
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        11.34,
-        0.35688594102043819,
-        2.3919999999999999,
+        12.028,
+        0.31773764539465044,
+        2.246,
         1
       ]
     },
@@ -3281,7 +2444,7 @@
       "attributes" : {
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "schizachyrium-scoparium"
+        "plantId" : "chasmanthium-latifolium"
       },
       "category" : {
         "grass_large" : {
@@ -3289,11 +2452,11 @@
         }
       },
       "dimensions" : [
-        0.37837380078495242,
-        0.65674760156990497,
-        0.37837380078495242
+        0.51404856094194296,
+        0.74242236172689535,
+        0.51404856094194296
       ],
-      "identifier" : "acabb14b-c78f-4d3a-b819-0476e4d92317",
+      "identifier" : "911554a7-70af-41da-b31d-880af7b313d6",
       "story" : 0,
       "transform" : [
         1,
@@ -3309,14 +2472,51 @@
         1,
         0,
         16.800000000000001,
-        0.32837380078495249,
+        0.37121118086344768,
         7,
         1
       ]
     },
     {
       "attributes" : {
-        "lineId" : "3434b245-ea05-446e-8eb8-41bd4ec9c4fd",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "muhlenbergia-capillaris"
+      },
+      "category" : {
+        "grass_large" : {
+
+        }
+      },
+      "dimensions" : [
+        0.62107284141291452,
+        0.6353980812559239,
+        0.62107284141291452
+      ],
+      "identifier" : "04a07100-18fc-4aab-8ad2-fd769d68bc5e",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        16.800000000000001,
+        0.31769904062796195,
+        10,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "lineId" : "6b010b78-c102-4da0-8495-293649388344",
         "openlandscape3dKind" : "fence",
         "openlandscape3dRole" : "proposed",
         "segment" : 0
@@ -3331,7 +2531,7 @@
         1.8,
         0.10000000000000001
       ],
-      "identifier" : "d1ea05d0-d691-4bfb-b832-7006396b5169",
+      "identifier" : "a3295eaf-b32b-4c60-bf2b-2e3943b6b32a",
       "story" : 0,
       "transform" : [
         1,
@@ -3354,7 +2554,7 @@
     },
     {
       "attributes" : {
-        "lineId" : "3434b245-ea05-446e-8eb8-41bd4ec9c4fd",
+        "lineId" : "6b010b78-c102-4da0-8495-293649388344",
         "openlandscape3dKind" : "gate",
         "openlandscape3dRole" : "proposed"
       },
@@ -3368,7 +2568,7 @@
         1.8,
         0.10000000000000001
       ],
-      "identifier" : "d18e173c-b0d0-4fd2-bca5-c213fa4f25ab",
+      "identifier" : "46269c63-3c29-47c4-959e-524446abb441",
       "story" : 0,
       "transform" : [
         1,
@@ -3405,7 +2605,7 @@
         0.14999999999999999,
         2.5
       ],
-      "identifier" : "20a37cc7-f6cc-4533-b755-432855169c1d",
+      "identifier" : "fb4e2523-da05-4259-bcc8-29eb4b7ef6e9",
       "story" : 0,
       "transform" : [
         1,
@@ -3441,7 +2641,7 @@
         0.80000000000000004,
         0.5
       ],
-      "identifier" : "4be5424f-111d-46ea-9139-457b265f63d8",
+      "identifier" : "14c05c92-7543-4937-97c5-a50448c5f820",
       "story" : 0,
       "transform" : [
         1,
@@ -3473,7 +2673,7 @@
     "areas" : [
       {
         "elevation" : 0,
-        "id" : "ed68df53-fffa-4bb7-b699-acaf3949bb50",
+        "id" : "08bac377-eee8-4ef5-90a2-3d9839aa8b11",
         "kind" : "lawn",
         "name" : "Back lawn",
         "polygon" : [
@@ -3497,7 +2697,7 @@
       },
       {
         "elevation" : 0,
-        "id" : "b12af5c9-e798-488b-ad80-d5466bc9199d",
+        "id" : "df8c1ece-4dd9-4b9e-845a-a4ffffb670b7",
         "kind" : "bed",
         "materialId" : "mulch-shredded-hardwood",
         "name" : "Back border",
@@ -3523,7 +2723,7 @@
       },
       {
         "elevation" : 0,
-        "id" : "7ff1719b-1e74-413f-a7ca-9597008786e0",
+        "id" : "7e12091e-1cc8-45fe-b0ed-7513036bf208",
         "kind" : "bed",
         "materialId" : "mulch-shredded-hardwood",
         "name" : "Front bed",
@@ -3548,9 +2748,9 @@
       },
       {
         "elevation" : 0,
-        "id" : "20a37cc7-f6cc-4533-b755-432855169c1d",
+        "id" : "fb4e2523-da05-4259-bcc8-29eb4b7ef6e9",
         "kind" : "patio",
-        "materialId" : "patio-bluestone",
+        "materialId" : "decomposed-granite",
         "name" : "Patio",
         "polygon" : [
           [
@@ -3573,9 +2773,9 @@
       },
       {
         "elevation" : 0,
-        "id" : "176558b4-cb05-4f51-905c-04b9962f3491",
+        "id" : "969e237c-02b8-4030-a837-a061537a469a",
         "kind" : "path",
-        "materialId" : "gravel-pea",
+        "materialId" : "mulch-wood-chips-arborist",
         "name" : "Side path",
         "polygon" : [
           [
@@ -3600,30 +2800,33 @@
     "building" : null,
     "captureSource" : "template",
     "catalogVersion" : "ol-plants@0.1",
-    "createdAt" : "2026-10-07T02:42:14Z",
+    "createdAt" : "2026-10-07T03:00:29Z",
     "groups" : [
       {
-        "id" : "12324a30-0e9c-4989-87df-ac213ae473e7",
+        "id" : "c4a571e3-9939-4e97-b436-98f76b53d820",
         "instanceIds" : [
-          "2fe1fc32-450d-4c35-8163-dd1c5ca7b99f",
-          "30e1fdc5-440d-4aa2-8263-deaf5ba7b80c",
-          "2de1f90c-430d-490f-8363-e0425ea7bcc5",
-          "2ee1fa9f-420d-477c-8463-e1d55da7bb32",
-          "2be1f5e6-410d-45e9-bd63-d6d058a7b353",
-          "2ce1f779-400d-4456-be63-d86357a7b1c0",
-          "29e1f2c0-3f0d-42c3-bf63-d9f65aa7b679",
-          "2ae1f453-3e0d-4130-8063-db8959a7b4e6",
-          "37e208ca-4d0d-48cd-8963-e9b464a7c637",
-          "38e20a5d-4c0d-473a-8a63-eb4763a7c4a4",
-          "e8c2c8af-b3cf-43d6-a237-744d85070674",
-          "e7c2c71c-b4cf-4569-a137-72ba86070807",
-          "eac2cbd5-b1cf-40b0-a037-71278707099a",
-          "e9c2ca42-b2cf-4243-9f37-6f9488070b2d"
+          "a05ff59b-1c8f-4c80-acc1-5c69e7323f36",
+          "9f5ff408-1d8f-4e13-abc1-5ad6e83240c9",
+          "a25ff8c1-1e8f-4fa6-aac1-5943e5323c10",
+          "a15ff72e-1f8f-4139-a9c1-57b0e6323da3",
+          "a45ffbe7-208f-42cc-b0c1-62b5eb324582",
+          "a35ffa54-218f-445f-afc1-6122ec324715",
+          "a65fff0d-228f-45f2-aec1-5f8fe932425c",
+          "a55ffd7a-238f-4785-adc1-5dfcea3243ef",
+          "985fe903-248f-4918-b4c1-6901ef324bce",
+          "975fe770-258f-4aab-b3c1-676ef0324d61",
+          "1c0d7428-ac2f-4119-8762-1812801c47fb",
+          "1d0d75bb-ab2f-4f86-8862-19a57f1c4668",
+          "1e0d774e-aa2f-4df3-8562-14ec821c4b21",
+          "1f0d78e1-a92f-4c60-8662-167f811c498e",
+          "200d7a74-b02f-4765-8362-11c6841c4e47",
+          "210d7c07-af2f-45d2-8462-1359831c4cb4",
+          "220d7d9a-ae2f-443f-8162-0ea0861c516d"
         ],
         "kind" : "row",
         "mix" : [
           {
-            "plantId" : "ilex-glabra",
+            "plantId" : "aronia-melanocarpa",
             "ratio" : 1
           }
         ],
@@ -3638,86 +2841,68 @@
           ]
         ],
         "seed" : 7,
-        "spacing" : 1.2
+        "spacing" : 1
       },
       {
-        "id" : "1bba088f-b422-4e68-a004-eb799485858c",
+        "id" : "f4acdd3d-f9ce-4089-981f-e9cd24ccbe82",
         "instanceIds" : [
-          "acd075d5-3901-46c6-a4f9-2ecb8afc06bc",
-          "abd07442-3a01-4859-a3f9-2d388bfc084f",
-          "aad072af-3701-43a0-a6f9-31f18cfc09e2",
-          "a9d0711c-3801-4533-a5f9-305e8dfc0b75",
-          "a8d06f89-3d01-4d12-a8f9-351786fc0070",
-          "a7d06df6-3e01-4ea5-a7f9-338487fc0203",
-          "a6d06c63-3b01-49ec-aaf9-383d88fc0396",
-          "a5d06ad0-3c01-4b7f-a9f9-36aa89fc0529",
-          "b4d0826d-4101-435e-9cf9-223392fc1354",
-          "b3d080da-4201-44f1-9bf9-20a093fc14e7",
-          "eb274f76-b91e-4d4b-a941-e398dcc15fed",
-          "ec275109-b81e-4bb8-aa41-e52bdbc15e5a",
-          "e9274c50-bb1e-4071-ab41-e6bedac15cc7",
-          "ea274de3-ba1e-4ede-ac41-e851d9c15b34",
-          "ef2755c2-bd1e-4397-ad41-e9e4d8c159a1",
-          "f0275755-bc1e-4204-ae41-eb77d7c1580e",
-          "ed27529c-bf1e-46bd-af41-ed0ad6c1567b",
-          "ee27542f-be1e-452a-b041-ee9dd5c154e8",
-          "f3275c0e-b11e-40b3-a141-d700d4c15355",
-          "f4275da1-b01e-4f20-a241-d893d3c151c2",
-          "8524704d-2716-4bb0-9b49-52d3c2c37596",
-          "84246eba-2816-4d43-9a49-5140c3c37729",
-          "83246d27-2916-4ed6-9d49-55f9c0c37270",
-          "82246b94-2a16-4069-9c49-5466c1c37403",
-          "81246a01-2b16-41fc-9f49-591fc6c37be2",
-          "8024686e-2c16-438f-9e49-578cc7c37d75",
-          "7f2466db-2d16-4522-a149-5c45c4c378bc",
-          "7e246548-2e16-46b5-a049-5ab2c5c37a4f",
-          "7d2463b5-2f16-4848-a349-5f6bcac3822e",
-          "7c246222-3016-49db-a249-5dd8cbc383c1",
-          "7f222844-2d18-43b9-b547-3d2ac8c5bd9f",
-          "802229d7-2c18-4226-b647-3ebdc7c5bc0c",
-          "81222b6a-2b18-4093-b347-3a04cac5c0c5",
-          "82222cfd-2a18-4f00-b447-3b97c9c5bf32",
-          "7b2221f8-3118-4a05-b147-36dec4c5b753",
-          "7c22238b-3018-4872-b247-3871c3c5b5c0",
-          "7d22251e-2f18-46df-af47-33b8c6c5ba79",
-          "7e2226b1-2e18-454c-b047-354bc5c5b8e6",
-          "77221bac-3518-4051-ad47-3092d0c5ca37",
-          "78221d3f-3418-4ebe-ae47-3225cfc5c8a4",
-          "791fe03b-2b25-4c86-a74e-ac65beb464c0",
-          "781fdea8-2c25-4e19-a64e-aad2bfb46653",
-          "7b1fe361-2925-4960-a54e-a93fc0b467e6",
-          "7a1fe1ce-2a25-4af3-a44e-a7acc1b46979",
-          "7d1fe687-2f25-42d2-a34e-a619c2b46b0c",
-          "7c1fe4f4-3025-4465-a24e-a486c3b46c9f",
-          "7f1fe9ad-2d25-4fac-a14e-a2f3c4b46e32",
-          "7e1fe81a-2e25-413f-a04e-a160c5b46fc5",
-          "711fd3a3-3325-491e-af4e-b8fdc6b47158",
-          "701fd210-3425-4ab1-ae4e-b76ac7b472eb",
-          "f31cceb2-3127-448f-a14c-645c44b77649",
-          "f41cd045-3027-42fc-a24c-65ef43b774b6",
-          "f11ccb8c-3327-47b5-a34c-678242b77323",
-          "f21ccd1f-3227-4622-a44c-691541b77190",
-          "ef1cc866-2d27-4e43-9d4c-5e1048b77c95",
-          "f01cc9f9-2c27-4cb0-9e4c-5fa347b77b02",
-          "ed1cc540-2f27-4169-9f4c-613646b7796f",
-          "ee1cc6d3-2e27-4fd6-a04c-62c945b777dc",
-          "fb1cdb4a-3927-4127-a94c-70f44cb782e1",
-          "fc1cdcdd-3827-4f94-aa4c-72874bb7814e",
-          "ed1a86a9-bf20-4554-b353-3c774ab9be52",
-          "ec1a8516-c020-46e7-b253-3ae44bb9bfe5",
-          "eb1a8383-c120-487a-b553-3f9d48b9bb2c",
-          "ea1a81f0-c220-4a0d-b453-3e0a49b9bcbf",
-          "f11a8cf5-bb20-4f08-af53-362b46b9b806",
-          "f01a8b62-bc20-409b-ae53-349847b9b999",
-          "ef1a89cf-bd20-422e-b153-395144b9b4e0",
-          "ee1a883c-be20-43c1-b053-37be45b9b673",
-          "f51a9341-b720-48bc-ab53-2fdf52b9caea",
-          "f41a91ae-b820-4a4f-aa53-2e4c53b9cc7d"
+          "6e2c8547-f03c-40e0-8b11-4f85b5eb4c56",
+          "6d2c83b4-f13c-4273-8a11-4df2b6eb4de9",
+          "702c886d-f23c-4406-8911-4c5fb3eb4930",
+          "6f2c86da-f33c-4599-8811-4accb4eb4ac3",
+          "6a2c7efb-f43c-472c-8711-4939b9eb52a2",
+          "692c7d68-f53c-48bf-8611-47a6baeb5435",
+          "6c2c8221-f63c-4a52-8511-4613b7eb4f7c",
+          "6b2c808e-f73c-4be5-8411-4480b8eb510f",
+          "662c78af-f83c-4d78-9311-5c1dbdeb58ee",
+          "652c771c-f93c-4f0b-9211-5a8abeeb5a81",
+          "611308cc-04f5-4f79-9b3d-6866cd6b8c9b",
+          "62130a5f-03f5-4de6-9c3d-69f9cc6b8b08",
+          "63130bf2-02f5-4c53-993d-6540cf6b8fc1",
+          "64130d85-01f5-4ac0-9a3d-66d3ce6b8e2e",
+          "5d130280-08f5-45c5-9f3d-6eb2d16b92e7",
+          "5e130413-07f5-4432-a03d-7045d06b9154",
+          "5f1305a6-06f5-429f-9d3d-6b8cd36b960d",
+          "60130739-05f5-410c-9e3d-6d1fd26b947a",
+          "69131564-0cf5-4c11-a33d-74fec56b8003",
+          "6a1316f7-0bf5-4a7e-a43d-7691c46b7e70",
+          "f31aaa67-8af8-4102-b53b-52bd3b63eb00",
+          "f21aa8d4-8bf8-4295-b43b-512a3c63ec93",
+          "f51aad8d-88f8-4ddc-b33b-4f973d63ee26",
+          "f41aabfa-89f8-4f6f-b23b-4e043e63efb9",
+          "ef1aa41b-86f8-4ab6-b13b-4c713f63f14c",
+          "ee1aa288-87f8-4c49-b03b-4ade4063f2df",
+          "f11aa741-84f8-4790-af3b-494b4163f472",
+          "f01aa5ae-85f8-4923-ae3b-47b84263f605",
+          "eb1a9dcf-92f8-4d9a-ad3b-46254363f798",
+          "ea1a9c3c-93f8-4f2d-ac3b-44924463f92b",
+          "ed18625e-90fa-490b-af39-0ab4c166fc89",
+          "ee1863f1-8ffa-4778-b039-0c47c066faf6",
+          "eb185f38-92fa-4c31-b139-0ddabf66f963",
+          "ec1860cb-91fa-4a9e-b239-0f6dbe66f7d0",
+          "f11868aa-94fa-4f57-ab39-0468c56702d5",
+          "f2186a3d-93fa-4dc4-ac39-05fbc4670142",
+          "ef186584-96fa-427d-ad39-078ec366ffaf",
+          "f0186717-95fa-40ea-ae39-0921c266fe1c",
+          "e51855c6-88fa-4c73-a738-fe1cc9670921",
+          "e6185759-87fa-4ae0-a838-ffafc867078e",
+          "ef0b9991-96fd-4114-a935-f92b3f72fbd6",
+          "ee0b97fe-97fd-42a7-a835-f7984072fd69",
+          "ed0b966b-98fd-443a-ab35-fc513d72f8b0",
+          "ec0b94d8-99fd-45cd-aa35-fabe3e72fa43"
         ],
         "kind" : "mass",
         "mix" : [
           {
-            "plantId" : "echinacea-purpurea",
+            "plantId" : "achillea-millefolium",
+            "ratio" : 1
+          },
+          {
+            "plantId" : "aquilegia-canadensis",
+            "ratio" : 1
+          },
+          {
+            "plantId" : "asclepias-incarnata",
             "ratio" : 1
           }
         ],
@@ -3740,29 +2925,34 @@
           ]
         ],
         "seed" : 11,
-        "spacing" : 0.45000000000000001
+        "spacing" : 0.59999999999999998
       }
     ],
     "ios" : {
       "palette" : [
         "acer-rubrum",
-        "echinacea-purpurea",
-        "ilex-glabra",
-        "schizachyrium-scoparium"
+        "acer-saccharum",
+        "achillea-millefolium",
+        "amelanchier-arborea",
+        "aquilegia-canadensis",
+        "aronia-melanocarpa",
+        "asclepias-incarnata",
+        "chasmanthium-latifolium",
+        "muhlenbergia-capillaris"
       ]
     },
     "lines" : [
       {
         "gates" : [
           {
-            "id" : "d18e173c-b0d0-4fd2-bca5-c213fa4f25ab",
+            "id" : "46269c63-3c29-47c4-959e-524446abb441",
             "offset" : 9.5,
             "segment" : 0,
             "width" : 1
           }
         ],
         "height" : 1.8,
-        "id" : "3434b245-ea05-446e-8eb8-41bd4ec9c4fd",
+        "id" : "6b010b78-c102-4da0-8495-293649388344",
         "kind" : "fence",
         "points" : [
           [
@@ -3785,7 +2975,7 @@
         "depth" : 0.5,
         "elevation" : 0,
         "height" : 0.80000000000000004,
-        "id" : "4be5424f-111d-46ea-9139-457b265f63d8",
+        "id" : "14c05c92-7543-4937-97c5-a50448c5f820",
         "rotation" : 0,
         "status" : "proposed",
         "width" : 1.5,
@@ -3796,8 +2986,8 @@
     "observations" : [
       {
         "author" : "ios",
-        "createdAt" : "2026-10-07T01:42:14Z",
-        "id" : "5d07d4d7-e91a-4e76-b276-5e856999c7b6",
+        "createdAt" : "2026-10-07T02:00:29Z",
+        "id" : "f8c227ad-d07d-4ad6-826d-8fe3b0a45a85",
         "kind" : "issue",
         "resolved" : false,
         "text" : "Standing water after rain — consider a rain garden here",
@@ -3806,8 +2996,8 @@
       },
       {
         "author" : "ios",
-        "createdAt" : "2026-10-07T02:42:14Z",
-        "id" : "d887a572-ef90-496e-8ef6-c5391e77f4cb",
+        "createdAt" : "2026-10-07T03:00:29Z",
+        "id" : "a9cadc39-804a-4260-8402-8b980471e223",
         "kind" : "measurement",
         "text" : "Fence height",
         "unit" : "m",
@@ -3821,1138 +3011,863 @@
     ],
     "plants" : [
       {
-        "id" : "6e6ab3df-5616-4805-9bf2-a72422e1d97e",
-        "installHeight" : 3,
+        "id" : "3767f893-4d51-4f92-8d74-d9ffef48f8a7",
+        "installHeight" : 3.3999999999999999,
         "installSize" : "BB-2in",
-        "installSpread" : 1.2,
+        "installSpread" : 1.5,
         "plantedYear" : 0,
         "plantId" : "acer-rubrum",
-        "seed" : 23326,
+        "seed" : 99862,
         "status" : "proposed",
         "x" : 4,
         "y" : 20
       },
       {
+        "id" : "b834a17a-fb57-4c15-9609-bc17179c592a",
+        "installHeight" : 3.3999999999999999,
+        "installSize" : "BB-2in",
+        "installSpread" : 1.5,
+        "plantedYear" : 0,
+        "plantId" : "acer-saccharum",
+        "seed" : 6842,
+        "status" : "proposed",
+        "x" : 17,
+        "y" : 21
+      },
+      {
         "condition" : "good",
-        "id" : "c1b75c96-ddb8-48b2-9c4d-e7dfb0143247",
+        "id" : "eb6fe5a7-ccd6-47af-9ff7-7fd3267814b4",
         "installSize" : "existing",
-        "measuredHeight" : 9,
-        "measuredSpread" : 6.2999999999999998,
+        "measuredHeight" : 3.8999999999999999,
+        "measuredSpread" : 3.2999999999999998,
         "note" : "Mature street-side tree, keep and protect roots",
         "plantedYear" : 0,
-        "plantId" : "acer-rubrum",
+        "plantId" : "amelanchier-arborea",
         "seed" : 42,
         "status" : "retain",
         "x" : 2.2000000000000002,
         "y" : 2.2000000000000002
       },
       {
-        "groupId" : "12324a30-0e9c-4989-87df-ac213ae473e7",
-        "id" : "2fe1fc32-450d-4c35-8163-dd1c5ca7b99f",
+        "groupId" : "c4a571e3-9939-4e97-b436-98f76b53d820",
+        "id" : "a05ff59b-1c8f-4c80-acc1-5c69e7323f36",
         "installHeight" : 0.5,
         "installSize" : "#3",
         "installSpread" : 0.45000000000000001,
         "plantedYear" : 0,
-        "plantId" : "ilex-glabra",
+        "plantId" : "aronia-melanocarpa",
         "seed" : 156295169,
         "status" : "proposed",
-        "x" : 2.1070000000000002,
+        "x" : 2,
         "y" : 28.600000000000001
       },
       {
-        "groupId" : "12324a30-0e9c-4989-87df-ac213ae473e7",
-        "id" : "30e1fdc5-440d-4aa2-8263-deaf5ba7b80c",
+        "groupId" : "c4a571e3-9939-4e97-b436-98f76b53d820",
+        "id" : "9f5ff408-1d8f-4e13-abc1-5ad6e83240c9",
         "installHeight" : 0.5,
         "installSize" : "#3",
         "installSpread" : 0.45000000000000001,
         "plantedYear" : 0,
-        "plantId" : "ilex-glabra",
+        "plantId" : "aronia-melanocarpa",
         "seed" : 625192261,
         "status" : "proposed",
-        "x" : 3.3210000000000002,
+        "x" : 3,
         "y" : 28.600000000000001
       },
       {
-        "groupId" : "12324a30-0e9c-4989-87df-ac213ae473e7",
-        "id" : "2de1f90c-430d-490f-8363-e0425ea7bcc5",
+        "groupId" : "c4a571e3-9939-4e97-b436-98f76b53d820",
+        "id" : "a25ff8c1-1e8f-4fa6-aac1-5943e5323c10",
         "installHeight" : 0.5,
         "installSize" : "#3",
         "installSpread" : 0.45000000000000001,
         "plantedYear" : 0,
-        "plantId" : "ilex-glabra",
+        "plantId" : "aronia-melanocarpa",
         "seed" : 300664582,
         "status" : "proposed",
-        "x" : 4.5359999999999996,
+        "x" : 4,
         "y" : 28.600000000000001
       },
       {
-        "groupId" : "12324a30-0e9c-4989-87df-ac213ae473e7",
-        "id" : "2ee1fa9f-420d-477c-8463-e1d55da7bb32",
+        "groupId" : "c4a571e3-9939-4e97-b436-98f76b53d820",
+        "id" : "a15ff72e-1f8f-4139-a9c1-57b0e6323da3",
         "installHeight" : 0.5,
         "installSize" : "#3",
         "installSpread" : 0.45000000000000001,
         "plantedYear" : 0,
-        "plantId" : "ilex-glabra",
+        "plantId" : "aronia-melanocarpa",
         "seed" : 695954287,
         "status" : "proposed",
-        "x" : 5.75,
+        "x" : 5,
         "y" : 28.600000000000001
       },
       {
-        "groupId" : "12324a30-0e9c-4989-87df-ac213ae473e7",
-        "id" : "2be1f5e6-410d-45e9-bd63-d6d058a7b353",
+        "groupId" : "c4a571e3-9939-4e97-b436-98f76b53d820",
+        "id" : "a45ffbe7-208f-42cc-b0c1-62b5eb324582",
         "installHeight" : 0.5,
         "installSize" : "#3",
         "installSpread" : 0.45000000000000001,
         "plantedYear" : 0,
-        "plantId" : "ilex-glabra",
+        "plantId" : "aronia-melanocarpa",
         "seed" : 585009101,
         "status" : "proposed",
-        "x" : 6.9640000000000004,
+        "x" : 6,
         "y" : 28.600000000000001
       },
       {
-        "groupId" : "12324a30-0e9c-4989-87df-ac213ae473e7",
-        "id" : "2ce1f779-400d-4456-be63-d86357a7b1c0",
+        "groupId" : "c4a571e3-9939-4e97-b436-98f76b53d820",
+        "id" : "a35ffa54-218f-445f-afc1-6122ec324715",
         "installHeight" : 0.5,
         "installSize" : "#3",
         "installSpread" : 0.45000000000000001,
         "plantedYear" : 0,
-        "plantId" : "ilex-glabra",
+        "plantId" : "aronia-melanocarpa",
         "seed" : 449399001,
         "status" : "proposed",
-        "x" : 8.1790000000000003,
+        "x" : 7,
         "y" : 28.600000000000001
       },
       {
-        "groupId" : "12324a30-0e9c-4989-87df-ac213ae473e7",
-        "id" : "29e1f2c0-3f0d-42c3-bf63-d9f65aa7b679",
+        "groupId" : "c4a571e3-9939-4e97-b436-98f76b53d820",
+        "id" : "a65fff0d-228f-45f2-aec1-5f8fe932425c",
         "installHeight" : 0.5,
         "installSize" : "#3",
         "installSpread" : 0.45000000000000001,
         "plantedYear" : 0,
-        "plantId" : "ilex-glabra",
+        "plantId" : "aronia-melanocarpa",
         "seed" : 818759552,
         "status" : "proposed",
-        "x" : 9.3930000000000007,
+        "x" : 8,
         "y" : 28.600000000000001
       },
       {
-        "groupId" : "12324a30-0e9c-4989-87df-ac213ae473e7",
-        "id" : "2ae1f453-3e0d-4130-8063-db8959a7b4e6",
+        "groupId" : "c4a571e3-9939-4e97-b436-98f76b53d820",
+        "id" : "a55ffd7a-238f-4785-adc1-5dfcea3243ef",
         "installHeight" : 0.5,
         "installSize" : "#3",
         "installSpread" : 0.45000000000000001,
         "plantedYear" : 0,
-        "plantId" : "ilex-glabra",
+        "plantId" : "aronia-melanocarpa",
         "seed" : 238814557,
         "status" : "proposed",
-        "x" : 10.606999999999999,
+        "x" : 9,
         "y" : 28.600000000000001
       },
       {
-        "groupId" : "12324a30-0e9c-4989-87df-ac213ae473e7",
-        "id" : "37e208ca-4d0d-48cd-8963-e9b464a7c637",
+        "groupId" : "c4a571e3-9939-4e97-b436-98f76b53d820",
+        "id" : "985fe903-248f-4918-b4c1-6901ef324bce",
         "installHeight" : 0.5,
         "installSize" : "#3",
         "installSpread" : 0.45000000000000001,
         "plantedYear" : 0,
-        "plantId" : "ilex-glabra",
+        "plantId" : "aronia-melanocarpa",
         "seed" : 506617665,
         "status" : "proposed",
-        "x" : 11.821,
+        "x" : 10,
         "y" : 28.600000000000001
       },
       {
-        "groupId" : "12324a30-0e9c-4989-87df-ac213ae473e7",
-        "id" : "38e20a5d-4c0d-473a-8a63-eb4763a7c4a4",
+        "groupId" : "c4a571e3-9939-4e97-b436-98f76b53d820",
+        "id" : "975fe770-258f-4aab-b3c1-676ef0324d61",
         "installHeight" : 0.5,
         "installSize" : "#3",
         "installSpread" : 0.45000000000000001,
         "plantedYear" : 0,
-        "plantId" : "ilex-glabra",
+        "plantId" : "aronia-melanocarpa",
         "seed" : 60138064,
         "status" : "proposed",
-        "x" : 13.036,
+        "x" : 11,
         "y" : 28.600000000000001
       },
       {
-        "groupId" : "12324a30-0e9c-4989-87df-ac213ae473e7",
-        "id" : "e8c2c8af-b3cf-43d6-a237-744d85070674",
+        "groupId" : "c4a571e3-9939-4e97-b436-98f76b53d820",
+        "id" : "1c0d7428-ac2f-4119-8762-1812801c47fb",
         "installHeight" : 0.5,
         "installSize" : "#3",
         "installSpread" : 0.45000000000000001,
         "plantedYear" : 0,
-        "plantId" : "ilex-glabra",
+        "plantId" : "aronia-melanocarpa",
         "seed" : 514183914,
         "status" : "proposed",
-        "x" : 14.25,
+        "x" : 12,
         "y" : 28.600000000000001
       },
       {
-        "groupId" : "12324a30-0e9c-4989-87df-ac213ae473e7",
-        "id" : "e7c2c71c-b4cf-4569-a137-72ba86070807",
+        "groupId" : "c4a571e3-9939-4e97-b436-98f76b53d820",
+        "id" : "1d0d75bb-ab2f-4f86-8862-19a57f1c4668",
         "installHeight" : 0.5,
         "installSize" : "#3",
         "installSpread" : 0.45000000000000001,
         "plantedYear" : 0,
-        "plantId" : "ilex-glabra",
+        "plantId" : "aronia-melanocarpa",
         "seed" : 73358429,
         "status" : "proposed",
-        "x" : 15.464,
+        "x" : 13,
         "y" : 28.600000000000001
       },
       {
-        "groupId" : "12324a30-0e9c-4989-87df-ac213ae473e7",
-        "id" : "eac2cbd5-b1cf-40b0-a037-71278707099a",
+        "groupId" : "c4a571e3-9939-4e97-b436-98f76b53d820",
+        "id" : "1e0d774e-aa2f-4df3-8562-14ec821c4b21",
         "installHeight" : 0.5,
         "installSize" : "#3",
         "installSpread" : 0.45000000000000001,
         "plantedYear" : 0,
-        "plantId" : "ilex-glabra",
+        "plantId" : "aronia-melanocarpa",
         "seed" : 569454655,
         "status" : "proposed",
-        "x" : 16.678999999999998,
+        "x" : 14,
         "y" : 28.600000000000001
       },
       {
-        "groupId" : "12324a30-0e9c-4989-87df-ac213ae473e7",
-        "id" : "e9c2ca42-b2cf-4243-9f37-6f9488070b2d",
+        "groupId" : "c4a571e3-9939-4e97-b436-98f76b53d820",
+        "id" : "1f0d78e1-a92f-4c60-8662-167f811c498e",
         "installHeight" : 0.5,
         "installSize" : "#3",
         "installSpread" : 0.45000000000000001,
         "plantedYear" : 0,
-        "plantId" : "ilex-glabra",
+        "plantId" : "aronia-melanocarpa",
         "seed" : 220359780,
         "status" : "proposed",
-        "x" : 17.893000000000001,
+        "x" : 15,
         "y" : 28.600000000000001
       },
       {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "id" : "acd075d5-3901-46c6-a4f9-2ecb8afc06bc",
-        "installHeight" : 0.25,
-        "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "groupId" : "c4a571e3-9939-4e97-b436-98f76b53d820",
+        "id" : "200d7a74-b02f-4765-8362-11c6841c4e47",
+        "installHeight" : 0.5,
+        "installSize" : "#3",
+        "installSpread" : 0.45000000000000001,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
+        "plantId" : "aronia-melanocarpa",
+        "seed" : 160547618,
+        "status" : "proposed",
+        "x" : 16,
+        "y" : 28.600000000000001
+      },
+      {
+        "groupId" : "c4a571e3-9939-4e97-b436-98f76b53d820",
+        "id" : "210d7c07-af2f-45d2-8462-1359831c4cb4",
+        "installHeight" : 0.5,
+        "installSize" : "#3",
+        "installSpread" : 0.45000000000000001,
+        "plantedYear" : 0,
+        "plantId" : "aronia-melanocarpa",
+        "seed" : 954732639,
+        "status" : "proposed",
+        "x" : 17,
+        "y" : 28.600000000000001
+      },
+      {
+        "groupId" : "c4a571e3-9939-4e97-b436-98f76b53d820",
+        "id" : "220d7d9a-ae2f-443f-8162-0ea0861c516d",
+        "installHeight" : 0.5,
+        "installSize" : "#3",
+        "installSpread" : 0.45000000000000001,
+        "plantedYear" : 0,
+        "plantId" : "aronia-melanocarpa",
+        "seed" : 693430327,
+        "status" : "proposed",
+        "x" : 18,
+        "y" : 28.600000000000001
+      },
+      {
+        "groupId" : "f4acdd3d-f9ce-4089-981f-e9cd24ccbe82",
+        "id" : "6e2c8547-f03c-40e0-8b11-4f85b5eb4c56",
+        "installHeight" : 0.29999999999999999,
+        "installSize" : "#1",
+        "installSpread" : 0.29999999999999999,
+        "plantedYear" : 0,
+        "plantId" : "asclepias-incarnata",
         "seed" : 288150913,
         "status" : "proposed",
         "x" : 10.109,
         "y" : 2.048
       },
       {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "id" : "abd07442-3a01-4859-a3f9-2d388bfc084f",
-        "installHeight" : 0.25,
+        "groupId" : "f4acdd3d-f9ce-4089-981f-e9cd24ccbe82",
+        "id" : "6d2c83b4-f13c-4273-8a11-4df2b6eb4de9",
+        "installHeight" : 0.29999999999999999,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.29999999999999999,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
+        "plantId" : "achillea-millefolium",
         "seed" : 75667508,
         "status" : "proposed",
         "x" : 11.016,
         "y" : 2.1440000000000001
       },
       {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "id" : "aad072af-3701-43a0-a6f9-31f18cfc09e2",
-        "installHeight" : 0.25,
+        "groupId" : "f4acdd3d-f9ce-4089-981f-e9cd24ccbe82",
+        "id" : "702c886d-f23c-4406-8911-4c5fb3eb4930",
+        "installHeight" : 0.27000000000000002,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.27000000000000002,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
+        "plantId" : "aquilegia-canadensis",
         "seed" : 580161066,
         "status" : "proposed",
         "x" : 13.297000000000001,
         "y" : 2.0609999999999999
       },
       {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "id" : "a9d0711c-3801-4533-a5f9-305e8dfc0b75",
-        "installHeight" : 0.25,
+        "groupId" : "f4acdd3d-f9ce-4089-981f-e9cd24ccbe82",
+        "id" : "6f2c86da-f33c-4599-8811-4accb4eb4ac3",
+        "installHeight" : 0.29999999999999999,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.29999999999999999,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
+        "plantId" : "achillea-millefolium",
         "seed" : 941360440,
         "status" : "proposed",
         "x" : 6.0519999999999996,
         "y" : 2.0489999999999999
       },
       {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "id" : "a8d06f89-3d01-4d12-a8f9-351786fc0070",
-        "installHeight" : 0.25,
+        "groupId" : "f4acdd3d-f9ce-4089-981f-e9cd24ccbe82",
+        "id" : "6a2c7efb-f43c-472c-8711-4939b9eb52a2",
+        "installHeight" : 0.29999999999999999,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.29999999999999999,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
+        "plantId" : "asclepias-incarnata",
         "seed" : 152771589,
         "status" : "proposed",
         "x" : 9.8119999999999994,
         "y" : 2.5499999999999998
       },
       {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "id" : "a7d06df6-3e01-4ea5-a7f9-338487fc0203",
-        "installHeight" : 0.25,
+        "groupId" : "f4acdd3d-f9ce-4089-981f-e9cd24ccbe82",
+        "id" : "692c7d68-f53c-48bf-8611-47a6baeb5435",
+        "installHeight" : 0.29999999999999999,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.29999999999999999,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
+        "plantId" : "achillea-millefolium",
         "seed" : 13687808,
         "status" : "proposed",
         "x" : 9.2479999999999993,
         "y" : 2.2719999999999998
       },
       {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "id" : "a6d06c63-3b01-49ec-aaf9-383d88fc0396",
-        "installHeight" : 0.25,
+        "groupId" : "f4acdd3d-f9ce-4089-981f-e9cd24ccbe82",
+        "id" : "6c2c8221-f63c-4a52-8511-4613b7eb4f7c",
+        "installHeight" : 0.27000000000000002,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.27000000000000002,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
+        "plantId" : "aquilegia-canadensis",
         "seed" : 696003793,
         "status" : "proposed",
         "x" : 11.706,
         "y" : 1.4570000000000001
       },
       {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "id" : "a5d06ad0-3c01-4b7f-a9f9-36aa89fc0529",
-        "installHeight" : 0.25,
+        "groupId" : "f4acdd3d-f9ce-4089-981f-e9cd24ccbe82",
+        "id" : "6b2c808e-f73c-4be5-8411-4480b8eb510f",
+        "installHeight" : 0.29999999999999999,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.29999999999999999,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
+        "plantId" : "asclepias-incarnata",
         "seed" : 640130313,
         "status" : "proposed",
         "x" : 6.9779999999999998,
         "y" : 1.6419999999999999
       },
       {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "id" : "b4d0826d-4101-435e-9cf9-223392fc1354",
-        "installHeight" : 0.25,
+        "groupId" : "f4acdd3d-f9ce-4089-981f-e9cd24ccbe82",
+        "id" : "662c78af-f83c-4d78-9311-5c1dbdeb58ee",
+        "installHeight" : 0.29999999999999999,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.29999999999999999,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
+        "plantId" : "achillea-millefolium",
         "seed" : 554809229,
         "status" : "proposed",
         "x" : 9.0220000000000002,
         "y" : 1.8029999999999999
       },
       {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "id" : "b3d080da-4201-44f1-9bf9-20a093fc14e7",
-        "installHeight" : 0.25,
+        "groupId" : "f4acdd3d-f9ce-4089-981f-e9cd24ccbe82",
+        "id" : "652c771c-f93c-4f0b-9211-5a8abeeb5a81",
+        "installHeight" : 0.29999999999999999,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.29999999999999999,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
+        "plantId" : "asclepias-incarnata",
         "seed" : 736469075,
         "status" : "proposed",
         "x" : 10.776,
         "y" : 1.4039999999999999
       },
       {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "id" : "eb274f76-b91e-4d4b-a941-e398dcc15fed",
-        "installHeight" : 0.25,
+        "groupId" : "f4acdd3d-f9ce-4089-981f-e9cd24ccbe82",
+        "id" : "611308cc-04f5-4f79-9b3d-6866cd6b8c9b",
+        "installHeight" : 0.27000000000000002,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.27000000000000002,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
+        "plantId" : "aquilegia-canadensis",
         "seed" : 30439858,
         "status" : "proposed",
         "x" : 12.871,
         "y" : 2.4300000000000002
       },
       {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "id" : "ec275109-b81e-4bb8-aa41-e52bdbc15e5a",
-        "installHeight" : 0.25,
+        "groupId" : "f4acdd3d-f9ce-4089-981f-e9cd24ccbe82",
+        "id" : "62130a5f-03f5-4de6-9c3d-69f9cc6b8b08",
+        "installHeight" : 0.29999999999999999,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.29999999999999999,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
+        "plantId" : "achillea-millefolium",
         "seed" : 928071519,
         "status" : "proposed",
         "x" : 8.2859999999999996,
         "y" : 2.1970000000000001
       },
       {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "id" : "e9274c50-bb1e-4071-ab41-e6bedac15cc7",
-        "installHeight" : 0.25,
+        "groupId" : "f4acdd3d-f9ce-4089-981f-e9cd24ccbe82",
+        "id" : "63130bf2-02f5-4c53-993d-6540cf6b8fc1",
+        "installHeight" : 0.29999999999999999,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.29999999999999999,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
+        "plantId" : "achillea-millefolium",
         "seed" : 326440915,
         "status" : "proposed",
         "x" : 7.6660000000000004,
         "y" : 1.29
       },
       {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "id" : "ea274de3-ba1e-4ede-ac41-e851d9c15b34",
-        "installHeight" : 0.25,
+        "groupId" : "f4acdd3d-f9ce-4089-981f-e9cd24ccbe82",
+        "id" : "64130d85-01f5-4ac0-9a3d-66d3ce6b8e2e",
+        "installHeight" : 0.27000000000000002,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.27000000000000002,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
+        "plantId" : "aquilegia-canadensis",
         "seed" : 515282803,
         "status" : "proposed",
         "x" : 12.265000000000001,
         "y" : 2.7639999999999998
       },
       {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "id" : "ef2755c2-bd1e-4397-ad41-e9e4d8c159a1",
-        "installHeight" : 0.25,
+        "groupId" : "f4acdd3d-f9ce-4089-981f-e9cd24ccbe82",
+        "id" : "5d130280-08f5-45c5-9f3d-6eb2d16b92e7",
+        "installHeight" : 0.27000000000000002,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.27000000000000002,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
+        "plantId" : "aquilegia-canadensis",
         "seed" : 749720784,
-        "status" : "proposed",
-        "x" : 8.0899999999999999,
-        "y" : 1.4339999999999999
-      },
-      {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "id" : "f0275755-bc1e-4204-ae41-eb77d7c1580e",
-        "installHeight" : 0.25,
-        "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
-        "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
-        "seed" : 652462717,
         "status" : "proposed",
         "x" : 12.289,
         "y" : 1.756
       },
       {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "id" : "ed27529c-bf1e-46bd-af41-ed0ad6c1567b",
-        "installHeight" : 0.25,
+        "groupId" : "f4acdd3d-f9ce-4089-981f-e9cd24ccbe82",
+        "id" : "5e130413-07f5-4432-a03d-7045d06b9154",
+        "installHeight" : 0.29999999999999999,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.29999999999999999,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
-        "seed" : 531367825,
-        "status" : "proposed",
-        "x" : 10.502000000000001,
-        "y" : 2.1230000000000002
-      },
-      {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "id" : "ee27542f-be1e-452a-b041-ee9dd5c154e8",
-        "installHeight" : 0.25,
-        "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
-        "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
-        "seed" : 798052122,
+        "plantId" : "asclepias-incarnata",
+        "seed" : 652462717,
         "status" : "proposed",
         "x" : 13.247999999999999,
         "y" : 1.429
       },
       {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "id" : "f3275c0e-b11e-40b3-a141-d700d4c15355",
-        "installHeight" : 0.25,
+        "groupId" : "f4acdd3d-f9ce-4089-981f-e9cd24ccbe82",
+        "id" : "5f1305a6-06f5-429f-9d3d-6b8cd36b960d",
+        "installHeight" : 0.29999999999999999,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.29999999999999999,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
-        "seed" : 997478125,
-        "status" : "proposed",
-        "x" : 13.287000000000001,
-        "y" : 2.512
-      },
-      {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "id" : "f4275da1-b01e-4f20-a241-d893d3c151c2",
-        "installHeight" : 0.25,
-        "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
-        "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
-        "seed" : 240967425,
+        "plantId" : "asclepias-incarnata",
+        "seed" : 531367825,
         "status" : "proposed",
         "x" : 8.9160000000000004,
         "y" : 1.2410000000000001
       },
       {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "id" : "8524704d-2716-4bb0-9b49-52d3c2c37596",
-        "installHeight" : 0.25,
+        "groupId" : "f4acdd3d-f9ce-4089-981f-e9cd24ccbe82",
+        "id" : "60130739-05f5-410c-9e3d-6d1fd26b947a",
+        "installHeight" : 0.29999999999999999,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.29999999999999999,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
-        "seed" : 304885839,
-        "status" : "proposed",
-        "x" : 6.0209999999999999,
-        "y" : 2.5459999999999998
-      },
-      {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "id" : "84246eba-2816-4d43-9a49-5140c3c37729",
-        "installHeight" : 0.25,
-        "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
-        "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
-        "seed" : 891737903,
-        "status" : "proposed",
-        "x" : 7.8419999999999996,
-        "y" : 2.0030000000000001
-      },
-      {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "id" : "83246d27-2916-4ed6-9d49-55f9c0c37270",
-        "installHeight" : 0.25,
-        "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
-        "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
-        "seed" : 387738042,
-        "status" : "proposed",
-        "x" : 12.202,
-        "y" : 1.3420000000000001
-      },
-      {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "id" : "82246b94-2a16-4069-9c49-5466c1c37403",
-        "installHeight" : 0.25,
-        "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
-        "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
-        "seed" : 428818885,
-        "status" : "proposed",
-        "x" : 11.355,
-        "y" : 1.272
-      },
-      {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "id" : "81246a01-2b16-41fc-9f49-591fc6c37be2",
-        "installHeight" : 0.25,
-        "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
-        "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
-        "seed" : 235308738,
+        "plantId" : "achillea-millefolium",
+        "seed" : 798052122,
         "status" : "proposed",
         "x" : 14.553000000000001,
         "y" : 1.885
       },
       {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "id" : "8024686e-2c16-438f-9e49-578cc7c37d75",
-        "installHeight" : 0.25,
+        "groupId" : "f4acdd3d-f9ce-4089-981f-e9cd24ccbe82",
+        "id" : "69131564-0cf5-4c11-a33d-74fec56b8003",
+        "installHeight" : 0.29999999999999999,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.29999999999999999,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
-        "seed" : 131931212,
+        "plantId" : "asclepias-incarnata",
+        "seed" : 997478125,
         "status" : "proposed",
         "x" : 9.6820000000000004,
         "y" : 1.7649999999999999
       },
       {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "id" : "7f2466db-2d16-4522-a149-5c45c4c378bc",
-        "installHeight" : 0.25,
+        "groupId" : "f4acdd3d-f9ce-4089-981f-e9cd24ccbe82",
+        "id" : "6a1316f7-0bf5-4a7e-a43d-7691c46b7e70",
+        "installHeight" : 0.27000000000000002,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.27000000000000002,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
-        "seed" : 399919695,
+        "plantId" : "aquilegia-canadensis",
+        "seed" : 240967425,
         "status" : "proposed",
-        "x" : 8.5700000000000003,
-        "y" : 2.548
+        "x" : 8.8499999999999996,
+        "y" : 2.7000000000000002
       },
       {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "id" : "7e246548-2e16-46b5-a049-5ab2c5c37a4f",
-        "installHeight" : 0.25,
+        "groupId" : "f4acdd3d-f9ce-4089-981f-e9cd24ccbe82",
+        "id" : "f31aaa67-8af8-4102-b53b-52bd3b63eb00",
+        "installHeight" : 0.27000000000000002,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.27000000000000002,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
-        "seed" : 54223629,
-        "status" : "proposed",
-        "x" : 6.4800000000000004,
-        "y" : 1.7909999999999999
-      },
-      {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "id" : "7d2463b5-2f16-4848-a349-5f6bcac3822e",
-        "installHeight" : 0.25,
-        "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
-        "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
-        "seed" : 272157975,
-        "status" : "proposed",
-        "x" : 9.1620000000000008,
-        "y" : 2.6699999999999999
-      },
-      {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "id" : "7c246222-3016-49db-a249-5dd8cbc383c1",
-        "installHeight" : 0.25,
-        "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
-        "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
-        "seed" : 297212156,
+        "plantId" : "aquilegia-canadensis",
+        "seed" : 304885839,
         "status" : "proposed",
         "x" : 5.3810000000000002,
         "y" : 2.609
       },
       {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "id" : "7f222844-2d18-43b9-b547-3d2ac8c5bd9f",
-        "installHeight" : 0.25,
+        "groupId" : "f4acdd3d-f9ce-4089-981f-e9cd24ccbe82",
+        "id" : "f21aa8d4-8bf8-4295-b43b-512a3c63ec93",
+        "installHeight" : 0.27000000000000002,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.27000000000000002,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
-        "seed" : 324059482,
+        "plantId" : "aquilegia-canadensis",
+        "seed" : 891737903,
         "status" : "proposed",
         "x" : 6.4610000000000003,
         "y" : 1.3280000000000001
       },
       {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "id" : "802229d7-2c18-4226-b647-3ebdc7c5bc0c",
-        "installHeight" : 0.25,
+        "groupId" : "f4acdd3d-f9ce-4089-981f-e9cd24ccbe82",
+        "id" : "f51aad8d-88f8-4ddc-b33b-4f973d63ee26",
+        "installHeight" : 0.27000000000000002,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.27000000000000002,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
-        "seed" : 170057077,
+        "plantId" : "aquilegia-canadensis",
+        "seed" : 387738042,
         "status" : "proposed",
         "x" : 10.132,
         "y" : 1.365
       },
       {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "id" : "81222b6a-2b18-4093-b347-3a04cac5c0c5",
-        "installHeight" : 0.25,
+        "groupId" : "f4acdd3d-f9ce-4089-981f-e9cd24ccbe82",
+        "id" : "f41aabfa-89f8-4f6f-b23b-4e043e63efb9",
+        "installHeight" : 0.27000000000000002,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.27000000000000002,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
-        "seed" : 606857539,
+        "plantId" : "aquilegia-canadensis",
+        "seed" : 428818885,
         "status" : "proposed",
         "x" : 13.613,
         "y" : 2.738
       },
       {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "id" : "82222cfd-2a18-4f00-b447-3b97c9c5bf32",
-        "installHeight" : 0.25,
+        "groupId" : "f4acdd3d-f9ce-4089-981f-e9cd24ccbe82",
+        "id" : "ef1aa41b-86f8-4ab6-b13b-4c713f63f14c",
+        "installHeight" : 0.29999999999999999,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.29999999999999999,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
-        "seed" : 618714974,
+        "plantId" : "achillea-millefolium",
+        "seed" : 235308738,
         "status" : "proposed",
         "x" : 11.417999999999999,
         "y" : 2.7930000000000001
       },
       {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "id" : "7b2221f8-3118-4a05-b147-36dec4c5b753",
-        "installHeight" : 0.25,
+        "groupId" : "f4acdd3d-f9ce-4089-981f-e9cd24ccbe82",
+        "id" : "ee1aa288-87f8-4c49-b03b-4ade4063f2df",
+        "installHeight" : 0.29999999999999999,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.29999999999999999,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
-        "seed" : 281146481,
+        "plantId" : "asclepias-incarnata",
+        "seed" : 131931212,
         "status" : "proposed",
         "x" : 6.593,
         "y" : 2.2349999999999999
       },
       {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "id" : "7c22238b-3018-4872-b247-3871c3c5b5c0",
-        "installHeight" : 0.25,
+        "groupId" : "f4acdd3d-f9ce-4089-981f-e9cd24ccbe82",
+        "id" : "f11aa741-84f8-4790-af3b-494b4163f472",
+        "installHeight" : 0.29999999999999999,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.29999999999999999,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
-        "seed" : 531126357,
+        "plantId" : "asclepias-incarnata",
+        "seed" : 399919695,
         "status" : "proposed",
         "x" : 14,
         "y" : 1.802
       },
       {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "id" : "7d22251e-2f18-46df-af47-33b8c6c5ba79",
-        "installHeight" : 0.25,
+        "groupId" : "f4acdd3d-f9ce-4089-981f-e9cd24ccbe82",
+        "id" : "f01aa5ae-85f8-4923-ae3b-47b84263f605",
+        "installHeight" : 0.27000000000000002,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.27000000000000002,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
-        "seed" : 345772050,
-        "status" : "proposed",
-        "x" : 12.449999999999999,
-        "y" : 2.246
-      },
-      {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "id" : "7e2226b1-2e18-454c-b047-354bc5c5b8e6",
-        "installHeight" : 0.25,
-        "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
-        "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
-        "seed" : 245389696,
-        "status" : "proposed",
-        "x" : 5.9710000000000001,
-        "y" : 1.659
-      },
-      {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "id" : "77221bac-3518-4051-ad47-3092d0c5ca37",
-        "installHeight" : 0.25,
-        "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
-        "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
-        "seed" : 399605415,
+        "plantId" : "aquilegia-canadensis",
+        "seed" : 54223629,
         "status" : "proposed",
         "x" : 11.542,
         "y" : 1.988
       },
       {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "id" : "78221d3f-3418-4ebe-ae47-3225cfc5c8a4",
-        "installHeight" : 0.25,
+        "groupId" : "f4acdd3d-f9ce-4089-981f-e9cd24ccbe82",
+        "id" : "eb1a9dcf-92f8-4d9a-ad3b-46254363f798",
+        "installHeight" : 0.29999999999999999,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.29999999999999999,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
-        "seed" : 753195408,
+        "plantId" : "achillea-millefolium",
+        "seed" : 272157975,
         "status" : "proposed",
-        "x" : 11.917,
-        "y" : 2.536
+        "x" : 12.356,
+        "y" : 1.208
       },
       {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "id" : "791fe03b-2b25-4c86-a74e-ac65beb464c0",
-        "installHeight" : 0.25,
+        "groupId" : "f4acdd3d-f9ce-4089-981f-e9cd24ccbe82",
+        "id" : "ea1a9c3c-93f8-4f2d-ac3b-44924463f92b",
+        "installHeight" : 0.27000000000000002,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.27000000000000002,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
-        "seed" : 170883204,
+        "plantId" : "aquilegia-canadensis",
+        "seed" : 297212156,
         "status" : "proposed",
-        "x" : 5.7750000000000004,
-        "y" : 1.2969999999999999
+        "x" : 5.899,
+        "y" : 1.3360000000000001
       },
       {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "id" : "781fdea8-2c25-4e19-a64e-aad2bfb46653",
-        "installHeight" : 0.25,
+        "groupId" : "f4acdd3d-f9ce-4089-981f-e9cd24ccbe82",
+        "id" : "ed18625e-90fa-490b-af39-0ab4c166fc89",
+        "installHeight" : 0.29999999999999999,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.29999999999999999,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
-        "seed" : 16014837,
-        "status" : "proposed",
-        "x" : 10.834,
-        "y" : 1.796
-      },
-      {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "id" : "7b1fe361-2925-4960-a54e-a93fc0b467e6",
-        "installHeight" : 0.25,
-        "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
-        "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
-        "seed" : 574007529,
+        "plantId" : "achillea-millefolium",
+        "seed" : 324059482,
         "status" : "proposed",
         "x" : 5.3259999999999996,
         "y" : 1.409
       },
       {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "id" : "7a1fe1ce-2a25-4af3-a44e-a7acc1b46979",
-        "installHeight" : 0.25,
+        "groupId" : "f4acdd3d-f9ce-4089-981f-e9cd24ccbe82",
+        "id" : "ee1863f1-8ffa-4778-b039-0c47c066faf6",
+        "installHeight" : 0.29999999999999999,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.29999999999999999,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
-        "seed" : 510718032,
+        "plantId" : "asclepias-incarnata",
+        "seed" : 170057077,
         "status" : "proposed",
         "x" : 7.1180000000000003,
         "y" : 2.2109999999999999
       },
       {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "id" : "7d1fe687-2f25-42d2-a34e-a619c2b46b0c",
-        "installHeight" : 0.25,
+        "groupId" : "f4acdd3d-f9ce-4089-981f-e9cd24ccbe82",
+        "id" : "eb185f38-92fa-4c31-b139-0ddabf66f963",
+        "installHeight" : 0.27000000000000002,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.27000000000000002,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
-        "seed" : 149553975,
-        "status" : "proposed",
-        "x" : 8.5220000000000002,
-        "y" : 1.355
-      },
-      {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "id" : "7c1fe4f4-3025-4465-a24e-a486c3b46c9f",
-        "installHeight" : 0.25,
-        "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
-        "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
-        "seed" : 101469151,
-        "status" : "proposed",
-        "x" : 12.074,
-        "y" : 2.125
-      },
-      {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "id" : "7f1fe9ad-2d25-4fac-a14e-a2f3c4b46e32",
-        "installHeight" : 0.25,
-        "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
-        "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
-        "seed" : 706697208,
-        "status" : "proposed",
-        "x" : 5.3789999999999996,
-        "y" : 2.1019999999999999
-      },
-      {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "id" : "7e1fe81a-2e25-413f-a04e-a160c5b46fc5",
-        "installHeight" : 0.25,
-        "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
-        "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
-        "seed" : 373842230,
+        "plantId" : "aquilegia-canadensis",
+        "seed" : 606857539,
         "status" : "proposed",
         "x" : 14.380000000000001,
         "y" : 2.585
       },
       {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "id" : "711fd3a3-3325-491e-af4e-b8fdc6b47158",
-        "installHeight" : 0.25,
+        "groupId" : "f4acdd3d-f9ce-4089-981f-e9cd24ccbe82",
+        "id" : "ec1860cb-91fa-4a9e-b239-0f6dbe66f7d0",
+        "installHeight" : 0.29999999999999999,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.29999999999999999,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
-        "seed" : 147897497,
+        "plantId" : "asclepias-incarnata",
+        "seed" : 618714974,
         "status" : "proposed",
-        "x" : 14.538,
-        "y" : 1.4219999999999999
+        "x" : 6.1310000000000002,
+        "y" : 2.6989999999999998
       },
       {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "id" : "701fd210-3425-4ab1-ae4e-b76ac7b472eb",
-        "installHeight" : 0.25,
+        "groupId" : "f4acdd3d-f9ce-4089-981f-e9cd24ccbe82",
+        "id" : "f11868aa-94fa-4f57-ab39-0468c56702d5",
+        "installHeight" : 0.29999999999999999,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.29999999999999999,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
-        "seed" : 378049879,
-        "status" : "proposed",
-        "x" : 14.013999999999999,
-        "y" : 2.7850000000000001
-      },
-      {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "id" : "f31cceb2-3127-448f-a14c-645c44b77649",
-        "installHeight" : 0.25,
-        "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
-        "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
-        "seed" : 412161163,
-        "status" : "proposed",
-        "x" : 9.3949999999999996,
-        "y" : 1.3580000000000001
-      },
-      {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "id" : "f41cd045-3027-42fc-a24c-65ef43b774b6",
-        "installHeight" : 0.25,
-        "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
-        "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
-        "seed" : 853718146,
+        "plantId" : "achillea-millefolium",
+        "seed" : 281146481,
         "status" : "proposed",
         "x" : 7.4770000000000003,
         "y" : 2.6949999999999998
       },
       {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "id" : "f11ccb8c-3327-47b5-a34c-678242b77323",
-        "installHeight" : 0.25,
+        "groupId" : "f4acdd3d-f9ce-4089-981f-e9cd24ccbe82",
+        "id" : "f2186a3d-93fa-4dc4-ac39-05fbc4670142",
+        "installHeight" : 0.29999999999999999,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.29999999999999999,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
-        "seed" : 70262018,
+        "plantId" : "achillea-millefolium",
+        "seed" : 531126357,
         "status" : "proposed",
-        "x" : 6.5369999999999999,
-        "y" : 2.6349999999999998
+        "x" : 7.7320000000000002,
+        "y" : 2.0059999999999998
       },
       {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "id" : "f21ccd1f-3227-4622-a44c-691541b77190",
-        "installHeight" : 0.25,
+        "groupId" : "f4acdd3d-f9ce-4089-981f-e9cd24ccbe82",
+        "id" : "ef186584-96fa-427d-ad39-078ec366ffaf",
+        "installHeight" : 0.29999999999999999,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.29999999999999999,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
-        "seed" : 740763761,
+        "plantId" : "achillea-millefolium",
+        "seed" : 345772050,
         "status" : "proposed",
-        "x" : 13.872,
-        "y" : 1.4139999999999999
+        "x" : 10.491,
+        "y" : 2.4929999999999999
       },
       {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "id" : "ef1cc866-2d27-4e43-9d4c-5e1048b77c95",
-        "installHeight" : 0.25,
+        "groupId" : "f4acdd3d-f9ce-4089-981f-e9cd24ccbe82",
+        "id" : "f0186717-95fa-40ea-ae39-0921c266fe1c",
+        "installHeight" : 0.29999999999999999,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.29999999999999999,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
-        "seed" : 387835755,
-        "status" : "proposed",
-        "x" : 11.037000000000001,
-        "y" : 2.7589999999999999
-      },
-      {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "id" : "f01cc9f9-2c27-4cb0-9e4c-5fa347b77b02",
-        "installHeight" : 0.25,
-        "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
-        "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
-        "seed" : 224149507,
+        "plantId" : "asclepias-incarnata",
+        "seed" : 245389696,
         "status" : "proposed",
         "x" : 8.0009999999999994,
         "y" : 2.6400000000000001
       },
       {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "id" : "ed1cc540-2f27-4169-9f4c-613646b7796f",
-        "installHeight" : 0.25,
-        "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
-        "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
-        "seed" : 416145938,
-        "status" : "proposed",
-        "x" : 8.5310000000000006,
-        "y" : 1.754
-      },
-      {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "id" : "ee1cc6d3-2e27-4fd6-a04c-62c945b777dc",
-        "installHeight" : 0.25,
-        "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
-        "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
-        "seed" : 59151817,
-        "status" : "proposed",
-        "x" : 12.768000000000001,
-        "y" : 1.712
-      },
-      {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "id" : "fb1cdb4a-3927-4127-a94c-70f44cb782e1",
-        "installHeight" : 0.25,
-        "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
-        "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
-        "seed" : 756887060,
-        "status" : "proposed",
-        "x" : 8.8469999999999995,
-        "y" : 2.214
-      },
-      {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "id" : "fc1cdcdd-3827-4f94-aa4c-72874bb7814e",
-        "installHeight" : 0.25,
-        "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
-        "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
-        "seed" : 2199357,
-        "status" : "proposed",
-        "x" : 7.2160000000000002,
-        "y" : 1.3220000000000001
-      },
-      {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "id" : "ed1a86a9-bf20-4554-b353-3c774ab9be52",
-        "installHeight" : 0.25,
-        "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
-        "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
-        "seed" : 29852398,
-        "status" : "proposed",
-        "x" : 10.366,
-        "y" : 2.488
-      },
-      {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "id" : "ec1a8516-c020-46e7-b253-3ae44bb9bfe5",
-        "installHeight" : 0.25,
-        "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
-        "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
-        "seed" : 595388449,
-        "status" : "proposed",
-        "x" : 13.917999999999999,
-        "y" : 2.331
-      },
-      {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "id" : "eb1a8383-c120-487a-b553-3f9d48b9bb2c",
-        "installHeight" : 0.25,
-        "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
-        "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
-        "seed" : 519619706,
-        "status" : "proposed",
-        "x" : 7.5259999999999998,
-        "y" : 2.226
-      },
-      {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "id" : "ea1a81f0-c220-4a0d-b453-3e0a49b9bcbf",
-        "installHeight" : 0.25,
-        "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
-        "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
-        "seed" : 452403743,
-        "status" : "proposed",
-        "x" : 6.9249999999999998,
-        "y" : 2.7770000000000001
-      },
-      {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "id" : "f11a8cf5-bb20-4f08-af53-362b46b9b806",
-        "installHeight" : 0.25,
-        "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
-        "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
-        "seed" : 419634271,
-        "status" : "proposed",
-        "x" : 13.504,
-        "y" : 1.72
-      },
-      {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "id" : "f01a8b62-bc20-409b-ae53-349847b9b999",
-        "installHeight" : 0.25,
-        "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
-        "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
-        "seed" : 186986800,
-        "status" : "proposed",
-        "x" : 12.711,
-        "y" : 1.306
-      },
-      {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "id" : "ef1a89cf-bd20-422e-b153-395144b9b4e0",
-        "installHeight" : 0.25,
-        "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
-        "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
-        "seed" : 43995221,
-        "status" : "proposed",
-        "x" : 11.302,
-        "y" : 1.6719999999999999
-      },
-      {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "id" : "ee1a883c-be20-43c1-b053-37be45b9b673",
-        "installHeight" : 0.25,
-        "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
-        "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
-        "seed" : 535519969,
-        "status" : "proposed",
-        "x" : 7.5389999999999997,
-        "y" : 1.6950000000000001
-      },
-      {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "id" : "f51a9341-b720-48bc-ab53-2fdf52b9caea",
-        "installHeight" : 0.25,
-        "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
-        "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
-        "seed" : 562781193,
-        "status" : "proposed",
-        "x" : 5.5640000000000001,
-        "y" : 1.7330000000000001
-      },
-      {
-        "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
-        "id" : "f41a91ae-b820-4a4f-aa53-2e4c53b9cc7d",
-        "installHeight" : 0.25,
-        "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
-        "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
-        "seed" : 952017282,
-        "status" : "proposed",
-        "x" : 11.34,
-        "y" : 2.3919999999999999
-      },
-      {
-        "id" : "acabb14b-c78f-4d3a-b819-0476e4d92317",
+        "groupId" : "f4acdd3d-f9ce-4089-981f-e9cd24ccbe82",
+        "id" : "e51855c6-88fa-4c73-a738-fe1cc9670921",
         "installHeight" : 0.29999999999999999,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.29999999999999999,
         "plantedYear" : 0,
-        "plantId" : "schizachyrium-scoparium",
-        "seed" : 87190,
+        "plantId" : "asclepias-incarnata",
+        "seed" : 399605415,
+        "status" : "proposed",
+        "x" : 8.25,
+        "y" : 1.452
+      },
+      {
+        "groupId" : "f4acdd3d-f9ce-4089-981f-e9cd24ccbe82",
+        "id" : "e6185759-87fa-4ae0-a838-ffafc867078e",
+        "installHeight" : 0.27000000000000002,
+        "installSize" : "#1",
+        "installSpread" : 0.27000000000000002,
+        "plantedYear" : 0,
+        "plantId" : "aquilegia-canadensis",
+        "seed" : 753195408,
+        "status" : "proposed",
+        "x" : 5.5049999999999999,
+        "y" : 2.1019999999999999
+      },
+      {
+        "groupId" : "f4acdd3d-f9ce-4089-981f-e9cd24ccbe82",
+        "id" : "ef0b9991-96fd-4114-a935-f92b3f72fbd6",
+        "installHeight" : 0.29999999999999999,
+        "installSize" : "#1",
+        "installSpread" : 0.29999999999999999,
+        "plantedYear" : 0,
+        "plantId" : "achillea-millefolium",
+        "seed" : 170883204,
+        "status" : "proposed",
+        "x" : 6.6550000000000002,
+        "y" : 2.7989999999999999
+      },
+      {
+        "groupId" : "f4acdd3d-f9ce-4089-981f-e9cd24ccbe82",
+        "id" : "ee0b97fe-97fd-42a7-a835-f7984072fd69",
+        "installHeight" : 0.29999999999999999,
+        "installSize" : "#1",
+        "installSpread" : 0.29999999999999999,
+        "plantedYear" : 0,
+        "plantId" : "asclepias-incarnata",
+        "seed" : 16014837,
+        "status" : "proposed",
+        "x" : 14.504,
+        "y" : 1.218
+      },
+      {
+        "groupId" : "f4acdd3d-f9ce-4089-981f-e9cd24ccbe82",
+        "id" : "ed0b966b-98fd-443a-ab35-fc513d72f8b0",
+        "installHeight" : 0.27000000000000002,
+        "installSize" : "#1",
+        "installSpread" : 0.27000000000000002,
+        "plantedYear" : 0,
+        "plantId" : "aquilegia-canadensis",
+        "seed" : 574007529,
+        "status" : "proposed",
+        "x" : 13.824,
+        "y" : 1.244
+      },
+      {
+        "groupId" : "f4acdd3d-f9ce-4089-981f-e9cd24ccbe82",
+        "id" : "ec0b94d8-99fd-45cd-aa35-fabe3e72fa43",
+        "installHeight" : 0.29999999999999999,
+        "installSize" : "#1",
+        "installSpread" : 0.29999999999999999,
+        "plantedYear" : 0,
+        "plantId" : "achillea-millefolium",
+        "seed" : 510718032,
+        "status" : "proposed",
+        "x" : 12.028,
+        "y" : 2.246
+      },
+      {
+        "id" : "911554a7-70af-41da-b31d-880af7b313d6",
+        "installHeight" : 0.34999999999999998,
+        "installSize" : "#1",
+        "installSpread" : 0.29999999999999999,
+        "plantedYear" : 0,
+        "plantId" : "chasmanthium-latifolium",
+        "seed" : 35998,
         "status" : "proposed",
         "x" : 16.800000000000001,
         "y" : 7
+      },
+      {
+        "id" : "04a07100-18fc-4aab-8ad2-fd769d68bc5e",
+        "installHeight" : 0.34999999999999998,
+        "installSize" : "#1",
+        "installSpread" : 0.29999999999999999,
+        "plantedYear" : 0,
+        "plantId" : "muhlenbergia-capillaris",
+        "seed" : 49156,
+        "status" : "proposed",
+        "x" : 16.800000000000001,
+        "y" : 10
       }
     ],
     "producer" : "ios",
-    "projectId" : "97ac821f-96a8-42e8-9873-536e1954c974",
+    "projectId" : "a38a94e0-e194-4f72-b1a2-7676b5dab103",
     "scenario" : {
       "hour" : 14,
       "month" : 6,
@@ -5004,7 +3919,7 @@
       }
     },
     "units" : "m",
-    "updatedAt" : "2026-10-07T02:42:14Z",
+    "updatedAt" : "2026-10-07T03:00:29Z",
     "verification" : {
       "boundary" : true
     }

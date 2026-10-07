@@ -1,6 +1,7 @@
 {
  "name": "Web northeast back yard",
  "catalogVersion": "ol-plants@0.1",
+ "catalog": "shipped",
  "plants": [
   {
    "id": "005c0814-61bb-4da3-b089-529244d72791",

@@ -1,6 +1,7 @@
 {
  "name": "Web southwest dry garden",
  "catalogVersion": "ol-plants@0.1",
+ "catalog": "shipped",
  "plants": [
   {
    "id": "030f4b64-3dc1-47f1-9d07-824eb821cefb",

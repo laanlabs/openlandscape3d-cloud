@@ -4,13 +4,13 @@
 //   tests/fixtures/web/*.expected.json         plants, group summary, areas and sorted check results
 //   tests/fixtures/ios/*.openplan3d.json       written by openlandscape3d-ios (+ *.expected.json); consumed here
 //   tests/fixtures/ios/roundtrip-<slug>.openplan3d.json   web fixture after a trip through iOS
-// Fixtures use the shipped catalog (src/lib/catalog, same data iOS bundles). Regenerate after a
+// Fixtures use the shipped catalog (src/lib/catalog, same data iOS bundles) and say so in their expected
+// file ("catalog": "shipped"; "test-fixture" would mean tests/fixtures/catalog). Regenerate after a
 // catalog or model change with:  OL3D_WRITE_FIXTURES=1 npx vitest run tests/interop.test.ts
 import { describe, expect, it } from 'vitest';
 import { existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { catalog, installDims, type Catalog } from '../src/lib/catalog/catalog';
-import { fixtureCatalog } from './helpers';
 import { fromOpenPlan, normalizeProject, toOpenPlan } from '../src/lib/io/openplan';
 import { decodePayload, encodePayload, transferJson } from '../src/lib/io/transfer';
 import { RULE_IDS, checkKeys, runChecks } from '../src/lib/analysis/checks';
@@ -27,6 +27,8 @@ const r3 = (v: number) => Math.round(v * 1000) / 1000;
 export interface Expected {
   name: string;
   catalogVersion: string;
+  /** Which catalog computed `checks`: the shipped one (both apps bundle it) or tests/fixtures/catalog. */
+  catalog?: 'shipped' | 'test-fixture';
   plants: { id: string; plantId: string; status: string; x: number; y: number; groupId?: string }[];
   groups: { id: string; kind: string; instanceIds: string[] }[];
   areas: { id: string; kind: string }[];
@@ -39,6 +41,7 @@ export function summarize(p: Project, cat: Catalog = catalog): Expected {
   return {
     name: p.name,
     catalogVersion: cat.version,
+    catalog: cat === catalog ? 'shipped' : 'test-fixture',
     plants: p.plants.map((i) => ({ id: i.id, plantId: i.plantId, status: i.status, x: r3(i.x), y: r3(i.y), ...(i.groupId ? { groupId: i.groupId } : {}) })).sort(byId),
     groups: p.groups.map((g) => ({ id: g.id, kind: g.kind, instanceIds: [...g.instanceIds].sort() })).sort(byId),
     areas: p.areas.map((a) => ({ id: a.id, kind: a.kind })).sort(byId),
@@ -265,12 +268,11 @@ describe('iOS exports open in the web planner', () => {
       expect(got.plants).toEqual(expected.plants);
       expect(got.groups).toEqual(expected.groups);
       expect(got.areas).toEqual(expected.areas);
-      // iOS computed checks with whichever catalog it had (the shipped one, or this repo's 8-plant
-      // test fixture before the shared catalog was published); one of them must agree exactly.
-      // Ties after (ruleId, first subject) have no contract order, so compare as sorted keys.
-      const keys = (r: { ruleId: string; subjectIds: string[] }[]) => r.map((x) => `${x.ruleId}|${x.subjectIds.join(',')}`).sort();
-      const candidates = [catalog, fixtureCatalog()].map((c) => keys(checkKeys(runChecks(p, c))));
-      expect(candidates, 'design checks differ from iOS under both catalogs').toContainEqual(keys(expected.checks));
+      // Same catalog as iOS used (recorded in the expected file), same results in the same contract order
+      // (ruleId, first subject, then the whole subject list).
+      expect(expected.catalog ?? 'shipped', 'iOS fixtures are computed with the shipped catalog').toBe('shipped');
+      expect(expected.catalogVersion).toBe(catalog.version);
+      expect(checkKeys(runChecks(p, catalog))).toEqual(expected.checks);
       // Re-export keeps everything iOS wrote, including keys this app doesn't model.
       const again = toOpenPlan(p, catalog, { embedWebProject: false }).openlandscape3d;
       for (const k of Object.keys(j.openlandscape3d ?? {})) if (!['producer', 'updatedAt', 'webProject', 'building'].includes(k)) expect(again[k], k).toMatchObject(j.openlandscape3d[k]);

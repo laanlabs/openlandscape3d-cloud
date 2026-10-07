@@ -16,17 +16,17 @@
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
+        "plantId" : "achillea-millefolium"
       },
       "category" : {
-        "flower_red" : {
+        "flower_yellow" : {
 
         }
       },
       "dimensions" : [
-        0.20000000000000001,
-        0.25,
-        0.20000000000000001
+        0.29999999999999999,
+        0.29999999999999999,
+        0.29999999999999999
       ],
       "identifier" : "76cf02ff-478c-4ff0-b758-4f71775333f2",
       "story" : 0,
@@ -44,7 +44,7 @@
         1,
         0,
         5.6070000000000002,
-        0.125,
+        0.14999999999999999,
         3.7930000000000001,
         1
       ]
@@ -54,7 +54,7 @@
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
+        "plantId" : "agastache-rupestris"
       },
       "category" : {
         "flower_red" : {
@@ -62,9 +62,9 @@
         }
       },
       "dimensions" : [
-        0.20000000000000001,
-        0.25,
-        0.20000000000000001
+        0.27000000000000002,
+        0.29999999999999999,
+        0.27000000000000002
       ],
       "identifier" : "75cf016c-488c-4183-b658-4dde78533585",
       "story" : 0,
@@ -82,7 +82,7 @@
         1,
         0,
         7.1150000000000002,
-        0.125,
+        0.14999999999999999,
         4.6790000000000003,
         1
       ]
@@ -92,7 +92,7 @@
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
+        "plantId" : "agastache-rupestris"
       },
       "category" : {
         "flower_red" : {
@@ -100,9 +100,9 @@
         }
       },
       "dimensions" : [
-        0.20000000000000001,
-        0.25,
-        0.20000000000000001
+        0.27000000000000002,
+        0.29999999999999999,
+        0.27000000000000002
       ],
       "identifier" : "78cf0625-498c-4316-b558-4c4b755330cc",
       "story" : 0,
@@ -120,7 +120,7 @@
         1,
         0,
         3.0489999999999999,
-        0.125,
+        0.14999999999999999,
         4.1059999999999999,
         1
       ]
@@ -130,17 +130,17 @@
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
+        "plantId" : "achillea-millefolium"
       },
       "category" : {
-        "flower_red" : {
+        "flower_yellow" : {
 
         }
       },
       "dimensions" : [
-        0.20000000000000001,
-        0.25,
-        0.20000000000000001
+        0.29999999999999999,
+        0.29999999999999999,
+        0.29999999999999999
       ],
       "identifier" : "77cf0492-4a8c-44a9-b458-4ab87653325f",
       "story" : 0,
@@ -158,7 +158,7 @@
         1,
         0,
         3.6389999999999998,
-        0.125,
+        0.14999999999999999,
         4.4989999999999997,
         1
       ]
@@ -168,7 +168,7 @@
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
+        "plantId" : "agastache-rupestris"
       },
       "category" : {
         "flower_red" : {
@@ -176,9 +176,9 @@
         }
       },
       "dimensions" : [
-        0.20000000000000001,
-        0.25,
-        0.20000000000000001
+        0.27000000000000002,
+        0.29999999999999999,
+        0.27000000000000002
       ],
       "identifier" : "72cefcb3-4b8c-463c-bb58-55bd73532da6",
       "story" : 0,
@@ -196,7 +196,7 @@
         1,
         0,
         7.1929999999999996,
-        0.125,
+        0.14999999999999999,
         3.8889999999999998,
         1
       ]
@@ -206,7 +206,7 @@
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
+        "plantId" : "agastache-rupestris"
       },
       "category" : {
         "flower_red" : {
@@ -214,9 +214,9 @@
         }
       },
       "dimensions" : [
-        0.20000000000000001,
-        0.25,
-        0.20000000000000001
+        0.27000000000000002,
+        0.29999999999999999,
+        0.27000000000000002
       ],
       "identifier" : "71cefb20-4c8c-47cf-ba58-542a74532f39",
       "story" : 0,
@@ -234,7 +234,7 @@
         1,
         0,
         3.5,
-        0.125,
+        0.14999999999999999,
         5.5279999999999996,
         1
       ]
@@ -244,17 +244,17 @@
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
+        "plantId" : "achillea-millefolium"
       },
       "category" : {
-        "flower_red" : {
+        "flower_yellow" : {
 
         }
       },
       "dimensions" : [
-        0.20000000000000001,
-        0.25,
-        0.20000000000000001
+        0.29999999999999999,
+        0.29999999999999999,
+        0.29999999999999999
       ],
       "identifier" : "74ceffd9-4d8c-4962-b958-529771532a80",
       "story" : 0,
@@ -272,7 +272,7 @@
         1,
         0,
         6.4740000000000002,
-        0.125,
+        0.14999999999999999,
         3.2280000000000002,
         1
       ]
@@ -282,7 +282,7 @@
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
+        "plantId" : "agastache-rupestris"
       },
       "category" : {
         "flower_red" : {
@@ -290,9 +290,9 @@
         }
       },
       "dimensions" : [
-        0.20000000000000001,
-        0.25,
-        0.20000000000000001
+        0.27000000000000002,
+        0.29999999999999999,
+        0.27000000000000002
       ],
       "identifier" : "73cefe46-4e8c-4af5-b858-510472532c13",
       "story" : 0,
@@ -310,7 +310,7 @@
         1,
         0,
         6.1200000000000001,
-        0.125,
+        0.14999999999999999,
         4.4420000000000002,
         1
       ]
@@ -320,17 +320,17 @@
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
+        "plantId" : "achillea-millefolium"
       },
       "category" : {
-        "flower_red" : {
+        "flower_yellow" : {
 
         }
       },
       "dimensions" : [
-        0.20000000000000001,
-        0.25,
-        0.20000000000000001
+        0.29999999999999999,
+        0.29999999999999999,
+        0.29999999999999999
       ],
       "identifier" : "7ecf0f97-4f8c-4c88-af58-42d97f53408a",
       "story" : 0,
@@ -348,7 +348,7 @@
         1,
         0,
         2.0230000000000001,
-        0.125,
+        0.14999999999999999,
         3.883,
         1
       ]
@@ -358,17 +358,17 @@
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
+        "plantId" : "achillea-millefolium"
       },
       "category" : {
-        "flower_red" : {
+        "flower_yellow" : {
 
         }
       },
       "dimensions" : [
-        0.20000000000000001,
-        0.25,
-        0.20000000000000001
+        0.29999999999999999,
+        0.29999999999999999,
+        0.29999999999999999
       ],
       "identifier" : "7dcf0e04-508c-4e1b-ae58-41468053421d",
       "story" : 0,
@@ -386,7 +386,7 @@
         1,
         0,
         7.024,
-        0.125,
+        0.14999999999999999,
         2.2050000000000001,
         1
       ]
@@ -396,17 +396,17 @@
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
+        "plantId" : "achillea-millefolium"
       },
       "category" : {
-        "flower_red" : {
+        "flower_yellow" : {
 
         }
       },
       "dimensions" : [
-        0.20000000000000001,
-        0.25,
-        0.20000000000000001
+        0.29999999999999999,
+        0.29999999999999999,
+        0.29999999999999999
       ],
       "identifier" : "d0df23d4-e816-4cc9-bb02-adaa1ffd8bef",
       "story" : 0,
@@ -424,7 +424,7 @@
         1,
         0,
         5.5540000000000003,
-        0.125,
+        0.14999999999999999,
         2.1259999999999999,
         1
       ]
@@ -434,7 +434,7 @@
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
+        "plantId" : "agastache-rupestris"
       },
       "category" : {
         "flower_red" : {
@@ -442,9 +442,9 @@
         }
       },
       "dimensions" : [
-        0.20000000000000001,
-        0.25,
-        0.20000000000000001
+        0.27000000000000002,
+        0.29999999999999999,
+        0.27000000000000002
       ],
       "identifier" : "d1df2567-e716-4b36-bc02-af3d1efd8a5c",
       "story" : 0,
@@ -462,7 +462,7 @@
         1,
         0,
         3.6019999999999999,
-        0.125,
+        0.14999999999999999,
         2.2469999999999999,
         1
       ]
@@ -472,7 +472,7 @@
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
+        "plantId" : "agastache-rupestris"
       },
       "category" : {
         "flower_red" : {
@@ -480,9 +480,9 @@
         }
       },
       "dimensions" : [
-        0.20000000000000001,
-        0.25,
-        0.20000000000000001
+        0.27000000000000002,
+        0.29999999999999999,
+        0.27000000000000002
       ],
       "identifier" : "d2df26fa-e616-49a3-b902-aa8421fd8f15",
       "story" : 0,
@@ -500,7 +500,7 @@
         1,
         0,
         3.1139999999999999,
-        0.125,
+        0.14999999999999999,
         5.1340000000000003,
         1
       ]
@@ -510,7 +510,7 @@
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
+        "plantId" : "agastache-rupestris"
       },
       "category" : {
         "flower_red" : {
@@ -518,9 +518,9 @@
         }
       },
       "dimensions" : [
-        0.20000000000000001,
-        0.25,
-        0.20000000000000001
+        0.27000000000000002,
+        0.29999999999999999,
+        0.27000000000000002
       ],
       "identifier" : "d3df288d-e516-4810-ba02-ac1720fd8d82",
       "story" : 0,
@@ -538,7 +538,7 @@
         1,
         0,
         4.9260000000000002,
-        0.125,
+        0.14999999999999999,
         5.2359999999999998,
         1
       ]
@@ -548,7 +548,7 @@
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
+        "plantId" : "agastache-rupestris"
       },
       "category" : {
         "flower_red" : {
@@ -556,9 +556,9 @@
         }
       },
       "dimensions" : [
-        0.20000000000000001,
-        0.25,
-        0.20000000000000001
+        0.27000000000000002,
+        0.29999999999999999,
+        0.27000000000000002
       ],
       "identifier" : "ccdf1d88-ec17-4315-b702-a75e1bfd85a3",
       "story" : 0,
@@ -576,7 +576,7 @@
         1,
         0,
         3.9169999999999998,
-        0.125,
+        0.14999999999999999,
         3.7999999999999998,
         1
       ]
@@ -586,17 +586,17 @@
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
+        "plantId" : "achillea-millefolium"
       },
       "category" : {
-        "flower_red" : {
+        "flower_yellow" : {
 
         }
       },
       "dimensions" : [
-        0.20000000000000001,
-        0.25,
-        0.20000000000000001
+        0.29999999999999999,
+        0.29999999999999999,
+        0.29999999999999999
       ],
       "identifier" : "cddf1f1b-eb17-4182-b802-a8f11afd8410",
       "story" : 0,
@@ -614,7 +614,7 @@
         1,
         0,
         2.2250000000000001,
-        0.125,
+        0.14999999999999999,
         2.206,
         1
       ]
@@ -624,17 +624,17 @@
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
+        "plantId" : "achillea-millefolium"
       },
       "category" : {
-        "flower_red" : {
+        "flower_yellow" : {
 
         }
       },
       "dimensions" : [
-        0.20000000000000001,
-        0.25,
-        0.20000000000000001
+        0.29999999999999999,
+        0.29999999999999999,
+        0.29999999999999999
       ],
       "identifier" : "cedf20ae-ea16-4fef-b502-a4381dfd88c9",
       "story" : 0,
@@ -652,7 +652,7 @@
         1,
         0,
         5.3399999999999999,
-        0.125,
+        0.14999999999999999,
         4.3869999999999996,
         1
       ]
@@ -662,7 +662,7 @@
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
+        "plantId" : "agastache-rupestris"
       },
       "category" : {
         "flower_red" : {
@@ -670,9 +670,9 @@
         }
       },
       "dimensions" : [
-        0.20000000000000001,
-        0.25,
-        0.20000000000000001
+        0.27000000000000002,
+        0.29999999999999999,
+        0.27000000000000002
       ],
       "identifier" : "cfdf2241-e916-4e5c-b602-a5cb1cfd8736",
       "story" : 0,
@@ -690,7 +690,7 @@
         1,
         0,
         3.2570000000000001,
-        0.125,
+        0.14999999999999999,
         3.2149999999999999,
         1
       ]
@@ -700,7 +700,7 @@
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
+        "plantId" : "agastache-rupestris"
       },
       "category" : {
         "flower_red" : {
@@ -708,9 +708,9 @@
         }
       },
       "dimensions" : [
-        0.20000000000000001,
-        0.25,
-        0.20000000000000001
+        0.27000000000000002,
+        0.29999999999999999,
+        0.27000000000000002
       ],
       "identifier" : "c8df173c-f017-4961-b302-a11227fd9887",
       "story" : 0,
@@ -728,7 +728,7 @@
         1,
         0,
         6.4320000000000004,
-        0.125,
+        0.14999999999999999,
         5.4349999999999996,
         1
       ]
@@ -738,17 +738,17 @@
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
+        "plantId" : "achillea-millefolium"
       },
       "category" : {
-        "flower_red" : {
+        "flower_yellow" : {
 
         }
       },
       "dimensions" : [
-        0.20000000000000001,
-        0.25,
-        0.20000000000000001
+        0.29999999999999999,
+        0.29999999999999999,
+        0.29999999999999999
       ],
       "identifier" : "c9df18cf-ef17-47ce-b402-a2a526fd96f4",
       "story" : 0,
@@ -766,7 +766,7 @@
         1,
         0,
         5.048,
-        0.125,
+        0.14999999999999999,
         2.8170000000000002,
         1
       ]
@@ -776,17 +776,17 @@
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
+        "plantId" : "achillea-millefolium"
       },
       "category" : {
-        "flower_red" : {
+        "flower_yellow" : {
 
         }
       },
       "dimensions" : [
-        0.20000000000000001,
-        0.25,
-        0.20000000000000001
+        0.29999999999999999,
+        0.29999999999999999,
+        0.29999999999999999
       ],
       "identifier" : "42e6930f-ee19-44d2-b500-65a1adf61cb4",
       "story" : 0,
@@ -804,7 +804,7 @@
         1,
         0,
         2.448,
-        0.125,
+        0.14999999999999999,
         4.6390000000000002,
         1
       ]
@@ -814,17 +814,17 @@
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
+        "plantId" : "achillea-millefolium"
       },
       "category" : {
-        "flower_red" : {
+        "flower_yellow" : {
 
         }
       },
       "dimensions" : [
-        0.20000000000000001,
-        0.25,
-        0.20000000000000001
+        0.29999999999999999,
+        0.29999999999999999,
+        0.29999999999999999
       ],
       "identifier" : "41e6917c-ef19-4665-b400-640eaef61e47",
       "story" : 0,
@@ -842,7 +842,7 @@
         1,
         0,
         7.5670000000000002,
-        0.125,
+        0.14999999999999999,
         2.3519999999999999,
         1
       ]
@@ -852,17 +852,17 @@
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
+        "plantId" : "achillea-millefolium"
       },
       "category" : {
-        "flower_red" : {
+        "flower_yellow" : {
 
         }
       },
       "dimensions" : [
-        0.20000000000000001,
-        0.25,
-        0.20000000000000001
+        0.29999999999999999,
+        0.29999999999999999,
+        0.29999999999999999
       ],
       "identifier" : "44e69635-ec19-41ac-b300-627baff61fda",
       "story" : 0,
@@ -880,7 +880,7 @@
         1,
         0,
         5.6719999999999997,
-        0.125,
+        0.14999999999999999,
         5.5979999999999999,
         1
       ]
@@ -890,7 +890,7 @@
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
+        "plantId" : "agastache-rupestris"
       },
       "category" : {
         "flower_red" : {
@@ -898,9 +898,9 @@
         }
       },
       "dimensions" : [
-        0.20000000000000001,
-        0.25,
-        0.20000000000000001
+        0.27000000000000002,
+        0.29999999999999999,
+        0.27000000000000002
       ],
       "identifier" : "43e694a2-ed19-433f-b200-60e8b0f6216d",
       "story" : 0,
@@ -918,7 +918,7 @@
         1,
         0,
         7.609,
-        0.125,
+        0.14999999999999999,
         3.113,
         1
       ]
@@ -928,7 +928,7 @@
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
+        "plantId" : "agastache-rupestris"
       },
       "category" : {
         "flower_red" : {
@@ -936,9 +936,9 @@
         }
       },
       "dimensions" : [
-        0.20000000000000001,
-        0.25,
-        0.20000000000000001
+        0.27000000000000002,
+        0.29999999999999999,
+        0.27000000000000002
       ],
       "identifier" : "3ee68cc3-ea19-4e86-b900-6beda9f61668",
       "story" : 0,
@@ -956,7 +956,7 @@
         1,
         0,
         6.2400000000000002,
-        0.125,
+        0.14999999999999999,
         2.718,
         1
       ]
@@ -966,17 +966,17 @@
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
+        "plantId" : "achillea-millefolium"
       },
       "category" : {
-        "flower_red" : {
+        "flower_yellow" : {
 
         }
       },
       "dimensions" : [
-        0.20000000000000001,
-        0.25,
-        0.20000000000000001
+        0.29999999999999999,
+        0.29999999999999999,
+        0.29999999999999999
       ],
       "identifier" : "3de68b30-eb19-4019-b800-6a5aaaf617fb",
       "story" : 0,
@@ -994,7 +994,7 @@
         1,
         0,
         2.7240000000000002,
-        0.125,
+        0.14999999999999999,
         5.9829999999999997,
         1
       ]
@@ -1004,17 +1004,17 @@
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
+        "plantId" : "achillea-millefolium"
       },
       "category" : {
-        "flower_red" : {
+        "flower_yellow" : {
 
         }
       },
       "dimensions" : [
-        0.20000000000000001,
-        0.25,
-        0.20000000000000001
+        0.29999999999999999,
+        0.29999999999999999,
+        0.29999999999999999
       ],
       "identifier" : "40e68fe9-e819-4b60-b700-68c7abf6198e",
       "story" : 0,
@@ -1032,7 +1032,7 @@
         1,
         0,
         4.6040000000000001,
-        0.125,
+        0.14999999999999999,
         4.3140000000000001,
         1
       ]
@@ -1042,17 +1042,17 @@
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
+        "plantId" : "achillea-millefolium"
       },
       "category" : {
-        "flower_red" : {
+        "flower_yellow" : {
 
         }
       },
       "dimensions" : [
-        0.20000000000000001,
-        0.25,
-        0.20000000000000001
+        0.29999999999999999,
+        0.29999999999999999,
+        0.29999999999999999
       ],
       "identifier" : "3fe68e56-e919-4cf3-b600-6734acf61b21",
       "story" : 0,
@@ -1070,7 +1070,7 @@
         1,
         0,
         3.9380000000000002,
-        0.125,
+        0.14999999999999999,
         4.9180000000000001,
         1
       ]
@@ -1080,17 +1080,17 @@
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
+        "plantId" : "achillea-millefolium"
       },
       "category" : {
-        "flower_red" : {
+        "flower_yellow" : {
 
         }
       },
       "dimensions" : [
-        0.20000000000000001,
-        0.25,
-        0.20000000000000001
+        0.29999999999999999,
+        0.29999999999999999,
+        0.29999999999999999
       ],
       "identifier" : "4ae69fa7-f619-416a-ad00-5909a5f6101c",
       "story" : 0,
@@ -1108,7 +1108,7 @@
         1,
         0,
         7.9640000000000004,
-        0.125,
+        0.14999999999999999,
         5.5609999999999999,
         1
       ]
@@ -1118,17 +1118,17 @@
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
+        "plantId" : "achillea-millefolium"
       },
       "category" : {
-        "flower_red" : {
+        "flower_yellow" : {
 
         }
       },
       "dimensions" : [
-        0.20000000000000001,
-        0.25,
-        0.20000000000000001
+        0.29999999999999999,
+        0.29999999999999999,
+        0.29999999999999999
       ],
       "identifier" : "49e69e14-f719-42fd-ac00-5776a6f611af",
       "story" : 0,
@@ -1146,7 +1146,7 @@
         1,
         0,
         2.5619999999999998,
-        0.125,
+        0.14999999999999999,
         3.9020000000000001,
         1
       ]
@@ -1156,7 +1156,7 @@
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
+        "plantId" : "agastache-rupestris"
       },
       "category" : {
         "flower_red" : {
@@ -1164,9 +1164,9 @@
         }
       },
       "dimensions" : [
-        0.20000000000000001,
-        0.25,
-        0.20000000000000001
+        0.27000000000000002,
+        0.29999999999999999,
+        0.27000000000000002
       ],
       "identifier" : "3ce44b06-f41b-4cdb-aefd-5418b3f864bd",
       "story" : 0,
@@ -1184,7 +1184,7 @@
         1,
         0,
         2.9809999999999999,
-        0.125,
+        0.14999999999999999,
         4.6189999999999998,
         1
       ]
@@ -1194,7 +1194,7 @@
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
+        "plantId" : "agastache-rupestris"
       },
       "category" : {
         "flower_red" : {
@@ -1202,9 +1202,9 @@
         }
       },
       "dimensions" : [
-        0.20000000000000001,
-        0.25,
-        0.20000000000000001
+        0.27000000000000002,
+        0.29999999999999999,
+        0.27000000000000002
       ],
       "identifier" : "3de44c99-f31b-4b48-affd-55abb2f8632a",
       "story" : 0,
@@ -1222,7 +1222,7 @@
         1,
         0,
         4.016,
-        0.125,
+        0.14999999999999999,
         2.8279999999999998,
         1
       ]
@@ -1232,7 +1232,7 @@
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
+        "plantId" : "agastache-rupestris"
       },
       "category" : {
         "flower_red" : {
@@ -1240,9 +1240,9 @@
         }
       },
       "dimensions" : [
-        0.20000000000000001,
-        0.25,
-        0.20000000000000001
+        0.27000000000000002,
+        0.29999999999999999,
+        0.27000000000000002
       ],
       "identifier" : "3ae447e0-f61b-4001-b0fd-573eb1f86197",
       "story" : 0,
@@ -1260,7 +1260,7 @@
         1,
         0,
         2.9830000000000001,
-        0.125,
+        0.14999999999999999,
         2.6829999999999998,
         1
       ]
@@ -1270,7 +1270,7 @@
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
+        "plantId" : "agastache-rupestris"
       },
       "category" : {
         "flower_red" : {
@@ -1278,9 +1278,9 @@
         }
       },
       "dimensions" : [
-        0.20000000000000001,
-        0.25,
-        0.20000000000000001
+        0.27000000000000002,
+        0.29999999999999999,
+        0.27000000000000002
       ],
       "identifier" : "3be44973-f51b-4e6e-b1fd-58d1b0f86004",
       "story" : 0,
@@ -1298,7 +1298,7 @@
         1,
         0,
         4.391,
-        0.125,
+        0.14999999999999999,
         3.3439999999999999,
         1
       ]
@@ -1308,17 +1308,17 @@
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
+        "plantId" : "achillea-millefolium"
       },
       "category" : {
-        "flower_red" : {
+        "flower_yellow" : {
 
         }
       },
       "dimensions" : [
-        0.20000000000000001,
-        0.25,
-        0.20000000000000001
+        0.29999999999999999,
+        0.29999999999999999,
+        0.29999999999999999
       ],
       "identifier" : "40e45152-f81b-4327-b2fd-5a64aff85e71",
       "story" : 0,
@@ -1336,7 +1336,7 @@
         1,
         0,
         4.8890000000000002,
-        0.125,
+        0.14999999999999999,
         3.52,
         1
       ]
@@ -1346,7 +1346,7 @@
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
+        "plantId" : "agastache-rupestris"
       },
       "category" : {
         "flower_red" : {
@@ -1354,9 +1354,9 @@
         }
       },
       "dimensions" : [
-        0.20000000000000001,
-        0.25,
-        0.20000000000000001
+        0.27000000000000002,
+        0.29999999999999999,
+        0.27000000000000002
       ],
       "identifier" : "41e452e5-f71b-4194-b3fd-5bf7aef85cde",
       "story" : 0,
@@ -1374,7 +1374,7 @@
         1,
         0,
         6.8460000000000001,
-        0.125,
+        0.14999999999999999,
         2.8340000000000001,
         1
       ]
@@ -1384,17 +1384,17 @@
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
+        "plantId" : "achillea-millefolium"
       },
       "category" : {
-        "flower_red" : {
+        "flower_yellow" : {
 
         }
       },
       "dimensions" : [
-        0.20000000000000001,
-        0.25,
-        0.20000000000000001
+        0.29999999999999999,
+        0.29999999999999999,
+        0.29999999999999999
       ],
       "identifier" : "3ee44e2c-fa1b-464d-b4fd-5d8aadf85b4b",
       "story" : 0,
@@ -1412,7 +1412,7 @@
         1,
         0,
         7.907,
-        0.125,
+        0.14999999999999999,
         3.968,
         1
       ]
@@ -1422,17 +1422,17 @@
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
+        "plantId" : "achillea-millefolium"
       },
       "category" : {
-        "flower_red" : {
+        "flower_yellow" : {
 
         }
       },
       "dimensions" : [
-        0.20000000000000001,
-        0.25,
-        0.20000000000000001
+        0.29999999999999999,
+        0.29999999999999999,
+        0.29999999999999999
       ],
       "identifier" : "3fe44fbf-f91b-44ba-b5fd-5f1dacf859b8",
       "story" : 0,
@@ -1450,7 +1450,7 @@
         1,
         0,
         7.157,
-        0.125,
+        0.14999999999999999,
         5.3730000000000002,
         1
       ]
@@ -1460,17 +1460,17 @@
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
+        "plantId" : "achillea-millefolium"
       },
       "category" : {
-        "flower_red" : {
+        "flower_yellow" : {
 
         }
       },
       "dimensions" : [
-        0.20000000000000001,
-        0.25,
-        0.20000000000000001
+        0.29999999999999999,
+        0.29999999999999999,
+        0.29999999999999999
       ],
       "identifier" : "44e4579e-ec1b-4043-a6fd-4780abf85825",
       "story" : 0,
@@ -1488,7 +1488,7 @@
         1,
         0,
         6.4619999999999997,
-        0.125,
+        0.14999999999999999,
         2.214,
         1
       ]
@@ -1498,17 +1498,17 @@
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
+        "plantId" : "achillea-millefolium"
       },
       "category" : {
-        "flower_red" : {
+        "flower_yellow" : {
 
         }
       },
       "dimensions" : [
-        0.20000000000000001,
-        0.25,
-        0.20000000000000001
+        0.29999999999999999,
+        0.29999999999999999,
+        0.29999999999999999
       ],
       "identifier" : "45e45931-eb1b-4eb0-a7fd-4913aaf85692",
       "story" : 0,
@@ -1526,7 +1526,7 @@
         1,
         0,
         6.5650000000000004,
-        0.125,
+        0.14999999999999999,
         5.9660000000000002,
         1
       ]
@@ -1536,17 +1536,17 @@
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
+        "plantId" : "achillea-millefolium"
       },
       "category" : {
-        "flower_red" : {
+        "flower_yellow" : {
 
         }
       },
       "dimensions" : [
-        0.20000000000000001,
-        0.25,
-        0.20000000000000001
+        0.29999999999999999,
+        0.29999999999999999,
+        0.29999999999999999
       ],
       "identifier" : "3ed78239-fa1d-44e4-b90e-acf721f0c322",
       "story" : 0,
@@ -1564,7 +1564,7 @@
         1,
         0,
         7.625,
-        0.125,
+        0.14999999999999999,
         4.5039999999999996,
         1
       ]
@@ -1574,17 +1574,17 @@
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
+        "plantId" : "achillea-millefolium"
       },
       "category" : {
-        "flower_red" : {
+        "flower_yellow" : {
 
         }
       },
       "dimensions" : [
-        0.20000000000000001,
-        0.25,
-        0.20000000000000001
+        0.29999999999999999,
+        0.29999999999999999,
+        0.29999999999999999
       ],
       "identifier" : "3dd780a6-fb1d-4677-b80e-ab6422f0c4b5",
       "story" : 0,
@@ -1602,7 +1602,7 @@
         1,
         0,
         5.8860000000000001,
-        0.125,
+        0.14999999999999999,
         4.9050000000000002,
         1
       ]
@@ -1612,17 +1612,17 @@
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
+        "plantId" : "achillea-millefolium"
       },
       "category" : {
-        "flower_red" : {
+        "flower_yellow" : {
 
         }
       },
       "dimensions" : [
-        0.20000000000000001,
-        0.25,
-        0.20000000000000001
+        0.29999999999999999,
+        0.29999999999999999,
+        0.29999999999999999
       ],
       "identifier" : "3cd77f13-fc1d-480a-bb0e-b01d1ff0bffc",
       "story" : 0,
@@ -1640,7 +1640,7 @@
         1,
         0,
         2.835,
-        0.125,
+        0.14999999999999999,
         2.1909999999999998,
         1
       ]
@@ -1650,17 +1650,17 @@
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
+        "plantId" : "achillea-millefolium"
       },
       "category" : {
-        "flower_red" : {
+        "flower_yellow" : {
 
         }
       },
       "dimensions" : [
-        0.20000000000000001,
-        0.25,
-        0.20000000000000001
+        0.29999999999999999,
+        0.29999999999999999,
+        0.29999999999999999
       ],
       "identifier" : "3bd77d80-fd1d-499d-ba0e-ae8a20f0c18f",
       "story" : 0,
@@ -1678,7 +1678,7 @@
         1,
         0,
         2.4159999999999999,
-        0.125,
+        0.14999999999999999,
         5.4829999999999997,
         1
       ]
@@ -1688,7 +1688,7 @@
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
+        "plantId" : "agastache-rupestris"
       },
       "category" : {
         "flower_red" : {
@@ -1696,9 +1696,9 @@
         }
       },
       "dimensions" : [
-        0.20000000000000001,
-        0.25,
-        0.20000000000000001
+        0.27000000000000002,
+        0.29999999999999999,
+        0.27000000000000002
       ],
       "identifier" : "42d78885-f61d-4e98-b50e-a6ab1df0bcd6",
       "story" : 0,
@@ -1716,7 +1716,7 @@
         1,
         0,
         7.798,
-        0.125,
+        0.14999999999999999,
         5,
         1
       ]
@@ -1726,7 +1726,7 @@
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
+        "plantId" : "agastache-rupestris"
       },
       "category" : {
         "flower_red" : {
@@ -1734,9 +1734,9 @@
         }
       },
       "dimensions" : [
-        0.20000000000000001,
-        0.25,
-        0.20000000000000001
+        0.27000000000000002,
+        0.29999999999999999,
+        0.27000000000000002
       ],
       "identifier" : "41d786f2-f71d-402b-b40e-a5181ef0be69",
       "story" : 0,
@@ -1754,7 +1754,7 @@
         1,
         0,
         2.3570000000000002,
-        0.125,
+        0.14999999999999999,
         3.0510000000000002,
         1
       ]
@@ -1764,17 +1764,17 @@
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
+        "plantId" : "achillea-millefolium"
       },
       "category" : {
-        "flower_red" : {
+        "flower_yellow" : {
 
         }
       },
       "dimensions" : [
-        0.20000000000000001,
-        0.25,
-        0.20000000000000001
+        0.29999999999999999,
+        0.29999999999999999,
+        0.29999999999999999
       ],
       "identifier" : "40d7855f-f81d-41be-b70e-a9d11bf0b9b0",
       "story" : 0,
@@ -1792,7 +1792,7 @@
         1,
         0,
         4.3209999999999997,
-        0.125,
+        0.14999999999999999,
         5.5119999999999996,
         1
       ]
@@ -1802,17 +1802,17 @@
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
+        "plantId" : "achillea-millefolium"
       },
       "category" : {
-        "flower_red" : {
+        "flower_yellow" : {
 
         }
       },
       "dimensions" : [
-        0.20000000000000001,
-        0.25,
-        0.20000000000000001
+        0.29999999999999999,
+        0.29999999999999999,
+        0.29999999999999999
       ],
       "identifier" : "3fd783cc-f91d-4351-b60e-a83e1cf0bb43",
       "story" : 0,
@@ -1830,7 +1830,7 @@
         1,
         0,
         6.4299999999999997,
-        0.125,
+        0.14999999999999999,
         4.859,
         1
       ]
@@ -1840,7 +1840,7 @@
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
+        "plantId" : "agastache-rupestris"
       },
       "category" : {
         "flower_red" : {
@@ -1848,9 +1848,9 @@
         }
       },
       "dimensions" : [
-        0.20000000000000001,
-        0.25,
-        0.20000000000000001
+        0.27000000000000002,
+        0.29999999999999999,
+        0.27000000000000002
       ],
       "identifier" : "46d78ed1-f21d-484c-b10e-a05f29f0cfba",
       "story" : 0,
@@ -1868,7 +1868,7 @@
         1,
         0,
         4.8280000000000003,
-        0.125,
+        0.14999999999999999,
         2.29,
         1
       ]
@@ -1878,7 +1878,7 @@
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
+        "plantId" : "agastache-rupestris"
       },
       "category" : {
         "flower_red" : {
@@ -1886,9 +1886,9 @@
         }
       },
       "dimensions" : [
-        0.20000000000000001,
-        0.25,
-        0.20000000000000001
+        0.27000000000000002,
+        0.29999999999999999,
+        0.27000000000000002
       ],
       "identifier" : "45d78d3e-f31d-49df-b00e-9ecc2af0d14d",
       "story" : 0,
@@ -1906,7 +1906,7 @@
         1,
         0,
         7.04,
-        0.125,
+        0.14999999999999999,
         3.3660000000000001,
         1
       ]
@@ -1916,7 +1916,7 @@
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
+        "plantId" : "agastache-rupestris"
       },
       "category" : {
         "flower_red" : {
@@ -1924,9 +1924,9 @@
         }
       },
       "dimensions" : [
-        0.20000000000000001,
-        0.25,
-        0.20000000000000001
+        0.27000000000000002,
+        0.29999999999999999,
+        0.27000000000000002
       ],
       "identifier" : "38d53a30-8020-466d-b30c-64ee27f30b2b",
       "story" : 0,
@@ -1944,7 +1944,7 @@
         1,
         0,
         6.6349999999999998,
-        0.125,
+        0.14999999999999999,
         3.7269999999999999,
         1
       ]
@@ -1954,17 +1954,17 @@
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
+        "plantId" : "achillea-millefolium"
       },
       "category" : {
-        "flower_red" : {
+        "flower_yellow" : {
 
         }
       },
       "dimensions" : [
-        0.20000000000000001,
-        0.25,
-        0.20000000000000001
+        0.29999999999999999,
+        0.29999999999999999,
+        0.29999999999999999
       ],
       "identifier" : "39d53bc3-7f20-44da-b40c-668126f30998",
       "story" : 0,
@@ -1982,7 +1982,7 @@
         1,
         0,
         4.9610000000000003,
-        0.125,
+        0.14999999999999999,
         5.806,
         1
       ]
@@ -1992,17 +1992,17 @@
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
+        "plantId" : "achillea-millefolium"
       },
       "category" : {
-        "flower_red" : {
+        "flower_yellow" : {
 
         }
       },
       "dimensions" : [
-        0.20000000000000001,
-        0.25,
-        0.20000000000000001
+        0.29999999999999999,
+        0.29999999999999999,
+        0.29999999999999999
       ],
       "identifier" : "3ad53d56-7e20-4347-b10c-61c829f30e51",
       "story" : 0,
@@ -2020,7 +2020,7 @@
         1,
         0,
         5.7869999999999999,
-        0.125,
+        0.14999999999999999,
         3.2599999999999998,
         1
       ]
@@ -2030,7 +2030,7 @@
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
+        "plantId" : "agastache-rupestris"
       },
       "category" : {
         "flower_red" : {
@@ -2038,9 +2038,9 @@
         }
       },
       "dimensions" : [
-        0.20000000000000001,
-        0.25,
-        0.20000000000000001
+        0.27000000000000002,
+        0.29999999999999999,
+        0.27000000000000002
       ],
       "identifier" : "3bd53ee9-7d20-41b4-b20c-635b28f30cbe",
       "story" : 0,
@@ -2058,7 +2058,7 @@
         1,
         0,
         7.9749999999999996,
-        0.125,
+        0.14999999999999999,
         2.6909999999999998,
         1
       ]
@@ -2068,7 +2068,7 @@
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
+        "plantId" : "agastache-rupestris"
       },
       "category" : {
         "flower_red" : {
@@ -2076,9 +2076,9 @@
         }
       },
       "dimensions" : [
-        0.20000000000000001,
-        0.25,
-        0.20000000000000001
+        0.27000000000000002,
+        0.29999999999999999,
+        0.27000000000000002
       ],
       "identifier" : "3cd5407c-7c20-4021-b70c-6b3a2bf31177",
       "story" : 0,
@@ -2096,7 +2096,7 @@
         1,
         0,
         4.2160000000000002,
-        0.125,
+        0.14999999999999999,
         2.3109999999999999,
         1
       ]
@@ -2106,7 +2106,7 @@
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
+        "plantId" : "agastache-rupestris"
       },
       "category" : {
         "flower_red" : {
@@ -2114,9 +2114,9 @@
         }
       },
       "dimensions" : [
-        0.20000000000000001,
-        0.25,
-        0.20000000000000001
+        0.27000000000000002,
+        0.29999999999999999,
+        0.27000000000000002
       ],
       "identifier" : "3dd5420f-7b20-4e8e-b80c-6ccd2af30fe4",
       "story" : 0,
@@ -2134,7 +2134,7 @@
         1,
         0,
         3.726,
-        0.125,
+        0.14999999999999999,
         5.9850000000000003,
         1
       ]
@@ -2144,7 +2144,7 @@
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
+        "plantId" : "agastache-rupestris"
       },
       "category" : {
         "flower_red" : {
@@ -2152,9 +2152,9 @@
         }
       },
       "dimensions" : [
-        0.20000000000000001,
-        0.25,
-        0.20000000000000001
+        0.27000000000000002,
+        0.29999999999999999,
+        0.27000000000000002
       ],
       "identifier" : "3ed543a2-7a20-4cfb-b50c-68142df3149d",
       "story" : 0,
@@ -2172,7 +2172,7 @@
         1,
         0,
         6.1299999999999999,
-        0.125,
+        0.14999999999999999,
         3.8900000000000001,
         1
       ]
@@ -2182,7 +2182,7 @@
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
+        "plantId" : "agastache-rupestris"
       },
       "category" : {
         "flower_red" : {
@@ -2190,9 +2190,9 @@
         }
       },
       "dimensions" : [
-        0.20000000000000001,
-        0.25,
-        0.20000000000000001
+        0.27000000000000002,
+        0.29999999999999999,
+        0.27000000000000002
       ],
       "identifier" : "3fd54535-7920-4b68-b60c-69a72cf3130a",
       "story" : 0,
@@ -2210,7 +2210,7 @@
         1,
         0,
         6.6150000000000002,
-        0.125,
+        0.14999999999999999,
         4.2869999999999999,
         1
       ]
@@ -2220,7 +2220,7 @@
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
+        "plantId" : "agastache-rupestris"
       },
       "category" : {
         "flower_red" : {
@@ -2228,9 +2228,9 @@
         }
       },
       "dimensions" : [
-        0.20000000000000001,
-        0.25,
-        0.20000000000000001
+        0.27000000000000002,
+        0.29999999999999999,
+        0.27000000000000002
       ],
       "identifier" : "40d546c8-7820-49d5-ab0c-58561ff2fe93",
       "story" : 0,
@@ -2248,7 +2248,7 @@
         1,
         0,
         5.6399999999999997,
-        0.125,
+        0.14999999999999999,
         2.7349999999999999,
         1
       ]
@@ -2258,7 +2258,7 @@
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
+        "plantId" : "agastache-rupestris"
       },
       "category" : {
         "flower_red" : {
@@ -2266,9 +2266,9 @@
         }
       },
       "dimensions" : [
-        0.20000000000000001,
-        0.25,
-        0.20000000000000001
+        0.27000000000000002,
+        0.29999999999999999,
+        0.27000000000000002
       ],
       "identifier" : "41d5485b-7720-4842-ac0c-59e91ef2fd00",
       "story" : 0,
@@ -2286,7 +2286,7 @@
         1,
         0,
         2.0510000000000002,
-        0.125,
+        0.14999999999999999,
         4.9829999999999997,
         1
       ]
@@ -2296,7 +2296,7 @@
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
+        "plantId" : "agastache-rupestris"
       },
       "category" : {
         "flower_red" : {
@@ -2304,9 +2304,9 @@
         }
       },
       "dimensions" : [
-        0.20000000000000001,
-        0.25,
-        0.20000000000000001
+        0.27000000000000002,
+        0.29999999999999999,
+        0.27000000000000002
       ],
       "identifier" : "cadcdbcb-6622-4c16-ad0a-1ce515ec3310",
       "story" : 0,
@@ -2324,7 +2324,7 @@
         1,
         0,
         7.4509999999999996,
-        0.125,
+        0.14999999999999999,
         5.8120000000000003,
         1
       ]
@@ -2334,17 +2334,17 @@
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "openlandscape3dKind" : "plant",
         "openlandscape3dRole" : "proposed",
-        "plantId" : "echinacea-purpurea"
+        "plantId" : "achillea-millefolium"
       },
       "category" : {
-        "flower_red" : {
+        "flower_yellow" : {
 
         }
       },
       "dimensions" : [
-        0.20000000000000001,
-        0.25,
-        0.20000000000000001
+        0.29999999999999999,
+        0.29999999999999999,
+        0.29999999999999999
       ],
       "identifier" : "c9dcda38-6722-4da9-ac0a-1b5216ec34a3",
       "story" : 0,
@@ -2362,7 +2362,7 @@
         1,
         0,
         2.1840000000000002,
-        0.125,
+        0.14999999999999999,
         5.9390000000000001,
         1
       ]
@@ -2554,7 +2554,7 @@
     "building" : null,
     "captureSource" : "gps-walk",
     "catalogVersion" : "ol-plants@0.1",
-    "createdAt" : "2026-10-07T02:42:14Z",
+    "createdAt" : "2026-10-07T03:00:29Z",
     "groups" : [
       {
         "id" : "0e5c0000-0000-4000-8000-0000000000a9",
@@ -2625,7 +2625,11 @@
         "kind" : "mass",
         "mix" : [
           {
-            "plantId" : "echinacea-purpurea",
+            "plantId" : "achillea-millefolium",
+            "ratio" : 1
+          },
+          {
+            "plantId" : "agastache-rupestris",
             "ratio" : 1
           }
         ],
@@ -2719,11 +2723,11 @@
       {
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "id" : "76cf02ff-478c-4ff0-b758-4f71775333f2",
-        "installHeight" : 0.25,
+        "installHeight" : 0.29999999999999999,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.29999999999999999,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
+        "plantId" : "achillea-millefolium",
         "seed" : 999811090,
         "status" : "proposed",
         "x" : 5.6070000000000002,
@@ -2732,11 +2736,11 @@
       {
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "id" : "75cf016c-488c-4183-b658-4dde78533585",
-        "installHeight" : 0.25,
+        "installHeight" : 0.29999999999999999,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.27000000000000002,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
+        "plantId" : "agastache-rupestris",
         "seed" : 276402343,
         "status" : "proposed",
         "x" : 7.1150000000000002,
@@ -2745,11 +2749,11 @@
       {
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "id" : "78cf0625-498c-4316-b558-4c4b755330cc",
-        "installHeight" : 0.25,
+        "installHeight" : 0.29999999999999999,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.27000000000000002,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
+        "plantId" : "agastache-rupestris",
         "seed" : 529415851,
         "status" : "proposed",
         "x" : 3.0489999999999999,
@@ -2758,11 +2762,11 @@
       {
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "id" : "77cf0492-4a8c-44a9-b458-4ab87653325f",
-        "installHeight" : 0.25,
+        "installHeight" : 0.29999999999999999,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.29999999999999999,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
+        "plantId" : "achillea-millefolium",
         "seed" : 59112323,
         "status" : "proposed",
         "x" : 3.6389999999999998,
@@ -2771,11 +2775,11 @@
       {
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "id" : "72cefcb3-4b8c-463c-bb58-55bd73532da6",
-        "installHeight" : 0.25,
+        "installHeight" : 0.29999999999999999,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.27000000000000002,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
+        "plantId" : "agastache-rupestris",
         "seed" : 63351840,
         "status" : "proposed",
         "x" : 7.1929999999999996,
@@ -2784,11 +2788,11 @@
       {
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "id" : "71cefb20-4c8c-47cf-ba58-542a74532f39",
-        "installHeight" : 0.25,
+        "installHeight" : 0.29999999999999999,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.27000000000000002,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
+        "plantId" : "agastache-rupestris",
         "seed" : 744416806,
         "status" : "proposed",
         "x" : 3.5,
@@ -2797,11 +2801,11 @@
       {
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "id" : "74ceffd9-4d8c-4962-b958-529771532a80",
-        "installHeight" : 0.25,
+        "installHeight" : 0.29999999999999999,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.29999999999999999,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
+        "plantId" : "achillea-millefolium",
         "seed" : 43571918,
         "status" : "proposed",
         "x" : 6.4740000000000002,
@@ -2810,11 +2814,11 @@
       {
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "id" : "73cefe46-4e8c-4af5-b858-510472532c13",
-        "installHeight" : 0.25,
+        "installHeight" : 0.29999999999999999,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.27000000000000002,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
+        "plantId" : "agastache-rupestris",
         "seed" : 62027600,
         "status" : "proposed",
         "x" : 6.1200000000000001,
@@ -2823,11 +2827,11 @@
       {
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "id" : "7ecf0f97-4f8c-4c88-af58-42d97f53408a",
-        "installHeight" : 0.25,
+        "installHeight" : 0.29999999999999999,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.29999999999999999,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
+        "plantId" : "achillea-millefolium",
         "seed" : 879631749,
         "status" : "proposed",
         "x" : 2.0230000000000001,
@@ -2836,11 +2840,11 @@
       {
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "id" : "7dcf0e04-508c-4e1b-ae58-41468053421d",
-        "installHeight" : 0.25,
+        "installHeight" : 0.29999999999999999,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.29999999999999999,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
+        "plantId" : "achillea-millefolium",
         "seed" : 189858324,
         "status" : "proposed",
         "x" : 7.024,
@@ -2849,11 +2853,11 @@
       {
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "id" : "d0df23d4-e816-4cc9-bb02-adaa1ffd8bef",
-        "installHeight" : 0.25,
+        "installHeight" : 0.29999999999999999,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.29999999999999999,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
+        "plantId" : "achillea-millefolium",
         "seed" : 259546225,
         "status" : "proposed",
         "x" : 5.5540000000000003,
@@ -2862,11 +2866,11 @@
       {
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "id" : "d1df2567-e716-4b36-bc02-af3d1efd8a5c",
-        "installHeight" : 0.25,
+        "installHeight" : 0.29999999999999999,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.27000000000000002,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
+        "plantId" : "agastache-rupestris",
         "seed" : 853122675,
         "status" : "proposed",
         "x" : 3.6019999999999999,
@@ -2875,11 +2879,11 @@
       {
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "id" : "d2df26fa-e616-49a3-b902-aa8421fd8f15",
-        "installHeight" : 0.25,
+        "installHeight" : 0.29999999999999999,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.27000000000000002,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
+        "plantId" : "agastache-rupestris",
         "seed" : 934979578,
         "status" : "proposed",
         "x" : 3.1139999999999999,
@@ -2888,11 +2892,11 @@
       {
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "id" : "d3df288d-e516-4810-ba02-ac1720fd8d82",
-        "installHeight" : 0.25,
+        "installHeight" : 0.29999999999999999,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.27000000000000002,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
+        "plantId" : "agastache-rupestris",
         "seed" : 56866421,
         "status" : "proposed",
         "x" : 4.9260000000000002,
@@ -2901,11 +2905,11 @@
       {
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "id" : "ccdf1d88-ec17-4315-b702-a75e1bfd85a3",
-        "installHeight" : 0.25,
+        "installHeight" : 0.29999999999999999,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.27000000000000002,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
+        "plantId" : "agastache-rupestris",
         "seed" : 456190777,
         "status" : "proposed",
         "x" : 3.9169999999999998,
@@ -2914,11 +2918,11 @@
       {
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "id" : "cddf1f1b-eb17-4182-b802-a8f11afd8410",
-        "installHeight" : 0.25,
+        "installHeight" : 0.29999999999999999,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.29999999999999999,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
+        "plantId" : "achillea-millefolium",
         "seed" : 272452968,
         "status" : "proposed",
         "x" : 2.2250000000000001,
@@ -2927,11 +2931,11 @@
       {
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "id" : "cedf20ae-ea16-4fef-b502-a4381dfd88c9",
-        "installHeight" : 0.25,
+        "installHeight" : 0.29999999999999999,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.29999999999999999,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
+        "plantId" : "achillea-millefolium",
         "seed" : 362544865,
         "status" : "proposed",
         "x" : 5.3399999999999999,
@@ -2940,11 +2944,11 @@
       {
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "id" : "cfdf2241-e916-4e5c-b602-a5cb1cfd8736",
-        "installHeight" : 0.25,
+        "installHeight" : 0.29999999999999999,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.27000000000000002,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
+        "plantId" : "agastache-rupestris",
         "seed" : 692804073,
         "status" : "proposed",
         "x" : 3.2570000000000001,
@@ -2953,11 +2957,11 @@
       {
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "id" : "c8df173c-f017-4961-b302-a11227fd9887",
-        "installHeight" : 0.25,
+        "installHeight" : 0.29999999999999999,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.27000000000000002,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
+        "plantId" : "agastache-rupestris",
         "seed" : 699817098,
         "status" : "proposed",
         "x" : 6.4320000000000004,
@@ -2966,11 +2970,11 @@
       {
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "id" : "c9df18cf-ef17-47ce-b402-a2a526fd96f4",
-        "installHeight" : 0.25,
+        "installHeight" : 0.29999999999999999,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.29999999999999999,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
+        "plantId" : "achillea-millefolium",
         "seed" : 935466148,
         "status" : "proposed",
         "x" : 5.048,
@@ -2979,11 +2983,11 @@
       {
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "id" : "42e6930f-ee19-44d2-b500-65a1adf61cb4",
-        "installHeight" : 0.25,
+        "installHeight" : 0.29999999999999999,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.29999999999999999,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
+        "plantId" : "achillea-millefolium",
         "seed" : 238630604,
         "status" : "proposed",
         "x" : 2.448,
@@ -2992,11 +2996,11 @@
       {
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "id" : "41e6917c-ef19-4665-b400-640eaef61e47",
-        "installHeight" : 0.25,
+        "installHeight" : 0.29999999999999999,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.29999999999999999,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
+        "plantId" : "achillea-millefolium",
         "seed" : 57495098,
         "status" : "proposed",
         "x" : 7.5670000000000002,
@@ -3005,11 +3009,11 @@
       {
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "id" : "44e69635-ec19-41ac-b300-627baff61fda",
-        "installHeight" : 0.25,
+        "installHeight" : 0.29999999999999999,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.29999999999999999,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
+        "plantId" : "achillea-millefolium",
         "seed" : 934943395,
         "status" : "proposed",
         "x" : 5.6719999999999997,
@@ -3018,11 +3022,11 @@
       {
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "id" : "43e694a2-ed19-433f-b200-60e8b0f6216d",
-        "installHeight" : 0.25,
+        "installHeight" : 0.29999999999999999,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.27000000000000002,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
+        "plantId" : "agastache-rupestris",
         "seed" : 388063604,
         "status" : "proposed",
         "x" : 7.609,
@@ -3031,11 +3035,11 @@
       {
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "id" : "3ee68cc3-ea19-4e86-b900-6beda9f61668",
-        "installHeight" : 0.25,
+        "installHeight" : 0.29999999999999999,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.27000000000000002,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
+        "plantId" : "agastache-rupestris",
         "seed" : 629828092,
         "status" : "proposed",
         "x" : 6.2400000000000002,
@@ -3044,11 +3048,11 @@
       {
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "id" : "3de68b30-eb19-4019-b800-6a5aaaf617fb",
-        "installHeight" : 0.25,
+        "installHeight" : 0.29999999999999999,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.29999999999999999,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
+        "plantId" : "achillea-millefolium",
         "seed" : 424072363,
         "status" : "proposed",
         "x" : 2.7240000000000002,
@@ -3057,11 +3061,11 @@
       {
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "id" : "40e68fe9-e819-4b60-b700-68c7abf6198e",
-        "installHeight" : 0.25,
+        "installHeight" : 0.29999999999999999,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.29999999999999999,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
+        "plantId" : "achillea-millefolium",
         "seed" : 819175958,
         "status" : "proposed",
         "x" : 4.6040000000000001,
@@ -3070,11 +3074,11 @@
       {
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "id" : "3fe68e56-e919-4cf3-b600-6734acf61b21",
-        "installHeight" : 0.25,
+        "installHeight" : 0.29999999999999999,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.29999999999999999,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
+        "plantId" : "achillea-millefolium",
         "seed" : 676066742,
         "status" : "proposed",
         "x" : 3.9380000000000002,
@@ -3083,11 +3087,11 @@
       {
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "id" : "4ae69fa7-f619-416a-ad00-5909a5f6101c",
-        "installHeight" : 0.25,
+        "installHeight" : 0.29999999999999999,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.29999999999999999,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
+        "plantId" : "achillea-millefolium",
         "seed" : 621810592,
         "status" : "proposed",
         "x" : 7.9640000000000004,
@@ -3096,11 +3100,11 @@
       {
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "id" : "49e69e14-f719-42fd-ac00-5776a6f611af",
-        "installHeight" : 0.25,
+        "installHeight" : 0.29999999999999999,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.29999999999999999,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
+        "plantId" : "achillea-millefolium",
         "seed" : 992705846,
         "status" : "proposed",
         "x" : 2.5619999999999998,
@@ -3109,11 +3113,11 @@
       {
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "id" : "3ce44b06-f41b-4cdb-aefd-5418b3f864bd",
-        "installHeight" : 0.25,
+        "installHeight" : 0.29999999999999999,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.27000000000000002,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
+        "plantId" : "agastache-rupestris",
         "seed" : 250844480,
         "status" : "proposed",
         "x" : 2.9809999999999999,
@@ -3122,11 +3126,11 @@
       {
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "id" : "3de44c99-f31b-4b48-affd-55abb2f8632a",
-        "installHeight" : 0.25,
+        "installHeight" : 0.29999999999999999,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.27000000000000002,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
+        "plantId" : "agastache-rupestris",
         "seed" : 588743758,
         "status" : "proposed",
         "x" : 4.016,
@@ -3135,11 +3139,11 @@
       {
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "id" : "3ae447e0-f61b-4001-b0fd-573eb1f86197",
-        "installHeight" : 0.25,
+        "installHeight" : 0.29999999999999999,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.27000000000000002,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
+        "plantId" : "agastache-rupestris",
         "seed" : 229410482,
         "status" : "proposed",
         "x" : 2.9830000000000001,
@@ -3148,11 +3152,11 @@
       {
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "id" : "3be44973-f51b-4e6e-b1fd-58d1b0f86004",
-        "installHeight" : 0.25,
+        "installHeight" : 0.29999999999999999,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.27000000000000002,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
+        "plantId" : "agastache-rupestris",
         "seed" : 13224771,
         "status" : "proposed",
         "x" : 4.391,
@@ -3161,11 +3165,11 @@
       {
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "id" : "40e45152-f81b-4327-b2fd-5a64aff85e71",
-        "installHeight" : 0.25,
+        "installHeight" : 0.29999999999999999,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.29999999999999999,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
+        "plantId" : "achillea-millefolium",
         "seed" : 825880453,
         "status" : "proposed",
         "x" : 4.8890000000000002,
@@ -3174,11 +3178,11 @@
       {
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "id" : "41e452e5-f71b-4194-b3fd-5bf7aef85cde",
-        "installHeight" : 0.25,
+        "installHeight" : 0.29999999999999999,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.27000000000000002,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
+        "plantId" : "agastache-rupestris",
         "seed" : 852871044,
         "status" : "proposed",
         "x" : 6.8460000000000001,
@@ -3187,11 +3191,11 @@
       {
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "id" : "3ee44e2c-fa1b-464d-b4fd-5d8aadf85b4b",
-        "installHeight" : 0.25,
+        "installHeight" : 0.29999999999999999,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.29999999999999999,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
+        "plantId" : "achillea-millefolium",
         "seed" : 512641746,
         "status" : "proposed",
         "x" : 7.907,
@@ -3200,11 +3204,11 @@
       {
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "id" : "3fe44fbf-f91b-44ba-b5fd-5f1dacf859b8",
-        "installHeight" : 0.25,
+        "installHeight" : 0.29999999999999999,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.29999999999999999,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
+        "plantId" : "achillea-millefolium",
         "seed" : 906658025,
         "status" : "proposed",
         "x" : 7.157,
@@ -3213,11 +3217,11 @@
       {
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "id" : "44e4579e-ec1b-4043-a6fd-4780abf85825",
-        "installHeight" : 0.25,
+        "installHeight" : 0.29999999999999999,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.29999999999999999,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
+        "plantId" : "achillea-millefolium",
         "seed" : 760519984,
         "status" : "proposed",
         "x" : 6.4619999999999997,
@@ -3226,11 +3230,11 @@
       {
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "id" : "45e45931-eb1b-4eb0-a7fd-4913aaf85692",
-        "installHeight" : 0.25,
+        "installHeight" : 0.29999999999999999,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.29999999999999999,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
+        "plantId" : "achillea-millefolium",
         "seed" : 792891298,
         "status" : "proposed",
         "x" : 6.5650000000000004,
@@ -3239,11 +3243,11 @@
       {
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "id" : "3ed78239-fa1d-44e4-b90e-acf721f0c322",
-        "installHeight" : 0.25,
+        "installHeight" : 0.29999999999999999,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.29999999999999999,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
+        "plantId" : "achillea-millefolium",
         "seed" : 999187257,
         "status" : "proposed",
         "x" : 7.625,
@@ -3252,11 +3256,11 @@
       {
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "id" : "3dd780a6-fb1d-4677-b80e-ab6422f0c4b5",
-        "installHeight" : 0.25,
+        "installHeight" : 0.29999999999999999,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.29999999999999999,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
+        "plantId" : "achillea-millefolium",
         "seed" : 546859841,
         "status" : "proposed",
         "x" : 5.8860000000000001,
@@ -3265,11 +3269,11 @@
       {
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "id" : "3cd77f13-fc1d-480a-bb0e-b01d1ff0bffc",
-        "installHeight" : 0.25,
+        "installHeight" : 0.29999999999999999,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.29999999999999999,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
+        "plantId" : "achillea-millefolium",
         "seed" : 715020958,
         "status" : "proposed",
         "x" : 2.835,
@@ -3278,11 +3282,11 @@
       {
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "id" : "3bd77d80-fd1d-499d-ba0e-ae8a20f0c18f",
-        "installHeight" : 0.25,
+        "installHeight" : 0.29999999999999999,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.29999999999999999,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
+        "plantId" : "achillea-millefolium",
         "seed" : 298944302,
         "status" : "proposed",
         "x" : 2.4159999999999999,
@@ -3291,11 +3295,11 @@
       {
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "id" : "42d78885-f61d-4e98-b50e-a6ab1df0bcd6",
-        "installHeight" : 0.25,
+        "installHeight" : 0.29999999999999999,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.27000000000000002,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
+        "plantId" : "agastache-rupestris",
         "seed" : 262969367,
         "status" : "proposed",
         "x" : 7.798,
@@ -3304,11 +3308,11 @@
       {
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "id" : "41d786f2-f71d-402b-b40e-a5181ef0be69",
-        "installHeight" : 0.25,
+        "installHeight" : 0.29999999999999999,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.27000000000000002,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
+        "plantId" : "agastache-rupestris",
         "seed" : 796686571,
         "status" : "proposed",
         "x" : 2.3570000000000002,
@@ -3317,11 +3321,11 @@
       {
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "id" : "40d7855f-f81d-41be-b70e-a9d11bf0b9b0",
-        "installHeight" : 0.25,
+        "installHeight" : 0.29999999999999999,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.29999999999999999,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
+        "plantId" : "achillea-millefolium",
         "seed" : 56661198,
         "status" : "proposed",
         "x" : 4.3209999999999997,
@@ -3330,11 +3334,11 @@
       {
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "id" : "3fd783cc-f91d-4351-b60e-a83e1cf0bb43",
-        "installHeight" : 0.25,
+        "installHeight" : 0.29999999999999999,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.29999999999999999,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
+        "plantId" : "achillea-millefolium",
         "seed" : 322489334,
         "status" : "proposed",
         "x" : 6.4299999999999997,
@@ -3343,11 +3347,11 @@
       {
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "id" : "46d78ed1-f21d-484c-b10e-a05f29f0cfba",
-        "installHeight" : 0.25,
+        "installHeight" : 0.29999999999999999,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.27000000000000002,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
+        "plantId" : "agastache-rupestris",
         "seed" : 512211142,
         "status" : "proposed",
         "x" : 4.8280000000000003,
@@ -3356,11 +3360,11 @@
       {
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "id" : "45d78d3e-f31d-49df-b00e-9ecc2af0d14d",
-        "installHeight" : 0.25,
+        "installHeight" : 0.29999999999999999,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.27000000000000002,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
+        "plantId" : "agastache-rupestris",
         "seed" : 748113551,
         "status" : "proposed",
         "x" : 7.04,
@@ -3369,11 +3373,11 @@
       {
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "id" : "38d53a30-8020-466d-b30c-64ee27f30b2b",
-        "installHeight" : 0.25,
+        "installHeight" : 0.29999999999999999,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.27000000000000002,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
+        "plantId" : "agastache-rupestris",
         "seed" : 801174196,
         "status" : "proposed",
         "x" : 6.6349999999999998,
@@ -3382,11 +3386,11 @@
       {
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "id" : "39d53bc3-7f20-44da-b40c-668126f30998",
-        "installHeight" : 0.25,
+        "installHeight" : 0.29999999999999999,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.29999999999999999,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
+        "plantId" : "achillea-millefolium",
         "seed" : 191896417,
         "status" : "proposed",
         "x" : 4.9610000000000003,
@@ -3395,11 +3399,11 @@
       {
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "id" : "3ad53d56-7e20-4347-b10c-61c829f30e51",
-        "installHeight" : 0.25,
+        "installHeight" : 0.29999999999999999,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.29999999999999999,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
+        "plantId" : "achillea-millefolium",
         "seed" : 755728035,
         "status" : "proposed",
         "x" : 5.7869999999999999,
@@ -3408,11 +3412,11 @@
       {
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "id" : "3bd53ee9-7d20-41b4-b20c-635b28f30cbe",
-        "installHeight" : 0.25,
+        "installHeight" : 0.29999999999999999,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.27000000000000002,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
+        "plantId" : "agastache-rupestris",
         "seed" : 104388568,
         "status" : "proposed",
         "x" : 7.9749999999999996,
@@ -3421,11 +3425,11 @@
       {
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "id" : "3cd5407c-7c20-4021-b70c-6b3a2bf31177",
-        "installHeight" : 0.25,
+        "installHeight" : 0.29999999999999999,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.27000000000000002,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
+        "plantId" : "agastache-rupestris",
         "seed" : 951111208,
         "status" : "proposed",
         "x" : 4.2160000000000002,
@@ -3434,11 +3438,11 @@
       {
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "id" : "3dd5420f-7b20-4e8e-b80c-6ccd2af30fe4",
-        "installHeight" : 0.25,
+        "installHeight" : 0.29999999999999999,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.27000000000000002,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
+        "plantId" : "agastache-rupestris",
         "seed" : 885909003,
         "status" : "proposed",
         "x" : 3.726,
@@ -3447,11 +3451,11 @@
       {
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "id" : "3ed543a2-7a20-4cfb-b50c-68142df3149d",
-        "installHeight" : 0.25,
+        "installHeight" : 0.29999999999999999,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.27000000000000002,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
+        "plantId" : "agastache-rupestris",
         "seed" : 76776834,
         "status" : "proposed",
         "x" : 6.1299999999999999,
@@ -3460,11 +3464,11 @@
       {
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "id" : "3fd54535-7920-4b68-b60c-69a72cf3130a",
-        "installHeight" : 0.25,
+        "installHeight" : 0.29999999999999999,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.27000000000000002,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
+        "plantId" : "agastache-rupestris",
         "seed" : 974876757,
         "status" : "proposed",
         "x" : 6.6150000000000002,
@@ -3473,11 +3477,11 @@
       {
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "id" : "40d546c8-7820-49d5-ab0c-58561ff2fe93",
-        "installHeight" : 0.25,
+        "installHeight" : 0.29999999999999999,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.27000000000000002,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
+        "plantId" : "agastache-rupestris",
         "seed" : 330502643,
         "status" : "proposed",
         "x" : 5.6399999999999997,
@@ -3486,11 +3490,11 @@
       {
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "id" : "41d5485b-7720-4842-ac0c-59e91ef2fd00",
-        "installHeight" : 0.25,
+        "installHeight" : 0.29999999999999999,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.27000000000000002,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
+        "plantId" : "agastache-rupestris",
         "seed" : 408165223,
         "status" : "proposed",
         "x" : 2.0510000000000002,
@@ -3499,11 +3503,11 @@
       {
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "id" : "cadcdbcb-6622-4c16-ad0a-1ce515ec3310",
-        "installHeight" : 0.25,
+        "installHeight" : 0.29999999999999999,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.27000000000000002,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
+        "plantId" : "agastache-rupestris",
         "seed" : 55455232,
         "status" : "proposed",
         "x" : 7.4509999999999996,
@@ -3512,11 +3516,11 @@
       {
         "groupId" : "0e5c0000-0000-4000-8000-0000000000a9",
         "id" : "c9dcda38-6722-4da9-ac0a-1b5216ec34a3",
-        "installHeight" : 0.25,
+        "installHeight" : 0.29999999999999999,
         "installSize" : "#1",
-        "installSpread" : 0.20000000000000001,
+        "installSpread" : 0.29999999999999999,
         "plantedYear" : 0,
-        "plantId" : "echinacea-purpurea",
+        "plantId" : "achillea-millefolium",
         "seed" : 418124130,
         "status" : "proposed",
         "x" : 2.1840000000000002,
@@ -3556,7 +3560,7 @@
       ],
       "frost" : {
         "firstFall" : "11-10",
-        "lastSpring" : "03-20"
+        "lastSpring" : "03-25"
       },
       "hardiness" : {
         "system" : "USDA",
@@ -3580,7 +3584,7 @@
       }
     },
     "units" : "m",
-    "updatedAt" : "2026-10-07T02:42:14Z",
+    "updatedAt" : "2026-10-07T03:00:29Z",
     "verification" : {
       "boundary" : true
     }
