@@ -1,8 +1,8 @@
 // Transfer and share links between OpenLandscape3D web and iOS, with no server in between.
 //
-//   iOS → web:  https://openlandscape3d-cloud.web.app/#/import/v1/<payload>
+//   iOS → web:  https://app.openlandscape3d.com/#/import/v1/<payload>
 //   web → iOS:  openlandscape3d://import/v1/<payload>
-//   share:      https://openlandscape3d-cloud.web.app/#/view/v1/<payload>   (read-only view)
+//   share:      https://app.openlandscape3d.com/#/view/v1/<payload>   (read-only view)
 //
 // <payload> = base64url (no padding) of raw DEFLATE (RFC 1951) of the compact OpenPlan3D JSON.
 // Raw DEFLATE is Apple's COMPRESSION_ZLIB and the browser's 'deflate-raw'. Links never carry
@@ -12,7 +12,7 @@ import type { Project } from '../model/types';
 import { toOpenPlan } from './openplan';
 
 export const TRANSFER_VERSION = 'v1';
-export const WEB_ORIGIN = 'https://openlandscape3d-cloud.web.app';
+export const WEB_ORIGIN = 'https://app.openlandscape3d.com';
 export const IOS_SCHEME = 'openlandscape3d';
 
 function toBase64Url(bytes: Uint8Array): string {

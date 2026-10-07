@@ -191,7 +191,7 @@ describe('links', () => {
     const payload = await encodePayload(j);
     expect(payload).toMatch(/^[A-Za-z0-9_-]+$/);
     expect(await decodePayload(payload)).toEqual(JSON.parse(JSON.stringify(j)));
-    expect(await webImportUrl(p, cat)).toMatch(/^https:\/\/openlandscape3d-cloud\.web\.app\/#\/import\/v1\/[A-Za-z0-9_-]+$/);
+    expect(await webImportUrl(p, cat)).toMatch(/^https:\/\/app\.openlandscape3d\.com\/#\/import\/v1\/[A-Za-z0-9_-]+$/);
     expect(await iosImportUrl(p, cat)).toMatch(/^openlandscape3d:\/\/import\/v1\/[A-Za-z0-9_-]+$/);
     expect(await shareUrl(p, cat, 'https://x.test')).toMatch(/^https:\/\/x\.test\/#\/view\/v1\//);
     const back = fromOpenPlan((await decodePayload(payload)) as any, cat);
