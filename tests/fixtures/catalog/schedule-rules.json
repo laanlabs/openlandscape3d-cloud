@@ -1,0 +1,203 @@
+{
+ "fixture": true,
+ "rules": [
+  {
+   "id": "soil-test",
+   "task": "soil-test",
+   "label": "Test and amend soil",
+   "appliesTo": {
+    "forms": [],
+    "leaf": [],
+    "tags": []
+   },
+   "windows": [
+    {
+     "anchor": "lastSpring",
+     "startDays": -60,
+     "endDays": -30
+    }
+   ],
+   "recurrence": "once",
+   "constraints": "Use your extension office lab.",
+   "sourceId": "ol-editorial",
+   "confidence": "high"
+  },
+  {
+   "id": "plant-container-shrub",
+   "task": "transplant",
+   "label": "Plant container shrubs",
+   "appliesTo": {
+    "forms": [
+     "shrub"
+    ],
+    "leaf": [],
+    "tags": []
+   },
+   "windows": [
+    {
+     "anchor": "lastSpring",
+     "startDays": 0,
+     "endDays": 45
+    },
+    {
+     "anchor": "firstFall",
+     "startDays": -45,
+     "endDays": -14,
+     "alternate": true
+    }
+   ],
+   "recurrence": "once",
+   "constraints": "Avoid frozen or saturated soil.",
+   "sourceId": "ol-editorial",
+   "confidence": "medium"
+  },
+  {
+   "id": "plant-tree",
+   "task": "transplant",
+   "label": "Plant trees",
+   "appliesTo": {
+    "forms": [
+     "tree",
+     "conifer",
+     "palm"
+    ],
+    "leaf": [],
+    "tags": []
+   },
+   "windows": [
+    {
+     "anchor": "lastSpring",
+     "startDays": -14,
+     "endDays": 30
+    },
+    {
+     "anchor": "firstFall",
+     "startDays": -42,
+     "endDays": -7,
+     "alternate": true
+    }
+   ],
+   "recurrence": "once",
+   "constraints": "Plant at grade; remove burlap and wire from the top of the root ball.",
+   "sourceId": "ol-editorial",
+   "confidence": "medium"
+  },
+  {
+   "id": "plant-perennials",
+   "task": "transplant",
+   "label": "Plant perennials and grasses",
+   "appliesTo": {
+    "forms": [
+     "perennial",
+     "grass",
+     "groundcover"
+    ],
+    "leaf": [],
+    "tags": []
+   },
+   "windows": [
+    {
+     "anchor": "lastSpring",
+     "startDays": 7,
+     "endDays": 60
+    }
+   ],
+   "recurrence": "once",
+   "constraints": "",
+   "sourceId": "ol-editorial",
+   "confidence": "medium"
+  },
+  {
+   "id": "plant-succulents",
+   "task": "transplant",
+   "label": "Plant succulents",
+   "appliesTo": {
+    "forms": [
+     "succulent"
+    ],
+    "leaf": [],
+    "tags": []
+   },
+   "windows": [
+    {
+     "anchor": "lastSpring",
+     "startDays": 14,
+     "endDays": 75
+    }
+   ],
+   "recurrence": "once",
+   "constraints": "Plant in fast-draining soil; water sparingly.",
+   "sourceId": "ol-editorial",
+   "confidence": "medium"
+  },
+  {
+   "id": "establishment-watering",
+   "task": "establishment-watering",
+   "label": "Water to establish",
+   "appliesTo": {
+    "forms": [],
+    "leaf": [],
+    "tags": []
+   },
+   "windows": [
+    {
+     "anchor": "lastSpring",
+     "startDays": 0,
+     "endDays": 120
+    }
+   ],
+   "recurrence": "weekly-first-season",
+   "constraints": "Deep weekly soak unless rainfall exceeds 25 mm.",
+   "sourceId": "ol-editorial",
+   "confidence": "medium"
+  },
+  {
+   "id": "mulch",
+   "task": "mulch",
+   "label": "Refresh mulch",
+   "appliesTo": {
+    "forms": [
+     "tree",
+     "shrub",
+     "perennial"
+    ],
+    "leaf": [],
+    "tags": []
+   },
+   "windows": [
+    {
+     "anchor": "lastSpring",
+     "startDays": 14,
+     "endDays": 45
+    }
+   ],
+   "recurrence": "yearly",
+   "constraints": "Keep mulch off stems and trunks.",
+   "sourceId": "ol-editorial",
+   "confidence": "medium"
+  },
+  {
+   "id": "cut-back-herbaceous",
+   "task": "cut-back",
+   "label": "Cut back last year’s growth",
+   "appliesTo": {
+    "forms": [],
+    "leaf": [
+     "herbaceous"
+    ],
+    "tags": []
+   },
+   "windows": [
+    {
+     "anchor": "lastSpring",
+     "startDays": -45,
+     "endDays": -14
+    }
+   ],
+   "recurrence": "yearly",
+   "constraints": "Leave stems standing over winter for insects and birds.",
+   "sourceId": "ol-editorial",
+   "confidence": "medium"
+  }
+ ]
+}

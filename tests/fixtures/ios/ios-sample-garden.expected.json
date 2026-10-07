@@ -1,0 +1,966 @@
+{
+  "areas" : [
+    {
+      "id" : "176558b4-cb05-4f51-905c-04b9962f3491",
+      "kind" : "path"
+    },
+    {
+      "id" : "20a37cc7-f6cc-4533-b755-432855169c1d",
+      "kind" : "patio"
+    },
+    {
+      "id" : "7ff1719b-1e74-413f-a7ca-9597008786e0",
+      "kind" : "bed"
+    },
+    {
+      "id" : "b12af5c9-e798-488b-ad80-d5466bc9199d",
+      "kind" : "bed"
+    },
+    {
+      "id" : "ed68df53-fffa-4bb7-b699-acaf3949bb50",
+      "kind" : "lawn"
+    }
+  ],
+  "catalogVersion" : "ol-plants@0.1",
+  "checks" : [
+    {
+      "ruleId" : "OL-BLOOMGAP",
+      "subjectIds" : [
+
+      ]
+    },
+    {
+      "ruleId" : "OL-CLEARANCE",
+      "subjectIds" : [
+        "c1b75c96-ddb8-48b2-9c4d-e7dfb0143247"
+      ]
+    },
+    {
+      "ruleId" : "OL-OVERLAP",
+      "subjectIds" : [
+        "791fe03b-2b25-4c86-a74e-ac65beb464c0",
+        "c1b75c96-ddb8-48b2-9c4d-e7dfb0143247"
+      ]
+    },
+    {
+      "ruleId" : "OL-OVERLAP",
+      "subjectIds" : [
+        "7a1fe1ce-2a25-4af3-a44e-a7acc1b46979",
+        "c1b75c96-ddb8-48b2-9c4d-e7dfb0143247"
+      ]
+    },
+    {
+      "ruleId" : "OL-OVERLAP",
+      "subjectIds" : [
+        "7b1fe361-2925-4960-a54e-a93fc0b467e6",
+        "c1b75c96-ddb8-48b2-9c4d-e7dfb0143247"
+      ]
+    },
+    {
+      "ruleId" : "OL-OVERLAP",
+      "subjectIds" : [
+        "7b2221f8-3118-4a05-b147-36dec4c5b753",
+        "c1b75c96-ddb8-48b2-9c4d-e7dfb0143247"
+      ]
+    },
+    {
+      "ruleId" : "OL-OVERLAP",
+      "subjectIds" : [
+        "7c246222-3016-49db-a249-5dd8cbc383c1",
+        "c1b75c96-ddb8-48b2-9c4d-e7dfb0143247"
+      ]
+    },
+    {
+      "ruleId" : "OL-OVERLAP",
+      "subjectIds" : [
+        "7e2226b1-2e18-454c-b047-354bc5c5b8e6",
+        "c1b75c96-ddb8-48b2-9c4d-e7dfb0143247"
+      ]
+    },
+    {
+      "ruleId" : "OL-OVERLAP",
+      "subjectIds" : [
+        "7e246548-2e16-46b5-a049-5ab2c5c37a4f",
+        "c1b75c96-ddb8-48b2-9c4d-e7dfb0143247"
+      ]
+    },
+    {
+      "ruleId" : "OL-OVERLAP",
+      "subjectIds" : [
+        "7f1fe9ad-2d25-4fac-a14e-a2f3c4b46e32",
+        "c1b75c96-ddb8-48b2-9c4d-e7dfb0143247"
+      ]
+    },
+    {
+      "ruleId" : "OL-OVERLAP",
+      "subjectIds" : [
+        "7f222844-2d18-43b9-b547-3d2ac8c5bd9f",
+        "c1b75c96-ddb8-48b2-9c4d-e7dfb0143247"
+      ]
+    },
+    {
+      "ruleId" : "OL-OVERLAP",
+      "subjectIds" : [
+        "8524704d-2716-4bb0-9b49-52d3c2c37596",
+        "c1b75c96-ddb8-48b2-9c4d-e7dfb0143247"
+      ]
+    },
+    {
+      "ruleId" : "OL-OVERLAP",
+      "subjectIds" : [
+        "a5d06ad0-3c01-4b7f-a9f9-36aa89fc0529",
+        "c1b75c96-ddb8-48b2-9c4d-e7dfb0143247"
+      ]
+    },
+    {
+      "ruleId" : "OL-OVERLAP",
+      "subjectIds" : [
+        "a9d0711c-3801-4533-a5f9-305e8dfc0b75",
+        "c1b75c96-ddb8-48b2-9c4d-e7dfb0143247"
+      ]
+    },
+    {
+      "ruleId" : "OL-OVERLAP",
+      "subjectIds" : [
+        "c1b75c96-ddb8-48b2-9c4d-e7dfb0143247",
+        "ea1a81f0-c220-4a0d-b453-3e0a49b9bcbf"
+      ]
+    },
+    {
+      "ruleId" : "OL-OVERLAP",
+      "subjectIds" : [
+        "c1b75c96-ddb8-48b2-9c4d-e7dfb0143247",
+        "eb1a8383-c120-487a-b553-3f9d48b9bb2c"
+      ]
+    },
+    {
+      "ruleId" : "OL-OVERLAP",
+      "subjectIds" : [
+        "c1b75c96-ddb8-48b2-9c4d-e7dfb0143247",
+        "ee1a883c-be20-43c1-b053-37be45b9b673"
+      ]
+    },
+    {
+      "ruleId" : "OL-OVERLAP",
+      "subjectIds" : [
+        "c1b75c96-ddb8-48b2-9c4d-e7dfb0143247",
+        "f11ccb8c-3327-47b5-a34c-678242b77323"
+      ]
+    },
+    {
+      "ruleId" : "OL-OVERLAP",
+      "subjectIds" : [
+        "c1b75c96-ddb8-48b2-9c4d-e7dfb0143247",
+        "f41cd045-3027-42fc-a24c-65ef43b774b6"
+      ]
+    },
+    {
+      "ruleId" : "OL-OVERLAP",
+      "subjectIds" : [
+        "c1b75c96-ddb8-48b2-9c4d-e7dfb0143247",
+        "f51a9341-b720-48bc-ab53-2fdf52b9caea"
+      ]
+    },
+    {
+      "ruleId" : "OL-OVERLAP",
+      "subjectIds" : [
+        "c1b75c96-ddb8-48b2-9c4d-e7dfb0143247",
+        "fc1cdcdd-3827-4f94-aa4c-72874bb7814e"
+      ]
+    }
+  ],
+  "groups" : [
+    {
+      "id" : "12324a30-0e9c-4989-87df-ac213ae473e7",
+      "instanceIds" : [
+        "29e1f2c0-3f0d-42c3-bf63-d9f65aa7b679",
+        "2ae1f453-3e0d-4130-8063-db8959a7b4e6",
+        "2be1f5e6-410d-45e9-bd63-d6d058a7b353",
+        "2ce1f779-400d-4456-be63-d86357a7b1c0",
+        "2de1f90c-430d-490f-8363-e0425ea7bcc5",
+        "2ee1fa9f-420d-477c-8463-e1d55da7bb32",
+        "2fe1fc32-450d-4c35-8163-dd1c5ca7b99f",
+        "30e1fdc5-440d-4aa2-8263-deaf5ba7b80c",
+        "37e208ca-4d0d-48cd-8963-e9b464a7c637",
+        "38e20a5d-4c0d-473a-8a63-eb4763a7c4a4",
+        "e7c2c71c-b4cf-4569-a137-72ba86070807",
+        "e8c2c8af-b3cf-43d6-a237-744d85070674",
+        "e9c2ca42-b2cf-4243-9f37-6f9488070b2d",
+        "eac2cbd5-b1cf-40b0-a037-71278707099a"
+      ],
+      "kind" : "row"
+    },
+    {
+      "id" : "1bba088f-b422-4e68-a004-eb799485858c",
+      "instanceIds" : [
+        "701fd210-3425-4ab1-ae4e-b76ac7b472eb",
+        "711fd3a3-3325-491e-af4e-b8fdc6b47158",
+        "77221bac-3518-4051-ad47-3092d0c5ca37",
+        "781fdea8-2c25-4e19-a64e-aad2bfb46653",
+        "78221d3f-3418-4ebe-ae47-3225cfc5c8a4",
+        "791fe03b-2b25-4c86-a74e-ac65beb464c0",
+        "7a1fe1ce-2a25-4af3-a44e-a7acc1b46979",
+        "7b1fe361-2925-4960-a54e-a93fc0b467e6",
+        "7b2221f8-3118-4a05-b147-36dec4c5b753",
+        "7c1fe4f4-3025-4465-a24e-a486c3b46c9f",
+        "7c22238b-3018-4872-b247-3871c3c5b5c0",
+        "7c246222-3016-49db-a249-5dd8cbc383c1",
+        "7d1fe687-2f25-42d2-a34e-a619c2b46b0c",
+        "7d22251e-2f18-46df-af47-33b8c6c5ba79",
+        "7d2463b5-2f16-4848-a349-5f6bcac3822e",
+        "7e1fe81a-2e25-413f-a04e-a160c5b46fc5",
+        "7e2226b1-2e18-454c-b047-354bc5c5b8e6",
+        "7e246548-2e16-46b5-a049-5ab2c5c37a4f",
+        "7f1fe9ad-2d25-4fac-a14e-a2f3c4b46e32",
+        "7f222844-2d18-43b9-b547-3d2ac8c5bd9f",
+        "7f2466db-2d16-4522-a149-5c45c4c378bc",
+        "802229d7-2c18-4226-b647-3ebdc7c5bc0c",
+        "8024686e-2c16-438f-9e49-578cc7c37d75",
+        "81222b6a-2b18-4093-b347-3a04cac5c0c5",
+        "81246a01-2b16-41fc-9f49-591fc6c37be2",
+        "82222cfd-2a18-4f00-b447-3b97c9c5bf32",
+        "82246b94-2a16-4069-9c49-5466c1c37403",
+        "83246d27-2916-4ed6-9d49-55f9c0c37270",
+        "84246eba-2816-4d43-9a49-5140c3c37729",
+        "8524704d-2716-4bb0-9b49-52d3c2c37596",
+        "a5d06ad0-3c01-4b7f-a9f9-36aa89fc0529",
+        "a6d06c63-3b01-49ec-aaf9-383d88fc0396",
+        "a7d06df6-3e01-4ea5-a7f9-338487fc0203",
+        "a8d06f89-3d01-4d12-a8f9-351786fc0070",
+        "a9d0711c-3801-4533-a5f9-305e8dfc0b75",
+        "aad072af-3701-43a0-a6f9-31f18cfc09e2",
+        "abd07442-3a01-4859-a3f9-2d388bfc084f",
+        "acd075d5-3901-46c6-a4f9-2ecb8afc06bc",
+        "b3d080da-4201-44f1-9bf9-20a093fc14e7",
+        "b4d0826d-4101-435e-9cf9-223392fc1354",
+        "e9274c50-bb1e-4071-ab41-e6bedac15cc7",
+        "ea1a81f0-c220-4a0d-b453-3e0a49b9bcbf",
+        "ea274de3-ba1e-4ede-ac41-e851d9c15b34",
+        "eb1a8383-c120-487a-b553-3f9d48b9bb2c",
+        "eb274f76-b91e-4d4b-a941-e398dcc15fed",
+        "ec1a8516-c020-46e7-b253-3ae44bb9bfe5",
+        "ec275109-b81e-4bb8-aa41-e52bdbc15e5a",
+        "ed1a86a9-bf20-4554-b353-3c774ab9be52",
+        "ed1cc540-2f27-4169-9f4c-613646b7796f",
+        "ed27529c-bf1e-46bd-af41-ed0ad6c1567b",
+        "ee1a883c-be20-43c1-b053-37be45b9b673",
+        "ee1cc6d3-2e27-4fd6-a04c-62c945b777dc",
+        "ee27542f-be1e-452a-b041-ee9dd5c154e8",
+        "ef1a89cf-bd20-422e-b153-395144b9b4e0",
+        "ef1cc866-2d27-4e43-9d4c-5e1048b77c95",
+        "ef2755c2-bd1e-4397-ad41-e9e4d8c159a1",
+        "f01a8b62-bc20-409b-ae53-349847b9b999",
+        "f01cc9f9-2c27-4cb0-9e4c-5fa347b77b02",
+        "f0275755-bc1e-4204-ae41-eb77d7c1580e",
+        "f11a8cf5-bb20-4f08-af53-362b46b9b806",
+        "f11ccb8c-3327-47b5-a34c-678242b77323",
+        "f21ccd1f-3227-4622-a44c-691541b77190",
+        "f31cceb2-3127-448f-a14c-645c44b77649",
+        "f3275c0e-b11e-40b3-a141-d700d4c15355",
+        "f41a91ae-b820-4a4f-aa53-2e4c53b9cc7d",
+        "f41cd045-3027-42fc-a24c-65ef43b774b6",
+        "f4275da1-b01e-4f20-a241-d893d3c151c2",
+        "f51a9341-b720-48bc-ab53-2fdf52b9caea",
+        "fb1cdb4a-3927-4127-a94c-70f44cb782e1",
+        "fc1cdcdd-3827-4f94-aa4c-72874bb7814e"
+      ],
+      "kind" : "mass"
+    }
+  ],
+  "name" : "iOS sample garden",
+  "plants" : [
+    {
+      "groupId" : "12324a30-0e9c-4989-87df-ac213ae473e7",
+      "id" : "29e1f2c0-3f0d-42c3-bf63-d9f65aa7b679",
+      "plantId" : "ilex-glabra",
+      "status" : "proposed",
+      "x" : 9.393,
+      "y" : 28.6
+    },
+    {
+      "groupId" : "12324a30-0e9c-4989-87df-ac213ae473e7",
+      "id" : "2ae1f453-3e0d-4130-8063-db8959a7b4e6",
+      "plantId" : "ilex-glabra",
+      "status" : "proposed",
+      "x" : 10.607,
+      "y" : 28.6
+    },
+    {
+      "groupId" : "12324a30-0e9c-4989-87df-ac213ae473e7",
+      "id" : "2be1f5e6-410d-45e9-bd63-d6d058a7b353",
+      "plantId" : "ilex-glabra",
+      "status" : "proposed",
+      "x" : 6.964,
+      "y" : 28.6
+    },
+    {
+      "groupId" : "12324a30-0e9c-4989-87df-ac213ae473e7",
+      "id" : "2ce1f779-400d-4456-be63-d86357a7b1c0",
+      "plantId" : "ilex-glabra",
+      "status" : "proposed",
+      "x" : 8.179,
+      "y" : 28.6
+    },
+    {
+      "groupId" : "12324a30-0e9c-4989-87df-ac213ae473e7",
+      "id" : "2de1f90c-430d-490f-8363-e0425ea7bcc5",
+      "plantId" : "ilex-glabra",
+      "status" : "proposed",
+      "x" : 4.536,
+      "y" : 28.6
+    },
+    {
+      "groupId" : "12324a30-0e9c-4989-87df-ac213ae473e7",
+      "id" : "2ee1fa9f-420d-477c-8463-e1d55da7bb32",
+      "plantId" : "ilex-glabra",
+      "status" : "proposed",
+      "x" : 5.75,
+      "y" : 28.6
+    },
+    {
+      "groupId" : "12324a30-0e9c-4989-87df-ac213ae473e7",
+      "id" : "2fe1fc32-450d-4c35-8163-dd1c5ca7b99f",
+      "plantId" : "ilex-glabra",
+      "status" : "proposed",
+      "x" : 2.107,
+      "y" : 28.6
+    },
+    {
+      "groupId" : "12324a30-0e9c-4989-87df-ac213ae473e7",
+      "id" : "30e1fdc5-440d-4aa2-8263-deaf5ba7b80c",
+      "plantId" : "ilex-glabra",
+      "status" : "proposed",
+      "x" : 3.321,
+      "y" : 28.6
+    },
+    {
+      "groupId" : "12324a30-0e9c-4989-87df-ac213ae473e7",
+      "id" : "37e208ca-4d0d-48cd-8963-e9b464a7c637",
+      "plantId" : "ilex-glabra",
+      "status" : "proposed",
+      "x" : 11.821,
+      "y" : 28.6
+    },
+    {
+      "groupId" : "12324a30-0e9c-4989-87df-ac213ae473e7",
+      "id" : "38e20a5d-4c0d-473a-8a63-eb4763a7c4a4",
+      "plantId" : "ilex-glabra",
+      "status" : "proposed",
+      "x" : 13.036,
+      "y" : 28.6
+    },
+    {
+      "id" : "6e6ab3df-5616-4805-9bf2-a72422e1d97e",
+      "plantId" : "acer-rubrum",
+      "status" : "proposed",
+      "x" : 4,
+      "y" : 20
+    },
+    {
+      "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
+      "id" : "701fd210-3425-4ab1-ae4e-b76ac7b472eb",
+      "plantId" : "echinacea-purpurea",
+      "status" : "proposed",
+      "x" : 14.014,
+      "y" : 2.785
+    },
+    {
+      "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
+      "id" : "711fd3a3-3325-491e-af4e-b8fdc6b47158",
+      "plantId" : "echinacea-purpurea",
+      "status" : "proposed",
+      "x" : 14.538,
+      "y" : 1.422
+    },
+    {
+      "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
+      "id" : "77221bac-3518-4051-ad47-3092d0c5ca37",
+      "plantId" : "echinacea-purpurea",
+      "status" : "proposed",
+      "x" : 11.542,
+      "y" : 1.988
+    },
+    {
+      "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
+      "id" : "781fdea8-2c25-4e19-a64e-aad2bfb46653",
+      "plantId" : "echinacea-purpurea",
+      "status" : "proposed",
+      "x" : 10.834,
+      "y" : 1.796
+    },
+    {
+      "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
+      "id" : "78221d3f-3418-4ebe-ae47-3225cfc5c8a4",
+      "plantId" : "echinacea-purpurea",
+      "status" : "proposed",
+      "x" : 11.917,
+      "y" : 2.536
+    },
+    {
+      "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
+      "id" : "791fe03b-2b25-4c86-a74e-ac65beb464c0",
+      "plantId" : "echinacea-purpurea",
+      "status" : "proposed",
+      "x" : 5.775,
+      "y" : 1.297
+    },
+    {
+      "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
+      "id" : "7a1fe1ce-2a25-4af3-a44e-a7acc1b46979",
+      "plantId" : "echinacea-purpurea",
+      "status" : "proposed",
+      "x" : 7.118,
+      "y" : 2.211
+    },
+    {
+      "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
+      "id" : "7b1fe361-2925-4960-a54e-a93fc0b467e6",
+      "plantId" : "echinacea-purpurea",
+      "status" : "proposed",
+      "x" : 5.326,
+      "y" : 1.409
+    },
+    {
+      "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
+      "id" : "7b2221f8-3118-4a05-b147-36dec4c5b753",
+      "plantId" : "echinacea-purpurea",
+      "status" : "proposed",
+      "x" : 6.593,
+      "y" : 2.235
+    },
+    {
+      "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
+      "id" : "7c1fe4f4-3025-4465-a24e-a486c3b46c9f",
+      "plantId" : "echinacea-purpurea",
+      "status" : "proposed",
+      "x" : 12.074,
+      "y" : 2.125
+    },
+    {
+      "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
+      "id" : "7c22238b-3018-4872-b247-3871c3c5b5c0",
+      "plantId" : "echinacea-purpurea",
+      "status" : "proposed",
+      "x" : 14,
+      "y" : 1.802
+    },
+    {
+      "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
+      "id" : "7c246222-3016-49db-a249-5dd8cbc383c1",
+      "plantId" : "echinacea-purpurea",
+      "status" : "proposed",
+      "x" : 5.381,
+      "y" : 2.609
+    },
+    {
+      "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
+      "id" : "7d1fe687-2f25-42d2-a34e-a619c2b46b0c",
+      "plantId" : "echinacea-purpurea",
+      "status" : "proposed",
+      "x" : 8.522,
+      "y" : 1.355
+    },
+    {
+      "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
+      "id" : "7d22251e-2f18-46df-af47-33b8c6c5ba79",
+      "plantId" : "echinacea-purpurea",
+      "status" : "proposed",
+      "x" : 12.45,
+      "y" : 2.246
+    },
+    {
+      "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
+      "id" : "7d2463b5-2f16-4848-a349-5f6bcac3822e",
+      "plantId" : "echinacea-purpurea",
+      "status" : "proposed",
+      "x" : 9.162,
+      "y" : 2.67
+    },
+    {
+      "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
+      "id" : "7e1fe81a-2e25-413f-a04e-a160c5b46fc5",
+      "plantId" : "echinacea-purpurea",
+      "status" : "proposed",
+      "x" : 14.38,
+      "y" : 2.585
+    },
+    {
+      "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
+      "id" : "7e2226b1-2e18-454c-b047-354bc5c5b8e6",
+      "plantId" : "echinacea-purpurea",
+      "status" : "proposed",
+      "x" : 5.971,
+      "y" : 1.659
+    },
+    {
+      "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
+      "id" : "7e246548-2e16-46b5-a049-5ab2c5c37a4f",
+      "plantId" : "echinacea-purpurea",
+      "status" : "proposed",
+      "x" : 6.48,
+      "y" : 1.791
+    },
+    {
+      "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
+      "id" : "7f1fe9ad-2d25-4fac-a14e-a2f3c4b46e32",
+      "plantId" : "echinacea-purpurea",
+      "status" : "proposed",
+      "x" : 5.379,
+      "y" : 2.102
+    },
+    {
+      "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
+      "id" : "7f222844-2d18-43b9-b547-3d2ac8c5bd9f",
+      "plantId" : "echinacea-purpurea",
+      "status" : "proposed",
+      "x" : 6.461,
+      "y" : 1.328
+    },
+    {
+      "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
+      "id" : "7f2466db-2d16-4522-a149-5c45c4c378bc",
+      "plantId" : "echinacea-purpurea",
+      "status" : "proposed",
+      "x" : 8.57,
+      "y" : 2.548
+    },
+    {
+      "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
+      "id" : "802229d7-2c18-4226-b647-3ebdc7c5bc0c",
+      "plantId" : "echinacea-purpurea",
+      "status" : "proposed",
+      "x" : 10.132,
+      "y" : 1.365
+    },
+    {
+      "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
+      "id" : "8024686e-2c16-438f-9e49-578cc7c37d75",
+      "plantId" : "echinacea-purpurea",
+      "status" : "proposed",
+      "x" : 9.682,
+      "y" : 1.765
+    },
+    {
+      "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
+      "id" : "81222b6a-2b18-4093-b347-3a04cac5c0c5",
+      "plantId" : "echinacea-purpurea",
+      "status" : "proposed",
+      "x" : 13.613,
+      "y" : 2.738
+    },
+    {
+      "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
+      "id" : "81246a01-2b16-41fc-9f49-591fc6c37be2",
+      "plantId" : "echinacea-purpurea",
+      "status" : "proposed",
+      "x" : 14.553,
+      "y" : 1.885
+    },
+    {
+      "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
+      "id" : "82222cfd-2a18-4f00-b447-3b97c9c5bf32",
+      "plantId" : "echinacea-purpurea",
+      "status" : "proposed",
+      "x" : 11.418,
+      "y" : 2.793
+    },
+    {
+      "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
+      "id" : "82246b94-2a16-4069-9c49-5466c1c37403",
+      "plantId" : "echinacea-purpurea",
+      "status" : "proposed",
+      "x" : 11.355,
+      "y" : 1.272
+    },
+    {
+      "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
+      "id" : "83246d27-2916-4ed6-9d49-55f9c0c37270",
+      "plantId" : "echinacea-purpurea",
+      "status" : "proposed",
+      "x" : 12.202,
+      "y" : 1.342
+    },
+    {
+      "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
+      "id" : "84246eba-2816-4d43-9a49-5140c3c37729",
+      "plantId" : "echinacea-purpurea",
+      "status" : "proposed",
+      "x" : 7.842,
+      "y" : 2.003
+    },
+    {
+      "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
+      "id" : "8524704d-2716-4bb0-9b49-52d3c2c37596",
+      "plantId" : "echinacea-purpurea",
+      "status" : "proposed",
+      "x" : 6.021,
+      "y" : 2.546
+    },
+    {
+      "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
+      "id" : "a5d06ad0-3c01-4b7f-a9f9-36aa89fc0529",
+      "plantId" : "echinacea-purpurea",
+      "status" : "proposed",
+      "x" : 6.978,
+      "y" : 1.642
+    },
+    {
+      "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
+      "id" : "a6d06c63-3b01-49ec-aaf9-383d88fc0396",
+      "plantId" : "echinacea-purpurea",
+      "status" : "proposed",
+      "x" : 11.706,
+      "y" : 1.457
+    },
+    {
+      "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
+      "id" : "a7d06df6-3e01-4ea5-a7f9-338487fc0203",
+      "plantId" : "echinacea-purpurea",
+      "status" : "proposed",
+      "x" : 9.248,
+      "y" : 2.272
+    },
+    {
+      "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
+      "id" : "a8d06f89-3d01-4d12-a8f9-351786fc0070",
+      "plantId" : "echinacea-purpurea",
+      "status" : "proposed",
+      "x" : 9.812,
+      "y" : 2.55
+    },
+    {
+      "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
+      "id" : "a9d0711c-3801-4533-a5f9-305e8dfc0b75",
+      "plantId" : "echinacea-purpurea",
+      "status" : "proposed",
+      "x" : 6.052,
+      "y" : 2.049
+    },
+    {
+      "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
+      "id" : "aad072af-3701-43a0-a6f9-31f18cfc09e2",
+      "plantId" : "echinacea-purpurea",
+      "status" : "proposed",
+      "x" : 13.297,
+      "y" : 2.061
+    },
+    {
+      "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
+      "id" : "abd07442-3a01-4859-a3f9-2d388bfc084f",
+      "plantId" : "echinacea-purpurea",
+      "status" : "proposed",
+      "x" : 11.016,
+      "y" : 2.144
+    },
+    {
+      "id" : "acabb14b-c78f-4d3a-b819-0476e4d92317",
+      "plantId" : "schizachyrium-scoparium",
+      "status" : "proposed",
+      "x" : 16.8,
+      "y" : 7
+    },
+    {
+      "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
+      "id" : "acd075d5-3901-46c6-a4f9-2ecb8afc06bc",
+      "plantId" : "echinacea-purpurea",
+      "status" : "proposed",
+      "x" : 10.109,
+      "y" : 2.048
+    },
+    {
+      "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
+      "id" : "b3d080da-4201-44f1-9bf9-20a093fc14e7",
+      "plantId" : "echinacea-purpurea",
+      "status" : "proposed",
+      "x" : 10.776,
+      "y" : 1.404
+    },
+    {
+      "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
+      "id" : "b4d0826d-4101-435e-9cf9-223392fc1354",
+      "plantId" : "echinacea-purpurea",
+      "status" : "proposed",
+      "x" : 9.022,
+      "y" : 1.803
+    },
+    {
+      "id" : "c1b75c96-ddb8-48b2-9c4d-e7dfb0143247",
+      "plantId" : "acer-rubrum",
+      "status" : "retain",
+      "x" : 2.2,
+      "y" : 2.2
+    },
+    {
+      "groupId" : "12324a30-0e9c-4989-87df-ac213ae473e7",
+      "id" : "e7c2c71c-b4cf-4569-a137-72ba86070807",
+      "plantId" : "ilex-glabra",
+      "status" : "proposed",
+      "x" : 15.464,
+      "y" : 28.6
+    },
+    {
+      "groupId" : "12324a30-0e9c-4989-87df-ac213ae473e7",
+      "id" : "e8c2c8af-b3cf-43d6-a237-744d85070674",
+      "plantId" : "ilex-glabra",
+      "status" : "proposed",
+      "x" : 14.25,
+      "y" : 28.6
+    },
+    {
+      "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
+      "id" : "e9274c50-bb1e-4071-ab41-e6bedac15cc7",
+      "plantId" : "echinacea-purpurea",
+      "status" : "proposed",
+      "x" : 7.666,
+      "y" : 1.29
+    },
+    {
+      "groupId" : "12324a30-0e9c-4989-87df-ac213ae473e7",
+      "id" : "e9c2ca42-b2cf-4243-9f37-6f9488070b2d",
+      "plantId" : "ilex-glabra",
+      "status" : "proposed",
+      "x" : 17.893,
+      "y" : 28.6
+    },
+    {
+      "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
+      "id" : "ea1a81f0-c220-4a0d-b453-3e0a49b9bcbf",
+      "plantId" : "echinacea-purpurea",
+      "status" : "proposed",
+      "x" : 6.925,
+      "y" : 2.777
+    },
+    {
+      "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
+      "id" : "ea274de3-ba1e-4ede-ac41-e851d9c15b34",
+      "plantId" : "echinacea-purpurea",
+      "status" : "proposed",
+      "x" : 12.265,
+      "y" : 2.764
+    },
+    {
+      "groupId" : "12324a30-0e9c-4989-87df-ac213ae473e7",
+      "id" : "eac2cbd5-b1cf-40b0-a037-71278707099a",
+      "plantId" : "ilex-glabra",
+      "status" : "proposed",
+      "x" : 16.679,
+      "y" : 28.6
+    },
+    {
+      "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
+      "id" : "eb1a8383-c120-487a-b553-3f9d48b9bb2c",
+      "plantId" : "echinacea-purpurea",
+      "status" : "proposed",
+      "x" : 7.526,
+      "y" : 2.226
+    },
+    {
+      "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
+      "id" : "eb274f76-b91e-4d4b-a941-e398dcc15fed",
+      "plantId" : "echinacea-purpurea",
+      "status" : "proposed",
+      "x" : 12.871,
+      "y" : 2.43
+    },
+    {
+      "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
+      "id" : "ec1a8516-c020-46e7-b253-3ae44bb9bfe5",
+      "plantId" : "echinacea-purpurea",
+      "status" : "proposed",
+      "x" : 13.918,
+      "y" : 2.331
+    },
+    {
+      "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
+      "id" : "ec275109-b81e-4bb8-aa41-e52bdbc15e5a",
+      "plantId" : "echinacea-purpurea",
+      "status" : "proposed",
+      "x" : 8.286,
+      "y" : 2.197
+    },
+    {
+      "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
+      "id" : "ed1a86a9-bf20-4554-b353-3c774ab9be52",
+      "plantId" : "echinacea-purpurea",
+      "status" : "proposed",
+      "x" : 10.366,
+      "y" : 2.488
+    },
+    {
+      "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
+      "id" : "ed1cc540-2f27-4169-9f4c-613646b7796f",
+      "plantId" : "echinacea-purpurea",
+      "status" : "proposed",
+      "x" : 8.531,
+      "y" : 1.754
+    },
+    {
+      "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
+      "id" : "ed27529c-bf1e-46bd-af41-ed0ad6c1567b",
+      "plantId" : "echinacea-purpurea",
+      "status" : "proposed",
+      "x" : 10.502,
+      "y" : 2.123
+    },
+    {
+      "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
+      "id" : "ee1a883c-be20-43c1-b053-37be45b9b673",
+      "plantId" : "echinacea-purpurea",
+      "status" : "proposed",
+      "x" : 7.539,
+      "y" : 1.695
+    },
+    {
+      "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
+      "id" : "ee1cc6d3-2e27-4fd6-a04c-62c945b777dc",
+      "plantId" : "echinacea-purpurea",
+      "status" : "proposed",
+      "x" : 12.768,
+      "y" : 1.712
+    },
+    {
+      "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
+      "id" : "ee27542f-be1e-452a-b041-ee9dd5c154e8",
+      "plantId" : "echinacea-purpurea",
+      "status" : "proposed",
+      "x" : 13.248,
+      "y" : 1.429
+    },
+    {
+      "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
+      "id" : "ef1a89cf-bd20-422e-b153-395144b9b4e0",
+      "plantId" : "echinacea-purpurea",
+      "status" : "proposed",
+      "x" : 11.302,
+      "y" : 1.672
+    },
+    {
+      "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
+      "id" : "ef1cc866-2d27-4e43-9d4c-5e1048b77c95",
+      "plantId" : "echinacea-purpurea",
+      "status" : "proposed",
+      "x" : 11.037,
+      "y" : 2.759
+    },
+    {
+      "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
+      "id" : "ef2755c2-bd1e-4397-ad41-e9e4d8c159a1",
+      "plantId" : "echinacea-purpurea",
+      "status" : "proposed",
+      "x" : 8.09,
+      "y" : 1.434
+    },
+    {
+      "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
+      "id" : "f01a8b62-bc20-409b-ae53-349847b9b999",
+      "plantId" : "echinacea-purpurea",
+      "status" : "proposed",
+      "x" : 12.711,
+      "y" : 1.306
+    },
+    {
+      "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
+      "id" : "f01cc9f9-2c27-4cb0-9e4c-5fa347b77b02",
+      "plantId" : "echinacea-purpurea",
+      "status" : "proposed",
+      "x" : 8.001,
+      "y" : 2.64
+    },
+    {
+      "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
+      "id" : "f0275755-bc1e-4204-ae41-eb77d7c1580e",
+      "plantId" : "echinacea-purpurea",
+      "status" : "proposed",
+      "x" : 12.289,
+      "y" : 1.756
+    },
+    {
+      "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
+      "id" : "f11a8cf5-bb20-4f08-af53-362b46b9b806",
+      "plantId" : "echinacea-purpurea",
+      "status" : "proposed",
+      "x" : 13.504,
+      "y" : 1.72
+    },
+    {
+      "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
+      "id" : "f11ccb8c-3327-47b5-a34c-678242b77323",
+      "plantId" : "echinacea-purpurea",
+      "status" : "proposed",
+      "x" : 6.537,
+      "y" : 2.635
+    },
+    {
+      "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
+      "id" : "f21ccd1f-3227-4622-a44c-691541b77190",
+      "plantId" : "echinacea-purpurea",
+      "status" : "proposed",
+      "x" : 13.872,
+      "y" : 1.414
+    },
+    {
+      "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
+      "id" : "f31cceb2-3127-448f-a14c-645c44b77649",
+      "plantId" : "echinacea-purpurea",
+      "status" : "proposed",
+      "x" : 9.395,
+      "y" : 1.358
+    },
+    {
+      "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
+      "id" : "f3275c0e-b11e-40b3-a141-d700d4c15355",
+      "plantId" : "echinacea-purpurea",
+      "status" : "proposed",
+      "x" : 13.287,
+      "y" : 2.512
+    },
+    {
+      "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
+      "id" : "f41a91ae-b820-4a4f-aa53-2e4c53b9cc7d",
+      "plantId" : "echinacea-purpurea",
+      "status" : "proposed",
+      "x" : 11.34,
+      "y" : 2.392
+    },
+    {
+      "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
+      "id" : "f41cd045-3027-42fc-a24c-65ef43b774b6",
+      "plantId" : "echinacea-purpurea",
+      "status" : "proposed",
+      "x" : 7.477,
+      "y" : 2.695
+    },
+    {
+      "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
+      "id" : "f4275da1-b01e-4f20-a241-d893d3c151c2",
+      "plantId" : "echinacea-purpurea",
+      "status" : "proposed",
+      "x" : 8.916,
+      "y" : 1.241
+    },
+    {
+      "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
+      "id" : "f51a9341-b720-48bc-ab53-2fdf52b9caea",
+      "plantId" : "echinacea-purpurea",
+      "status" : "proposed",
+      "x" : 5.564,
+      "y" : 1.733
+    },
+    {
+      "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
+      "id" : "fb1cdb4a-3927-4127-a94c-70f44cb782e1",
+      "plantId" : "echinacea-purpurea",
+      "status" : "proposed",
+      "x" : 8.847,
+      "y" : 2.214
+    },
+    {
+      "groupId" : "1bba088f-b422-4e68-a004-eb799485858c",
+      "id" : "fc1cdcdd-3827-4f94-aa4c-72874bb7814e",
+      "plantId" : "echinacea-purpurea",
+      "status" : "proposed",
+      "x" : 7.216,
+      "y" : 1.322
+    }
+  ]
+}

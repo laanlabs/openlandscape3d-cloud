@@ -1,0 +1,907 @@
+{
+ "catalogVersion": "ol-plants@0.1",
+ "generatedAt": "2026-10-06T00:00:00.000Z",
+ "fixture": true,
+ "plants": [
+  {
+   "aliases": [],
+   "authorship": null,
+   "cultivar": null,
+   "synonyms": [],
+   "ph": [
+    5.5,
+    7
+   ],
+   "soil": [
+    "sand",
+    "loam",
+    "clay"
+   ],
+   "yearsToMaturity": 20,
+   "policy": [],
+   "designNotes": [],
+   "externalIds": {},
+   "provenance": [
+    {
+     "fields": "*",
+     "sourceId": "ol-editorial",
+     "retrieved": "2026-10-06",
+     "method": "editorial-compilation",
+     "reviewStatus": "draft-unreviewed",
+     "confidence": "medium"
+    }
+   ],
+   "quality": {
+    "score": 80,
+    "indexable": false
+   },
+   "tags": [
+    "rain-garden",
+    "shade-tree"
+   ],
+   "wildlife": [
+    "birds",
+    "pollinators"
+   ],
+   "fallColor": "#c0392b",
+   "id": "acer-rubrum",
+   "family": "Sapindaceae",
+   "form": "tree",
+   "leaf": "deciduous",
+   "mature": {
+    "heightM": [
+     12,
+     18
+    ],
+    "spreadM": [
+     9,
+     12
+    ]
+   },
+   "growthRate": "fast",
+   "sun": [
+    "full",
+    "part"
+   ],
+   "moisture": [
+    "medium",
+    "wet"
+   ],
+   "hardiness": {
+    "system": "USDA",
+    "min": 3,
+    "max": 9
+   },
+   "bloom": {
+    "months": [
+     3
+    ],
+    "color": "#b8312f",
+    "colorName": "red"
+   },
+   "foliageColor": "#4f7a3a",
+   "nativeRegionIds": [
+    "us-northeast",
+    "us-southeast"
+   ],
+   "nativeRange": "Eastern North America",
+   "waterUse": "medium",
+   "maintenance": "low",
+   "deerResistance": "low",
+   "spacingM": 9,
+   "defaultInstallSize": "BB-2in",
+   "installSizes": [
+    {
+     "code": "BB-2in",
+     "heightM": 3,
+     "spreadM": 1.2
+    },
+    {
+     "code": "#15",
+     "heightM": 2,
+     "spreadM": 0.8
+    }
+   ],
+   "summary": "A fast native shade tree with early red flowers and dependable scarlet fall colour.",
+   "representation": {
+    "openplanProxy": "tree_default",
+    "symbol2d": "canopy",
+    "crown": "oval"
+   },
+   "commonNames": [
+    {
+     "name": "Red maple",
+     "lang": "en",
+     "preferred": true
+    }
+   ],
+   "scientificName": "Acer rubrum",
+   "genus": "Acer"
+  },
+  {
+   "aliases": [],
+   "authorship": null,
+   "cultivar": null,
+   "synonyms": [],
+   "ph": [
+    5.5,
+    7
+   ],
+   "soil": [
+    "sand",
+    "loam",
+    "clay"
+   ],
+   "yearsToMaturity": 25,
+   "policy": [],
+   "designNotes": [],
+   "externalIds": {},
+   "provenance": [
+    {
+     "fields": "*",
+     "sourceId": "ol-editorial",
+     "retrieved": "2026-10-06",
+     "method": "editorial-compilation",
+     "reviewStatus": "draft-unreviewed",
+     "confidence": "medium"
+    }
+   ],
+   "quality": {
+    "score": 80,
+    "indexable": false
+   },
+   "tags": [
+    "privacy",
+    "winter-interest"
+   ],
+   "wildlife": [
+    "birds"
+   ],
+   "fallColor": null,
+   "id": "pinus-strobus",
+   "family": "Pinaceae",
+   "form": "conifer",
+   "leaf": "evergreen",
+   "mature": {
+    "heightM": [
+     15,
+     24
+    ],
+    "spreadM": [
+     6,
+     12
+    ]
+   },
+   "growthRate": "fast",
+   "sun": [
+    "full",
+    "part"
+   ],
+   "moisture": [
+    "dry",
+    "medium"
+   ],
+   "hardiness": {
+    "system": "USDA",
+    "min": 3,
+    "max": 8
+   },
+   "bloom": null,
+   "foliageColor": "#3d6b4f",
+   "nativeRegionIds": [
+    "us-northeast"
+   ],
+   "nativeRange": "Eastern North America",
+   "waterUse": "medium",
+   "maintenance": "low",
+   "deerResistance": "medium",
+   "spacingM": 6,
+   "defaultInstallSize": "BB-2in",
+   "installSizes": [
+    {
+     "code": "BB-2in",
+     "heightM": 2,
+     "spreadM": 1.2
+    }
+   ],
+   "summary": "Soft-needled native pine for screens and skyline.",
+   "representation": {
+    "openplanProxy": "tree_pine",
+    "symbol2d": "conifer",
+    "crown": "pyramidal"
+   },
+   "commonNames": [
+    {
+     "name": "Eastern white pine",
+     "lang": "en",
+     "preferred": true
+    }
+   ],
+   "scientificName": "Pinus strobus",
+   "genus": "Pinus"
+  },
+  {
+   "aliases": [],
+   "authorship": null,
+   "cultivar": null,
+   "synonyms": [],
+   "ph": [
+    5.5,
+    7
+   ],
+   "soil": [
+    "sand",
+    "loam",
+    "clay"
+   ],
+   "yearsToMaturity": 8,
+   "policy": [],
+   "designNotes": [],
+   "externalIds": {},
+   "provenance": [
+    {
+     "fields": "*",
+     "sourceId": "ol-editorial",
+     "retrieved": "2026-10-06",
+     "method": "editorial-compilation",
+     "reviewStatus": "draft-unreviewed",
+     "confidence": "medium"
+    }
+   ],
+   "quality": {
+    "score": 80,
+    "indexable": false
+   },
+   "tags": [
+    "rain-garden",
+    "salt-tolerant"
+   ],
+   "wildlife": [
+    "birds",
+    "pollinators"
+   ],
+   "fallColor": null,
+   "id": "ilex-glabra",
+   "family": "Aquifoliaceae",
+   "form": "shrub",
+   "leaf": "evergreen",
+   "mature": {
+    "heightM": [
+     1.2,
+     2.4
+    ],
+    "spreadM": [
+     1.2,
+     2.4
+    ]
+   },
+   "growthRate": "medium",
+   "sun": [
+    "full",
+    "part",
+    "shade"
+   ],
+   "moisture": [
+    "medium",
+    "wet"
+   ],
+   "hardiness": {
+    "system": "USDA",
+    "min": 4,
+    "max": 9
+   },
+   "bloom": {
+    "months": [
+     5,
+     6
+    ],
+    "color": "#f4f1e8",
+    "colorName": "white"
+   },
+   "foliageColor": "#2f5d3a",
+   "nativeRegionIds": [
+    "us-northeast",
+    "us-southeast"
+   ],
+   "nativeRange": "Atlantic and Gulf coastal plain",
+   "waterUse": "medium",
+   "maintenance": "low",
+   "deerResistance": "high",
+   "spacingM": 1.2,
+   "defaultInstallSize": "#3",
+   "installSizes": [
+    {
+     "code": "#3",
+     "heightM": 0.5,
+     "spreadM": 0.45
+    },
+    {
+     "code": "#7",
+     "heightM": 0.9,
+     "spreadM": 0.7
+    }
+   ],
+   "summary": "A native evergreen that does the job of boxwood in wetter soils.",
+   "representation": {
+    "openplanProxy": "bush_large",
+    "symbol2d": "shrub",
+    "crown": "round"
+   },
+   "commonNames": [
+    {
+     "name": "Inkberry",
+     "lang": "en",
+     "preferred": true
+    }
+   ],
+   "scientificName": "Ilex glabra",
+   "genus": "Ilex"
+  },
+  {
+   "aliases": [],
+   "authorship": null,
+   "cultivar": null,
+   "synonyms": [],
+   "ph": [
+    5.5,
+    7
+   ],
+   "soil": [
+    "sand",
+    "loam",
+    "clay"
+   ],
+   "yearsToMaturity": 6,
+   "policy": [
+    {
+     "jurisdiction": "us-northeast",
+     "status": "invasive",
+     "sourceId": "ol-editorial",
+     "effective": "2020-01-01"
+    },
+    {
+     "jurisdiction": "US-NY",
+     "status": "prohibited",
+     "sourceId": "ol-editorial",
+     "effective": "2015-03-10"
+    }
+   ],
+   "designNotes": [],
+   "externalIds": {},
+   "provenance": [
+    {
+     "fields": "*",
+     "sourceId": "ol-editorial",
+     "retrieved": "2026-10-06",
+     "method": "editorial-compilation",
+     "reviewStatus": "draft-unreviewed",
+     "confidence": "medium"
+    }
+   ],
+   "quality": {
+    "score": 80,
+    "indexable": false
+   },
+   "tags": [],
+   "wildlife": [],
+   "fallColor": "#d35400",
+   "id": "berberis-thunbergii",
+   "family": "Berberidaceae",
+   "form": "shrub",
+   "leaf": "deciduous",
+   "mature": {
+    "heightM": [
+     0.9,
+     1.8
+    ],
+    "spreadM": [
+     0.9,
+     1.8
+    ]
+   },
+   "growthRate": "medium",
+   "sun": [
+    "full",
+    "part"
+   ],
+   "moisture": [
+    "dry",
+    "medium"
+   ],
+   "hardiness": {
+    "system": "USDA",
+    "min": 4,
+    "max": 8
+   },
+   "bloom": {
+    "months": [
+     4,
+     5
+    ],
+    "color": "#e8c547",
+    "colorName": "yellow"
+   },
+   "foliageColor": "#7a2f3a",
+   "nativeRegionIds": [],
+   "nativeRange": "Japan",
+   "waterUse": "low",
+   "maintenance": "low",
+   "deerResistance": "high",
+   "spacingM": 1,
+   "defaultInstallSize": "#3",
+   "installSizes": [
+    {
+     "code": "#3",
+     "heightM": 0.4,
+     "spreadM": 0.4
+    }
+   ],
+   "summary": "Included so designers can identify it: a widespread invasive in the Northeast.",
+   "representation": {
+    "openplanProxy": "bush_large",
+    "symbol2d": "shrub",
+    "crown": "mound"
+   },
+   "commonNames": [
+    {
+     "name": "Japanese barberry",
+     "lang": "en",
+     "preferred": true
+    }
+   ],
+   "scientificName": "Berberis thunbergii",
+   "genus": "Berberis"
+  },
+  {
+   "aliases": [],
+   "authorship": null,
+   "cultivar": null,
+   "synonyms": [],
+   "ph": [
+    5.5,
+    7
+   ],
+   "soil": [
+    "sand",
+    "loam",
+    "clay"
+   ],
+   "yearsToMaturity": 3,
+   "policy": [],
+   "designNotes": [],
+   "externalIds": {},
+   "provenance": [
+    {
+     "fields": "*",
+     "sourceId": "ol-editorial",
+     "retrieved": "2026-10-06",
+     "method": "editorial-compilation",
+     "reviewStatus": "draft-unreviewed",
+     "confidence": "medium"
+    }
+   ],
+   "quality": {
+    "score": 80,
+    "indexable": false
+   },
+   "tags": [
+    "drought-tolerant"
+   ],
+   "wildlife": [
+    "pollinators",
+    "butterflies",
+    "birds"
+   ],
+   "fallColor": null,
+   "id": "echinacea-purpurea",
+   "family": "Asteraceae",
+   "form": "perennial",
+   "leaf": "herbaceous",
+   "mature": {
+    "heightM": [
+     0.6,
+     1.2
+    ],
+    "spreadM": [
+     0.45,
+     0.6
+    ]
+   },
+   "growthRate": "medium",
+   "sun": [
+    "full",
+    "part"
+   ],
+   "moisture": [
+    "dry",
+    "medium"
+   ],
+   "hardiness": {
+    "system": "USDA",
+    "min": 3,
+    "max": 9
+   },
+   "bloom": {
+    "months": [
+     6,
+     7,
+     8
+    ],
+    "color": "#c2549a",
+    "colorName": "pink"
+   },
+   "foliageColor": "#4c7a3d",
+   "nativeRegionIds": [
+    "us-southeast"
+   ],
+   "nativeRange": "Central and eastern United States",
+   "waterUse": "low",
+   "maintenance": "low",
+   "deerResistance": "medium",
+   "spacingM": 0.45,
+   "defaultInstallSize": "#1",
+   "installSizes": [
+    {
+     "code": "#1",
+     "heightM": 0.25,
+     "spreadM": 0.2
+    },
+    {
+     "code": "plug",
+     "heightM": 0.1,
+     "spreadM": 0.08
+    }
+   ],
+   "summary": "Long-flowering prairie perennial; leave seed heads for finches.",
+   "representation": {
+    "openplanProxy": "flower_red",
+    "symbol2d": "clump",
+    "crown": "upright"
+   },
+   "commonNames": [
+    {
+     "name": "Purple coneflower",
+     "lang": "en",
+     "preferred": true
+    }
+   ],
+   "scientificName": "Echinacea purpurea",
+   "genus": "Echinacea"
+  },
+  {
+   "aliases": [],
+   "authorship": null,
+   "cultivar": null,
+   "synonyms": [],
+   "ph": [
+    5.5,
+    7
+   ],
+   "soil": [
+    "sand",
+    "loam",
+    "clay"
+   ],
+   "yearsToMaturity": 3,
+   "policy": [],
+   "designNotes": [],
+   "externalIds": {},
+   "provenance": [
+    {
+     "fields": "*",
+     "sourceId": "ol-editorial",
+     "retrieved": "2026-10-06",
+     "method": "editorial-compilation",
+     "reviewStatus": "draft-unreviewed",
+     "confidence": "medium"
+    }
+   ],
+   "quality": {
+    "score": 80,
+    "indexable": false
+   },
+   "tags": [
+    "drought-tolerant",
+    "winter-interest"
+   ],
+   "wildlife": [
+    "birds",
+    "host-plant"
+   ],
+   "fallColor": "#b5651d",
+   "id": "schizachyrium-scoparium",
+   "family": "Poaceae",
+   "form": "grass",
+   "leaf": "herbaceous",
+   "mature": {
+    "heightM": [
+     0.6,
+     1
+    ],
+    "spreadM": [
+     0.3,
+     0.6
+    ]
+   },
+   "growthRate": "medium",
+   "sun": [
+    "full"
+   ],
+   "moisture": [
+    "dry",
+    "medium"
+   ],
+   "hardiness": {
+    "system": "USDA",
+    "min": 3,
+    "max": 9
+   },
+   "bloom": {
+    "months": [
+     8,
+     9
+    ],
+    "color": "#c9a66b",
+    "colorName": "tan"
+   },
+   "foliageColor": "#6f8fa3",
+   "nativeRegionIds": [
+    "us-northeast",
+    "us-southeast",
+    "us-southwest"
+   ],
+   "nativeRange": "Most of North America",
+   "waterUse": "low",
+   "maintenance": "low",
+   "deerResistance": "high",
+   "spacingM": 0.6,
+   "defaultInstallSize": "#1",
+   "installSizes": [
+    {
+     "code": "#1",
+     "heightM": 0.3,
+     "spreadM": 0.2
+    },
+    {
+     "code": "plug",
+     "heightM": 0.12,
+     "spreadM": 0.06
+    }
+   ],
+   "summary": "Blue-green summer clumps turning copper in fall.",
+   "representation": {
+    "openplanProxy": "grass_large",
+    "symbol2d": "spiky",
+    "crown": "fountain"
+   },
+   "commonNames": [
+    {
+     "name": "Little bluestem",
+     "lang": "en",
+     "preferred": true
+    }
+   ],
+   "scientificName": "Schizachyrium scoparium",
+   "genus": "Schizachyrium"
+  },
+  {
+   "aliases": [],
+   "authorship": null,
+   "cultivar": null,
+   "synonyms": [],
+   "ph": [
+    5.5,
+    7
+   ],
+   "soil": [
+    "sand",
+    "loam",
+    "clay"
+   ],
+   "yearsToMaturity": 2,
+   "policy": [],
+   "designNotes": [],
+   "externalIds": {},
+   "provenance": [
+    {
+     "fields": "*",
+     "sourceId": "ol-editorial",
+     "retrieved": "2026-10-06",
+     "method": "editorial-compilation",
+     "reviewStatus": "draft-unreviewed",
+     "confidence": "medium"
+    }
+   ],
+   "quality": {
+    "score": 80,
+    "indexable": false
+   },
+   "tags": [
+    "slope"
+   ],
+   "wildlife": [
+    "pollinators",
+    "butterflies"
+   ],
+   "fallColor": null,
+   "id": "phlox-subulata",
+   "family": "Polemoniaceae",
+   "form": "groundcover",
+   "leaf": "evergreen",
+   "mature": {
+    "heightM": [
+     0.1,
+     0.15
+    ],
+    "spreadM": [
+     0.3,
+     0.6
+    ]
+   },
+   "growthRate": "medium",
+   "sun": [
+    "full"
+   ],
+   "moisture": [
+    "dry",
+    "medium"
+   ],
+   "hardiness": {
+    "system": "USDA",
+    "min": 3,
+    "max": 9
+   },
+   "bloom": {
+    "months": [
+     4,
+     5
+    ],
+    "color": "#8e6fd8",
+    "colorName": "lavender"
+   },
+   "foliageColor": "#557a3c",
+   "nativeRegionIds": [
+    "us-northeast"
+   ],
+   "nativeRange": "Eastern United States",
+   "waterUse": "low",
+   "maintenance": "low",
+   "deerResistance": "medium",
+   "spacingM": 0.45,
+   "defaultInstallSize": "plug",
+   "installSizes": [
+    {
+     "code": "plug",
+     "heightM": 0.05,
+     "spreadM": 0.08
+    },
+    {
+     "code": "#1",
+     "heightM": 0.08,
+     "spreadM": 0.2
+    }
+   ],
+   "summary": "Evergreen mat smothered in spring flowers.",
+   "representation": {
+    "openplanProxy": "grass_tuft",
+    "symbol2d": "mat",
+    "crown": "mound"
+   },
+   "commonNames": [
+    {
+     "name": "Moss phlox",
+     "lang": "en",
+     "preferred": true
+    }
+   ],
+   "scientificName": "Phlox subulata",
+   "genus": "Phlox"
+  },
+  {
+   "aliases": [],
+   "authorship": null,
+   "cultivar": null,
+   "synonyms": [],
+   "ph": [
+    5.5,
+    7
+   ],
+   "soil": [
+    "sand",
+    "loam"
+   ],
+   "yearsToMaturity": 10,
+   "policy": [],
+   "designNotes": [],
+   "externalIds": {},
+   "provenance": [
+    {
+     "fields": "*",
+     "sourceId": "ol-editorial",
+     "retrieved": "2026-10-06",
+     "method": "editorial-compilation",
+     "reviewStatus": "draft-unreviewed",
+     "confidence": "medium"
+    }
+   ],
+   "quality": {
+    "score": 80,
+    "indexable": false
+   },
+   "tags": [
+    "drought-tolerant"
+   ],
+   "wildlife": [
+    "hummingbirds",
+    "pollinators"
+   ],
+   "fallColor": null,
+   "id": "agave-parryi",
+   "family": "Asparagaceae",
+   "form": "succulent",
+   "leaf": "evergreen",
+   "mature": {
+    "heightM": [
+     0.4,
+     0.7
+    ],
+    "spreadM": [
+     0.6,
+     0.9
+    ]
+   },
+   "growthRate": "slow",
+   "sun": [
+    "full"
+   ],
+   "moisture": [
+    "dry"
+   ],
+   "hardiness": {
+    "system": "USDA",
+    "min": 5,
+    "max": 10
+   },
+   "bloom": {
+    "months": [
+     6,
+     7
+    ],
+    "color": "#e3b23c",
+    "colorName": "yellow"
+   },
+   "foliageColor": "#8aa39b",
+   "nativeRegionIds": [
+    "us-southwest"
+   ],
+   "nativeRange": "Arizona, New Mexico, northern Mexico",
+   "waterUse": "low",
+   "maintenance": "low",
+   "deerResistance": "high",
+   "spacingM": 0.9,
+   "defaultInstallSize": "#5",
+   "installSizes": [
+    {
+     "code": "#5",
+     "heightM": 0.25,
+     "spreadM": 0.3
+    }
+   ],
+   "summary": "Compact, cold-hardy rosette for dry gardens.",
+   "representation": {
+    "openplanProxy": "cactus_short",
+    "symbol2d": "spiky",
+    "crown": "rosette"
+   },
+   "commonNames": [
+    {
+     "name": "Parry's agave",
+     "lang": "en",
+     "preferred": true
+    }
+   ],
+   "scientificName": "Agave parryi",
+   "genus": "Agave"
+  }
+ ]
+}

@@ -1,0 +1,159 @@
+{
+ "fixture": true,
+ "materials": [
+  {
+   "id": "lawn-turf",
+   "kind": "surface",
+   "appliesTo": [
+    "lawn"
+   ],
+   "name": "Turf lawn",
+   "color": "#7fae5a",
+   "unit": "m2",
+   "priceUsd": {
+    "low": 8,
+    "high": 20
+   },
+   "notes": ""
+  },
+  {
+   "id": "mulch-shredded-hardwood",
+   "kind": "surface",
+   "appliesTo": [
+    "bed",
+    "mulch"
+   ],
+   "name": "Shredded hardwood mulch",
+   "color": "#6b4a32",
+   "unit": "m2",
+   "priceUsd": {
+    "low": 4,
+    "high": 9
+   },
+   "notes": ""
+  },
+  {
+   "id": "gravel-pea",
+   "kind": "surface",
+   "appliesTo": [
+    "gravel",
+    "path",
+    "driveway"
+   ],
+   "name": "Pea gravel",
+   "color": "#b9ad97",
+   "unit": "m2",
+   "priceUsd": {
+    "low": 10,
+    "high": 25
+   },
+   "notes": ""
+  },
+  {
+   "id": "patio-bluestone",
+   "kind": "surface",
+   "appliesTo": [
+    "patio",
+    "path"
+   ],
+   "name": "Bluestone pavers",
+   "color": "#7d8a94",
+   "unit": "m2",
+   "priceUsd": {
+    "low": 120,
+    "high": 250
+   },
+   "notes": ""
+  },
+  {
+   "id": "deck-composite",
+   "kind": "surface",
+   "appliesTo": [
+    "deck"
+   ],
+   "name": "Composite decking",
+   "color": "#8a6b52",
+   "unit": "m2",
+   "priceUsd": {
+    "low": 150,
+    "high": 300
+   },
+   "notes": ""
+  },
+  {
+   "id": "driveway-asphalt",
+   "kind": "surface",
+   "appliesTo": [
+    "driveway"
+   ],
+   "name": "Asphalt",
+   "color": "#4a4d50",
+   "unit": "m2",
+   "priceUsd": {
+    "low": 40,
+    "high": 90
+   },
+   "notes": ""
+  },
+  {
+   "id": "water-pool",
+   "kind": "surface",
+   "appliesTo": [
+    "water"
+   ],
+   "name": "Pool / water",
+   "color": "#4aa3c9",
+   "unit": "m2",
+   "priceUsd": {
+    "low": 400,
+    "high": 900
+   },
+   "notes": ""
+  },
+  {
+   "id": "fence-cedar-board",
+   "kind": "fence",
+   "appliesTo": [
+    "fence"
+   ],
+   "name": "Cedar board fence",
+   "color": "#a77b52",
+   "unit": "m",
+   "priceUsd": {
+    "low": 60,
+    "high": 140
+   },
+   "notes": ""
+  },
+  {
+   "id": "edging-steel",
+   "kind": "edging",
+   "appliesTo": [
+    "edging"
+   ],
+   "name": "Steel edging",
+   "color": "#5b4a3f",
+   "unit": "m",
+   "priceUsd": {
+    "low": 15,
+    "high": 35
+   },
+   "notes": ""
+  },
+  {
+   "id": "wall-block",
+   "kind": "wall",
+   "appliesTo": [
+    "retaining_wall"
+   ],
+   "name": "Segmental block wall",
+   "color": "#9c948a",
+   "unit": "m",
+   "priceUsd": {
+    "low": 200,
+    "high": 450
+   },
+   "notes": ""
+  }
+ ]
+}

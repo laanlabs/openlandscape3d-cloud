@@ -1,0 +1,75 @@
+:root {
+  --font: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --serif: 'Fraunces', Georgia, 'Times New Roman', serif;
+  --bg: #f3f2ec;
+  --panel: #ffffff;
+  --ink: #1d2a22;
+  --ink-soft: #5a675e;
+  --border: #dfe2d8;
+  --accent: #2f6b4f;
+  --accent-ink: #24543d;
+  --accent-bg: #e4efe6;
+  --ok: #2c7a4b;
+  --warn: #b7791f;
+  --warn-bg: #fdf3dd;
+  --warn-ink: #7a5310;
+  --danger: #b4382f;
+  --danger-bg: #fbe7e4;
+  --info-bg: #e8f0f4;
+  --info-ink: #2d5a73;
+  --shadow: 0 10px 30px rgba(25, 40, 30, .12), 0 2px 6px rgba(25, 40, 30, .06);
+  /* plan */
+  --bg-plan: #f7f6f1;
+  --grid: #e6e5dc;
+  --grid-major: #d6d5c9;
+  --line: #2b352e;
+  --line-soft: #98a198;
+  --building: #59544c;
+  --building-fill: #e9e4da;
+  --boundary: #8a5a2b;
+  color-scheme: light;
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body { font-family: var(--font); color: var(--ink); background: var(--bg); -webkit-font-smoothing: antialiased; font-size: 14px; }
+h1, h2, h3 { font-family: var(--serif); font-weight: 600; letter-spacing: -.01em; }
+button, input, select, textarea { font: inherit; color: inherit; }
+input[type='text'], input[type='search'], input[type='number'], input:not([type]), select, textarea {
+  border: 1px solid var(--border); border-radius: 8px; padding: 7px 9px; background: var(--panel); min-width: 0;
+}
+input:focus-visible, select:focus-visible, textarea:focus-visible, button:focus-visible, a:focus-visible, [tabindex]:focus-visible { outline: 2px solid color-mix(in srgb, var(--accent) 65%, transparent); outline-offset: 1px; }
+.muted { color: var(--ink-soft); }
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+.btn { display: inline-flex; align-items: center; justify-content: center; gap: 6px; border: 1px solid var(--border); background: var(--panel); border-radius: 9px; padding: 7px 12px; font-weight: 600; font-size: 13px; cursor: pointer; text-decoration: none; color: var(--ink); white-space: nowrap; }
+.btn:hover { border-color: var(--accent); }
+.btn.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
+.btn.primary:hover { background: var(--accent-ink); }
+.btn.danger { color: var(--danger); }
+.btn.big { padding: 12px 20px; font-size: 15px; border-radius: 11px; }
+.btn.small { padding: 5px 9px; font-size: 12px; }
+.btn:disabled { opacity: .5; cursor: default; }
+
+.chip { border: 1px solid var(--border); background: var(--panel); border-radius: 999px; padding: 4px 10px; font-size: 12px; font-weight: 600; cursor: pointer; color: var(--ink); box-shadow: 0 1px 2px rgba(0,0,0,.05); }
+.chip:hover { border-color: var(--accent); }
+.chip.on { background: var(--accent); border-color: var(--accent); color: #fff; }
+.chip:disabled { opacity: .5; }
+
+.seg { display: inline-flex; background: var(--bg); border: 1px solid var(--border); border-radius: 9px; padding: 2px; gap: 2px; }
+.seg button { border: 0; background: transparent; padding: 5px 10px; border-radius: 7px; cursor: pointer; font-size: 13px; font-weight: 600; color: var(--ink-soft); }
+.seg button.on { background: var(--panel); color: var(--ink); box-shadow: 0 1px 3px rgba(0,0,0,.12); }
+.seg.small button { padding: 3px 7px; font-size: 11px; }
+
+.badge { display: inline-flex; align-items: center; gap: 4px; font-size: 11px; font-weight: 600; padding: 2px 7px; border-radius: 999px; background: var(--accent-bg); color: var(--accent-ink); white-space: nowrap; }
+.badge.draft { background: var(--warn-bg); color: var(--warn-ink); }
+.badge.bad { background: var(--danger-bg); color: var(--danger); }
+.badge.info { background: var(--info-bg); color: var(--info-ink); }
+
+label.field { display: flex; flex-direction: column; gap: 4px; font-size: 12px; font-weight: 600; color: var(--ink-soft); }
+label.field > input, label.field > select { font-weight: 400; color: var(--ink); }
+.row { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: .001ms !important; transition-duration: .001ms !important; scroll-behavior: auto !important; }
+}

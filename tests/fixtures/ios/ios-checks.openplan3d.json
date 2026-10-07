@@ -1,0 +1,1816 @@
+{
+  "defaults" : {
+    "ceilingHeight" : 2.7000000000000002,
+    "exteriorWallThickness" : 0.20000000000000001,
+    "interiorWallThickness" : 0.12
+  },
+  "doors" : [
+
+  ],
+  "floors" : [
+
+  ],
+  "objects" : [
+    {
+      "attributes" : {
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "acer-rubrum"
+      },
+      "category" : {
+        "tree_default" : {
+
+        }
+      },
+      "dimensions" : [
+        9.5197872115746609,
+        13.735209305257628,
+        9.5197872115746609
+      ],
+      "identifier" : "0e5c0000-0000-4000-8000-000000000068",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        3,
+        6.8676046526288141,
+        8,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "acer-rubrum"
+      },
+      "category" : {
+        "tree_default" : {
+
+        }
+      },
+      "dimensions" : [
+        9.5197872115746609,
+        13.735209305257628,
+        9.5197872115746609
+      ],
+      "identifier" : "0e5c0000-0000-4000-8000-000000000069",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        19,
+        6.8676046526288141,
+        22,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "pinus-strobus"
+      },
+      "category" : {
+        "tree_pine" : {
+
+        }
+      },
+      "dimensions" : [
+        8.1778860484174576,
+        17.655513570167376,
+        8.1778860484174576
+      ],
+      "identifier" : "0e5c0000-0000-4000-8000-00000000006a",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        21,
+        8.8277567850836878,
+        24,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "echinacea-purpurea"
+      },
+      "category" : {
+        "flower_red" : {
+
+        }
+      },
+      "dimensions" : [
+        0.43188594102043826,
+        0.71377188204087638,
+        0.43188594102043826
+      ],
+      "identifier" : "0e5c0000-0000-4000-8000-00000000006b",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        11,
+        0.35688594102043819,
+        16,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "ilex-glabra"
+      },
+      "category" : {
+        "bush_large" : {
+
+        }
+      },
+      "dimensions" : [
+        1.4132185242387432,
+        1.4275437640817528,
+        1.4132185242387432
+      ],
+      "identifier" : "0e5c0000-0000-4000-8000-00000000006c",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        30,
+        0.71377188204087638,
+        5,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "berberis-thunbergii"
+      },
+      "category" : {
+        "bush_large" : {
+
+        }
+      },
+      "dimensions" : [
+        1.0778204429828195,
+        1.0778204429828195,
+        1.0778204429828195
+      ],
+      "identifier" : "0e5c0000-0000-4000-8000-00000000006d",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        22,
+        0.53891022149140977,
+        10,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "acer-rubrum"
+      },
+      "category" : {
+        "tree_default" : {
+
+        }
+      },
+      "dimensions" : [
+        9.5197872115746609,
+        13.735209305257628,
+        9.5197872115746609
+      ],
+      "identifier" : "0e5c0000-0000-4000-8000-00000000006e",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        4,
+        6.8676046526288141,
+        24,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "pinus-strobus"
+      },
+      "category" : {
+        "tree_pine" : {
+
+        }
+      },
+      "dimensions" : [
+        8.1778860484174576,
+        17.655513570167376,
+        8.1778860484174576
+      ],
+      "identifier" : "0e5c0000-0000-4000-8000-00000000006f",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        7,
+        8.8277567850836878,
+        26,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "retain",
+        "plantId" : "schizachyrium-scoparium"
+      },
+      "category" : {
+        "grass_large" : {
+
+        }
+      },
+      "dimensions" : [
+        0.37837380078495242,
+        0.65674760156990497,
+        0.37837380078495242
+      ],
+      "identifier" : "0e5c0000-0000-4000-8000-000000000070",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0.32837380078495249,
+        14,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "0e5c0000-0000-4000-8000-000000000072",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "ilex-glabra"
+      },
+      "category" : {
+        "bush_large" : {
+
+        }
+      },
+      "dimensions" : [
+        1.4132185242387432,
+        1.4275437640817528,
+        1.4132185242387432
+      ],
+      "identifier" : "f7cbfc60-d5e6-456b-bcf1-d8122dba34bd",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1.611,
+        0.71377188204087638,
+        29,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "0e5c0000-0000-4000-8000-000000000072",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "ilex-glabra"
+      },
+      "category" : {
+        "bush_large" : {
+
+        }
+      },
+      "dimensions" : [
+        1.4132185242387432,
+        1.4275437640817528,
+        1.4132185242387432
+      ],
+      "identifier" : "f8cbfdf3-d4e6-43d8-bdf1-d9a52cba332a",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        2.8330000000000002,
+        0.71377188204087638,
+        29,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "0e5c0000-0000-4000-8000-000000000072",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "ilex-glabra"
+      },
+      "category" : {
+        "bush_large" : {
+
+        }
+      },
+      "dimensions" : [
+        1.4132185242387432,
+        1.4275437640817528,
+        1.4132185242387432
+      ],
+      "identifier" : "f9cbff86-d7e6-4891-baf1-d4ec2bba3197",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        4.056,
+        0.71377188204087638,
+        29,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "0e5c0000-0000-4000-8000-000000000072",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "ilex-glabra"
+      },
+      "category" : {
+        "bush_large" : {
+
+        }
+      },
+      "dimensions" : [
+        1.4132185242387432,
+        1.4275437640817528,
+        1.4132185242387432
+      ],
+      "identifier" : "facc0119-d6e6-46fe-bbf1-d67f2aba3004",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        5.2779999999999996,
+        0.71377188204087638,
+        29,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "0e5c0000-0000-4000-8000-000000000072",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "ilex-glabra"
+      },
+      "category" : {
+        "bush_large" : {
+
+        }
+      },
+      "dimensions" : [
+        1.4132185242387432,
+        1.4275437640817528,
+        1.4132185242387432
+      ],
+      "identifier" : "fbcc02ac-d9e6-4bb7-b8f1-d1c629ba2e71",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        6.5,
+        0.71377188204087638,
+        29,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "0e5c0000-0000-4000-8000-000000000072",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "ilex-glabra"
+      },
+      "category" : {
+        "bush_large" : {
+
+        }
+      },
+      "dimensions" : [
+        1.4132185242387432,
+        1.4275437640817528,
+        1.4132185242387432
+      ],
+      "identifier" : "fccc043f-d8e6-4a24-b9f1-d35928ba2cde",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        7.7220000000000004,
+        0.71377188204087638,
+        29,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "0e5c0000-0000-4000-8000-000000000072",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "ilex-glabra"
+      },
+      "category" : {
+        "bush_large" : {
+
+        }
+      },
+      "dimensions" : [
+        1.4132185242387432,
+        1.4275437640817528,
+        1.4132185242387432
+      ],
+      "identifier" : "fdcc05d2-dbe6-4edd-b6f1-cea027ba2b4b",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        8.9440000000000008,
+        0.71377188204087638,
+        29,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "0e5c0000-0000-4000-8000-000000000072",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "ilex-glabra"
+      },
+      "category" : {
+        "bush_large" : {
+
+        }
+      },
+      "dimensions" : [
+        1.4132185242387432,
+        1.4275437640817528,
+        1.4132185242387432
+      ],
+      "identifier" : "fecc0765-dae6-4d4a-b7f1-d03326ba29b8",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        10.167,
+        0.71377188204087638,
+        29,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "0e5c0000-0000-4000-8000-000000000072",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "ilex-glabra"
+      },
+      "category" : {
+        "bush_large" : {
+
+        }
+      },
+      "dimensions" : [
+        1.4132185242387432,
+        1.4275437640817528,
+        1.4132185242387432
+      ],
+      "identifier" : "ffcc08f8-cde6-48d3-84f1-e4aa25ba2825",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        11.388999999999999,
+        0.71377188204087638,
+        29,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "0e5c0000-0000-4000-8000-000000000072",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "ilex-glabra"
+      },
+      "category" : {
+        "bush_large" : {
+
+        }
+      },
+      "dimensions" : [
+        1.4132185242387432,
+        1.4275437640817528,
+        1.4132185242387432
+      ],
+      "identifier" : "00cc0a8b-cce6-4740-85f1-e63d24ba2692",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        12.611000000000001,
+        0.71377188204087638,
+        29,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "0e5c0000-0000-4000-8000-000000000072",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "ilex-glabra"
+      },
+      "category" : {
+        "bush_large" : {
+
+        }
+      },
+      "dimensions" : [
+        1.4132185242387432,
+        1.4275437640817528,
+        1.4132185242387432
+      ],
+      "identifier" : "6c2079f9-0e4a-4638-98b9-858f831e71ee",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        13.833,
+        0.71377188204087638,
+        29,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "0e5c0000-0000-4000-8000-000000000072",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "ilex-glabra"
+      },
+      "category" : {
+        "bush_large" : {
+
+        }
+      },
+      "dimensions" : [
+        1.4132185242387432,
+        1.4275437640817528,
+        1.4132185242387432
+      ],
+      "identifier" : "6b207866-0f4a-47cb-97b9-83fc841e7381",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        15.055999999999999,
+        0.71377188204087638,
+        29,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "0e5c0000-0000-4000-8000-000000000072",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "ilex-glabra"
+      },
+      "category" : {
+        "bush_large" : {
+
+        }
+      },
+      "dimensions" : [
+        1.4132185242387432,
+        1.4275437640817528,
+        1.4132185242387432
+      ],
+      "identifier" : "6a2076d3-104a-495e-9ab9-88b5811e6ec8",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        16.277999999999999,
+        0.71377188204087638,
+        29,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "0e5c0000-0000-4000-8000-000000000072",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "ilex-glabra"
+      },
+      "category" : {
+        "bush_large" : {
+
+        }
+      },
+      "dimensions" : [
+        1.4132185242387432,
+        1.4275437640817528,
+        1.4132185242387432
+      ],
+      "identifier" : "69207540-114a-4af1-99b9-8722821e705b",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        17.5,
+        0.71377188204087638,
+        29,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "0e5c0000-0000-4000-8000-000000000072",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "ilex-glabra"
+      },
+      "category" : {
+        "bush_large" : {
+
+        }
+      },
+      "dimensions" : [
+        1.4132185242387432,
+        1.4275437640817528,
+        1.4132185242387432
+      ],
+      "identifier" : "70208045-124a-4c84-94b9-7f43871e783a",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        18.722000000000001,
+        0.71377188204087638,
+        29,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "0e5c0000-0000-4000-8000-000000000072",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "ilex-glabra"
+      },
+      "category" : {
+        "bush_large" : {
+
+        }
+      },
+      "dimensions" : [
+        1.4132185242387432,
+        1.4275437640817528,
+        1.4132185242387432
+      ],
+      "identifier" : "6f207eb2-134a-4e17-93b9-7db0881e79cd",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        19.943999999999999,
+        0.71377188204087638,
+        29,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "0e5c0000-0000-4000-8000-000000000072",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "ilex-glabra"
+      },
+      "category" : {
+        "bush_large" : {
+
+        }
+      },
+      "dimensions" : [
+        1.4132185242387432,
+        1.4275437640817528,
+        1.4132185242387432
+      ],
+      "identifier" : "6e207d1f-144a-4faa-96b9-8269851e7514",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        21.167000000000002,
+        0.71377188204087638,
+        29,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "groupId" : "0e5c0000-0000-4000-8000-000000000072",
+        "openlandscape3dKind" : "plant",
+        "openlandscape3dRole" : "proposed",
+        "plantId" : "ilex-glabra"
+      },
+      "category" : {
+        "bush_large" : {
+
+        }
+      },
+      "dimensions" : [
+        1.4132185242387432,
+        1.4275437640817528,
+        1.4132185242387432
+      ],
+      "identifier" : "6d207b8c-154a-413d-95b9-80d6861e76a7",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        22.388999999999999,
+        0.71377188204087638,
+        29,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "areaKind" : "patio",
+        "openlandscape3dKind" : "area",
+        "openlandscape3dRole" : "proposed"
+      },
+      "category" : {
+        "deck_patio" : {
+
+        }
+      },
+      "dimensions" : [
+        6,
+        0.14999999999999999,
+        4
+      ],
+      "identifier" : "0e5c0000-0000-4000-8000-000000000065",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        11,
+        0.074999999999999997,
+        16,
+        1
+      ]
+    },
+    {
+      "attributes" : {
+        "openlandscape3dKind" : "object",
+        "openlandscape3dRole" : "proposed"
+      },
+      "category" : {
+        "shed" : {
+
+        }
+      },
+      "dimensions" : [
+        2,
+        2.2999999999999998,
+        2.5
+      ],
+      "identifier" : "0e5c0000-0000-4000-8000-000000000071",
+      "story" : 0,
+      "transform" : [
+        6.123233995736766e-17,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        6.123233995736766e-17,
+        0,
+        -2,
+        1.1499999999999999,
+        5,
+        1
+      ]
+    }
+  ],
+  "openings" : [
+
+  ],
+  "openlandscape3d" : {
+    "alternatives" : [
+
+    ],
+    "areas" : [
+      {
+        "elevation" : 0,
+        "id" : "0e5c0000-0000-4000-8000-000000000067",
+        "kind" : "lawn",
+        "name" : "Lawn",
+        "polygon" : [
+          [
+            0,
+            13
+          ],
+          [
+            24,
+            13
+          ],
+          [
+            24,
+            30
+          ],
+          [
+            0,
+            30
+          ]
+        ]
+      },
+      {
+        "elevation" : 0,
+        "id" : "0e5c0000-0000-4000-8000-000000000065",
+        "kind" : "patio",
+        "name" : "Patio",
+        "polygon" : [
+          [
+            8,
+            14
+          ],
+          [
+            14,
+            14
+          ],
+          [
+            14,
+            18
+          ],
+          [
+            8,
+            18
+          ]
+        ]
+      },
+      {
+        "elevation" : 0,
+        "id" : "0e5c0000-0000-4000-8000-000000000066",
+        "kind" : "bed",
+        "moisture" : "wet",
+        "name" : "Shade bed",
+        "polygon" : [
+          [
+            1,
+            20
+          ],
+          [
+            10,
+            20
+          ],
+          [
+            10,
+            28
+          ],
+          [
+            1,
+            28
+          ]
+        ],
+        "sun" : "shade"
+      }
+    ],
+    "building" : null,
+    "captureSource" : "manual",
+    "catalogVersion" : "ol-plants@0.1",
+    "createdAt" : "2027-02-01T00:00:00Z",
+    "groups" : [
+      {
+        "id" : "0e5c0000-0000-4000-8000-000000000072",
+        "instanceIds" : [
+          "f7cbfc60-d5e6-456b-bcf1-d8122dba34bd",
+          "f8cbfdf3-d4e6-43d8-bdf1-d9a52cba332a",
+          "f9cbff86-d7e6-4891-baf1-d4ec2bba3197",
+          "facc0119-d6e6-46fe-bbf1-d67f2aba3004",
+          "fbcc02ac-d9e6-4bb7-b8f1-d1c629ba2e71",
+          "fccc043f-d8e6-4a24-b9f1-d35928ba2cde",
+          "fdcc05d2-dbe6-4edd-b6f1-cea027ba2b4b",
+          "fecc0765-dae6-4d4a-b7f1-d03326ba29b8",
+          "ffcc08f8-cde6-48d3-84f1-e4aa25ba2825",
+          "00cc0a8b-cce6-4740-85f1-e63d24ba2692",
+          "6c2079f9-0e4a-4638-98b9-858f831e71ee",
+          "6b207866-0f4a-47cb-97b9-83fc841e7381",
+          "6a2076d3-104a-495e-9ab9-88b5811e6ec8",
+          "69207540-114a-4af1-99b9-8722821e705b",
+          "70208045-124a-4c84-94b9-7f43871e783a",
+          "6f207eb2-134a-4e17-93b9-7db0881e79cd",
+          "6e207d1f-144a-4faa-96b9-8269851e7514",
+          "6d207b8c-154a-413d-95b9-80d6861e76a7"
+        ],
+        "kind" : "row",
+        "mix" : [
+          {
+            "plantId" : "ilex-glabra",
+            "ratio" : 1
+          }
+        ],
+        "path" : [
+          [
+            1,
+            29
+          ],
+          [
+            23,
+            29
+          ]
+        ],
+        "seed" : 7,
+        "spacing" : 1.2
+      }
+    ],
+    "lines" : [
+
+    ],
+    "name" : "iOS checks",
+    "objects" : [
+      {
+        "catalogId" : "shed",
+        "depth" : 2.5,
+        "elevation" : 0,
+        "height" : 2.2999999999999998,
+        "id" : "0e5c0000-0000-4000-8000-000000000071",
+        "rotation" : 90,
+        "status" : "proposed",
+        "width" : 2,
+        "x" : -2,
+        "y" : 5
+      }
+    ],
+    "observations" : [
+
+    ],
+    "overrides" : [
+      {
+        "note" : "Small cultivar",
+        "ruleId" : "OL-CLEARANCE",
+        "subjectId" : "0e5c0000-0000-4000-8000-000000000068"
+      }
+    ],
+    "plants" : [
+      {
+        "id" : "0e5c0000-0000-4000-8000-000000000068",
+        "installHeight" : 3,
+        "installSize" : "BB-2in",
+        "installSpread" : 1.2,
+        "plantedYear" : 0,
+        "plantId" : "acer-rubrum",
+        "seed" : 4,
+        "status" : "proposed",
+        "x" : 3,
+        "y" : 8
+      },
+      {
+        "id" : "0e5c0000-0000-4000-8000-000000000069",
+        "installHeight" : 3,
+        "installSize" : "BB-2in",
+        "installSpread" : 1.2,
+        "plantedYear" : 0,
+        "plantId" : "acer-rubrum",
+        "seed" : 5,
+        "status" : "proposed",
+        "x" : 19,
+        "y" : 22
+      },
+      {
+        "id" : "0e5c0000-0000-4000-8000-00000000006a",
+        "installHeight" : 2,
+        "installSize" : "BB-2in",
+        "installSpread" : 1.2,
+        "plantedYear" : 0,
+        "plantId" : "pinus-strobus",
+        "seed" : 6,
+        "status" : "proposed",
+        "x" : 21,
+        "y" : 24
+      },
+      {
+        "id" : "0e5c0000-0000-4000-8000-00000000006b",
+        "installHeight" : 0.25,
+        "installSize" : "#1",
+        "installSpread" : 0.20000000000000001,
+        "plantedYear" : 0,
+        "plantId" : "echinacea-purpurea",
+        "seed" : 7,
+        "status" : "proposed",
+        "x" : 11,
+        "y" : 16
+      },
+      {
+        "id" : "0e5c0000-0000-4000-8000-00000000006c",
+        "installHeight" : 0.5,
+        "installSize" : "#3",
+        "installSpread" : 0.45000000000000001,
+        "plantedYear" : 0,
+        "plantId" : "ilex-glabra",
+        "seed" : 8,
+        "status" : "proposed",
+        "x" : 30,
+        "y" : 5
+      },
+      {
+        "id" : "0e5c0000-0000-4000-8000-00000000006d",
+        "installHeight" : 0.40000000000000002,
+        "installSize" : "#3",
+        "installSpread" : 0.40000000000000002,
+        "plantedYear" : 0,
+        "plantId" : "berberis-thunbergii",
+        "seed" : 9,
+        "status" : "proposed",
+        "x" : 22,
+        "y" : 10
+      },
+      {
+        "id" : "0e5c0000-0000-4000-8000-00000000006e",
+        "installHeight" : 3,
+        "installSize" : "BB-2in",
+        "installSpread" : 1.2,
+        "plantedYear" : 0,
+        "plantId" : "acer-rubrum",
+        "seed" : 10,
+        "status" : "proposed",
+        "x" : 4,
+        "y" : 24
+      },
+      {
+        "id" : "0e5c0000-0000-4000-8000-00000000006f",
+        "installHeight" : 2,
+        "installSize" : "BB-2in",
+        "installSpread" : 1.2,
+        "plantedYear" : 0,
+        "plantId" : "pinus-strobus",
+        "seed" : 11,
+        "status" : "proposed",
+        "x" : 7,
+        "y" : 26
+      },
+      {
+        "id" : "0e5c0000-0000-4000-8000-000000000070",
+        "installHeight" : 0.29999999999999999,
+        "installSize" : "#1",
+        "installSpread" : 0.20000000000000001,
+        "plantedYear" : 0,
+        "plantId" : "schizachyrium-scoparium",
+        "seed" : 12,
+        "status" : "retain",
+        "x" : 2,
+        "y" : 14
+      },
+      {
+        "groupId" : "0e5c0000-0000-4000-8000-000000000072",
+        "id" : "f7cbfc60-d5e6-456b-bcf1-d8122dba34bd",
+        "installHeight" : 0.5,
+        "installSize" : "#3",
+        "installSpread" : 0.45000000000000001,
+        "plantedYear" : 0,
+        "plantId" : "ilex-glabra",
+        "seed" : 156295169,
+        "status" : "proposed",
+        "x" : 1.611,
+        "y" : 29
+      },
+      {
+        "groupId" : "0e5c0000-0000-4000-8000-000000000072",
+        "id" : "f8cbfdf3-d4e6-43d8-bdf1-d9a52cba332a",
+        "installHeight" : 0.5,
+        "installSize" : "#3",
+        "installSpread" : 0.45000000000000001,
+        "plantedYear" : 0,
+        "plantId" : "ilex-glabra",
+        "seed" : 625192261,
+        "status" : "proposed",
+        "x" : 2.8330000000000002,
+        "y" : 29
+      },
+      {
+        "groupId" : "0e5c0000-0000-4000-8000-000000000072",
+        "id" : "f9cbff86-d7e6-4891-baf1-d4ec2bba3197",
+        "installHeight" : 0.5,
+        "installSize" : "#3",
+        "installSpread" : 0.45000000000000001,
+        "plantedYear" : 0,
+        "plantId" : "ilex-glabra",
+        "seed" : 300664582,
+        "status" : "proposed",
+        "x" : 4.056,
+        "y" : 29
+      },
+      {
+        "groupId" : "0e5c0000-0000-4000-8000-000000000072",
+        "id" : "facc0119-d6e6-46fe-bbf1-d67f2aba3004",
+        "installHeight" : 0.5,
+        "installSize" : "#3",
+        "installSpread" : 0.45000000000000001,
+        "plantedYear" : 0,
+        "plantId" : "ilex-glabra",
+        "seed" : 695954287,
+        "status" : "proposed",
+        "x" : 5.2779999999999996,
+        "y" : 29
+      },
+      {
+        "groupId" : "0e5c0000-0000-4000-8000-000000000072",
+        "id" : "fbcc02ac-d9e6-4bb7-b8f1-d1c629ba2e71",
+        "installHeight" : 0.5,
+        "installSize" : "#3",
+        "installSpread" : 0.45000000000000001,
+        "plantedYear" : 0,
+        "plantId" : "ilex-glabra",
+        "seed" : 585009101,
+        "status" : "proposed",
+        "x" : 6.5,
+        "y" : 29
+      },
+      {
+        "groupId" : "0e5c0000-0000-4000-8000-000000000072",
+        "id" : "fccc043f-d8e6-4a24-b9f1-d35928ba2cde",
+        "installHeight" : 0.5,
+        "installSize" : "#3",
+        "installSpread" : 0.45000000000000001,
+        "plantedYear" : 0,
+        "plantId" : "ilex-glabra",
+        "seed" : 449399001,
+        "status" : "proposed",
+        "x" : 7.7220000000000004,
+        "y" : 29
+      },
+      {
+        "groupId" : "0e5c0000-0000-4000-8000-000000000072",
+        "id" : "fdcc05d2-dbe6-4edd-b6f1-cea027ba2b4b",
+        "installHeight" : 0.5,
+        "installSize" : "#3",
+        "installSpread" : 0.45000000000000001,
+        "plantedYear" : 0,
+        "plantId" : "ilex-glabra",
+        "seed" : 818759552,
+        "status" : "proposed",
+        "x" : 8.9440000000000008,
+        "y" : 29
+      },
+      {
+        "groupId" : "0e5c0000-0000-4000-8000-000000000072",
+        "id" : "fecc0765-dae6-4d4a-b7f1-d03326ba29b8",
+        "installHeight" : 0.5,
+        "installSize" : "#3",
+        "installSpread" : 0.45000000000000001,
+        "plantedYear" : 0,
+        "plantId" : "ilex-glabra",
+        "seed" : 238814557,
+        "status" : "proposed",
+        "x" : 10.167,
+        "y" : 29
+      },
+      {
+        "groupId" : "0e5c0000-0000-4000-8000-000000000072",
+        "id" : "ffcc08f8-cde6-48d3-84f1-e4aa25ba2825",
+        "installHeight" : 0.5,
+        "installSize" : "#3",
+        "installSpread" : 0.45000000000000001,
+        "plantedYear" : 0,
+        "plantId" : "ilex-glabra",
+        "seed" : 506617665,
+        "status" : "proposed",
+        "x" : 11.388999999999999,
+        "y" : 29
+      },
+      {
+        "groupId" : "0e5c0000-0000-4000-8000-000000000072",
+        "id" : "00cc0a8b-cce6-4740-85f1-e63d24ba2692",
+        "installHeight" : 0.5,
+        "installSize" : "#3",
+        "installSpread" : 0.45000000000000001,
+        "plantedYear" : 0,
+        "plantId" : "ilex-glabra",
+        "seed" : 60138064,
+        "status" : "proposed",
+        "x" : 12.611000000000001,
+        "y" : 29
+      },
+      {
+        "groupId" : "0e5c0000-0000-4000-8000-000000000072",
+        "id" : "6c2079f9-0e4a-4638-98b9-858f831e71ee",
+        "installHeight" : 0.5,
+        "installSize" : "#3",
+        "installSpread" : 0.45000000000000001,
+        "plantedYear" : 0,
+        "plantId" : "ilex-glabra",
+        "seed" : 514183914,
+        "status" : "proposed",
+        "x" : 13.833,
+        "y" : 29
+      },
+      {
+        "groupId" : "0e5c0000-0000-4000-8000-000000000072",
+        "id" : "6b207866-0f4a-47cb-97b9-83fc841e7381",
+        "installHeight" : 0.5,
+        "installSize" : "#3",
+        "installSpread" : 0.45000000000000001,
+        "plantedYear" : 0,
+        "plantId" : "ilex-glabra",
+        "seed" : 73358429,
+        "status" : "proposed",
+        "x" : 15.055999999999999,
+        "y" : 29
+      },
+      {
+        "groupId" : "0e5c0000-0000-4000-8000-000000000072",
+        "id" : "6a2076d3-104a-495e-9ab9-88b5811e6ec8",
+        "installHeight" : 0.5,
+        "installSize" : "#3",
+        "installSpread" : 0.45000000000000001,
+        "plantedYear" : 0,
+        "plantId" : "ilex-glabra",
+        "seed" : 569454655,
+        "status" : "proposed",
+        "x" : 16.277999999999999,
+        "y" : 29
+      },
+      {
+        "groupId" : "0e5c0000-0000-4000-8000-000000000072",
+        "id" : "69207540-114a-4af1-99b9-8722821e705b",
+        "installHeight" : 0.5,
+        "installSize" : "#3",
+        "installSpread" : 0.45000000000000001,
+        "plantedYear" : 0,
+        "plantId" : "ilex-glabra",
+        "seed" : 220359780,
+        "status" : "proposed",
+        "x" : 17.5,
+        "y" : 29
+      },
+      {
+        "groupId" : "0e5c0000-0000-4000-8000-000000000072",
+        "id" : "70208045-124a-4c84-94b9-7f43871e783a",
+        "installHeight" : 0.5,
+        "installSize" : "#3",
+        "installSpread" : 0.45000000000000001,
+        "plantedYear" : 0,
+        "plantId" : "ilex-glabra",
+        "seed" : 160547618,
+        "status" : "proposed",
+        "x" : 18.722000000000001,
+        "y" : 29
+      },
+      {
+        "groupId" : "0e5c0000-0000-4000-8000-000000000072",
+        "id" : "6f207eb2-134a-4e17-93b9-7db0881e79cd",
+        "installHeight" : 0.5,
+        "installSize" : "#3",
+        "installSpread" : 0.45000000000000001,
+        "plantedYear" : 0,
+        "plantId" : "ilex-glabra",
+        "seed" : 954732639,
+        "status" : "proposed",
+        "x" : 19.943999999999999,
+        "y" : 29
+      },
+      {
+        "groupId" : "0e5c0000-0000-4000-8000-000000000072",
+        "id" : "6e207d1f-144a-4faa-96b9-8269851e7514",
+        "installHeight" : 0.5,
+        "installSize" : "#3",
+        "installSpread" : 0.45000000000000001,
+        "plantedYear" : 0,
+        "plantId" : "ilex-glabra",
+        "seed" : 693430327,
+        "status" : "proposed",
+        "x" : 21.167000000000002,
+        "y" : 29
+      },
+      {
+        "groupId" : "0e5c0000-0000-4000-8000-000000000072",
+        "id" : "6d207b8c-154a-413d-95b9-80d6861e76a7",
+        "installHeight" : 0.5,
+        "installSize" : "#3",
+        "installSpread" : 0.45000000000000001,
+        "plantedYear" : 0,
+        "plantId" : "ilex-glabra",
+        "seed" : 90995802,
+        "status" : "proposed",
+        "x" : 22.388999999999999,
+        "y" : 29
+      }
+    ],
+    "producer" : "ios",
+    "projectId" : "0e5c0000-0000-4000-8000-000000000001",
+    "scenario" : {
+      "hour" : 14,
+      "month" : 6,
+      "year" : 5
+    },
+    "schema" : "openlandscape3d\/project@0.1",
+    "site" : {
+      "boundary" : [
+        [
+          0,
+          0
+        ],
+        [
+          24,
+          0
+        ],
+        [
+          24,
+          30
+        ],
+        [
+          0,
+          30
+        ]
+      ],
+      "frost" : {
+        "firstFall" : "10-15",
+        "lastSpring" : "04-25"
+      },
+      "hardiness" : {
+        "system" : "USDA",
+        "zone" : "6b"
+      },
+      "moisture" : "medium",
+      "north" : [
+        0,
+        -1
+      ],
+      "regionId" : "us-northeast",
+      "soil" : "loam",
+      "sun" : "full",
+      "terrain" : {
+        "kind" : "flat"
+      }
+    },
+    "units" : "m",
+    "updatedAt" : "2027-02-01T00:00:00Z",
+    "verification" : {
+      "boundary" : false
+    }
+  },
+  "openplanHandoffVersion" : 1,
+  "openplanPrepared" : true,
+  "planNotes" : "Created with OpenLandscape3D for iOS. Boundaries and measurements from GPS or AR are approximate — verify on site before construction.",
+  "sections" : [
+    {
+      "center" : [
+        11,
+        0,
+        8
+      ],
+      "displayName" : "House",
+      "label" : "livingRoom",
+      "story" : 0
+    }
+  ],
+  "stories" : [
+    {
+      "index" : 0,
+      "name" : "Ground Floor"
+    }
+  ],
+  "version" : 2,
+  "walls" : [
+    {
+      "category" : {
+        "wall" : {
+
+        }
+      },
+      "dimensions" : [
+        10,
+        2.7000000000000002,
+        0.20000000000000001
+      ],
+      "identifier" : "4ec1d3a9-410e-46a0-adc9-5fcf02e683e6",
+      "story" : 0,
+      "transform" : [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        11,
+        1.3500000000000001,
+        4,
+        1
+      ]
+    },
+    {
+      "category" : {
+        "wall" : {
+
+        }
+      },
+      "dimensions" : [
+        8,
+        2.7000000000000002,
+        0.20000000000000001
+      ],
+      "identifier" : "4dc1d216-420e-4833-acc9-5e3c03e68579",
+      "story" : 0,
+      "transform" : [
+        6.123233995736766e-17,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        6.123233995736766e-17,
+        0,
+        16,
+        1.3500000000000001,
+        8,
+        1
+      ]
+    },
+    {
+      "category" : {
+        "wall" : {
+
+        }
+      },
+      "dimensions" : [
+        10,
+        2.7000000000000002,
+        0.20000000000000001
+      ],
+      "identifier" : "4cc1d083-430e-49c6-afc9-62f500e680c0",
+      "story" : 0,
+      "transform" : [
+        -1,
+        0,
+        1.2246467991473532e-16,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1.2246467991473532e-16,
+        0,
+        -1,
+        0,
+        11,
+        1.3500000000000001,
+        12,
+        1
+      ]
+    },
+    {
+      "category" : {
+        "wall" : {
+
+        }
+      },
+      "dimensions" : [
+        8,
+        2.7000000000000002,
+        0.20000000000000001
+      ],
+      "identifier" : "4bc1cef0-440e-4b59-aec9-616201e68253",
+      "story" : 0,
+      "transform" : [
+        6.123233995736766e-17,
+        0,
+        -1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        6.123233995736766e-17,
+        0,
+        6,
+        1.3500000000000001,
+        8,
+        1
+      ]
+    }
+  ],
+  "windows" : [
+
+  ]
+}

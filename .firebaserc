@@ -1,0 +1,4 @@
+{
+  "projects": { "default": "openlandscape3d" },
+  "targets": { "openlandscape3d": { "hosting": { "app": ["openlandscape3d-cloud"] } } }
+}

@@ -1,0 +1,101 @@
+{
+ "fixture": true,
+ "regions": [
+  {
+   "id": "us-northeast",
+   "name": "Northeast",
+   "country": "US",
+   "states": [
+    "CT",
+    "MA",
+    "ME",
+    "NH",
+    "NJ",
+    "NY",
+    "PA",
+    "RI",
+    "VT"
+   ],
+   "hardinessZones": [
+    "4a",
+    "4b",
+    "5a",
+    "5b",
+    "6a",
+    "6b",
+    "7a",
+    "7b"
+   ],
+   "defaultZone": "6b",
+   "frost": {
+    "lastSpring": "04-25",
+    "firstFall": "10-15"
+   },
+   "climate": "humid continental",
+   "precipitationMm": 1150,
+   "summary": "Cold winters, warm humid summers.",
+   "designGuidance": [],
+   "ecoregions": []
+  },
+  {
+   "id": "us-southeast",
+   "name": "Southeast",
+   "country": "US",
+   "states": [
+    "AL",
+    "FL",
+    "GA",
+    "NC",
+    "SC"
+   ],
+   "hardinessZones": [
+    "7a",
+    "7b",
+    "8a",
+    "8b",
+    "9a",
+    "9b",
+    "10a"
+   ],
+   "defaultZone": "8a",
+   "frost": {
+    "lastSpring": "03-20",
+    "firstFall": "11-10"
+   },
+   "climate": "humid subtropical",
+   "precipitationMm": 1300,
+   "summary": "Long hot summers, mild winters.",
+   "designGuidance": [],
+   "ecoregions": []
+  },
+  {
+   "id": "us-southwest",
+   "name": "Southwest",
+   "country": "US",
+   "states": [
+    "AZ",
+    "NM",
+    "NV"
+   ],
+   "hardinessZones": [
+    "6a",
+    "7a",
+    "8a",
+    "8b",
+    "9a",
+    "9b",
+    "10a"
+   ],
+   "defaultZone": "9b",
+   "frost": {
+    "lastSpring": "02-20",
+    "firstFall": "11-25"
+   },
+   "climate": "arid",
+   "precipitationMm": 250,
+   "summary": "Hot, dry, intense sun.",
+   "designGuidance": [],
+   "ecoregions": []
+  }
+ ]
+}
