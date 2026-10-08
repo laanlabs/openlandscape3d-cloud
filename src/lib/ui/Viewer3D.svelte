@@ -6,6 +6,7 @@
   import { SOFT_AREAS, buildArea, buildBoundary, buildBuilding, buildGround, buildLine, buildPlants, buildSiteObject, disposeGroup, siteBounds } from '../scene/build';
   import { sunDirection } from '../analysis/sun';
   import { regionCenter } from '../site/regions';
+  import RenderDialog from './RenderDialog.svelte';
 
   let { editor, compact = false }: { editor: Editor; compact?: boolean } = $props();
 
@@ -20,6 +21,15 @@
   let fitted = false;
   let autoFit = true;
   let shadowsOn = $state(true);
+  let rendering = $state(false);
+  let renderCamera: THREE.PerspectiveCamera | null = $state(null);
+
+  /** Freeze the current angle and open the hi-res render dialog. */
+  function openRender() {
+    controls.update();
+    renderCamera = camera.clone();
+    rendering = true;
+  }
 
   const groundGroup = new THREE.Group();
   const softGroup = new THREE.Group();
@@ -276,7 +286,11 @@
     <button class="chip" onclick={() => fit('top')} title="Top view">Top</button>
     <button class="chip" onclick={() => fit('eye')} title="Eye level">Eye level</button>
     <button class="chip" class:on={shadowsOn} aria-pressed={shadowsOn} onclick={() => (shadowsOn = !shadowsOn)} title="Sun shadows for the scenario month and hour">Shadows</button>
+    <button class="chip render" onclick={openRender} title="High-resolution image of this view with detailed plants">✦ Render</button>
   </div>
+  {#if rendering && renderCamera}
+    <RenderDialog {editor} camera={renderCamera} onclose={() => (rendering = false)} />
+  {/if}
 </div>
 
 <style>
@@ -284,4 +298,5 @@
   .viewer :global(canvas) { display: block; width: 100%; height: 100%; }
   .tools { position: absolute; left: 12px; bottom: 12px; display: flex; gap: 6px; flex-wrap: wrap; }
   .tools.compact { bottom: 8px; left: 8px; }
+  .chip.render { background: var(--accent); border-color: var(--accent); color: #fff; }
 </style>
