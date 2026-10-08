@@ -13,6 +13,7 @@
   import TimeBar from './TimeBar.svelte';
   import PlantDetail from './PlantDetail.svelte';
   import SchedulesView from './SchedulesView.svelte';
+  import HelpMenu from './HelpMenu.svelte';
   import AlternativesPanel from './AlternativesPanel.svelte';
   import Logo from './Logo.svelte';
   import { download, dataUrlToBlob } from '../io/download';
@@ -196,6 +197,7 @@
       </div>
       <button class="btn primary" onclick={share}>Share</button>
     {/if}
+    <HelpMenu {readonly} />
   </header>
 
   <div class="body">

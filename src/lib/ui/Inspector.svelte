@@ -192,14 +192,6 @@
       {#if totals.edging}<dt>Edging</dt><dd>{L(totals.edging)}</dd>{/if}
       {#if p.site.boundary}<dt>Lot</dt><dd>{fmtArea(polygonArea(p.site.boundary), u)}</dd>{/if}
     </dl>
-    <h4>Shortcuts</h4>
-    <ul class="keys">
-      <li><kbd>V</kbd> select · <kbd>B</kbd> boundary · <kbd>A</kbd> area · <kbd>L</kbd> line · <kbd>O</kbd> object</li>
-      <li><kbd>P</kbd> plant · <kbd>H</kbd> hedge/row · <kbd>M</kbd> drift · <kbd>G</kbd> grid</li>
-      <li><kbd>Enter</kbd> finish · <kbd>Esc</kbd> cancel · <kbd>⌫</kbd> delete</li>
-      <li><kbd>⌘Z</kbd> undo · <kbd>⇧⌘Z</kbd> redo · <kbd>D</kbd> duplicate · <kbd>R</kbd> rotate</li>
-      <li><kbd>[</kbd> <kbd>]</kbd> month · <kbd>1</kbd> <kbd>2</kbd> <kbd>3</kbd> 2D / 3D / split</li>
-    </ul>
   {/if}
 
   {#if sel && sel.kind !== 'boundary' && subjectChecks.length}
@@ -238,8 +230,6 @@
   .mixrow input { width: 54px; padding: 3px 5px; }
   .x { border: 0; background: none; font-size: 16px; cursor: pointer; color: var(--ink-soft); }
   .gate { display: grid; grid-template-columns: auto 1fr 1fr auto; gap: 6px; align-items: end; }
-  .keys { margin: 0; padding-left: 16px; font-size: 12px; color: var(--ink-soft); display: flex; flex-direction: column; gap: 3px; }
-  kbd { font-family: inherit; font-size: 11px; border: 1px solid var(--border); border-bottom-width: 2px; border-radius: 4px; padding: 0 4px; background: var(--bg); color: var(--ink); }
   .checks { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 4px; font-size: 12px; }
   .checks li { padding: 6px 8px; border-radius: 8px; background: var(--info-bg); }
   .checks li.error { background: var(--danger-bg); }
