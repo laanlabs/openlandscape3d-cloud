@@ -49,6 +49,7 @@
     }).sort((a, b) => Number(restricted(a)) - Number(restricted(b)) || Number(isNativeTo(b, p.site.regionId)) - Number(isNativeTo(a, p.site.regionId)) || commonName(a).localeCompare(commonName(b)));
   });
 
+  const draftCount = $derived(editor.cat.plants.filter(isDraft).length);
   const activeFilters = $derived([forms.length, sun, moisture, nativeOnly, !hardyOnly, bloomMonth, color, maxHeight, maintenance, deer, wildlife].filter(Boolean).length);
 
   function place(pl: Plant, tool: Tool = 'plant') {
@@ -110,6 +111,17 @@
     </section>
   {/if}
 
+  {#if !editor.mix.length && !editor.readonly}
+    <section class="mix idle" aria-label="Placement modes">
+      <div class="seg modes" role="radiogroup" aria-label="Placement mode">
+        {#each modes as md (md.id)}
+          <button role="radio" aria-checked="false" disabled title="Pick a plant first">{md.name}</button>
+        {/each}
+      </div>
+      <p class="muted small">Pick a plant, then place it singly, as a row or hedge, as a drift or on a grid. <strong>Place</strong> starts single plants; <strong>＋ Mix</strong> builds a drift of several.</p>
+    </section>
+  {/if}
+
   <div class="search">
     <input type="search" placeholder="Search plants, families, tags…" bind:value={q} aria-label="Search plants" />
     <button class="btn small" class:primary={activeFilters > 0} onclick={() => (showFilters = !showFilters)} aria-expanded={showFilters}>Filters{activeFilters ? ` · ${activeFilters}` : ''}</button>
@@ -137,6 +149,9 @@
   {/if}
 
   <p class="count muted" role="status">{results.length} of {editor.cat.plants.length} plants{editor.cat.fixture ? ' · sample catalog' : ''}</p>
+  {#if draftCount === editor.cat.plants.length}
+    <p class="draftnote small">All plant facts are a draft, unreviewed pass — sources and confidence are in each plant's details.</p>
+  {/if}
   <ul class="list">
     {#each results as pl (pl.id)}
       {@const bad = restricted(pl)}
@@ -147,11 +162,12 @@
             <span class="nm">{commonName(pl)}</span>
             <span class="sci">{displayScientific(pl)}</span>
             <span class="meta">{pl.form} · {fmtLen(matureHeight(pl), editor.units, true)} × {fmtLen(matureSpread(pl), editor.units, true)} · {pl.sun.join('/')}</span>
+            {#if pl.summary}<span class="sum">{pl.summary}</span>{/if}
             <span class="badges">
               {#if isNativeTo(pl, p.site.regionId)}<span class="badge">native</span>{/if}
               {#if bad}<span class="badge bad">invasive here</span>{/if}
               {#if !hardy(pl)}<span class="badge bad">zone {pl.hardiness.min}–{pl.hardiness.max}</span>{/if}
-              {#if isDraft(pl)}<span class="badge draft">draft</span>{/if}
+              {#if isDraft(pl) && draftCount !== editor.cat.plants.length}<span class="badge draft">draft</span>{/if}
             </span>
           </span>
         </button>
@@ -188,6 +204,9 @@
   .nm { font-weight: 600; font-size: 13px; }
   .sci { font-style: italic; font-size: 12px; color: var(--ink-soft); }
   .meta { font-size: 11px; color: var(--ink-soft); }
+  .sum { font-size: 11.5px; color: var(--ink-soft); display: -webkit-box; -webkit-line-clamp: 1; line-clamp: 1; -webkit-box-orient: vertical; overflow: hidden; }
+  .mix.idle { background: var(--bg); }
+  .draftnote { margin: 0; background: var(--warn-bg); color: var(--warn-ink); border-radius: 8px; padding: 6px 8px; }
   .badges { display: flex; gap: 3px; flex-wrap: wrap; margin-top: 2px; }
   .acts { display: flex; flex-direction: column; gap: 3px; }
   .empty { justify-content: center; font-size: 13px; }

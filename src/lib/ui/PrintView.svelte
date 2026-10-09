@@ -6,6 +6,8 @@
   import Logo from './Logo.svelte';
   import { RULE_INFO } from '../analysis/checks';
   import { plantingYear } from '../analysis/schedule';
+  import { hasPosition, kindColor, kindLabel, observationNumbers, sortObservations } from '../model/observations';
+  import { fmtLen } from '../model/units';
 
   let { project }: { project: Project } = $props();
   // svelte-ignore state_referenced_locally
@@ -14,6 +16,10 @@
   const region = editor.cat.region(p.site.regionId);
   const proposed = p.plants.filter((i) => i.status === 'proposed').length;
   const sevLabel = { error: 'Error', warning: 'Warning', info: 'Info' } as const;
+  // Open field notes, numbered 1…n as their pins on the plan (the notes layer hides both).
+  const noteNums = observationNumbers(p.observations, true);
+  const openNotes = editor.layer('notes') ? sortObservations(p.observations).filter((o) => noteNums.has(o.id)) : [];
+  const noteDate = (iso: string) => { const d = new Date(iso); return Number.isNaN(d.getTime()) ? iso : d.toLocaleDateString(); };
 </script>
 
 <div class="print">
@@ -30,7 +36,18 @@
   <section class="page">
     <h2>Site plan</h2>
     <div class="plan"><PlanView {editor} print /></div>
-    <p class="note">North arrow as drawn on the plan. Plant symbols show the size at year {p.scenario.year} after planting; dashed rings (when shown) are mature spread.</p>
+    <p class="note">North arrow as drawn on the plan. Plant symbols show the size at year {p.scenario.year} after planting; dashed rings (when shown) are mature spread.{openNotes.length ? ' Numbered pins are the open field notes listed below.' : ''}</p>
+    {#if openNotes.length}
+      <h2 class="sub">Open field notes</h2>
+      <ol class="fieldnotes">
+        {#each openNotes as o (o.id)}
+          <li>
+            <span class="num" style:background={kindColor(o)}>{noteNums.get(o.id)}</span>
+            <span><strong>{kindLabel(o)}</strong> <span class="muted">{noteDate(o.createdAt)} · {o.author === 'web' ? 'web' : o.author}{hasPosition(o) ? '' : ' · not on the plan'}</span>{#if o.text} — {o.text}{/if}{#if o.value != null} — {o.unit === 'm' || o.unit == null ? fmtLen(o.value, p.web.units) : `${o.value} ${o.unit}`}{/if}{#if o.photoFile} <span class="muted">(photo {o.photoFile} kept on the capturing device)</span>{/if}</span>
+          </li>
+        {/each}
+      </ol>
+    {/if}
   </section>
 
   <section class="page">
@@ -66,6 +83,10 @@
   .plan :global(.tools), .plan :global(.legend) { display: none; }
   .checks { margin: 0; padding-left: 0; list-style: none; display: flex; flex-direction: column; gap: 5px; font-size: 12.5px; }
   .note { font-size: 11px; color: #555; }
+  .sub { margin-top: 14px; }
+  .fieldnotes { margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 5px; font-size: 12.5px; }
+  .fieldnotes li { display: flex; gap: 8px; align-items: baseline; break-inside: avoid; }
+  .fieldnotes .num { flex: none; min-width: 18px; height: 18px; border-radius: 9px; color: #fff; font-weight: 700; font-size: 10.5px; display: inline-flex; align-items: center; justify-content: center; padding: 0 4px; box-sizing: border-box; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
   @media print {
     .noprint { display: none; }
     .print { padding: 0; }

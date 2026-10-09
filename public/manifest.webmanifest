@@ -1,0 +1,14 @@
+{
+  "name": "OpenLandscape3D",
+  "short_name": "OpenLandscape3D",
+  "description": "Free, open-source landscape and garden planner in 2D and 3D.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f3f2ec",
+  "theme_color": "#2f6b4f",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

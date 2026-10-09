@@ -42,12 +42,12 @@
       <h3 id="alt-title">Design options</h3>
       <button class="btn" onclick={onclose}>Close</button>
     </div>
-    <p class="muted small">Save the current design as a named option, keep working, and compare or restore any option later. Options travel with the project file and to the iOS app.</p>
+    <p class="muted small">Save the current design as a named option, keep working, and compare or restore any of them later. Design options travel with the project file and to the iOS app.</p>
     {#if !editor.readonly}
       <form class="row" onsubmit={(e) => { e.preventDefault(); editor.saveAlternative(name.trim()); name = ''; }}>
         <label class="sr-only" for="alt-name">Option name</label>
         <input id="alt-name" type="text" placeholder="Option {String.fromCharCode(65 + p.alternatives.length)} — e.g. Meadow front yard" bind:value={name} />
-        <button class="btn primary">Save current design</button>
+        <button class="btn primary">Save as option</button>
       </form>
     {/if}
     <div class="table-wrap">
@@ -75,12 +75,12 @@
               <td class="acts">
                 {#if !editor.readonly}
                   <button class="btn small" onclick={() => { editor.restoreAlternative(a.id); onclose(); }}>Restore</button>
-                  <button class="btn small danger" onclick={() => { if (confirm(`Delete “${a.name}”?`)) editor.deleteAlternative(a.id); }}>Delete</button>
+                  <button class="btn small danger" onclick={() => { if (confirm(`Delete the design option “${a.name}”?`)) editor.deleteAlternative(a.id); }}>Delete</button>
                 {/if}
               </td>
             </tr>
           {:else}
-            <tr><td colspan="9" class="muted">No saved options yet.</td></tr>
+            <tr><td colspan="9" class="muted">No design options saved yet.</td></tr>
           {/each}
         </tbody>
       </table>

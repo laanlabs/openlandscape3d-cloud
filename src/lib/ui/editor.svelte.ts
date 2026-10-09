@@ -1,19 +1,68 @@
 // Editing session for one site: selection, tools, undo/redo, autosave, derived checks/schedules.
-import type { Area, AreaKind, Line, LineKind, LineStyle, PlantGroup, PlantInstance, Polygon, Project, Scenario, SiteObject, Status, Vec2, LayerId } from '../model/types';
+import type { Area, AreaKind, Gate, Line, LineKind, LineStyle, Observation, PlantGroup, PlantInstance, Polygon, Project, Scenario, SiteObject, Status, Vec2, LayerId, WebExtras } from '../model/types';
 import { clone, snapshotOf, uid } from '../model/types';
-import { catalog as defaultCatalog, installDims, type Catalog } from '../catalog/catalog';
+import { catalog as defaultCatalog, commonName, installDims, type Catalog } from '../catalog/catalog';
 import { runChecks, type CheckResult } from '../analysis/checks';
 import { mixSpacing, resolveGroup } from '../analysis/groups';
 import { plantSchedule } from '../analysis/schedule';
 import { saveProject } from '../io/storage';
+import { dist } from '../model/geometry';
 import { gridStep } from '../model/units';
 import { makeArea } from '../site/templates';
+import { isWebNote, WEB_AUTHOR } from '../model/observations';
 
-export type Selection = { kind: 'plant' | 'area' | 'line' | 'object' | 'group' | 'boundary'; id: string } | null;
+export type Selection = { kind: 'plant' | 'area' | 'line' | 'object' | 'group' | 'boundary' | 'observation'; id: string } | null;
 export type ViewMode = '2d' | '3d' | 'split';
-export type Tool = 'select' | 'boundary' | 'area' | 'line' | 'plant' | 'row' | 'mass' | 'grid' | 'object';
+export type Tool = 'select' | 'boundary' | 'area' | 'line' | 'plant' | 'row' | 'mass' | 'grid' | 'object' | 'note';
+export type PlacementTool = 'plant' | 'row' | 'mass' | 'grid';
 
-export const TOOL_KEYS: Record<string, Tool> = { v: 'select', b: 'boundary', a: 'area', l: 'line', p: 'plant', h: 'row', m: 'mass', g: 'grid', o: 'object' };
+export const TOOL_KEYS: Record<string, Tool> = { v: 'select', b: 'boundary', a: 'area', l: 'line', p: 'plant', h: 'row', m: 'mass', g: 'grid', o: 'object', n: 'note' };
+/** Tools that place one item per click (no shape to draw). */
+export const CLICK_TOOLS: readonly Tool[] = ['plant', 'object', 'note'];
+
+/** Autosave delay after the last edit (ms). Drags, tab switches and unloads flush immediately. */
+export const SAVE_DEBOUNCE_MS = 150;
+
+/** Keys of `project.web` that are view state: kept across undo/redo, like the scenario. */
+const VIEW_WEB_KEYS = ['layers', 'ghostRings', 'hints'] as const;
+
+/** One-time hints the user can dismiss; stored in `project.web.hints` so they stay dismissed on every device the project reaches. */
+export type HintId = 'start';
+
+/** Override subjects compare with a missing id read as '' (site-level); iOS writes nil and may write the project id. */
+export const subjectKey = (subjectId: unknown, projectId: string) => (subjectId == null || subjectId === '' || subjectId === projectId ? '' : String(subjectId));
+
+/**
+ * Gates of a line after removing vertex `index`. Segments index−1 and index merge into one straight
+ * run, so a gate on either keeps its place along the fence (a gate on segment index is re-based by the
+ * length of the old segment index−1) unless it no longer fits; gates past the vertex shift down one.
+ */
+export function gatesAfterDeletingVertex(points: Vec2[], gates: Gate[], index: number): Gate[] {
+  const last = points.length - 1;
+  if (points.length <= 2 || index < 0 || index > last) return gates;
+  const out: Gate[] = [];
+  for (const g of gates) {
+    if (index === 0) { if (g.segment !== 0) out.push({ ...g, segment: g.segment - 1 }); continue; }
+    if (index === last) { if (g.segment !== last - 1) out.push(g); continue; }
+    if (g.segment < index - 1) { out.push(g); continue; }
+    if (g.segment > index) { out.push({ ...g, segment: g.segment - 1 }); continue; }
+    const merged = dist(points[index - 1], points[index + 1]);
+    const offset = g.segment === index ? g.offset + dist(points[index - 1], points[index]) : g.offset;
+    if (offset + g.width > merged + 1e-9) continue;
+    out.push({ ...g, segment: index - 1, offset });
+  }
+  return out;
+}
+
+/** Gates of a line after inserting `pt` after vertex `after`: a gate beyond the new vertex moves to the new segment. */
+export function gatesAfterInsertingVertex(points: Vec2[], gates: Gate[], after: number, pt: Vec2): Gate[] {
+  const first = dist(points[after], pt);
+  return gates.map((g) => {
+    if (g.segment > after) return { ...g, segment: g.segment + 1 };
+    if (g.segment === after && g.offset >= first) return { ...g, segment: after + 1, offset: g.offset - first };
+    return g;
+  });
+}
 
 /** Site object presets (OpenPlan3D outdoor catalog ids and their default sizes, metres). */
 export const OBJECT_PRESETS: { id: string; name: string; w: number; d: number; h: number }[] = [
@@ -38,7 +87,7 @@ export class Editor {
   readonly cat: Catalog = defaultCatalog;
   selection = $state<Selection>(null);
   view = $state<ViewMode>('split');
-  tool = $state<Tool>('select');
+  private tool_ = $state<Tool>('select');
   areaKind = $state<AreaKind>('bed');
   lineKind = $state<LineKind>('fence');
   lineStyle = $state<LineStyle>('board');
@@ -52,7 +101,14 @@ export class Editor {
   /** Plant id shown in the detail sheet. */
   detailPlantId = $state<string | null>(null);
   hoverIds = $state<string[]>([]);
+  /** Observation whose text the Inspector should focus (a note just dropped on the plan). */
+  focusNoteId = $state<string | null>(null);
   readonly = false;
+  /**
+   * Notes written in this editing session and not yet sent anywhere. Only these may be truly deleted:
+   * once a note has left this browser the contract makes it append-only (resolve replaces delete).
+   */
+  private draftNotes = new Set<string>();
 
   private undoStack: Project[] = [];
   private redoStack: Project[] = [];
@@ -76,12 +132,46 @@ export class Editor {
   get step() { return gridStep(this.units) / 2; }
   layer(id: LayerId) { return this.project.web.layers?.[id] !== false; }
   get ghost() { return !!this.project.web.ghostRings; }
+  hint(id: HintId) { return !!(this.project.web.hints as Partial<Record<HintId, boolean>> | undefined)?.[id]; }
+
+  /**
+   * The active tool. Picking a drawing or placement tool deselects, so Delete/Backspace while drawing
+   * can only ever touch the shape in progress. Every assignment goes through this setter.
+   */
+  get tool(): Tool { return this.tool_; }
+  set tool(t: Tool) {
+    if (t !== 'select') this.selection = null;
+    this.tool_ = t;
+  }
+  setTool(t: Tool) { this.tool = t; }
+
+  /**
+   * Arms the placement tools with catalog plants (deep link from a plant page). Unknown ids are
+   * reported and dropped. Returns the toast text, '' when nothing was armed or reported.
+   */
+  arm(plantIds: string[], tool?: PlacementTool): string {
+    if (this.readonly) return '';
+    const ids = [...new Set(plantIds)];
+    const unknown = ids.filter((id) => !this.cat.plant(id));
+    const known = ids.filter((id) => this.cat.plant(id));
+    const msgs = unknown.map((id) => `${id} is not in this catalog version (${this.cat.version})`);
+    if (known.length) {
+      this.mix = known.map((id) => ({ plantId: id, ratio: 1 }));
+      const t = tool ?? (known.length > 1 ? 'mass' : 'plant');
+      this.setTool(t);
+      msgs.push(t === 'row' ? 'Draw a line for the hedge' : t === 'plant' ? `Click in the plan to place ${commonName(this.cat.plant(known[0])!).replace(/^./, (c) => c.toUpperCase())} — Esc to stop` : 'Draw an area to plant the mix');
+    }
+    const text = msgs.join(' · ');
+    if (text) this.notify(text);
+    return text;
+  }
 
   get selectedPlant(): PlantInstance | undefined { return this.selection?.kind === 'plant' ? this.project.plants.find((x) => x.id === this.selection!.id) : undefined; }
   get selectedArea(): Area | undefined { return this.selection?.kind === 'area' ? this.project.areas.find((x) => x.id === this.selection!.id) : undefined; }
   get selectedLine(): Line | undefined { return this.selection?.kind === 'line' ? this.project.lines.find((x) => x.id === this.selection!.id) : undefined; }
   get selectedObject(): SiteObject | undefined { return this.selection?.kind === 'object' ? this.project.objects.find((x) => x.id === this.selection!.id) : undefined; }
   get selectedGroup(): PlantGroup | undefined { return this.selection?.kind === 'group' ? this.project.groups.find((x) => x.id === this.selection!.id) : undefined; }
+  get selectedObservation(): Observation | undefined { return this.selection?.kind === 'observation' ? this.project.observations.find((x) => x.id === this.selection!.id) : undefined; }
 
   /** Ids highlighted with the selection (a group's instances, or a selected plant). */
   get selectedIds(): Set<string> {
@@ -115,7 +205,7 @@ export class Editor {
     const prev = this.undoStack.pop();
     if (!prev) return;
     this.redoStack.push(this.project);
-    this.project = prev;
+    this.project = this.carryView(prev);
     this.fixSelection();
     this.syncCounts();
     this.scheduleSave();
@@ -125,10 +215,21 @@ export class Editor {
     const next = this.redoStack.pop();
     if (!next) return;
     this.undoStack.push(this.project);
-    this.project = next;
+    this.project = this.carryView(next);
     this.fixSelection();
     this.syncCounts();
     this.scheduleSave();
+  }
+
+  /** Undo/redo restore edits only: the month/year/hour, layers, canopy rings and dismissed hints are view state and stay put. */
+  private carryView(target: Project): Project {
+    const cur = this.project;
+    const web: Record<string, unknown> = { ...target.web };
+    for (const k of VIEW_WEB_KEYS) {
+      if (cur.web[k] === undefined) delete web[k];
+      else web[k] = cur.web[k];
+    }
+    return { ...target, scenario: cur.scenario, web: web as WebExtras };
   }
 
   private syncCounts() { this.undoCount = this.undoStack.length; this.redoCount = this.redoStack.length; }
@@ -142,6 +243,7 @@ export class Editor {
       : s.kind === 'line' ? p.lines.some((x) => x.id === s.id)
       : s.kind === 'object' ? p.objects.some((x) => x.id === s.id)
       : s.kind === 'group' ? p.groups.some((x) => x.id === s.id)
+      : s.kind === 'observation' ? p.observations.some((x) => x.id === s.id)
       : !!p.site.boundary;
     if (!ok) this.selection = null;
   }
@@ -150,16 +252,22 @@ export class Editor {
     if (this.readonly) return;
     this.saveState = 'saving';
     clearTimeout(this.saveTimer);
-    this.saveTimer = setTimeout(async () => {
-      try { await saveProject(this.project); this.saveState = 'saved'; }
-      catch (e) { console.error(e); this.saveState = 'error'; }
-    }, 350);
+    this.saveTimer = setTimeout(() => void this.save(), SAVE_DEBOUNCE_MS);
   }
 
+  /** Writes the current project now. Shows 'saved' only if nothing changed while the write was in flight. */
+  private async save() {
+    const p = this.project;
+    try { await saveProject(p); if (this.project === p) this.saveState = 'saved'; }
+    catch (e) { console.error(e); this.saveState = 'error'; }
+  }
+
+  /** Saves immediately (end of a drag, tab hidden, page unload, or the user's retry after an error). */
   async flush() {
     clearTimeout(this.saveTimer);
-    if (!this.readonly) await saveProject(this.project);
-    this.saveState = 'saved';
+    this.saveTimer = undefined;
+    if (this.readonly) return;
+    await this.save();
   }
 
   notify(text: string) {
@@ -179,6 +287,7 @@ export class Editor {
     this.dragSnapshot = null;
     if (!before || before === this.project) return;
     this.commit(before, { ...this.project, updatedAt: new Date().toISOString() });
+    void this.flush();
   }
   get dragging() { return !!this.dragSnapshot; }
 
@@ -194,6 +303,12 @@ export class Editor {
   }
   setGhost(on: boolean) {
     this.project = { ...this.project, web: { ...this.project.web, ghostRings: on } };
+    this.scheduleSave();
+  }
+  /** Dismisses (or restores) a one-time hint. Not an edit, so it is not undoable. */
+  setHint(id: HintId, dismissed: boolean) {
+    const hints = { ...((this.project.web.hints as Partial<Record<HintId, boolean>> | undefined) ?? {}), [id]: dismissed };
+    this.project = { ...this.project, web: { ...this.project.web, hints } };
     this.scheduleSave();
   }
 
@@ -256,15 +371,24 @@ export class Editor {
     this.edit((p) => {
       if (target.kind === 'boundary') return p.site.boundary ? { ...p, site: { ...p.site, boundary: ins(p.site.boundary) } } : p;
       if (target.kind === 'area') return { ...p, areas: p.areas.map((a) => (a.id === target.id ? { ...a, polygon: ins(a.polygon) } : a)) };
-      return { ...p, lines: p.lines.map((l) => (l.id === target.id ? { ...l, points: ins(l.points), gates: l.gates.map((g) => (g.segment > after ? { ...g, segment: g.segment + 1 } : g)) } : l)) };
+      return { ...p, lines: p.lines.map((l) => (l.id === target.id ? { ...l, points: ins(l.points), gates: gatesAfterInsertingVertex(l.points, l.gates, after, pt) } : l)) };
     });
   }
+  /** Removes a corner; polygons keep at least 3 points and lines at least 2 (otherwise nothing changes). */
   deleteVertex(target: { kind: 'boundary' | 'area' | 'line'; id: string }, index: number) {
-    const del = (pts: Vec2[], min: number) => (pts.length > min ? pts.filter((_, i) => i !== index) : pts);
+    const del = (pts: Vec2[]) => pts.filter((_, i) => i !== index);
     this.edit((p) => {
-      if (target.kind === 'boundary') return p.site.boundary ? { ...p, site: { ...p.site, boundary: del(p.site.boundary, 3) } } : p;
-      if (target.kind === 'area') return { ...p, areas: p.areas.map((a) => (a.id === target.id ? { ...a, polygon: del(a.polygon, 3) } : a)) };
-      return { ...p, lines: p.lines.map((l) => (l.id === target.id ? { ...l, points: del(l.points, 2), gates: l.gates.filter((g) => g.segment < l.points.length - 2) } : l)) };
+      if (target.kind === 'boundary') {
+        const b = p.site.boundary;
+        return b && b.length > 3 && index < b.length ? { ...p, site: { ...p.site, boundary: del(b) } } : p;
+      }
+      if (target.kind === 'area') {
+        const a = p.areas.find((x) => x.id === target.id);
+        return a && a.polygon.length > 3 && index < a.polygon.length ? { ...p, areas: p.areas.map((x) => (x === a ? { ...a, polygon: del(a.polygon) } : x)) } : p;
+      }
+      const l = p.lines.find((x) => x.id === target.id);
+      if (!l || l.points.length <= 2 || index >= l.points.length) return p;
+      return { ...p, lines: p.lines.map((x) => (x === l ? { ...l, points: del(l.points), gates: gatesAfterDeletingVertex(l.points, l.gates, index) } : x)) };
     });
   }
 
@@ -331,6 +455,11 @@ export class Editor {
         case 'area': return { ...start, areas: start.areas.map((a) => (a.id === sel.id ? { ...a, polygon: mv(a.polygon) } : a)) };
         case 'line': return { ...start, lines: start.lines.map((l) => (l.id === sel.id ? { ...l, points: mv(l.points) } : l)) };
         case 'boundary': return start.site.boundary ? { ...start, site: { ...start.site, boundary: mv(start.site.boundary) } } : start;
+        case 'observation': {
+          const o = start.observations.find((x) => x.id === sel.id);
+          if (!o || !this.canEditObservation(o) || o.x == null || o.y == null) return start;
+          return { ...start, observations: start.observations.map((x) => (x === o ? { ...o, x: o.x! + delta[0], y: o.y! + delta[1] } : x)) };
+        }
       }
       return start;
     });
@@ -353,6 +482,7 @@ export class Editor {
   removeSelected() {
     const s = this.selection;
     if (!s) return;
+    if (s.kind === 'observation') { this.removeObservation(s.id); return; }
     this.edit((p) => {
       switch (s.kind) {
         case 'plant': {
@@ -365,6 +495,7 @@ export class Editor {
         case 'object': return { ...p, objects: p.objects.filter((o) => o.id !== s.id) };
         case 'boundary': { const { boundary: _b, ...site } = p.site; return { ...p, site }; }
       }
+      return p;
     }, 'Deleted');
     this.selection = null;
   }
@@ -396,14 +527,74 @@ export class Editor {
     if (o) this.updateObject(o.id, { rotation: (((o.rotation + by) % 360) + 360) % 360 });
   }
 
+  // ---------- field notes (observations) ----------
+
+  /**
+   * Text and position can be edited only on notes written here (author "web"). Observations from the
+   * field are append-only facts: the planner can resolve them, not rewrite them. (Even a web note's
+   * edits reach a copy that already has it only as "resolved" — the contract merge keeps the first copy.)
+   */
+  canEditObservation(o: Observation) { return !this.readonly && isWebNote(o); }
+  /** True delete is confined to notes written in this session that have not been exported or shared. */
+  canDeleteObservation(o: Observation) { return !this.readonly && isWebNote(o) && this.draftNotes.has(o.id); }
+
+  /** Drops a note at `at` (author "web"), selects it and asks the Inspector to focus its text. */
+  addNote(at: Vec2, text = '') {
+    if (this.readonly) return;
+    const o: Observation = { id: uid(), kind: 'note', createdAt: new Date().toISOString(), author: WEB_AUTHOR, x: at[0], y: at[1], ...(text ? { text } : {}), resolved: false };
+    if (!this.layer('notes')) this.setLayer('notes', true);
+    this.edit((p) => ({ ...p, observations: [...p.observations, o] }));
+    this.draftNotes.add(o.id);
+    this.tool = 'select';
+    this.selection = { kind: 'observation', id: o.id };
+    this.focusNoteId = o.id;
+  }
+
+  /** Edits a web note (text, value, position…). Field observations are left alone. `resolved` goes through setResolved. */
+  updateObservation(id: string, patch: Partial<Omit<Observation, 'id' | 'resolved'>>) {
+    const o = this.project.observations.find((x) => x.id === id);
+    if (!o || !this.canEditObservation(o)) return;
+    this.edit((p) => ({ ...p, observations: p.observations.map((x) => (x.id === id ? clean({ ...x, ...patch }) : x)) }));
+  }
+
+  setResolved(id: string, resolved: boolean, notice?: string) {
+    const o = this.project.observations.find((x) => x.id === id);
+    if (!o || !!o.resolved === resolved) return;
+    this.edit((p) => ({ ...p, observations: p.observations.map((x) => (x.id === id ? { ...x, resolved } : x)) }), notice);
+  }
+
+  /** Delete for a draft web note; otherwise resolve, because observations are append-only. */
+  removeObservation(id: string) {
+    const o = this.project.observations.find((x) => x.id === id);
+    if (!o || this.readonly) return;
+    if (this.canDeleteObservation(o)) {
+      this.edit((p) => ({ ...p, observations: p.observations.filter((x) => x.id !== id) }), 'Note deleted');
+      if (this.selection?.id === id) this.selection = null;
+    } else if (!o.resolved) {
+      this.setResolved(id, true, 'Resolved — field notes are kept, not deleted');
+    } else {
+      this.notify('Already resolved. Field notes are append-only, so they are kept');
+    }
+  }
+
+  /** Called when the project leaves this browser (export, link, handoff): its notes become append-only. */
+  sealNotes() { this.draftNotes.clear(); }
+
   // ---------- checks ----------
 
-  setOverride(ruleId: string, subjectId: string, note: string | null) {
+  /**
+   * Accepts a check result with a note (`note`), or removes the override (`note` null). A site-level
+   * result has subjectId '' — a missing subjectId (iOS writes nil) or the project id count as the same.
+   */
+  setOverride(ruleId: string, subjectId: string | null | undefined, note: string | null) {
     this.edit((p) => {
-      const rest = p.overrides.filter((o) => !(o.ruleId === ruleId && o.subjectId === subjectId));
-      return { ...p, overrides: note == null ? rest : [...rest, { ruleId, subjectId, note }] };
+      const key = subjectKey(subjectId, p.id);
+      const rest = p.overrides.filter((o) => !(o.ruleId === ruleId && subjectKey(o.subjectId, p.id) === key));
+      if (note == null && rest.length === p.overrides.length) return p;
+      return { ...p, overrides: note == null ? rest : [...rest, { ruleId, subjectId: key, note }] };
     });
   }
+  removeOverride(ruleId: string, subjectId?: string | null) { this.setOverride(ruleId, subjectId, null); }
 
   /** Select the subject of a check result. */
   selectSubject(id: string | undefined) {
@@ -419,7 +610,7 @@ export class Editor {
 
   saveAlternative(name: string) {
     const alt = { id: uid(), name: name || `Option ${String.fromCharCode(65 + this.project.alternatives.length)}`, createdAt: new Date().toISOString(), snapshot: snapshotOf(this.project) };
-    this.edit((p) => ({ ...p, alternatives: [...p.alternatives, alt] }), `Saved “${alt.name}”`);
+    this.edit((p) => ({ ...p, alternatives: [...p.alternatives, alt] }), `Saved “${alt.name}” as a design option`);
   }
   restoreAlternative(id: string) {
     const alt = this.project.alternatives.find((a) => a.id === id);

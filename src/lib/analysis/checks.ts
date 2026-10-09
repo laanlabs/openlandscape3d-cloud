@@ -161,10 +161,14 @@ export function runChecks(p: Project, cat: Catalog): CheckResult[] {
   return applyOverrides(sortResults(out), p);
 }
 
-/** An override with matching ruleId and subjectId downgrades the result to `info` and appends the note. */
+/**
+ * An override with matching ruleId and subjectId downgrades the result to `info` and appends the note.
+ * A site-level result (no subjects) matches an override whose subjectId is `""`, absent (iOS writes
+ * nil) or the project id, as EXPORT_FORMAT.md "Site-level results" says.
+ */
 export function applyOverrides(results: CheckResult[], p: Project): CheckResult[] {
   return results.map((r) => {
-    const o = (p.overrides ?? []).find((x) => x.ruleId === r.ruleId && (r.subjectIds.length ? r.subjectIds.includes(x.subjectId) : x.subjectId === '' || x.subjectId === p.id));
+    const o = (p.overrides ?? []).find((x) => x.ruleId === r.ruleId && (r.subjectIds.length ? r.subjectIds.includes(x.subjectId) : !x.subjectId || x.subjectId === p.id));
     if (!o) return r;
     return { ...r, severity: 'info', message: `${r.message} Override: ${o.note}`, overridden: { note: o.note, originalSeverity: r.severity } };
   });

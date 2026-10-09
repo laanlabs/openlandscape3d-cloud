@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
-import { RULE_IDS, runChecks, type RuleId } from '../src/lib/analysis/checks';
+import { RULE_IDS, applyOverrides, runChecks, type RuleId } from '../src/lib/analysis/checks';
 import { houseBuilding } from '../src/lib/site/templates';
-import type { Project } from '../src/lib/model/types';
+import type { Override, Project } from '../src/lib/model/types';
 import { area, cat, plant, project, site, square } from './helpers';
 
 const rules = (p: Project, id: RuleId) => runChecks(p, cat).filter((r) => r.ruleId === id);
@@ -149,6 +149,22 @@ describe('results', () => {
     expect(o.severity).toBe('info');
     expect(o.message).toContain('Existing hedge kept for now');
     expect(o.overridden?.originalSeverity).toBe('error');
+  });
+  it('match site-level results with an absent, empty or project-id subjectId (iOS writes nil)', () => {
+    const p = project({ site: site({ boundary: square(0, 0, 5, 5) }) });
+    const unverified = (q: Project) => runChecks(q, cat).find((r) => r.ruleId === 'OL-UNVERIFIED')!;
+    expect(unverified(p).overridden).toBeUndefined();
+    // subjectId missing entirely, as the iOS encoder writes it
+    const absent = unverified({ ...p, overrides: [{ ruleId: 'OL-UNVERIFIED', note: 'Surveyed' } as Override] });
+    expect(absent.severity).toBe('info');
+    expect(absent.overridden).toEqual({ note: 'Surveyed', originalSeverity: 'info' });
+    expect(absent.message).toContain('Override: Surveyed');
+    expect(unverified({ ...p, overrides: [{ ruleId: 'OL-UNVERIFIED', subjectId: '', note: 'Surveyed' }] }).overridden?.note).toBe('Surveyed');
+    expect(unverified({ ...p, overrides: [{ ruleId: 'OL-UNVERIFIED', subjectId: p.id, note: 'Surveyed' }] }).overridden?.note).toBe('Surveyed');
+    // but not some other subject, and never a result that has subjects
+    expect(unverified({ ...p, overrides: [{ ruleId: 'OL-UNVERIFIED', subjectId: 'someone-else', note: 'No' }] }).overridden).toBeUndefined();
+    const flagged = [{ ruleId: 'OL-SUN' as const, severity: 'warning' as const, subjectIds: ['plant-1'], message: 'm' }];
+    expect(applyOverrides(flagged, { ...p, overrides: [{ ruleId: 'OL-SUN', note: 'No' } as Override] })[0].overridden).toBeUndefined();
   });
   it('skip unknown plants for fact rules but keep them for OL-OUTSIDE', () => {
     const u = plant('mystery-plant', 50, 50);

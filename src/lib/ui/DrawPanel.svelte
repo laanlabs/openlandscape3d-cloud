@@ -55,6 +55,14 @@
     </div>
   </section>
 
+  <section>
+    <h4>Annotate <span class="muted">(N)</span></h4>
+    <div class="tiles">
+      <button class="tile" class:on={editor.tool === 'note'} aria-pressed={editor.tool === 'note'} onclick={() => (editor.tool = 'note')}><span class="pin" aria-hidden="true"></span>Note</button>
+    </div>
+    <p class="muted small">Click the plan to pin a note for the team; it travels to the iOS app with the site.</p>
+  </section>
+
   <p class="muted small">Click to add corners; click the first corner, double-click or press Enter to finish. Hold Shift for 45° lines and Alt to place without snapping. Select a shape to drag its corners.</p>
 </div>
 
@@ -74,4 +82,5 @@
   .ln.retaining_wall { border-top: 6px solid #7d7468; }
   .ln.edging { border-top: 2px solid #5b4a3f; }
   .small { font-size: 12px; margin: 0; }
+  .pin { width: 12px; height: 12px; border-radius: 50%; background: #3b6fb6; border: 2px solid #fff; box-shadow: 0 0 0 1px #3b6fb6; flex: none; }
 </style>

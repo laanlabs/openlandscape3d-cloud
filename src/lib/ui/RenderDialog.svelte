@@ -20,6 +20,11 @@
   let dims = $state('');
 
   const MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+  /** Scenario hour (local solar time, may be fractional) as "hh:mm solar". */
+  const solarLabel = (hour: number) => {
+    const hh = Math.floor(hour), mm = Math.round((hour - hh) * 60);
+    return `${String(hh).padStart(2, '0')}:${String(mm).padStart(2, '0')} solar`;
+  };
 
   async function render() {
     busy = true;
@@ -33,7 +38,7 @@
       blob = result.blob;
       url = URL.createObjectURL(result.blob);
       dims = `${result.width} × ${result.height}`;
-      note = `${MONTHS[(s.month - 1 + 12) % 12]}, year ${s.year}` + (result.daylightSubstituted ? ' · night hour, shown in morning light' : ` · ${String(s.hour).padStart(2, '0')}:00 sun`);
+      note = `${MONTHS[(s.month - 1 + 12) % 12]}, year ${s.year}` + (result.daylightSubstituted ? ' · night hour, shown in morning light' : ` · ${solarLabel(s.hour)}`);
     } catch (e) {
       error = e instanceof Error ? e.message : String(e);
     } finally {

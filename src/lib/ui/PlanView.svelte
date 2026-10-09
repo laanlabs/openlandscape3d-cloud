@@ -1,7 +1,8 @@
 <script lang="ts">
   import { onMount } from 'svelte';
-  import type { Editor, Selection } from './editor.svelte';
-  import type { Area, Line, PlantInstance, Project, Vec2 } from '../model/types';
+  import { CLICK_TOOLS, type Editor, type Selection } from './editor.svelte';
+  import type { Area, Line, Observation, PlantInstance, Project, Vec2 } from '../model/types';
+  import { hasPosition, kindColor, kindLabel, observationNumbers } from '../model/observations';
   import { HARD_KINDS } from '../model/types';
   import { bbox, centroid, closestOnSegment, dist, polygonArea, polylineLength, rectCorners, snapTo, wallSegments, wallOpenings } from '../model/geometry';
   import { fmtArea, fmtLen } from '../model/units';
@@ -28,7 +29,7 @@
   const k = $derived(Math.max(view.w / Math.max(1, size.w), view.h / Math.max(1, size.h))); // metres per px
 
   export function fit() {
-    const pts: Vec2[] = [...(p.site.boundary ?? []), ...p.areas.flatMap((a) => a.polygon), ...p.lines.flatMap((l) => l.points), ...p.plants.map((x) => [x.x, x.y] as Vec2), ...p.objects.map((o) => [o.x, o.y] as Vec2), ...wallSegments(p.building).flatMap((w) => [w.a, w.b])];
+    const pts: Vec2[] = [...(p.site.boundary ?? []), ...p.areas.flatMap((a) => a.polygon), ...p.lines.flatMap((l) => l.points), ...p.plants.map((x) => [x.x, x.y] as Vec2), ...p.objects.map((o) => [o.x, o.y] as Vec2), ...(editor.layer('notes') ? p.observations.filter(hasPosition).map((o) => [o.x, o.y] as Vec2) : []), ...wallSegments(p.building).flatMap((w) => [w.a, w.b])];
     if (!pts.length) pts.push([0, 0], [20, 15]);
     const b = bbox(pts);
     const pad = Math.max(2, (b.max[0] - b.min[0] + b.max[1] - b.min[1]) * 0.06);
@@ -78,6 +79,8 @@
   let cursor = $state<Vec2 | null>(null);
   const drawing = $derived(['boundary', 'area', 'line', 'row', 'mass', 'grid'].includes(editor.tool));
   const polyTool = $derived(['boundary', 'area', 'mass', 'grid'].includes(editor.tool));
+  /** One click places one item (plant, object, note). */
+  const placing = $derived(CLICK_TOOLS.includes(editor.tool));
   $effect(() => { editor.tool; draft = []; });
 
   function finishDraft() {
@@ -94,8 +97,17 @@
     if (editor.tool === 'boundary') editor.tool = 'select';
   }
 
+  /** Drops the shape being drawn. Returns false when there was none (so Esc can fall through to the tool). */
+  export function cancelDraft(): boolean {
+    if (!draft.length) return false;
+    draft = [];
+    return true;
+  }
+  function undoPoint() { draft = draft.slice(0, -1); }
+  const canFinish = $derived(polyTool ? draft.length >= 3 : draft.length >= 2);
+
   function clickTool(pt: Vec2, e: PointerEvent) {
-    if (editor.readonly) return;
+    if (editor.readonly) { editor.selection = null; return; }
     const s = snapPoint(pt, e);
     if (editor.tool === 'plant') {
       const id = editor.mix[0]?.plantId;
@@ -103,20 +115,25 @@
       editor.addPlant(id, s);
     } else if (editor.tool === 'object') {
       editor.addObject(editor.objectId, s);
+    } else if (editor.tool === 'note') {
+      editor.addNote(s);
     } else if (drawing) {
       if (polyTool && draft.length >= 3 && dist(s, draft[0]) < 10 * k) return finishDraft();
       if (draft.length && dist(s, draft[draft.length - 1]) < 1e-6) return finishDraft(); // double click
+      if (!draft.length) editor.selection = null; // the shape in progress is now what Backspace acts on
       draft = [...draft, s];
     } else {
       editor.selection = null;
     }
   }
 
+  // Esc is staged: a first press cancels only the shape in progress (here); EditorView turns a second
+  // press into "back to Select". Both listeners sit on window, so preventDefault() is the hand-off.
   function onKey(e: KeyboardEvent) {
-    if (print || !drawing || (e.target as HTMLElement).closest('input, textarea, select')) return;
+    if (print || !drawing || e.defaultPrevented || (e.target as HTMLElement).closest('input, textarea, select')) return;
     if (e.key === 'Enter') { e.preventDefault(); finishDraft(); }
-    else if (e.key === 'Escape') { if (draft.length) { e.preventDefault(); e.stopPropagation(); draft = []; } }
-    else if ((e.key === 'Backspace' || e.key === 'Delete') && draft.length) { e.preventDefault(); e.stopPropagation(); draft = draft.slice(0, -1); }
+    else if (e.key === 'Escape') { if (cancelDraft()) e.preventDefault(); }
+    else if ((e.key === 'Backspace' || e.key === 'Delete') && draft.length) { e.preventDefault(); undoPoint(); }
   }
 
   // ---------- pointer handling ----------
@@ -131,13 +148,15 @@
 
   function startMove(e: PointerEvent, sel: NonNullable<Selection>) {
     if (e.button !== 0 || print) return;
-    if (drawing || editor.tool === 'plant' || editor.tool === 'object') return; // let the tool handle the click
+    if (drawing || placing) return; // let the tool handle the click
     e.stopPropagation();
     // Clicking an instance of the selected group drags the whole group.
     const cur = editor.selection;
     if (sel.kind === 'plant' && cur?.kind === 'group' && p.plants.find((x) => x.id === sel.id)?.groupId === cur.id) sel = cur;
     else editor.selection = sel;
     if (editor.readonly) return;
+    // Field observations are append-only: selectable, not movable (only web notes drag).
+    if (sel.kind === 'observation') { const o = p.observations.find((x) => x.id === sel.id); if (!o || !editor.canEditObservation(o)) return; }
     mode = { t: 'move', sel, from: toPlan(e), start: p };
     svg.setPointerCapture(e.pointerId);
   }
@@ -151,6 +170,7 @@
 
   function onDown(e: PointerEvent) {
     if (print) return;
+    if (e.pointerType === 'touch') coarse = true;
     pointers.set(e.pointerId, { x: e.clientX, y: e.clientY });
     if (pointers.size === 2) {
       const [a, b] = [...pointers.values()];
@@ -172,7 +192,7 @@
       return;
     }
     const pt = toPlan(e);
-    cursor = drawing || editor.tool === 'plant' || editor.tool === 'object' ? snapPoint(pt, e) : pt;
+    cursor = drawing || placing ? snapPoint(pt, e) : pt;
     if (!mode) return;
     if (mode.t === 'pending') {
       const dx = e.clientX - mode.start.x, dy = e.clientY - mode.start.y;
@@ -355,13 +375,41 @@
     return new Promise((res) => canvas.toBlob((b) => res(b!), 'image/png'));
   }
 
-  onMount(() => () => { mode = null; });
+  // Touch has no hover, Enter or Backspace: while drawing, the readout grows Finish / Undo point / Cancel chips.
+  let coarse = $state(false);
+  onMount(() => {
+    const mq = matchMedia('(pointer: coarse)');
+    const set = () => { if (mq.matches) coarse = true; };
+    set();
+    mq.addEventListener('change', set);
+    return () => { mq.removeEventListener('change', set); mode = null; };
+  });
 
-  const cursorStyle = $derived(drawing || editor.tool === 'plant' || editor.tool === 'object' ? 'crosshair' : 'default');
+  const cursorStyle = $derived(drawing || placing ? 'crosshair' : 'default');
   const labelsOn = $derived(editor.layer('labels'));
+
+  // ---------- field notes ----------
+  // On screen every observation with a position gets a pin numbered in date order; the print sheet
+  // shows only open (unresolved) ones, numbered 1…n to match its list.
+  const notesOn = $derived(editor.layer('notes'));
+  const noteNumbers = $derived(observationNumbers(p.observations, print));
+  const pins = $derived(p.observations.filter((o) => hasPosition(o) && (!print || !o.resolved) && noteNumbers.has(o.id)) as (Observation & { x: number; y: number })[]);
+  /** Pin outline (unit radius) by kind: note circle, photo rounded square, issue triangle, measurement diamond, inventory hexagon. */
+  const PIN: Record<string, string> = {
+    note: 'M-1,0a1,1 0 1,0 2,0a1,1 0 1,0 -2,0Z',
+    photo: 'M-0.65,-0.9H0.65Q0.9,-0.9 0.9,-0.65V0.65Q0.9,0.9 0.65,0.9H-0.65Q-0.9,0.9 -0.9,0.65V-0.65Q-0.9,-0.9 -0.65,-0.9Z',
+    issue: 'M0,-1.15L1.1,0.85H-1.1Z',
+    measurement: 'M0,-1.15L1.15,0L0,1.15L-1.15,0Z',
+    inventory: Array.from({ length: 6 }, (_, i) => { const a = (i / 6) * Math.PI * 2 - Math.PI / 2; return `${i ? 'L' : 'M'}${Math.cos(a)},${Math.sin(a)}`; }).join('') + 'Z'
+  };
+  const snippet = (o: Observation) => {
+    const t = (o.text ?? '').trim() || (o.value != null ? `${o.value}${o.unit ? ` ${o.unit}` : ''}` : o.photoFile ?? '');
+    return t.length > 28 ? `${t.slice(0, 27)}…` : t;
+  };
 </script>
 
-<svelte:window onkeydown={onKey} />
+<!-- Capture phase: the shape in progress handles Enter, Esc and Backspace before EditorView's shortcuts see them. -->
+<svelte:window onkeydowncapture={onKey} />
 
 <div class="plan" class:print bind:clientWidth={size.w} bind:clientHeight={size.h} style:cursor={cursorStyle}>
   <svg
@@ -512,6 +560,24 @@
       {/each}
     {/if}
 
+    <!-- field notes -->
+    {#if notesOn}
+      {#each pins as o (o.id)}
+        {@const sel = editor.selection?.kind === 'observation' && editor.selection.id === o.id}
+        {@const r = k * (print ? 7 : 8)}
+        {@const color = kindColor(o)}
+        {@const n = noteNumbers.get(o.id)}
+        {@const label = labelsOn && !print && k < 0.045 ? snippet(o) : ''}
+        <g transform="translate({o.x} {o.y})" onpointerdown={(e) => startMove(e, { kind: 'observation', id: o.id })} role="button" tabindex="-1" aria-label="{kindLabel(o)} {n}{o.resolved ? ' (resolved)' : ''}{o.text ? `: ${o.text}` : ''}" opacity={o.resolved ? 0.75 : 1} class="pin" class:locked={!editor.canEditObservation(o)}>
+          {#if sel}<circle r={r * 1.7} fill="none" stroke={C.sel} stroke-width={k * 2} />{/if}
+          <path d={PIN[o.kind] ?? PIN.note} transform="scale({r})" fill={color} stroke={sel ? C.sel : '#fff'} stroke-width={k * (sel ? 2.2 : 1.4)} vector-effect="non-scaling-stroke" stroke-linejoin="round" />
+          {#if n != null}<text y={o.kind === 'issue' ? r * 0.18 : 0} font-size={k * (n > 99 ? 7 : 9)} text-anchor="middle" dominant-baseline="central" fill="#fff" font-weight="700" pointer-events="none">{n}</text>{/if}
+          {#if o.resolved}<line x1={-r * 1.25} y1={0} x2={r * 1.25} y2={0} stroke="#4f4a43" stroke-width={k * 1.5} pointer-events="none" />{/if}
+          {#if label}<text x={r * 1.5} font-size={k * 10.5} dominant-baseline="central" fill={o.resolved ? '#6b706b' : C.text} stroke="#fff" stroke-width={k * 2.5} paint-order="stroke" text-decoration={o.resolved ? 'line-through' : undefined} pointer-events="none">{label}</text>{/if}
+        </g>
+      {/each}
+    {/if}
+
     <!-- vertex editing -->
     {#if editTarget}
       {#each segLabels(editTarget.pts, editTarget.closed) as s, i (i)}<text x={s.at[0]} y={s.at[1]} dy={-k * 6} transform="rotate({s.ang} {s.at[0]} {s.at[1]})" font-size={k * 10.5} text-anchor="middle" fill={C.sel} font-weight="600" pointer-events="none" data-noexport>{s.text}</text>{/each}
@@ -536,7 +602,7 @@
       {#each draft as q, i (i)}<circle data-noexport cx={q[0]} cy={q[1]} r={k * (i === 0 && polyTool ? 6 : 4)} fill={i === 0 ? '#fff' : C.accent} stroke={C.accent} stroke-width={k * 1.5} pointer-events="none" />{/each}
       {#each segLabels(preview.q, false) as s, i (i)}<text data-noexport x={s.at[0]} y={s.at[1]} dy={-k * 6} transform="rotate({s.ang} {s.at[0]} {s.at[1]})" font-size={k * 11} text-anchor="middle" fill={C.accent} font-weight="700" pointer-events="none">{s.text}</text>{/each}
     {/if}
-    {#if cursor && !print && (drawing || editor.tool === 'plant' || editor.tool === 'object')}
+    {#if cursor && !print && (drawing || placing)}
       <circle data-noexport cx={cursor[0]} cy={cursor[1]} r={k * 3} fill="none" stroke={C.accent} stroke-width={k * 1.5} pointer-events="none" />
     {/if}
   </svg>
@@ -546,13 +612,21 @@
     <div class="scale"><span style:width="{scaleBar.px}px"></span>{scaleBar.label}</div>
   </div>
   {#if preview && !print}
-    <div class="readout" role="status">
-      {#if polyTool && preview.area > 0}<strong>{fmtArea(preview.area, units)}</strong> · {/if}{fmtLen(preview.length, units)} · {draft.length} point{draft.length === 1 ? '' : 's'}
-      <span class="muted">— {polyTool ? 'click the first point or press Enter to close' : 'double-click or Enter to finish'} · Backspace undoes a point · Esc cancels{editor.snap ? ' · Alt: no snap' : ''} · Shift: 45°</span>
+    <div class="readout" class:touch={coarse} role="status">
+      <span>{#if polyTool && preview.area > 0}<strong>{fmtArea(preview.area, units)}</strong> · {/if}{fmtLen(preview.length, units)} · {draft.length} point{draft.length === 1 ? '' : 's'}</span>
+      {#if coarse}
+        <span class="chips" role="group" aria-label="Shape in progress">
+          <button class="chip on" onclick={finishDraft} disabled={!canFinish}>Finish</button>
+          <button class="chip" onclick={undoPoint}>Undo point</button>
+          <button class="chip" onclick={() => cancelDraft()}>Cancel</button>
+        </span>
+      {:else}
+        <span class="muted">— {polyTool ? 'click the first point or press Enter to close' : 'double-click or press Enter to finish'} · Backspace removes the last point · Esc cancels the shape, Esc again returns to Select{editor.snap ? ' · Alt: no snap' : ''} · Shift: 45°</span>
+      {/if}
     </div>
   {:else if !print && !editor.readonly && editor.tool !== 'select'}
     <div class="readout muted" role="status">
-      {editor.tool === 'plant' ? 'Click to place the selected plant' : editor.tool === 'object' ? 'Click to place the object' : editor.tool === 'boundary' ? 'Click the property corners' : editor.tool === 'row' ? 'Click along the hedge / row line' : editor.tool === 'area' ? `Click the corners of the ${editor.areaKind}` : editor.tool === 'line' ? `Click along the ${editor.lineKind.replace('_', ' ')}` : `Click the corners of the ${editor.tool} planting`}
+      {editor.tool === 'plant' ? `${coarse ? 'Tap' : 'Click'} to place the selected plant` : editor.tool === 'object' ? `${coarse ? 'Tap' : 'Click'} to place the object` : editor.tool === 'note' ? `${coarse ? 'Tap' : 'Click'} where the note belongs` : editor.tool === 'boundary' ? `${coarse ? 'Tap' : 'Click'} the property corners` : editor.tool === 'row' ? `${coarse ? 'Tap' : 'Click'} along the hedge / row line` : editor.tool === 'area' ? `${coarse ? 'Tap' : 'Click'} the corners of the ${editor.areaKind}` : editor.tool === 'line' ? `${coarse ? 'Tap' : 'Click'} along the ${editor.lineKind.replace('_', ' ')}` : `${coarse ? 'Tap' : 'Click'} the corners of the ${editor.tool} planting`}{coarse ? '' : ' · Esc returns to Select'}
     </div>
   {/if}
   {#if !print}
@@ -569,10 +643,15 @@
   svg { display: block; width: 100%; height: 100%; }
   .handle { cursor: move; }
   .mid { cursor: copy; }
+  .pin { cursor: move; }
+  .pin.locked { cursor: pointer; }
   .overlay { position: absolute; right: 10px; bottom: 10px; display: flex; flex-direction: column; align-items: flex-end; gap: 6px; pointer-events: none; }
   .scale { font-size: 11px; color: #2b352e; display: flex; align-items: center; gap: 6px; background: rgba(255,255,255,.8); padding: 2px 6px; border-radius: 6px; }
   .scale span { display: inline-block; height: 6px; border: 1.5px solid #2b352e; border-top: 0; }
   .readout { position: absolute; left: 50%; top: 10px; transform: translateX(-50%); background: rgba(255,255,255,.95); border: 1px solid var(--border); border-radius: 10px; padding: 6px 12px; font-size: 12px; box-shadow: var(--shadow); max-width: calc(100% - 24px); text-align: center; }
+  .readout.touch { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; justify-content: center; padding: 8px 12px; }
+  .chips { display: inline-flex; gap: 6px; }
+  .chips .chip { padding: 6px 12px; font-size: 13px; }
   .zoom { position: absolute; left: 10px; bottom: 10px; display: flex; gap: 4px; }
   .print .overlay { right: 6px; bottom: 6px; }
 </style>

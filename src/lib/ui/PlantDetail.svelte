@@ -68,6 +68,7 @@
         </tbody>
       </table>
       <p class="muted small">Scenario from install size {pl.defaultInstallSize} toward the mature midpoint — not a prediction.</p>
+      <p class="small"><a class="more" href={pl.quality?.indexable ? `https://openlandscape3d.com/plants/${pl.id}` : 'https://openlandscape3d.com/plants'} target="_blank" rel="noopener">More about this plant on openlandscape3d.com →</a></p>
       {#if pl.designNotes?.length}<h3>Design notes</h3><ul>{#each pl.designNotes as n, i (i)}<li>{n}</li>{/each}</ul>{/if}
       {#if pl.provenance?.length}
         <h3>Sources</h3>
@@ -115,4 +116,5 @@
   .prov { font-size: 12px; color: var(--ink-soft); padding-left: 18px; }
   .small { font-size: 12px; margin: 0; }
   .actions { margin-top: 6px; }
+  .more { color: var(--accent-ink); font-weight: 600; }
 </style>

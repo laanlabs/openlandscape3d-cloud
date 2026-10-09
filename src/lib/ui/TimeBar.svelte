@@ -30,8 +30,9 @@
       <input type="range" min="0" max="30" step="1" value={sc.year} oninput={(e) => editor.setScenario({ year: num(e) })} aria-label="Years after planting" />
     </div>
   </div>
-  <label class="ctl hour">
-    <span class="lbl">Time <strong>{hourLabel(sc.hour)}</strong> <span class="muted">{sun.altitude > 0 ? `sun ${Math.round((sun.altitude * 180) / Math.PI)}° ${compass(sun.azimuth)}` : 'sun down'}</span></span>
+  <!-- The sun model runs on local solar time (12 = sun due south), not clock time. -->
+  <label class="ctl hour" title="Solar time: 12 is the sun due south. Clock time differs by up to about two hours with longitude and daylight saving.">
+    <span class="lbl">Solar time <strong>{hourLabel(sc.hour)}</strong> <span class="muted">{sun.altitude > 0 ? `sun ${Math.round((sun.altitude * 180) / Math.PI)}° ${compass(sun.azimuth)}` : 'sun down'}</span></span>
     <input type="range" min={Math.max(0, Math.floor(day.rise * 2) / 2 - 0.5)} max={Math.min(24, Math.ceil(day.set * 2) / 2 + 0.5)} step="0.5" value={sc.hour} oninput={(e) => editor.setScenario({ hour: num(e) })} aria-valuetext={hourLabel(sc.hour)} />
   </label>
   <label class="ghost"><input type="checkbox" checked={editor.ghost} onchange={(e) => editor.setGhost((e.currentTarget as HTMLInputElement).checked)} /> Mature canopy</label>

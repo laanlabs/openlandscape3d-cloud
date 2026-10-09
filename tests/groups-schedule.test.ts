@@ -81,6 +81,18 @@ describe('plant schedule', () => {
     expect(lines[1]).toBe('ACRU,Acer rubrum,Red maple,1,BB-2in,9,15,10.5,yes,"draft data, unreviewed"');
     expect(cell('a,"b"')).toBe('"a,""b"""');
   });
+  it('neutralises text a spreadsheet would run as a formula', () => {
+    expect(cell('=1+1')).toBe("'=1+1");
+    expect(cell('+SUM(A1)')).toBe("'+SUM(A1)");
+    expect(cell('-1')).toBe("'-1");
+    expect(cell('@cmd')).toBe("'@cmd");
+    expect(cell('\t=x')).toBe("'\t=x");
+    expect(cell('=a,b')).toBe('"\'=a,b"'); // prefix first, then RFC 4180 quoting
+    expect(cell('Red maple')).toBe('Red maple');
+    expect(cell('#1')).toBe('#1');
+    expect(cell(-3)).toBe('-3'); // numbers are formatted first and never prefixed
+    expect(cell(true)).toBe('yes');
+  });
 });
 
 describe('task schedule', () => {

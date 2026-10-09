@@ -13,7 +13,18 @@ const openplanPlugins = hasOpenPlan ? [(await import(resolve(OPENPLAN, 'tooling/
 
 export default defineConfig({
   plugins: [svelte()],
-  build: { target: 'es2022', chunkSizeWarningLimit: 2000 },
+  build: {
+    target: 'es2022',
+    rollupOptions: {
+      output: {
+        // three.js and the plant catalog change on their own schedules: separate chunks keep their long cache.
+        manualChunks(id) {
+          if (id.includes('/node_modules/three/')) return 'three';
+          if (/\/src\/lib\/catalog\/[^/]+\.json$/.test(id)) return 'catalog';
+        }
+      }
+    }
+  },
   test: {
     projects: [
       { extends: true, test: { name: 'unit', include: ['tests/**/*.test.ts'], exclude: ['tests/openplan.test.ts'] } },

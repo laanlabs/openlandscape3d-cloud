@@ -155,7 +155,7 @@ export interface Building {
   [k: string]: unknown;
 }
 
-export type LayerId = 'building' | 'hardscape' | 'planting' | 'labels';
+export type LayerId = 'building' | 'hardscape' | 'planting' | 'notes' | 'labels';
 
 /** Web-only data in `openlandscape3d.web`; iOS stores it verbatim and writes it back. */
 export interface WebExtras {

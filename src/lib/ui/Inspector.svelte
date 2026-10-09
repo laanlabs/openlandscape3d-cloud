@@ -9,6 +9,7 @@
   import { fmtArea, fmtLen } from '../model/units';
   import { dist, perimeter, polygonArea, polylineLength } from '../model/geometry';
   import { mixSpacing } from '../analysis/groups';
+  import { hasPosition, isWebNote, kindColor, kindLabel, observationNumbers } from '../model/observations';
 
   let { editor }: { editor: Editor } = $props();
   const p = $derived(editor.project);
@@ -21,6 +22,21 @@
   const line = $derived(editor.selectedLine);
   const obj = $derived(editor.selectedObject);
   const group = $derived(editor.selectedGroup);
+  const obs = $derived(editor.selectedObservation);
+  const obsNumber = $derived(obs ? observationNumbers(p.observations).get(obs.id) : undefined);
+  const linkedPlant = $derived(obs?.plantInstanceId ? p.plants.find((x) => x.id === obs.plantInstanceId) : undefined);
+  const fmtDate = (iso: string) => { const d = new Date(iso); return Number.isNaN(d.getTime()) ? iso : d.toLocaleString(undefined, { dateStyle: 'medium', timeStyle: 'short' }); };
+  const authorName = (a: string | undefined) => (a === 'web' ? 'This planner (web)' : a === 'ios' ? 'iOS app' : a || 'Unknown');
+  const fmtValue = (v: number, unit?: string) => (unit === 'm' || unit == null ? L(v) : `${Math.round(v * 100) / 100} ${unit}`);
+
+  // A note just dropped on the plan: put the caret in its text box.
+  let noteText: HTMLTextAreaElement | undefined = $state();
+  $effect(() => {
+    if (obs && editor.focusNoteId === obs.id && noteText) {
+      noteText.focus();
+      editor.focusNoteId = null;
+    }
+  });
   const subjectChecks = $derived(sel ? editor.checks.filter((c) => c.subjectIds.includes(sel.id)) : []);
 
   const totals = $derived.by(() => {
@@ -35,6 +51,13 @@
   const numIn = (e: Event) => Number((e.currentTarget as HTMLInputElement).value);
   const val = (e: Event) => (e.currentTarget as HTMLSelectElement | HTMLInputElement).value;
   const optional = <T extends string>(v: string) => (v ? (v as T) : undefined);
+  // Note text saves while typing (one undo step per pause), and immediately when the field loses focus.
+  let noteTimer: ReturnType<typeof setTimeout> | undefined;
+  function saveNoteText(id: string, text: string, now = false) {
+    clearTimeout(noteTimer);
+    const commit = () => editor.updateObservation(id, { text: text || undefined });
+    if (now) commit(); else noteTimer = setTimeout(commit, 500);
+  }
 </script>
 
 <div class="insp">
@@ -81,10 +104,16 @@
       {/if}
       <label class="field">Note<input type="text" value={plant.note ?? ''} onchange={(e) => editor.updatePlant(plant.id, { note: val(e) || undefined })} /></label>
       {#if plant.groupId}<button class="btn small" onclick={() => (editor.selection = { kind: 'group', id: plant.groupId! })}>Edit the whole group</button>{/if}
+    {:else}
+      <dl class="kv">
+        <dt>Status</dt><dd>{plant.status === 'proposed' ? `Proposed · ${plant.installSize} install` : plant.status === 'remove' ? 'Existing — to remove' : plant.status === 'retain' ? 'Existing — retain' : 'Existing'}{plant.condition ? ` · ${plant.condition}` : ''}</dd>
+        {#if plant.note}<dt>Note</dt><dd>{plant.note}</dd>{/if}
+      </dl>
+      {#if plant.groupId}<button class="btn small" onclick={() => (editor.selection = { kind: 'group', id: plant.groupId! })}>Show the whole group</button>{/if}
     {/if}
   {:else if group}
     <h3>{group.kind === 'row' ? 'Row / hedge' : group.kind === 'mass' ? 'Drift' : 'Grid planting'}</h3>
-    <p class="muted small">{group.instanceIds.length} plants · drag any plant of the group to move it all</p>
+    <p class="muted small">{group.instanceIds.length} plants{editor.readonly ? '' : ' · drag any plant of the group to move it all'}</p>
     {#each group.mix as m, i (m.plantId)}
       {@const pl = editor.cat.plant(m.plantId)}
       <div class="mixrow">
@@ -175,6 +204,37 @@
       <label class="field">Status<select value={obj.status} onchange={(e) => editor.updateObject(obj.id, { status: val(e) as Status })}><option value="proposed">Proposed</option><option value="existing">Existing</option><option value="retain">Retain</option><option value="remove">Remove</option></select></label>
       <p class="muted small">R rotates 15° · D duplicates · arrows nudge.</p>
     {/if}
+  {:else if obs}
+    <h3><span class="kdot" style:background={kindColor(obs)} aria-hidden="true"></span>{kindLabel(obs)}{obsNumber ? ` ${obsNumber}` : ''}{obs.resolved ? ' · resolved' : ''}</h3>
+    <dl class="kv">
+      <dt>Date</dt><dd>{fmtDate(obs.createdAt)}</dd>
+      <dt>By</dt><dd>{authorName(obs.author)}</dd>
+      <dt>Position</dt><dd>{hasPosition(obs) ? `${L(obs.x)}, ${L(obs.y)}` : 'Not on the plan'}{obs.lat != null ? ' · GPS tagged' : ''}{obs.headingDeg != null ? ` · facing ${Math.round(obs.headingDeg)}°` : ''}</dd>
+      {#if obs.value != null}<dt>Value</dt><dd>{fmtValue(obs.value, obs.unit)}</dd>{/if}
+      {#if obs.photoFile}<dt>Photo</dt><dd><code>{obs.photoFile}</code><br /><span class="muted small">The photo stays on the device that took it.</span></dd>{/if}
+      {#if obs.plantInstanceId}
+        <dt>Plant</dt>
+        <dd>
+          {#if linkedPlant}
+            {@const lp = editor.cat.plant(linkedPlant.plantId)}
+            <button class="link" onclick={() => (editor.selection = { kind: 'plant', id: linkedPlant.id })}>{lp ? commonName(lp) : linkedPlant.plantId} — select</button>
+          {:else}<span class="muted">Not in this design</span>{/if}
+        </dd>
+      {/if}
+    </dl>
+    {#if editor.canEditObservation(obs)}
+      <label class="field">Note
+        <textarea bind:this={noteText} rows="4" value={obs.text ?? ''} placeholder="What should the team know about this spot?" oninput={(e) => saveNoteText(obs.id, (e.currentTarget as HTMLTextAreaElement).value)} onchange={(e) => saveNoteText(obs.id, (e.currentTarget as HTMLTextAreaElement).value, true)}></textarea>
+      </label>
+    {:else if obs.text}
+      <p class="otext">{obs.text}</p>
+    {/if}
+    {#if !editor.readonly}
+      <label class="check"><input type="checkbox" checked={!!obs.resolved} onchange={(e) => editor.setResolved(obs.id, (e.currentTarget as HTMLInputElement).checked)} /> Resolved</label>
+      <p class="muted small">{isWebNote(obs)
+        ? (editor.canEditObservation(obs) && hasPosition(obs) ? 'Drag the pin to move it. ' : '') + 'Notes are append-only: once the iOS app has this note it keeps that copy, and only Resolved travels back.'
+        : 'Captured in the field. Field notes are append-only — resolve it when it has been dealt with; it cannot be edited or deleted here.'}</p>
+    {/if}
   {:else if sel?.kind === 'boundary' && p.site.boundary}
     <h3>Property boundary</h3>
     <dl class="kv"><dt>Area</dt><dd>{fmtArea(polygonArea(p.site.boundary), u)}</dd><dt>Perimeter</dt><dd>{L(perimeter(p.site.boundary))}</dd></dl>
@@ -190,6 +250,7 @@
       {#if totals.fence}<dt>Fence</dt><dd>{L(totals.fence)}</dd>{/if}
       {#if totals.wall}<dt>Retaining wall</dt><dd>{L(totals.wall)}</dd>{/if}
       {#if totals.edging}<dt>Edging</dt><dd>{L(totals.edging)}</dd>{/if}
+      {#if p.observations.length}<dt>Field notes</dt><dd>{p.observations.filter((o) => !o.resolved).length} open · {p.observations.length} in all</dd>{/if}
       {#if p.site.boundary}<dt>Lot</dt><dd>{fmtArea(polygonArea(p.site.boundary), u)}</dd>{/if}
     </dl>
   {/if}
@@ -203,10 +264,17 @@
     </ul>
   {/if}
 
-  {#if sel && !editor.readonly}
+  {#if sel}
     <div class="row foot">
-      {#if sel.kind === 'plant' || sel.kind === 'object' || sel.kind === 'area'}<button class="btn small" onclick={() => editor.duplicateSelected()}>Duplicate</button>{/if}
-      <button class="btn small danger" onclick={() => editor.removeSelected()}>{sel.kind === 'group' ? 'Delete group' : sel.kind === 'boundary' ? 'Remove boundary' : 'Delete'}</button>
+      {#if !editor.readonly}
+        {#if sel.kind === 'plant' || sel.kind === 'object' || sel.kind === 'area'}<button class="btn small" onclick={() => editor.duplicateSelected()}>Duplicate</button>{/if}
+        {#if obs}
+          {#if editor.canDeleteObservation(obs)}<button class="btn small danger" onclick={() => editor.removeSelected()}>Delete</button>
+          {:else if !obs.resolved}<button class="btn small" onclick={() => editor.removeSelected()} title="Field notes are append-only: resolving replaces deleting">Resolve</button>{/if}
+        {:else}
+          <button class="btn small danger" onclick={() => editor.removeSelected()}>{sel.kind === 'group' ? 'Delete group' : sel.kind === 'boundary' ? 'Remove boundary' : 'Delete'}</button>
+        {/if}
+      {/if}
       <button class="btn small" onclick={() => (editor.selection = null)}>Done</button>
     </div>
   {/if}
@@ -235,4 +303,8 @@
   .checks li.error { background: var(--danger-bg); }
   .checks li.warning { background: var(--warn-bg); }
   .foot { margin-top: 6px; }
+  .kdot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 7px; vertical-align: 1px; }
+  .otext { margin: 0; font-size: 13px; white-space: pre-wrap; background: var(--info-bg); padding: 8px 10px; border-radius: 8px; }
+  textarea { width: 100%; box-sizing: border-box; font: inherit; font-size: 13px; font-weight: 400; color: var(--ink); resize: vertical; }
+  code { font-size: 12px; }
 </style>

@@ -6,7 +6,9 @@
   import MiniPlan from './MiniPlan.svelte';
   import { decodePayload } from '../io/transfer';
   import { fromOpenPlan, isOpenPlanJson, isWebProject } from '../io/openplan';
+  import { mergeObservations } from '../model/observations';
   import { loadProject, saveProject } from '../io/storage';
+  import { takeSanitizeReport, type SanitizeReport } from '../io/validate';
   import { catalog } from '../catalog/catalog';
 
   let { version, payload }: { version: string; payload: string } = $props();
@@ -16,6 +18,7 @@
   let project = $state<Project | null>(null);
   let existing = $state<Project | null>(null);
   let producer = $state('');
+  let damaged = $state<SanitizeReport>({ dropped: [], count: 0 });
 
   const unknown = $derived(project ? project.plants.filter((i) => !catalog.plant(i.plantId)).length : 0);
   const walls = $derived(project?.building?.walls?.length ?? 0);
@@ -26,7 +29,10 @@
       const j = (await decodePayload(payload)) as Record<string, any>;
       if (!isWebProject(j) && !isOpenPlanJson(j)) throw new Error('The link does not contain a site.');
       producer = isWebProject(j) ? 'web' : (j.openlandscape3d?.producer ?? (j.openlandscape3d ? 'ios' : 'openplan'));
+      takeSanitizeReport();
       project = fromOpenPlan(j, catalog);
+      // Read synchronously, before anything else normalizes a project (see io/validate.ts).
+      damaged = takeSanitizeReport();
       existing = (await loadProject(project.id)) ?? null;
       phase = 'ready';
     } catch (e) {
@@ -39,7 +45,10 @@
     if (!project) return;
     const p: Project = mode === 'copy'
       ? { ...project, id: uid(), name: `${project.name} (from ${producer === 'web' ? 'web' : 'iPhone'})` }
-      : { ...project, updatedAt: new Date().toISOString() };
+      : mode === 'replace' && existing
+        // Field notes are append-only and merge by id (EXPORT_FORMAT.md): replacing never drops one.
+        ? { ...project, observations: mergeObservations(existing.observations, project.observations), updatedAt: new Date().toISOString() }
+        : { ...project, updatedAt: new Date().toISOString() };
     await saveProject(p);
     location.replace(`#/p/${p.id}`);
   }
@@ -69,8 +78,11 @@
       {#if project.site.boundary && !project.verification.boundary}
         <p class="note">The property boundary isn't verified yet — check it against a survey before building on it.</p>
       {/if}
+      {#if damaged.count}
+        <p class="note" title={damaged.dropped.join('\n')}>{damaged.count} damaged {damaged.count === 1 ? 'entry was' : 'entries were'} skipped.</p>
+      {/if}
       {#if existing}
-        <p>This site is already in this browser{existing.updatedAt > project.updatedAt ? ', and the copy here was edited more recently' : ''}.</p>
+        <p>This site is already in this browser{existing.updatedAt > project.updatedAt ? ', and the copy here was edited more recently' : ''}. Replacing it keeps every field note from both copies.</p>
         <div class="actions">
           <button class="btn primary" onclick={() => open('replace')}>Replace with this version</button>
           <button class="btn" onclick={() => open('copy')}>Keep both</button>

@@ -29,18 +29,46 @@ function fromBase64Url(s: string): Uint8Array {
   return out;
 }
 
-async function pipe(bytes: Uint8Array, stream: CompressionStream | DecompressionStream): Promise<Uint8Array> {
-  const res = new Response(new Blob([bytes as BlobPart]).stream().pipeThrough(stream));
+/** Longest payload accepted (characters, before decoding): ~192 KB of compressed data. */
+export const MAX_PAYLOAD_CHARS = 262144;
+/** Most decompressed bytes accepted; raw DEFLATE reaches ~1000:1, so this bounds a "deflate bomb". */
+export const MAX_INFLATED_BYTES = 16 * 1024 * 1024;
+const TOO_LARGE = 'This link is too large to open';
+
+async function deflate(bytes: Uint8Array): Promise<Uint8Array> {
+  const res = new Response(new Blob([bytes as BlobPart]).stream().pipeThrough(new CompressionStream('deflate-raw')));
   return new Uint8Array(await res.arrayBuffer());
+}
+
+/** Inflates chunk by chunk and stops as soon as the output passes `limit` bytes. */
+async function inflate(bytes: Uint8Array, limit = MAX_INFLATED_BYTES): Promise<Uint8Array> {
+  const reader = new Blob([bytes as BlobPart]).stream().pipeThrough(new DecompressionStream('deflate-raw')).getReader();
+  const chunks: Uint8Array[] = [];
+  let total = 0;
+  for (;;) {
+    const { done, value } = await reader.read();
+    if (done) break;
+    total += value.byteLength;
+    if (total > limit) {
+      await reader.cancel().catch(() => {});
+      throw new Error(TOO_LARGE);
+    }
+    chunks.push(value);
+  }
+  const out = new Uint8Array(total);
+  let at = 0;
+  for (const c of chunks) { out.set(c, at); at += c.byteLength; }
+  return out;
 }
 
 export async function encodePayload(json: unknown): Promise<string> {
   const bytes = new TextEncoder().encode(JSON.stringify(json));
-  return toBase64Url(await pipe(bytes, new CompressionStream('deflate-raw')));
+  return toBase64Url(await deflate(bytes));
 }
 
 export async function decodePayload(payload: string): Promise<unknown> {
-  const bytes = await pipe(fromBase64Url(decodeURIComponent(payload.trim())), new DecompressionStream('deflate-raw'));
+  if (payload.length > MAX_PAYLOAD_CHARS) throw new Error(TOO_LARGE);
+  const bytes = await inflate(fromBase64Url(decodeURIComponent(payload.trim())));
   return JSON.parse(new TextDecoder().decode(bytes));
 }
 

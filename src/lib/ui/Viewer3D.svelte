@@ -3,15 +3,21 @@
   import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
   import { onMount } from 'svelte';
   import type { Editor } from './editor.svelte';
+  import type { PlantInstance } from '../model/types';
   import { SOFT_AREAS, buildArea, buildBoundary, buildBuilding, buildGround, buildLine, buildPlants, buildSiteObject, disposeGroup, siteBounds } from '../scene/build';
+  import { indexSlots, movePlants, sameSet, type PlantSlots } from '../scene/plantSlots';
   import { sunDirection } from '../analysis/sun';
   import { regionCenter } from '../site/regions';
   import RenderDialog from './RenderDialog.svelte';
 
   let { editor, compact = false }: { editor: Editor; compact?: boolean } = $props();
 
+  const NO_WEBGL = '3D needs WebGL, which this browser has turned off. The plan, checks, schedules and print still work.';
+  /** Frames keep drawing this long after the last change, then the loop idles. */
+  const IDLE_MS = 500;
+
   let host: HTMLDivElement;
-  let renderer: THREE.WebGLRenderer;
+  let renderer: THREE.WebGLRenderer | undefined;
   let scene: THREE.Scene;
   let camera: THREE.PerspectiveCamera;
   let controls: OrbitControls;
@@ -20,12 +26,18 @@
   let raf = 0;
   let fitted = false;
   let autoFit = true;
+  let drawUntil = 0;
+  let webgl = $state(true);
   let shadowsOn = $state(true);
   let rendering = $state(false);
   let renderCamera: THREE.PerspectiveCamera | null = $state(null);
 
+  /** The scene, camera or canvas changed: draw frames for the next IDLE_MS. */
+  const wake = () => { drawUntil = performance.now() + IDLE_MS; };
+
   /** Freeze the current angle and open the hi-res render dialog. */
   function openRender() {
+    if (!renderer) return;
     controls.update();
     renderCamera = camera.clone();
     rendering = true;
@@ -39,14 +51,15 @@
   const buildingGroup = new THREE.Group();
   const plantGroup = new THREE.Group();
   let pickables: THREE.InstancedMesh[] = [];
-  const hashes = { ground: '', areas: '', lines: '', objects: '', building: '', plants: '' };
 
   export function screenshot(): string {
+    if (!renderer) throw new Error(NO_WEBGL);
     renderer.render(scene, camera);
     return renderer.domElement.toDataURL('image/png');
   }
 
   export async function exportGlb(): Promise<Blob> {
+    if (!renderer) throw new Error(NO_WEBGL);
     const { GLTFExporter } = await import('three/examples/jsm/exporters/GLTFExporter.js');
     const root = new THREE.Group();
     root.name = editor.project.name;
@@ -78,59 +91,76 @@
   }
 
   // ---------- scene sync ----------
+  // The Editor never mutates project arrays in place (every edit spreads a new one), so a group is
+  // rebuilt when any of its inputs changed by identity. No serialising on every effect run.
+
+  /** Remembers the inputs a group was last built from; `sync` rebuilds when any differs by identity. */
+  function tracker() {
+    let last: unknown[] | null = null;
+    return (deps: unknown[], rebuild: () => void) => {
+      if (last && last.length === deps.length && deps.every((d, i) => d === last![i])) return;
+      last = deps;
+      rebuild();
+    };
+  }
+  const syncGround = tracker(), syncAreas = tracker(), syncLines = tracker(), syncObjects = tracker(), syncBuilding = tracker();
 
   function syncStatic() {
     const p = editor.project;
     const sel = editor.selection;
-    const hGround = JSON.stringify(p.site.boundary ?? null);
-    if (hGround !== hashes.ground) {
-      hashes.ground = hGround;
+    syncGround([p.site.boundary], () => {
       disposeGroup(groundGroup);
       const { size } = bounds();
       groundGroup.add(buildGround(Math.max(200, size * 4)));
       const b = buildBoundary(p.site.boundary);
       if (b) groundGroup.add(b);
-    }
-    const hAreas = JSON.stringify(p.areas);
-    if (hAreas !== hashes.areas) {
-      hashes.areas = hAreas;
+    });
+    syncAreas([p.areas], () => {
       disposeGroup(softGroup);
       disposeGroup(hardGroup);
       for (const a of p.areas) {
         const o = buildArea(a, editor.cat);
         if (o) (SOFT_AREAS.has(a.kind) ? softGroup : hardGroup).add(o);
       }
-    }
-    const hLines = JSON.stringify(p.lines);
-    if (hLines !== hashes.lines) {
-      hashes.lines = hLines;
+    });
+    syncLines([p.lines], () => {
       disposeGroup(lineGroup);
       for (const l of p.lines) lineGroup.add(buildLine(l, editor.cat));
-    }
-    const hObjects = JSON.stringify([p.objects, sel?.kind === 'object' ? sel.id : null]);
-    if (hObjects !== hashes.objects) {
-      hashes.objects = hObjects;
+    });
+    const selectedObject = sel?.kind === 'object' ? sel.id : null;
+    syncObjects([p.objects, selectedObject], () => {
       disposeGroup(objectGroup);
-      for (const o of p.objects) objectGroup.add(buildSiteObject(o, sel?.kind === 'object' && sel.id === o.id));
-    }
-    const hBuilding = JSON.stringify([p.building?.walls ?? null, p.building?.objects ?? null]);
-    if (hBuilding !== hashes.building) {
-      hashes.building = hBuilding;
+      for (const o of p.objects) objectGroup.add(buildSiteObject(o, o.id === selectedObject));
+    });
+    syncBuilding([p.building?.walls ?? null, p.building?.objects ?? null], () => {
       disposeGroup(buildingGroup);
       buildingGroup.add(buildBuilding(p.building));
-    }
+    });
   }
+
+  // Plants: a full rebuild (new instanced meshes) when anything but positions changed; when only
+  // positions changed — a live drag, a nudge, undoing a move — the moved instances get new
+  // matrices in place (scene/plantSlots.ts), which keeps dragging smooth with thousands of plants.
+
+  /** Inputs the plant meshes were last built from. */
+  let plantsBuilt: { plants: PlantInstance[]; month: number; year: number; frost: unknown; selected: Set<string>; ghost: boolean } | null = null;
+  /** Slots of the current plant meshes; null switches the fast path off. */
+  let slots: PlantSlots | null = null;
 
   function syncPlants() {
     const p = editor.project;
     const selected = editor.selectedIds;
-    const h = JSON.stringify([p.plants, p.scenario.month, p.scenario.year, p.site.frost, [...selected], editor.ghost]);
-    if (h === hashes.plants) return;
-    hashes.plants = h;
+    const ghost = editor.ghost;
+    const b = plantsBuilt;
+    const sameLook = !!b && p.scenario.month === b.month && p.scenario.year === b.year && p.site.frost === b.frost && ghost === b.ghost && sameSet(selected, b.selected);
+    if (sameLook && p.plants === b.plants) return;
+    if (sameLook && movePlants(slots, b.plants, p.plants)) { plantsBuilt = { ...b, plants: p.plants }; return; }
     disposeGroup(plantGroup);
-    const built = buildPlants(p, editor.cat, { selected, ghost: editor.ghost });
+    const built = buildPlants(p, editor.cat, { selected, ghost });
     plantGroup.add(built.group);
     pickables = built.pickables;
+    slots = indexSlots(built.group, p, editor.cat, selected);
+    plantsBuilt = { plants: p.plants, month: p.scenario.month, year: p.scenario.year, frost: p.site.frost, selected, ghost };
   }
 
   function syncLayers() {
@@ -186,6 +216,7 @@
     syncLayers();
     syncSun();
     if (!fitted) { fit(); fitted = true; }
+    wake();
   });
 
   // ---------- picking ----------
@@ -199,7 +230,7 @@
   function onUp(e: PointerEvent) {
     const click = downAt && Math.hypot(e.clientX - downAt.x, e.clientY - downAt.y) < 4;
     downAt = null;
-    if (!click) return;
+    if (!click || !renderer) return;
     const r = renderer.domElement.getBoundingClientRect();
     ndc.set(((e.clientX - r.left) / r.width) * 2 - 1, -((e.clientY - r.top) / r.height) * 2 + 1);
     raycaster.setFromCamera(ndc, camera);
@@ -217,25 +248,36 @@
   }
 
   onMount(() => {
-    renderer = new THREE.WebGLRenderer({ antialias: true, preserveDrawingBuffer: true });
-    renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
-    renderer.shadowMap.enabled = true;
-    renderer.shadowMap.type = THREE.PCFShadowMap;
-    renderer.toneMapping = THREE.ACESFilmicToneMapping;
-    renderer.toneMappingExposure = 1.0;
-    host.appendChild(renderer.domElement);
+    let r: THREE.WebGLRenderer;
+    try {
+      r = new THREE.WebGLRenderer({ antialias: true, preserveDrawingBuffer: true });
+    } catch (e) {
+      // No WebGL context (disabled, blocked or out of contexts): the pane shows a plain message instead.
+      console.warn('3D view: WebGL is not available.', e);
+      webgl = false;
+      return;
+    }
+    renderer = r;
+    r.setPixelRatio(Math.min(devicePixelRatio, 2));
+    r.shadowMap.enabled = true;
+    r.shadowMap.type = THREE.PCFShadowMap;
+    r.toneMapping = THREE.ACESFilmicToneMapping;
+    r.toneMappingExposure = 1.0;
+    host.appendChild(r.domElement);
 
     scene = new THREE.Scene();
     scene.background = new THREE.Color('#cfe2ee');
 
     camera = new THREE.PerspectiveCamera(45, 1, 0.05, 1500);
-    controls = new OrbitControls(camera, renderer.domElement);
+    controls = new OrbitControls(camera, r.domElement);
     const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
     controls.enableDamping = !reduced;
     controls.maxPolarAngle = Math.PI / 2 - 0.03;
     controls.minDistance = 0.5;
     controls.maxDistance = 400;
     controls.addEventListener('start', () => (autoFit = false));
+    controls.addEventListener('change', wake);
+    document.addEventListener('visibilitychange', wake);
 
     hemi = new THREE.HemisphereLight('#ffffff', '#8c8a6e', 0.8);
     sun = new THREE.DirectionalLight('#fff6e8', 2);
@@ -248,10 +290,11 @@
     const ro = new ResizeObserver(() => {
       const w = host.clientWidth, h = host.clientHeight;
       if (!w || !h) return;
-      renderer.setSize(w, h);
+      r.setSize(w, h);
       camera.aspect = w / h;
       camera.updateProjectionMatrix();
       if (autoFit) fit(); // keep the whole site framed until the user moves the camera
+      wake();
     });
     ro.observe(host);
 
@@ -261,42 +304,56 @@
     syncSun();
     fit();
     fitted = true;
+    wake();
 
+    // The loop keeps running (cheap) but only draws while something changed in the last IDLE_MS
+    // — camera damping counts as a change — and never while the tab is hidden. screenshot()
+    // renders explicitly, so an idle canvas is never stale for exports.
     const tick = () => {
-      controls.update();
-      renderer.render(scene, camera);
       raf = requestAnimationFrame(tick);
+      if (controls.update()) wake();
+      if (document.hidden || performance.now() > drawUntil) return;
+      r.render(scene, camera);
     };
     tick();
 
     return () => {
       cancelAnimationFrame(raf);
       ro.disconnect();
+      document.removeEventListener('visibilitychange', wake);
       controls.dispose();
       for (const g of [groundGroup, softGroup, hardGroup, lineGroup, objectGroup, buildingGroup, plantGroup]) disposeGroup(g);
-      renderer.dispose();
-      renderer.domElement.remove();
+      r.dispose();
+      r.forceContextLoss(); // free the GPU context now instead of waiting for garbage collection
+      r.domElement.remove();
+      renderer = undefined;
     };
   });
 </script>
 
-<div class="viewer" bind:this={host} onpointerdown={onDown} onpointerup={onUp} role="application" aria-label="3D view">
-  <div class="tools" class:compact onpointerdown={(e) => e.stopPropagation()} onpointerup={(e) => e.stopPropagation()} role="toolbar" aria-label="3D view controls" tabindex="-1">
-    <button class="chip" onclick={() => fit('iso')} title="Reset view">⟲ View</button>
-    <button class="chip" onclick={() => fit('top')} title="Top view">Top</button>
-    <button class="chip" onclick={() => fit('eye')} title="Eye level">Eye level</button>
-    <button class="chip" class:on={shadowsOn} aria-pressed={shadowsOn} onclick={() => (shadowsOn = !shadowsOn)} title="Sun shadows for the scenario month and hour">Shadows</button>
-    <button class="chip render" onclick={openRender} title="High-resolution image of this view with detailed plants">✦ Render</button>
-  </div>
-  {#if rendering && renderCamera}
-    <RenderDialog {editor} camera={renderCamera} onclose={() => (rendering = false)} />
+<div class="viewer" class:off={!webgl} bind:this={host} onpointerdown={onDown} onpointerup={onUp} role="application" aria-label="3D view">
+  {#if webgl}
+    <div class="tools" class:compact onpointerdown={(e) => e.stopPropagation()} onpointerup={(e) => e.stopPropagation()} role="toolbar" aria-label="3D view controls" tabindex="-1">
+      <button class="chip" onclick={() => fit('iso')} title="Reset view">⟲ View</button>
+      <button class="chip" onclick={() => fit('top')} title="Top view">Top</button>
+      <button class="chip" onclick={() => fit('eye')} title="Eye level">Eye level</button>
+      <button class="chip" class:on={shadowsOn} aria-pressed={shadowsOn} onclick={() => (shadowsOn = !shadowsOn)} title="Sun shadows for the scenario month and solar hour">Shadows</button>
+      <button class="chip render" onclick={openRender} title="High-resolution image of this view with detailed plants">✦ Render</button>
+    </div>
+    {#if rendering && renderCamera}
+      <RenderDialog {editor} camera={renderCamera} onclose={() => (rendering = false)} />
+    {/if}
+  {:else}
+    <p class="nowebgl" role="status">{NO_WEBGL}</p>
   {/if}
 </div>
 
 <style>
   .viewer { position: relative; width: 100%; height: 100%; overflow: hidden; touch-action: none; background: #cfe2ee; }
+  .viewer.off { background: var(--bg); }
   .viewer :global(canvas) { display: block; width: 100%; height: 100%; }
   .tools { position: absolute; left: 12px; bottom: 12px; display: flex; gap: 6px; flex-wrap: wrap; }
   .tools.compact { bottom: 8px; left: 8px; }
   .chip.render { background: var(--accent); border-color: var(--accent); color: #fff; }
+  .nowebgl { position: absolute; inset: 0; margin: 0; display: grid; place-items: center; padding: 24px; text-align: center; color: var(--ink-soft); font-size: 13px; line-height: 1.5; }
 </style>

@@ -111,4 +111,23 @@ describe('helpers', () => {
     expect(fmtLen(2.5, 'metric')).toBe('2.5 m');
     expect(fmtArea(9.290304, 'imperial')).toBe('100 ft²');
   });
+  it('formats negative lengths with one leading minus sign', () => {
+    expect(fmtLen(-3.5, 'imperial')).toBe('−11′ 6″');
+    expect(fmtLen(-12, 'metric')).toBe('−12 m');
+    expect(fmtLen(-0.5, 'metric')).toBe('−50 cm');
+    expect(fmtLen(-3.6576, 'imperial', true)).toBe('−12′');
+    expect(fmtLen(-0.001, 'metric')).toBe('0 cm'); // rounds to zero: no sign
+    expect(fmtLen(0, 'imperial')).toBe('0′');
+  });
+  it('parses thousands separators, decimal commas, bare fractions and signs', () => {
+    expect(parseLen('1,000', 'imperial')).toBeCloseTo(304.8);
+    expect(parseLen('1,000.5', 'metric')).toBeCloseTo(1000.5);
+    expect(parseLen('1,5', 'metric')).toBe(1.5);
+    expect(parseLen('12,50 cm', 'metric')).toBeCloseTo(0.125);
+    expect(parseLen('.5', 'metric')).toBe(0.5);
+    expect(parseLen('-3', 'metric')).toBe(-3);
+    expect(parseLen('−11′ 6″', 'imperial')).toBeCloseTo(-3.5052); // round-trips fmtLen output
+    expect(parseLen('-', 'metric')).toBeNull();
+    expect(parseLen('.', 'metric')).toBeNull();
+  });
 });

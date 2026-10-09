@@ -1,6 +1,8 @@
 import { describe, expect, it } from 'vitest';
 import { fromOpenPlan, heading, plantCategory, toOpenPlan } from '../src/lib/io/openplan';
-import { decodePayload, encodePayload, iosImportUrl, shareUrl, transferJson, webImportUrl } from '../src/lib/io/transfer';
+import { MAX_INFLATED_BYTES, MAX_PAYLOAD_CHARS, decodePayload, encodePayload, iosImportUrl, shareUrl, transferJson, webImportUrl } from '../src/lib/io/transfer';
+import { summarizeProjects } from '../src/lib/io/storage';
+import { deflateRawSync, inflateRawSync } from 'node:zlib';
 import { sendToOpenPlan } from '../src/lib/io/handoff';
 import { houseBuilding, newProject } from '../src/lib/site/templates';
 import { BLOCK_SCHEMA, type Project } from '../src/lib/model/types';
@@ -201,6 +203,53 @@ describe('links', () => {
 
   it('rejects junk payloads', async () => {
     await expect(decodePayload('not-a-payload')).rejects.toThrow();
+  });
+
+  it('rejects an oversize payload string before inflating it', async () => {
+    await expect(decodePayload('A'.repeat(MAX_PAYLOAD_CHARS + 1))).rejects.toThrow('This link is too large to open');
+  });
+
+  it('stops inflating a deflate bomb past the output cap', async () => {
+    const bomb = deflateRawSync(Buffer.alloc(20 * 1024 * 1024)).toString('base64url');
+    expect(bomb.length).toBeLessThan(MAX_PAYLOAD_CHARS);
+    expect(MAX_INFLATED_BYTES).toBe(16 * 1024 * 1024);
+    await expect(decodePayload(bomb)).rejects.toThrow('This link is too large to open');
+  });
+
+  it('stays byte-compatible with zlib raw DEFLATE + unpadded base64url (iOS)', async () => {
+    const j = transferJson(garden(), cat);
+    const payload = await encodePayload(j);
+    expect(payload).not.toMatch(/=/);
+    expect(JSON.parse(inflateRawSync(Buffer.from(payload, 'base64url')).toString('utf8'))).toEqual(JSON.parse(JSON.stringify(j)));
+    expect(await decodePayload(deflateRawSync(Buffer.from(JSON.stringify(j))).toString('base64url'))).toEqual(JSON.parse(JSON.stringify(j)));
+  });
+});
+
+describe('project library listing', () => {
+  it('skips damaged records instead of failing the whole list', () => {
+    const good = project({ updatedAt: '2027-02-01T00:00:00.000Z', createdAt: '2027-01-01T00:00:00.000Z' });
+    const rows = summarizeProjects([
+      ['a', { ...good, id: 'a', updatedAt: 20270301 }],
+      ['b', 'not a project'],
+      ['c', null],
+      ['d', { ...good, id: 'd' }],
+      ['e', { id: 'e', name: 7, plants: 'lots', site: 'x', web: { sampleId: 3 } }],
+      ['f', [1, 2]]
+    ]);
+    expect(rows.map((r) => r.id)).toEqual(['a', 'd', 'e']);
+    expect(rows[0].updatedAt).toBe('20270301');
+    expect(rows[1]).toMatchObject({ name: 'Test', updatedAt: '2027-02-01T00:00:00.000Z', createdAt: '2027-01-01T00:00:00.000Z', regionId: 'us-northeast' });
+    expect(rows[2]).toMatchObject({ name: '7', plants: 0, areas: 0, regionId: '', updatedAt: '' });
+    expect(rows[2].sampleId).toBeUndefined();
+  });
+
+  it('carries sampleId for sample copies, newest first', () => {
+    const rows = summarizeProjects([
+      ['old', { id: 'old', updatedAt: '2027-01-01', web: { units: 'metric', sampleId: 'northeast' } }],
+      ['new', { id: 'new', updatedAt: '2027-03-01', web: { units: 'metric', sampleId: 'northeast' } }],
+      ['other', { id: 'other', updatedAt: '2027-02-01', web: { units: 'metric' } }]
+    ]);
+    expect(rows.filter((r) => r.sampleId === 'northeast').map((r) => r.id)).toEqual(['new', 'old']);
   });
 });
 

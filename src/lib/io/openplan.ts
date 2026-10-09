@@ -8,6 +8,7 @@ import { BLOCK_SCHEMA, WEB_SCHEMA, clone, stableId, uid } from '../model/types';
 import { dist, orientedRect, rad, deg } from '../model/geometry';
 import { sizeAt } from '../analysis/growth';
 import { defaultSite } from '../site/regions';
+import { sanitizeProject } from './validate';
 
 type Json = Record<string, any>;
 
@@ -220,10 +221,17 @@ function buildingFrom(j: Json, passthrough: Json[]): Building | null {
 
 const withoutLocation = ({ location: _l, ...rest }: Project['site']) => rest as Project['site'];
 
-/** Fills defaults so older or partial projects open safely. */
+/**
+ * Fills defaults so older or partial projects open safely, then type-checks the result with
+ * `sanitizeProject` (io/validate.ts) so a damaged import or stored record can't break the
+ * planner. On a valid project sanitising is a no-op. What was dropped is available right after
+ * this call from `takeSanitizeReport()`.
+ */
 export function normalizeProject(p: Partial<Project> & { id?: string }): Project {
   const now = new Date().toISOString();
-  return {
+  const site = p.site && typeof p.site === 'object' ? p.site : undefined;
+  const regionId = typeof site?.regionId === 'string' ? site.regionId : 'us-northeast';
+  const filled = {
     schema: WEB_SCHEMA,
     id: p.id ?? uid(),
     name: p.name ?? 'Untitled site',
@@ -232,21 +240,23 @@ export function normalizeProject(p: Partial<Project> & { id?: string }): Project
     catalogVersion: p.catalogVersion ?? 'ol-plants@0.1',
     captureSource: p.captureSource ?? 'manual',
     // Fill only missing required keys; never invent a location the producer didn't write.
-    site: p.site ? { ...withoutLocation(defaultSite(p.site.regionId ?? 'us-northeast')), ...p.site } : defaultSite('us-northeast'),
-    scenario: { month: 6, year: 5, hour: 14, ...(p.scenario ?? {}) },
+    site: site ? { ...withoutLocation(defaultSite(regionId)), ...site } : defaultSite('us-northeast'),
+    scenario: { month: 6, year: 5, hour: 14, ...(p.scenario && typeof p.scenario === 'object' ? p.scenario : {}) },
     areas: p.areas ?? [],
-    lines: (p.lines ?? []).map((l) => ({ ...l, gates: l.gates ?? [] })),
+    // `gates` (default []) is filled per line by sanitizeProject, which also copes with a non-array.
+    lines: p.lines ?? [],
     plants: p.plants ?? [],
     groups: p.groups ?? [],
     objects: p.objects ?? [],
     observations: p.observations ?? [],
     alternatives: p.alternatives ?? [],
-    verification: { boundary: false, measurements: {}, ...(p.verification ?? {}) },
+    verification: { boundary: false, measurements: {}, ...(p.verification && typeof p.verification === 'object' ? p.verification : {}) },
     overrides: p.overrides ?? [],
     building: p.building ?? null,
-    web: { units: 'metric', ...(p.web ?? {}) },
+    web: { units: 'metric', ...(p.web && typeof p.web === 'object' ? p.web : {}) },
     extra: p.extra ?? {}
   };
+  return sanitizeProject(filled).project;
 }
 
 /** Reads an OpenLandscape3D export (web or iOS), a plain OpenPlan3D file, or a web project. */

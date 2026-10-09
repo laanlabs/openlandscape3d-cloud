@@ -10,7 +10,9 @@
   import { fmtLen, parseLen, type Units } from '../model/units';
   import { deleteProject, listProjects, loadProject, saveProject, type ProjectSummary } from '../io/storage';
   import { fromOpenPlan, isOpenPlanJson, isWebProject } from '../io/openplan';
-  import { SAMPLES, buildSample, sampleCopy } from '../site/samples';
+  import { mergeObservations } from '../model/observations';
+  import { takeSanitizeReport } from '../io/validate';
+  import { SAMPLES, buildSample } from '../site/samples';
 
   let { notice = '' }: { notice?: string } = $props();
 
@@ -20,12 +22,10 @@
     return { ...s, project: p, plants: p.plants.length, species: new Set(p.plants.map((x) => x.plantId)).size };
   });
   let opening = $state('');
-  async function openSample(id: string) {
-    const p = sampleCopy(id, catalog);
-    if (!p) return;
+  // The router reuses an untouched copy of the sample instead of adding another one.
+  function openSample(id: string) {
     opening = id;
-    await saveProject(p);
-    location.hash = `#/p/${p.id}`;
+    location.hash = `#/sample/${id}`;
   }
 
   // ---- new site ----
@@ -76,10 +76,12 @@
 
   // ---- import ----
   let importError = $state('');
+  let importNote = $state<{ text: string; id: string } | null>(null);
   let fileInput: HTMLInputElement | undefined = $state();
 
   async function onFile(e: Event) {
     importError = '';
+    importNote = null;
     const input = e.currentTarget as HTMLInputElement;
     const f = input.files?.[0];
     input.value = '';
@@ -88,12 +90,17 @@
       const j = JSON.parse(await f.text());
       if (!isWebProject(j) && !isOpenPlanJson(j)) throw new Error('This file is not an OpenPlan3D or OpenLandscape3D plan.');
       let p: Project = fromOpenPlan(j, catalog, f.name.replace(/(-openplan3d)?\.json$/i, '').replace(/[-_]+/g, ' ') || 'Imported site');
+      const report = takeSanitizeReport();
       const existing = await loadProject(p.id);
       if (existing) {
-        const replace = confirm(`“${existing.name}” is already in this browser.\n\nOK — replace it with the file\nCancel — keep both`);
-        if (!replace) p = { ...p, id: uid(), name: `${p.name} (imported)` };
+        const replace = confirm(`“${existing.name}” is already in this browser.\n\nOK — replace it with the file (field notes are merged, none are lost)\nCancel — keep both`);
+        // Field notes are append-only and merge by id (EXPORT_FORMAT.md): replacing never drops one.
+        if (replace) p = { ...p, observations: mergeObservations(existing.observations, p.observations) };
+        else p = { ...p, id: uid(), name: `${p.name} (imported)` };
       }
       await saveProject({ ...p, updatedAt: new Date().toISOString() });
+      // Say so when damaged entries were left out, instead of jumping straight into the editor.
+      if (report.count) { importNote = { text: `Imported. ${report.count} damaged ${report.count === 1 ? 'entry was' : 'entries were'} skipped: ${report.dropped.join('; ')}.`, id: p.id }; await refresh(); return; }
       location.hash = `#/p/${p.id}`;
     } catch (err) {
       importError = err instanceof SyntaxError ? 'The file is not valid JSON.' : err instanceof Error ? err.message : String(err);
@@ -231,6 +238,7 @@
       <input bind:this={fileInput} id="import-file" type="file" accept=".json,application/json" class="sr-only" onchange={onFile} />
       <button class="btn" onclick={() => fileInput?.click()}>Choose a .json file…</button>
       {#if importError}<p class="err" role="alert">{importError}</p>{/if}
+      {#if importNote}<p class="notice" role="status">{importNote.text} <a href="#/p/{importNote.id}">Open it</a></p>{/if}
       <p class="muted small">Links sent from the iOS app open here directly and ask before replacing anything.</p>
     </section>
   </div>
@@ -261,9 +269,16 @@
   </section>
 
   <footer class="muted small">
-    <p>Sites are saved in this browser. Nothing is uploaded unless you share or export.</p>
+    <p>Sites are saved in this browser. Your designs are never uploaded unless you choose Open in OpenPlan3D; analytics, if you allow it, sees only which screens are used.</p>
     <p>Plant data is a draft, unreviewed pass — check with your local extension office. Sizes and seasons are scenarios, not predictions.</p>
-    <p>MIT licensed open source · Powered by OpenPlan3D</p>
+    <p>
+      <a href="https://openlandscape3d.com/guides" target="_blank" rel="noopener">Guides</a> ·
+      <a href="https://openlandscape3d.com/plants" target="_blank" rel="noopener">Plant library</a> ·
+      <a href="https://openlandscape3d.com/app" target="_blank" rel="noopener">iPhone, iPad &amp; Mac app</a> ·
+      <a href="https://openlandscape3d.com/support" target="_blank" rel="noopener">Support</a> ·
+      <a href="https://openlandscape3d.com/open-source" target="_blank" rel="noopener">MIT licensed open source</a> ·
+      <a href="https://openplan3d.com/" target="_blank" rel="noopener">Powered by OpenPlan3D</a>
+    </p>
   </footer>
 </div>
 
@@ -311,6 +326,7 @@
   .empty { background: var(--panel); border: 1px dashed var(--border); border-radius: 12px; padding: 20px; text-align: center; }
   footer { border-top: 1px solid var(--border); padding-top: 12px; }
   footer p { margin: 2px 0; }
+  footer a { color: inherit; }
   code { background: var(--bg); padding: 1px 4px; border-radius: 4px; }
   @media (max-width: 760px) {
     .grid, .row2, .templates { grid-template-columns: 1fr; }

@@ -10,7 +10,7 @@
   const zones = $derived([...new Set([...(region?.hardinessZones ?? []), site.hardiness.zone])]);
   const val = (e: Event) => (e.currentTarget as HTMLSelectElement | HTMLInputElement).value;
   const northDeg = $derived(Math.round(((Math.atan2(site.north[0], -site.north[1]) * 180) / Math.PI + 360) % 360));
-  const LAYERS: { id: LayerId; name: string }[] = [{ id: 'building', name: 'Building' }, { id: 'hardscape', name: 'Hardscape' }, { id: 'planting', name: 'Planting' }, { id: 'labels', name: 'Labels' }];
+  const LAYERS: { id: LayerId; name: string }[] = [{ id: 'building', name: 'Building' }, { id: 'hardscape', name: 'Hardscape' }, { id: 'planting', name: 'Planting' }, { id: 'notes', name: 'Field notes' }, { id: 'labels', name: 'Labels' }];
 
   function setRegion(id: string) {
     const r = editor.cat.region(id);
